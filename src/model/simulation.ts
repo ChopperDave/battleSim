@@ -1,4 +1,4 @@
-import { getFinalAction } from "../data/actions"
+import { getFinalActions } from "../data/actions"
 import { EvaluationOptions, evaluateDiceFormula } from "./dice"
 import { ActionSlots, ActionType, CreatureCondition, CreatureConditionList } from "./enums"
 import { Action, AtkAction, Buff, BuffAction, Combattant, Creature, CreatureState, DebuffAction, DiceFormula, Encounter, EncounterResult, EncounterStats, FinalAction, HealAction, Round, SimulationResult } from "./model"
@@ -31,6 +31,7 @@ export function creatureToCombattant(creature: Creature) {
     const creatureState: CreatureState = {
         buffs: new Map(),
         currentHP: creature.hp,
+        remainingLegendarySaves: creature.legendarySaves || 0,
         remainingUses: getRemainingUses(creature, 'long rest'),
         upcomingBuffs: new Map(),
         usedActions: new Set(),
@@ -61,6 +62,7 @@ function iterateCombattant(combattant: Combattant, luck: number) {
             const emptyState: CreatureState = {
                 buffs: new Map(),
                 currentHP: 0,
+                remainingLegendarySaves: 0,
                 remainingUses: new Map(),
                 upcomingBuffs: new Map(),
                 usedActions: new Set()
@@ -108,9 +110,10 @@ function iterateCombattant(combattant: Combattant, luck: number) {
 }
 
 // Checks for remaining uses
-function isUsable(combattant: Combattant, action: FinalAction) {
+function isUsable(combattant: Combattant, action: Action) {
     // Can only trigger 'on kill' effects once per turn
-    if (action.actionSlot === ActionSlots["When reducing an enemy to 0 HP"]) {
+    const actionSlot = (action.type === "template") ? getFinalActions(action)[0].actionSlot : action.actionSlot
+    if (actionSlot === ActionSlots["When reducing an enemy to 0 HP"]) {
         if (combattant.actions.find(actionTaken => actionTaken.action.id === action.id)) return false
     }
 
@@ -140,22 +143,30 @@ function matchCondition(combattant: Combattant, action: Action, allies: Combatta
 // Determines which actions a creature will use. Does not actually perform the actions.
 // The exception is heals, to avoid situations where multiple healers all heal the same creature despite having the "ally at 0 hp" condition
 function getActions(combattant: Combattant, allies: Combattant[], enemies: Combattant[], handleHeals: boolean, luck: number, stats: Map<string, EncounterStats>): FinalAction[] {
-    const actionSlots = new Set()
-    combattant.creature.actions
-        .map(getFinalAction)
-        .filter(action => (action.actionSlot >= 0))
-        .forEach(action => actionSlots.add(action.actionSlot))
+    // 1. Register all action slots for this creature
+    const actionSlots = new Set<number>()
+    for (const action of combattant.creature.actions) {
+        const actionSlot = (action.type === "template") ? getFinalActions(action)[0].actionSlot : action.actionSlot
 
-    const result = Array.from(actionSlots).flatMap(actionSlot => {
-        const actions = combattant.creature.actions
-            .map(getFinalAction)
-            .filter(action => (action.actionSlot === actionSlot))
-            .filter(action => isUsable(combattant, action))
-            .filter(action => matchCondition(combattant, action, allies, enemies))
+        if (actionSlot >= 0) actionSlots.add(actionSlot)
+    }
 
-        if (!actions.length) return []
-        return [actions[0]]
-    })
+    // Choose 1 action per action slot
+    const result: FinalAction[] = []
+    for (const actionSlot of actionSlots) {
+        for (const action of combattant.creature.actions) {
+            const slot = (action.type === "template") ? getFinalActions(action)[0].actionSlot : action.actionSlot
+            
+            if (slot !== actionSlot) continue;
+
+            if (!isUsable(combattant, action)) continue;
+
+            if (!matchCondition(combattant, action, allies, enemies)) continue;
+
+            result.push(...getFinalActions(action))
+            break;
+        }
+    }
 
     // Handle heals now, so the next creature doesn't have to waste actions healing the same target
     if (handleHeals) result.forEach(action => {
@@ -320,7 +331,7 @@ function handleActions(allies: Combattant[], enemies: Combattant[], actionTypes:
 // This is called when an action with a negative/special action slot is triggered
 function triggerAction(combattant: Combattant, actionSlot: keyof typeof ActionSlots, allies: Combattant[], enemies: Combattant[], luck: number, stats: Map<string, EncounterStats>) {
     combattant.creature.actions
-        .map(getFinalAction)
+        .flatMap(getFinalActions)
         .forEach(action => {
             if (action.actionSlot !== ActionSlots[actionSlot]) return
             if (!isUsable(combattant, action)) return
@@ -544,12 +555,56 @@ function accountForAdvantage(attacker: Combattant, target: Combattant, baseHitCh
     return hitChance
 }
 
+function isWorthLegendaryResistance(debuff: DebuffAction) {
+    if (debuff.buff.condition) {
+        const conditionsWorthResisting: CreatureCondition[] = [
+            "Incapacitated",
+            "Paralyzed",
+            "Stunned",
+            "Unconscious",
+            "Blinded",
+            "Restrained"
+        ]
+
+        if (conditionsWorthResisting.includes(debuff.buff.condition)) return true
+    }
+
+    if (debuff.buff.damageMultiplier) {
+        const multiplierWorthResisiting = 0.5
+
+        if (debuff.buff.damageMultiplier <= multiplierWorthResisiting) return true
+    }
+
+    if (debuff.buff.damageTakenMultiplier) {
+        const multiplierWorthResisiting = 2
+
+        if (debuff.buff.damageTakenMultiplier >= multiplierWorthResisiting) return true
+    }
+
+    return false
+}
 
 function useDebuffAction(attacker: Combattant, action: DebuffAction, target: Combattant, luck: number, stats: Map<string, EncounterStats>, ignoreIncapacitated?: boolean) {
     const attackerConditions = getConditions(attacker)
     const chanceToBeIncapacitated = ignoreIncapacitated ? 0 : atLeastOneConditionChance(attackerConditions, ['Incapacitated', 'Paralyzed', 'Petrified', 'Stunned', 'Unconscious'])
     
-    const chanceToFail = (1 - chanceToBeIncapacitated) * calculateChanceToFail(attacker, target, action.saveDC, 1 - luck)
+    let chanceToFail = (1 - chanceToBeIncapacitated) * calculateChanceToFail(attacker, target, action.saveDC, 1 - luck)
+
+    // Handle legendary resistances (the legRes is only spent if the target fails, and it's an effect worth resisting)
+    if (isWorthLegendaryResistance(action)) {
+        const resCount = target.finalState.remainingLegendarySaves
+        if (resCount > 0) {
+            const remainingChanceToFail = Math.max(0, chanceToFail - resCount)
+            const remainingRes = Math.max(0, resCount - chanceToFail)
+    
+            target.finalState.remainingLegendarySaves = remainingRes
+            chanceToFail = remainingChanceToFail
+        }
+    }
+
+    if (chanceToFail === 0) {
+        return;
+    }
 
     const buffClone: Buff = clone(action.buff)
     if (buffClone.magnitude === undefined) buffClone.magnitude = 1
@@ -752,6 +807,7 @@ export function runSimulation(players: Creature[], encounters: Encounter[], luck
                 buffs: new Map<string, Buff>(),
                 upcomingBuffs: new Map<string, Buff>(),
                 currentHP: player.hp, 
+                remainingLegendarySaves: player.legendarySaves || 0,
                 remainingUses: getRemainingUses(player, 'long rest'),
                 usedActions: new Set(),
             },
@@ -767,6 +823,7 @@ export function runSimulation(players: Creature[], encounters: Encounter[], luck
         playersWithState = lastRound.team1.map(({ creature, finalState }) => {
             const state: CreatureState = {
                 currentHP: nextEncounter?.shortRest ? creature.hp : finalState.currentHP,
+                remainingLegendarySaves: finalState.remainingLegendarySaves,
                 buffs: new Map(),
                 upcomingBuffs: new Map(),
                 remainingUses: getRemainingUses(creature, nextEncounter?.shortRest ? 'short rest' : 'none', finalState.remainingUses),

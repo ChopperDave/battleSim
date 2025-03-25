@@ -2,7 +2,9 @@ import { FC, useState } from "react"
 import { Combattant, EncounterResult as EncounterResultType, EncounterStats, FinalAction, Buff, DiceFormula } from "../../model/model"
 import styles from './encounterResult.module.scss'
 import { Round } from "../../model/model"
-import { clone } from "../../model/utils"
+import { clone, range } from "../../model/utils"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faShield } from "@fortawesome/free-solid-svg-icons"
 
 type TeamPropType = {
     round: Round,
@@ -67,9 +69,8 @@ const TeamResults:FC<TeamPropType> = ({ round, team, stats, highlightedIds, onHi
                         <div 
                             className={styles.lifebarForeground} 
                             style={{ 
-                                width: `${100*combattant.initialState.currentHP/(combattant.creature.hp + (combattant.initialState.tempHP || 0))}%` 
-                            }}
-                            />
+                                width: `${100*combattant.initialState.currentHP/(combattant.creature.hp + (combattant.initialState.tempHP || 0))}%`
+                            }} />
                         { combattant.initialState.tempHP ? (
                             <div 
                             className={styles.lifebarTHP}
@@ -83,6 +84,13 @@ const TeamResults:FC<TeamPropType> = ({ round, team, stats, highlightedIds, onHi
                             { combattant.initialState.tempHP ? `+${Math.round(combattant.initialState.tempHP)}` : null }
                         </div>
                     </div>
+                    { (combattant.initialState.remainingLegendarySaves > 0) && (
+                        <div className={styles.legRes}>
+                            {range(Math.ceil(combattant.initialState.remainingLegendarySaves)).map(() => (
+                                <FontAwesomeIcon icon={faShield} />
+                            ))}
+                        </div>
+                    )}
                     <div className={styles.creatureName}>
                         {combattant.creature.name}
                     </div>

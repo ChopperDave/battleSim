@@ -35,6 +35,16 @@ export const ActionTemplates = {
 
         toHit: 0,
     }),
+    'Lightning Bolt': createTemplate({
+        actionSlot: ActionSlots.Action,
+        type: 'atk',
+        targets: 2,
+        useSaves: true,
+        dpr: '8d6',
+        halfOnSave: true,
+
+        toHit: 0,
+    }),
     'Heal': createTemplate({
         actionSlot: ActionSlots.Action,
         type: 'heal',
@@ -83,33 +93,42 @@ function createTemplate(action: ActionTemplate): ActionTemplate {
 }
 
 // Fetches the template if it's a TemplateAction
-export function getFinalAction(action: Action): FinalAction {
-    if (action.type !== 'template') return action
-
-    const { freq, condition } = action
-    const { toHit, saveDC, target, templateName } = action.templateOptions
-
-    const template: ActionTemplate = ActionTemplates[templateName]
-
-    const result = {
-        ...template,
-        id: action.id,
-        name: templateName,
-        freq,
-        condition,
-        target: template.target || target as any,
-        templateName,
+export function getFinalActions(action: Action): FinalAction[] {
+    if (action.type === 'template') {
+        const { freq, condition } = action
+        const { toHit, saveDC, target, templateName } = action.templateOptions
+    
+        const template: ActionTemplate = ActionTemplates[templateName]
+    
+        const result = {
+            ...template,
+            id: action.id,
+            name: templateName,
+            freq,
+            condition,
+            target: template.target || target as any,
+            templateName,
+        }
+    
+        if (result.type === 'atk') {
+            if (toHit !== undefined) result.toHit = toHit
+            
+            if (result.riderEffect && (saveDC !== undefined)) result.riderEffect.dc = saveDC
+        }
+    
+        if (result.type === 'debuff') {
+            if (saveDC !== undefined) result.saveDC = saveDC
+        }
+    
+        return [result]
     }
 
-    if (result.type === 'atk') {
-        if (toHit !== undefined) result.toHit = toHit
-        
-        if (result.riderEffect && (saveDC !== undefined)) result.riderEffect.dc = saveDC
+    if (action.type === "multi") {
+        return action.actions.map((subAction, i) => {
+            const finalAction: FinalAction = subAction.type === "template" ? getFinalActions(subAction)[0] : { ...subAction, actionSlot: 0 }
+            return finalAction
+        })
     }
 
-    if (result.type === 'debuff') {
-        if (saveDC !== undefined) result.saveDC = saveDC
-    }
-
-    return result
+    return [action]
 }

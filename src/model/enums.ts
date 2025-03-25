@@ -79,7 +79,7 @@ export const CreatureConditionList = [
 export const CreatureConditionSchema = z.enum(CreatureConditionList)
 export type CreatureCondition = z.infer<typeof CreatureConditionSchema>
 
-export const ActionTypeList = ['atk', 'heal', 'buff', 'debuff', 'template'] as const
+export const ActionTypeList = ['atk', 'heal', 'buff', 'debuff', 'template', 'multi'] as const
 export const ActionTypeSchema = z.enum(ActionTypeList)
 export type ActionType = z.infer<typeof ActionTypeSchema>
 

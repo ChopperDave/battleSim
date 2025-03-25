@@ -1,0 +1,1503 @@
+{
+    "$type": {
+        "$from": "./monsters.ts",
+        "$import": "MonsterBook"
+    },
+
+    "monsters": [
+        {
+            "id": "687911e8-8bbf-469f-b1f6-2700d8dc1641",
+            "src": "MM (2024) p.10",
+            "name": "Aarakocra Aeromancer",
+            "AC": 16,
+            "hp": 66,
+            "cr": "4",
+            "saveBonus": 2,
+            "mode": "monster",
+            "type": "elemental",
+            "actions": [
+                {
+                    "id": "45725a92-3246-4198-a47d-d76636a5b595",
+                    "type": "template",
+                    "condition": "is available",
+                    "freq": "1/day",
+                    "templateOptions": {
+                        "templateName": "Lightning Bolt",
+                        "saveDC": 13,
+                        "target": "enemy with most HP",
+                        "toHit": 0
+                    }
+                },
+                {
+                    "id": "45725a92-3246-4198-a47d-d76636a5b594",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Wind Staff x2",
+                    "type": "atk",
+                    "toHit": 5,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 37,
+                    "targets": 1
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "0ad13c25-ad0e-4b16-8b49-6a087dc53f75",
+            "src": "MM (2024) p.10",
+            "name": "Aarakocra Skirmisher",
+            "AC": 12,
+            "hp": 11,
+            "cr": "1/4",
+            "saveBonus": 1,
+            "mode": "monster",
+            "type": "elemental",
+            "actions": [
+                {
+                    "id": "892a6883-94ff-485b-9288-ab193ed44a77",
+                    "actionSlot": 1,
+                    "target": "enemy with most HP",
+                    "name": "Wind Javelin",
+                    "type": "atk",
+                    "toHit": 4,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 8,
+                    "targets": 1
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "53d07965-4114-4275-814c-cc4f876d84d4",
+            "src": "MM (2024) p.86",
+            "name": "Aberrant Cultist",
+            "AC": 14,
+            "hp": 137,
+            "cr": "8",
+            "saveBonus": 4,
+            "mode": "monster",
+            "type": "humanoid",
+            "actions": [
+                {
+                    "id": "0ca9ad54-d858-48d2-9516-feedd4a2b676",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Tentacle Lash x2",
+                    "type": "atk",
+                    "toHit": 7,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 21.5,
+                    "targets": 1,
+                    "riderEffect": {
+                        "dc": 100,
+                        "buff": {
+                            "displayName": "Tentacle Lash",
+                            "duration": "1 round",
+                            "condition": "Restrained"
+                        }
+                    }
+                },
+                {
+                    "id": "422e8d9d-b38d-4caa-989c-a9c473804f8d",
+                    "actionSlot": 1,
+                    "target": "enemy with most HP",
+                    "name": "Mind Rot",
+                    "type": "atk",
+                    "toHit": 15,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 27,
+                    "targets": 1,
+                    "riderEffect": {
+                        "dc": 100,
+                        "buff": {
+                            "displayName": "Mind Rot",
+                            "duration": "1 round",
+                            "condition": "Poisoned"
+                        }
+                    }
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "152334a7-f30f-40ff-b858-222b8b49c1d3",
+            "src": "MM (2024) p.12",
+            "name": "Aboleth",
+            "AC": 17,
+            "hp": 150,
+            "cr": "10",
+            "saveBonus": 5,
+            "mode": "monster",
+            "type": "aberration",
+            "actions": [
+                {
+                    "id": "cdb21166-1524-4955-8d23-1f28edebf54f",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Tentacle x2",
+                    "type": "atk",
+                    "toHit": 9,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 24,
+                    "targets": 1
+                },
+                {
+                    "id": "5ea34ac8-d111-4775-a33f-b661cacf26f9",
+                    "actionSlot": 1,
+                    "target": "enemy with highest DPR",
+                    "name": "Dominate Mind",
+                    "type": "debuff",
+                    "freq": { "reset": "lr", "uses": 2 },
+                    "condition": "is available",
+                    "saveDC": 16,
+                    "targets": 1,
+                    "buff": {
+                        "duration": "repeat the save each round",
+                        "condition": "Incapacitated"
+                    }
+                },
+                {
+                    "id": "5ea34ac8-d111-4775-a33f-b661cacf26f8",
+                    "actionSlot": 1,
+                    "target": "enemy with most HP",
+                    "name": "Consume Memories",
+                    "type": "atk",
+                    "toHit": 16,
+                    "useSaves": true,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 10.5,
+                    "targets": 1
+                },
+                {
+                    "id": "5ea34ac8-d111-4775-a33f-b661cacf26f8",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Psychic Drain x3",
+                    "type": "atk",
+                    "toHit": 16,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 10.5,
+                    "targets": 3
+                },
+                {
+                    "id": "5ea34ac8-d111-4775-a33f-b661cacf26fa",
+                    "actionSlot": 5,
+                    "name": "Psychic Drain: Heal",
+                    "type": "heal",
+                    "target": "self",
+                    "amount": 15,
+                    "condition": "default",
+                    "freq": "at will",
+                    "targets": 1
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "f4ac4a6a-c70e-4932-9d33-0dbe5f3ac868",
+            "src": "MM (2024) p.340",
+            "name": "Abominable Yeti",
+            "AC": 15,
+            "hp": 137,
+            "cr": "9",
+            "saveBonus": 4.5,
+            "mode": "monster",
+            "type": "monstrosity",
+            "actions": [
+                {
+                    "id": "a265489c-3f10-40fe-8f69-86e85c23127c",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Cold Breath",
+                    "type": "atk",
+                    "toHit": 18,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 6
+                    },
+                    "dpr": 45,
+                    "targets": 2
+                },
+                {
+                    "id": "4c8ba269-8f90-41d7-8d67-0128d7848e8e",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Claw x2",
+                    "type": "atk",
+                    "toHit": 11,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 42,
+                    "targets": 1
+                },
+                {
+                    "id": "a962e445-8448-4163-86b3-ccce55edbb3d",
+                    "actionSlot": 1,
+                    "target": "enemy with most HP",
+                    "name": "Chilling Gaze",
+                    "type": "atk",
+                    "toHit": 18,
+                    "useSaves": true,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 21,
+                    "targets": 1,
+                    "riderEffect": {
+                        "dc": 100,
+                        "buff": {
+                            "condition": "Paralyzed",
+                            "duration": "1 round"
+                        }
+                    }
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "d27b99ce-2c96-4b1c-aad5-ef5355fac935",
+            "src": "MM (2024) p.39",
+            "name": "Adult Black Dragon",
+            "AC": 19,
+            "hp": 195,
+            "cr": "14",
+            "saveBonus": 7,
+            "legendarySaves": 3,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "4face07a-a643-4ae3-91ab-c11f3bb62005",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Acid Breath",
+                    "type": "atk",
+                    "toHit": 18,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 54,
+                    "targets": 2
+                },
+                {
+                    "id": "4face07a-a643-4ae3-91ab-c11f3bb62004",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Vitriolic Sphere",
+                    "type": "atk",
+                    "toHit": 17,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "is available",
+                    "freq": "1/day",
+                    "dpr": 37.5,
+                    "targets": 2
+                },
+                {
+                    "id": "f23e52b8-f88d-43de-9a8d-8493791fceb4",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 11,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 52.5,
+                    "targets": 1
+                },
+                {
+                    "id": "f23e52b8-f88d-43de-9a8d-8493791fceb5",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Cloud of Insects",
+                    "type": "atk",
+                    "toHit": 17,
+                    "useSaves": true,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 22,
+                    "targets": 1
+                },
+                {
+                    "id": "f23e52b8-f88d-43de-9a8d-8493791fceb6",
+                    "actionSlot": 5,
+                    "name": "Frightful Presence",
+                    "type": "debuff",
+                    "condition": "default",
+                    "freq": "at will",
+                    "targets": 2,
+                    "saveDC": 17,
+                    "target": "enemy with highest DPR",
+                    "buff": {
+                        "condition": "Incapacitated",
+                        "duration": "repeat the save each round"
+                    }
+                },
+                {
+                    "id": "f23e52b8-f88d-43de-9a8d-8493791fceb7",
+                    "actionSlot": 6,
+                    "target": "enemy with most HP",
+                    "name": "Pounce",
+                    "type": "atk",
+                    "toHit": 11,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 17.5,
+                    "targets": 1
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "5cd22bef-a71f-45bc-9ce6-a772a852e090",
+            "src": "MM (2024) p.49",
+            "name": "Adult Blue Dragon",
+            "AC": 19,
+            "hp": 212,
+            "cr": "16",
+            "saveBonus": 8,
+            "legendarySaves": 3,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "7ebcefe7-3b54-455e-85c5-a326110f638d",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Lightning Breath",
+                    "type": "atk",
+                    "toHit": 19,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 60.5,
+                    "targets": 1
+                },
+                {
+                    "id": "b7021a6e-5b21-4699-9498-f4dfa4db184b",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 12,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 64.5,
+                    "targets": 1
+                },
+                {
+                    "id": "b7021a6e-5b21-4699-9498-f4dfa4db184b",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Tail Swipe x3",
+                    "type": "atk",
+                    "toHit": 12,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 21.5,
+                    "targets": 3
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "53f98d1f-9353-4794-8cb2-4982630f5de4",
+            "src": "MM (2024) p.55",
+            "name": "Adult Brass Dragon",
+            "AC": 18,
+            "hp": 172,
+            "cr": "13",
+            "saveBonus": 6.5,
+            "legendarySaves": 3,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "905de40b-20ab-4779-878c-938894884a5f",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Fire Breath",
+                    "type": "atk",
+                    "toHit": 18,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 45,
+                    "targets": 1
+                },  
+                {
+                    "id": "7338ed6e-ff25-4cf8-b4a0-43452600b119",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x2",
+                    "type": "atk",
+                    "toHit": 11,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 64.5,
+                    "targets": 1
+                },
+                {
+                    "id": "7338ed6e-ff25-4cf8-b4a0-43452600b118",
+                    "actionSlot": 1,
+                    "target": "enemy with highest DPR",
+                    "name": "Sleep Breath",
+                    "type": "debuff",
+                    "condition": "default",
+                    "freq": "at will",
+                    "targets": 2,
+                    "saveDC": 18,
+                    "buff": {
+                        "condition": "Incapacitated",
+                        "duration": "repeat the save each round"
+                    }
+                },
+                {
+                    "id": "7338ed6e-ff25-4cf8-b4a0-43452600b11a",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Pounce x3",
+                    "type": "atk",
+                    "toHit": 11,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 21.5,
+                    "targets": 3
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "1f1d1f2b-0267-462e-bcf5-7f709daebcbf",
+            "src": "MM (2024) p.59",
+            "name": "Adult Bronze Dragon",
+            "AC": 18,
+            "hp": 212,
+            "cr": "15",
+            "saveBonus": 7.5,
+            "legendarySaves": 3,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "53add85a-b4b6-4830-808b-a4ba00b7f1bc",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Lightning Breath",
+                    "type": "atk",
+                    "toHit": 19,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 55,
+                    "targets": 2
+                },
+                {
+                    "id": "f486b26b-f68c-4072-91ef-5bf632b6e9ab",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 12,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 64.5,
+                    "targets": 1
+                },
+                {
+                    "id": "f486b26b-f68c-4072-91ef-5bf632b6e9ac",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Guiding Bolt x3",
+                    "type": "atk",
+                    "toHit": 10,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 17.5,
+                    "targets": 3,
+                    "riderEffect": {
+                        "dc": 100,
+                        "buff": {
+                            "condition": "Is attacked with Advantage",
+                            "duration": "until next attack taken"
+                        }
+                    }
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "428e4e7c-c4b2-4d26-a66a-f0524c82c6c1",
+            "src": "MM (2024) p.79",
+            "name": "Adult Copper Dragon",
+            "AC": 18,
+            "hp": 184,
+            "cr": "14",
+            "saveBonus": 7,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "0e76fcee-ecb9-439b-a592-a085690a7b55",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Acid Breath",
+                    "type": "atk",
+                    "toHit": 18,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 54,
+                    "targets": 2
+                },
+                {
+                    "id": "677cdf51-2f4c-4022-82c1-39b18c83e443",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 11,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 64.5,
+                    "targets": 1
+                },
+                {
+                    "id": "677cdf51-2f4c-4022-82c1-39b18c83e444",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Giggling Magic",
+                    "type": "atk",
+                    "toHit": 17,
+                    "useSaves": true,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 24.5,
+                    "targets": 1,
+                    "riderEffect": {
+                        "dc": 100,
+                        "buff": {
+                            "duration": "1 round",
+                            "toHit": "-1d6"
+                        }
+                    }
+                },
+                {
+                    "id": "677cdf51-2f4c-4022-82c1-39b18c83e445",
+                    "actionSlot": 5,
+                    "target": "enemy with most HP",
+                    "name": "Pounce x2",
+                    "type": "atk",
+                    "toHit": 11,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 21.5,
+                    "targets": 2
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "b000cace-1510-4db9-b341-a84b87ad0c44",
+            "src": "MM (2024) p.145",
+            "name": "Adult Gold Dragon",
+            "AC": 19,
+            "hp": 243,
+            "cr": "17",
+            "saveBonus": 8.5,
+            "legendarySaves": 3,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "623e3e98-6173-4e09-bf45-108c68ca24e7",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Fire Breath",
+                    "type": "atk",
+                    "toHit": 21,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 66,
+                    "targets": 2
+                },
+                {
+                    "id": "f9c0bd87-2256-458e-9a0f-92956f498eec",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 14,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 64.5,
+                    "targets": 1
+                },
+                {
+                    "id": "f9c0bd87-2256-458e-9a0f-92956f498eec",
+                    "actionSlot": 2,
+                    "target": "enemy with highest DPR",
+                    "name": "Banish",
+                    "type": "atk",
+                    "condition": "default",
+                    "freq": "at will",
+                    "toHit": 21,
+                    "useSaves": false,
+                    "dpr": 10.5,
+                    "targets": 1,
+                    "riderEffect": {
+                        "dc": 100,
+                        "buff": {
+                            "condition": "Incapacitated",
+                            "duration": "1 round"
+                        }
+                    }
+                },
+                {
+                    "id": "f486b26b-f68c-4072-91ef-5bf632b6e9ac",
+                    "actionSlot": 5,
+                    "target": "enemy with most HP",
+                    "name": "Guiding Bolt x2",
+                    "type": "atk",
+                    "toHit": 13,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 17.5,
+                    "targets": 2,
+                    "riderEffect": {
+                        "dc": 100,
+                        "buff": {
+                            "condition": "Is attacked with Advantage",
+                            "duration": "until next attack taken"
+                        }
+                    }
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "aa7f5679-3c63-45c2-895c-4d13c8321662",
+            "src": "MM (2024) p.153",
+            "name": "Adult Green Dragon",
+            "AC": 19,
+            "hp": 207,
+            "cr": "15",
+            "saveBonus": 7.5,
+            "legendarySaves": 3,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "60e1b42a-79bf-412c-adb5-5cba47b40c0b",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Poison Breath",
+                    "type": "atk",
+                    "toHit": 18,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 56,
+                    "targets": 2
+                },
+                {
+                    "id": "84ee9505-e0ac-4b26-8947-a8f5687c992f",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 11,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 66,
+                    "targets": 1
+                },
+                {
+                    "id": "84ee9505-e0ac-4b26-8947-a8f5687c992a",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Noxious Miasma",
+                    "type": "atk",
+                    "toHit": 17,
+                    "useSaves": true,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 7,
+                    "targets": 1,
+                    "riderEffect": {
+                        "dc": 100,
+                        "buff": {
+                            "duration": "1 round",
+                            "ac": -2
+                        }
+                    }
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "f6475355-4dd0-44e1-ac8e-5c1310c7e3e3",
+            "src": "MM (2024) p.255",
+            "name": "Adult Red Dragon",
+            "AC": 19,
+            "hp": 256,
+            "cr": "17",
+            "saveBonus": 8.5,
+            "legendarySaves": 3,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "cc3579ad-ab80-4e29-b61f-747c0569e27b",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Fire Breath",
+                    "type": "atk",
+                    "toHit": 21,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 59.5,
+                    "targets": 2
+                },
+                {
+                    "id": "8ba23b72-4c2f-41e2-8df6-67241797aa58",
+                    "type": "template",
+                    "condition": "is available",
+                    "freq": "1/day",
+                    "templateOptions": {
+                        "templateName": "Fireball",
+                        "saveDC": 20,
+                        "toHit": 0,
+                        "target": "enemy with most HP"
+                    }
+                },
+                {
+                    "id": "8ba23b72-4c2f-41e2-8df6-67241797aa57",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 14,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 55.5,
+                    "targets": 1
+                },
+                {
+                    "id": "8ba23b72-4c2f-41e2-8df6-67241797aa57",
+                    "actionSlot": 2,
+                    "target": "enemy with highest DPR",
+                    "name": "Commanding Presence",
+                    "type": "debuff",
+                    "condition": "default",
+                    "freq": "at will",
+                    "saveDC": 20,
+                    "targets": 2,
+                    "buff": {
+                        "duration": "1 round",
+                        "condition": "Incapacitated"
+                    }
+                },
+                {
+                    "id": "8ba23b72-4c2f-41e2-8df6-67241797aa57",
+                    "actionSlot": 5,
+                    "target": "enemy with most HP",
+                    "name": "Pounce x2",
+                    "type": "atk",
+                    "toHit": 14,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 18.5,
+                    "targets": 2
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "c978e8f0-695a-4822-a891-291bf033b754",
+            "src": "MM (2024) p.279",
+            "name": "Adult Silver Dragon",
+            "AC": 19,
+            "hp": 216,
+            "cr": "16",
+            "saveBonus": 8,
+            "legendarySaves": 3,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "c572da50-c0a2-48d1-9fa7-d2d0ddcccf0e",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Cold Breath",
+                    "type": "atk",
+                    "toHit": 20,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 54,
+                    "targets": 2
+                },
+                {
+                    "id": "e79a89e0-edcf-490c-9057-204244b06d86",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 13,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 64.5,
+                    "targets": 1
+                },
+                {
+                    "id": "e79a89e0-edcf-490c-9057-204244b06d87",
+                    "actionSlot": 1,
+                    "target": "enemy with most HP",
+                    "name": "Paralyzing Breath",
+                    "type": "debuff",
+                    "freq": "at will",
+                    "condition": "default",
+                    "saveDC": 20,
+                    "targets": 2,
+                    "buff": {
+                        "duration": "repeat the save each round",
+                        "condition": "Paralyzed"
+                    }
+                },
+                {
+                    "id": "e79a89e0-edcf-490c-9057-204244b06d89",
+                    "actionSlot": 1,
+                    "target": "enemy with most HP",
+                    "name": "Chill",
+                    "type": "debuff",
+                    "freq": "at will",
+                    "condition": "default",
+                    "saveDC": 20,
+                    "targets": 1,
+                    "buff": {
+                        "duration": "repeat the save each round",
+                        "condition": "Paralyzed"
+                    }
+                },
+                {
+                    "id": "e79a89e0-edcf-490c-9057-204244b06d86",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Pounce x2",
+                    "type": "atk",
+                    "toHit": 13,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 21.5,
+                    "targets": 2
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "7428139c-17dd-42fa-9ce9-4f29c83a04dc",
+            "src": "MM (2024) p.329",
+            "name": "Adult White Dragon",
+            "AC": 18,
+            "hp": 200,
+            "cr": "13",
+            "saveBonus": 6.5,
+            "legendarySaves": 3,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "0d96e743-4d43-440c-b68f-3941fd410e80",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Cold Breath",
+                    "type": "atk",
+                    "toHit": 19,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 54,
+                    "targets": 2
+                },
+                {
+                    "id": "e2289795-cde1-4d17-8fa0-f8b2885b9744",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 11,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 52.5,
+                    "targets": 1
+                },
+                {
+                    "id": "e79a89e0-edcf-490c-9057-204244b06d89",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Frightful Presence",
+                    "type": "debuff",
+                    "freq": "at will",
+                    "condition": "default",
+                    "saveDC": 19,
+                    "targets": 2,
+                    "buff": {
+                        "duration": "repeat the save each round",
+                        "condition": "Incapacitated"
+                    }
+                },
+                {
+                    "id": "e2289795-cde1-4d17-8fa0-f8b2885b9744",
+                    "actionSlot": 5,
+                    "target": "enemy with most HP",
+                    "name": "Pounce x2",
+                    "type": "atk",
+                    "toHit": 11,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 17.5,
+                    "targets": 2
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "d60dd688-1429-4d23-9dd6-5226b027318e",
+            "src": "MM (2024) p.13",
+            "name": "Air Elemental",
+            "AC": 15,
+            "hp": 90,
+            "cr": "5",
+            "saveBonus": 2.5,
+            "mode": "monster",
+            "type": "elemental",
+            "actions": [
+                {
+                    "id": "ce7658d7-7ba2-4e39-8bc8-16958064d03e",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Whirlwind",
+                    "type": "atk",
+                    "toHit": 13,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 24,
+                    "targets": 1
+                },
+                {
+                    "id": "21837f2c-1009-4dde-a8a9-4719aa03915b",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Thunderous Slam x2",
+                    "type": "atk",
+                    "toHit": 8,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 28,
+                    "targets": 1
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "18e964d3-3038-4a85-b8b3-53fcd7cf016a",
+            "src": "MM (2024) p.348",
+            "name": "Allosaurus",
+            "AC": 13,
+            "hp": 51,
+            "cr": "2",
+            "saveBonus": 1,
+            "mode": "monster",
+            "type": "beast",
+            "actions": [
+                {
+                    "id": "c1264594-1332-4993-9345-4305dffa4f95",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Bite + Claw",
+                    "type": "atk",
+                    "toHit": 6,
+                    "condition": "default",
+                    "freq": "1/fight",
+                    "dpr": 23.5,
+                    "targets": 1
+                },
+                {
+                    "id": "2d65e77a-5d1a-4d49-bf2f-c3939e172d45",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Bite",
+                    "type": "atk",
+                    "toHit": 6,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 15,
+                    "targets": 1
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "e3f36866-0050-48bc-9038-812ef937f21c",
+            "src": "MM (2024) p.40",
+            "name": "Ancient Black Dragon",
+            "AC": 22,
+            "hp": 367,
+            "cr": "21",
+            "saveBonus": 10.5,
+            "legendarySaves": 4,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "48afb392-a64c-497c-8c67-627d1d6b706c",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Acid Breath",
+                    "type": "atk",
+                    "toHit": 22,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 67.5,
+                    "targets": 2
+                },
+                {
+                    "id": "7742267d-a34c-46a6-a9f4-a3be548757e8",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 15,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 78,
+                    "targets": 1
+                },
+                {
+                    "id": "e79a89e0-edcf-490c-9057-204244b06d89",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Frightful Presence",
+                    "type": "debuff",
+                    "freq": "at will",
+                    "condition": "default",
+                    "saveDC": 21,
+                    "targets": 2,
+                    "buff": {
+                        "duration": "repeat the save each round",
+                        "condition": "Incapacitated"
+                    }
+                },
+                {
+                    "id": "7742267d-a34c-46a6-a9f4-a3be548757ea",
+                    "actionSlot": 5,
+                    "target": "enemy with most HP",
+                    "name": "Pounce x2",
+                    "type": "atk",
+                    "toHit": 15,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 26,
+                    "targets": 2
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "efd5cb1c-5eab-4eab-a69e-ebdf07364e24",
+            "src": "MM (2024) p.50",
+            "name": "Ancient Blue Dragon",
+            "AC": 22,
+            "hp": 481,
+            "cr": "23",
+            "saveBonus": 11.5,
+            "legendarySaves": 4,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "dcb3e869-e380-40da-b29f-331224d6ea33",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Lightning Breath",
+                    "type": "atk",
+                    "toHit": 23,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 88,
+                    "targets": 2
+                },
+                {
+                    "id": "1a70f008-aa22-4f78-8fc6-9a0a636f2465",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 16,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 87,
+                    "targets": 1
+                },
+                {
+                    "id": "1a70f008-aa22-4f78-8fc6-9a0a636f2466",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Pounce x3",
+                    "type": "atk",
+                    "toHit": 16,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 29,
+                    "targets": 3
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "294cfb40-d366-45d7-b64e-f78b249d1a53",
+            "src": "MM (2024) p.56",
+            "name": "Ancient Brass Dragon",
+            "AC": 20,
+            "hp": 332,
+            "cr": "20",
+            "saveBonus": 10,
+            "legendarySaves": 4,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "88fa1b5b-8d08-4f08-b83a-f5aeb6fb6098",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Fire Breath",
+                    "type": "atk",
+                    "toHit": 21,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 58.5,
+                    "targets": 2
+                },
+                {
+                    "id": "dc9aca5b-10ee-4aeb-8233-2c8c5eeaccdd",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 14,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 78,
+                    "targets": 1
+                },
+                {
+                    "id": "dc9aca5b-10ee-4aeb-8233-2c8c5eeaccda",
+                    "actionSlot": 1,
+                    "target": "enemy with highest DPR",
+                    "name": "Sleep Breath",
+                    "type": "debuff",
+                    "condition": "default",
+                    "freq": "at will",
+                    "targets": 2,
+                    "saveDC": 21,
+                    "buff": {
+                        "duration": "1 round",
+                        "condition": "Incapacitated"
+                    }
+                },
+                {
+                    "id": "dc9aca5b-10ee-4aeb-8233-2c8c5eeaccdf",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Scorching Sands",
+                    "type": "atk",
+                    "toHit": 20,
+                    "useSaves": true,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 36,
+                    "targets": 1
+                },
+                {
+                    "id": "dc9aca5b-10ee-4aeb-8233-2c8c5eeaccde",
+                    "actionSlot": 5,
+                    "target": "enemy with most HP",
+                    "name": "Pounce x2",
+                    "type": "atk",
+                    "toHit": 14,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 26,
+                    "targets": 2
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "0fc2a1d3-ab6f-4c7d-aa96-25be675bb061",
+            "src": "MM (2024) p.60",
+            "name": "Ancient Bronze Dragon",
+            "AC": 22,
+            "hp": 444,
+            "cr": "22",
+            "saveBonus": 11,
+            "legendarySaves": 4,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "790cf8d7-2ffc-4392-81d0-d43472155b9b",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Lightning Breath",
+                    "type": "atk",
+                    "toHit": 23,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 82.5,
+                    "targets": 2
+                },
+                {
+                    "id": "20d90365-3946-4454-b59c-bbac34a4f2c0",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 16,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 81,
+                    "targets": 1
+                },
+                {
+                    "id": "20d90365-3946-4454-b59c-bbac34a4f2c1",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Pounce x3",
+                    "type": "atk",
+                    "toHit": 16,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 27,
+                    "targets": 3
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "a069c3b5-8ec7-4e30-b279-9b95d611992a",
+            "src": "MM (2024) p.80",
+            "name": "Ancient Copper Dragon",
+            "AC": 21,
+            "hp": 367,
+            "cr": "21",
+            "saveBonus": 10.5,
+            "legendarySaves": 4,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "c47fb2af-8a97-4ac8-a5a9-28b72b7f4605",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Acid Breath",
+                    "type": "atk",
+                    "toHit": 22,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 63,
+                    "targets": 2
+                },
+                {
+                    "id": "a30ffebe-3df8-4146-885e-73554905b15c",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 15,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 84,
+                    "targets": 1
+                },
+                {
+                    "id": "677cdf51-2f4c-4022-82c1-39b18c83e444",
+                    "actionSlot": 2,
+                    "target": "enemy with most HP",
+                    "name": "Giggling Magic",
+                    "type": "atk",
+                    "toHit": 21,
+                    "useSaves": true,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 31.5,
+                    "targets": 1,
+                    "riderEffect": {
+                        "dc": 100,
+                        "buff": {
+                            "duration": "1 round",
+                            "toHit": "-1d8"
+                        }
+                    }
+                },
+                {
+                    "id": "a30ffebe-3df8-4146-885e-73554905b15c",
+                    "actionSlot": 5,
+                    "target": "enemy with most HP",
+                    "name": "Rend x2",
+                    "type": "atk",
+                    "toHit": 15,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 28,
+                    "targets": 2
+                }
+            ],
+            "count": 1
+        },
+        {
+            "id": "ad39d4bb-8e57-4f1c-8015-95394f621c02",
+            "src": "MM (2024) p.146",
+            "name": "Ancient Gold Dragon",
+            "AC": 22,
+            "hp": 546,
+            "cr": "24",
+            "saveBonus": 12,
+            "legendarySaves": 4,
+            "mode": "monster",
+            "type": "dragon",
+            "actions": [
+                {
+                    "id": "fa9e8cc8-8fa4-4099-b123-f69fa39c6f5a",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Fire Breath",
+                    "type": "atk",
+                    "toHit": 24,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "default",
+                    "freq": {
+                        "reset": "recharge",
+                        "cooldownRounds": 3
+                    },
+                    "dpr": 71.5,
+                    "targets": 2
+                },
+                {
+                    "id": "fa9e8cc8-8fa4-4099-b123-f69fa39c6f5a",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Fire Storm",
+                    "type": "atk",
+                    "toHit": 24,
+                    "useSaves": true,
+                    "halfOnSave": true,
+                    "condition": "is available",
+                    "freq": "1/day",
+                    "dpr": 42,
+                    "targets": 2
+                },
+                {
+                    "id": "fbf4a98e-2338-4db5-a8d3-fe791d5cf3bd",
+                    "actionSlot": 0,
+                    "target": "enemy with most HP",
+                    "name": "Rend x3",
+                    "type": "atk",
+                    "toHit": 17,
+                    "condition": "default",
+                    "freq": "at will",
+                    "dpr": 84,
+                    "targets": 1
+                }
+            ],
+            "count": 1
+        }
+    ]
+}

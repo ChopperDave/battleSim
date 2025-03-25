@@ -26,7 +26,7 @@
         margin: 0;
     }
 
-    button {
+    .controlBtn {
         background: none!important;
         padding: 0;
 
@@ -37,6 +37,8 @@
     .modifier {
         display: flex; 
         flex-direction: row;
+        align-items: center;
+
         > input[type=number] { width: 45px }
         > input[type=text] { width: 50px; min-width: fit-content }
         svg { margin: 0 }
@@ -47,5 +49,58 @@
         display: grid;
 
         button { margin: 0 }
+    }
+
+    .conditionContainer {
+        display: flex;
+        align-items: center;
+        gap: 4px
+    }
+
+    .multiContainer {
+        width: 100%;
+        padding-left: 6em;
+    }
+
+    .addFieldBtnContainer {
+        position: relative;
+
+        .addFieldBtn {
+            display: flex;
+            gap: 6px;
+            padding-inline: 8px;
+            font-weight: normal;
+        }
+
+        .addFieldMenu {
+            position: absolute;
+            top: 100%;
+            display: grid;
+            gap: 2px;
+            width: 200px;
+            background: #544;
+            z-index: 1;
+
+            button {
+                margin: 0;
+                border-radius: 0;
+                text-align: left;
+
+                &:not(:hover) { background: none }
+            }
+        }
+    }
+
+    .pristine {
+        animation-name: pristine;
+        animation-duration: 800ms;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+
+        @keyframes pristine {
+            from { background: #766 }
+            to { background: transparent }
+        }
     }
 }

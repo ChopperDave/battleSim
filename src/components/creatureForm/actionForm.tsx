@@ -1,5 +1,5 @@
-import { FC, useState } from "react"
-import { Action, AllyTarget, AtkAction, Buff, BuffAction, DebuffAction, DiceFormula, EnemyTarget, FinalAction, Frequency, HealAction, TemplateAction } from "../../model/model"
+import { FC, useEffect, useMemo, useRef, useState } from "react"
+import { Action, AllyTarget, AtkAction, Buff, BuffAction, DebuffAction, DiceFormula, EnemyTarget, FinalAction, Frequency, HealAction, MultiAction, TemplateAction } from "../../model/model"
 import styles from './actionForm.module.scss'
 import { clone } from "../../model/utils"
 import { ActionType, BuffDuration, ActionCondition, CreatureConditionList, CreatureCondition, ActionSlots } from "../../model/enums"
@@ -8,7 +8,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronDown, faChevronUp, faPlus, faTrash } from "@fortawesome/free-solid-svg-icons"
 import DecimalInput from "../utils/DecimalInput"
 import DiceFormulaInput from "../utils/diceFormulaInput"
-import { ActionTemplates, getFinalAction } from "../../data/actions"
+import { ActionTemplates, getFinalActions } from "../../data/actions"
+import { v4 as uuid } from 'uuid'
 
 type PropType = {
     value: Action,
@@ -16,6 +17,7 @@ type PropType = {
     onDelete: () => void,
     onMoveUp?: () => void,
     onMoveDown?: () => void,
+    formType?: "multiaction"
 }
 
 type Options<T> = { value: T, label: string}[]
@@ -50,6 +52,7 @@ const TypeOptions: Options<ActionType> = [
     { value: 'heal', label: 'Heal' },
     { value: 'buff', label: 'Buff' },
     { value: 'debuff', label: 'Debuff' },
+    { value: 'multi', label: 'Multiple Actions' },
 ]
 
 const ActionOptions: Options<number> = Object.entries(ActionSlots).map(([label, value]) => ({label, value}))
@@ -111,7 +114,7 @@ const BuffDurationOptions: Options<BuffDuration> = [
     { value: 'until next attack made', label: 'Until the next attack made' }
 ]
 
-const BuffStatOptions: Options<keyof Omit<Buff, 'duration'>> = [
+const BuffStatOptions: Options<keyof Omit<Buff, 'duration'|'displayName'>> = [
     { value: 'condition', label: 'Condition' },
     { value: 'ac', label: 'Armor Class' },
     { value: 'save', label: 'Bonus to Saves' },
@@ -128,9 +131,26 @@ const AtkOptions: Options<boolean> = [
     { value: false, label: 'To Hit:' },
 ]
 
+function newSubAction(): Omit<AtkAction, 'actionSlot'> {
+    return {
+        id: uuid(),
+        name: '',
+        freq: 'at will',
+        condition: 'default',
+        targets: 1,
+        type: 'atk',
+        dpr: 0,
+        toHit: 0,
+        target: 'enemy with least HP',
+    }
+}
+
 const BuffForm:FC<{value: Buff, onUpdate: (newValue: Buff) => void}> = ({ value, onUpdate }) => {
     const [modifiers, setModifiers] = useState<(keyof Omit<Buff, 'duration'>)[]>(Object.keys(value).filter(key => (key !== 'duration')) as any)
 
+    useEffect(function onBuffUpdated() {
+        setModifiers(Object.keys(value).filter(key => (key !== 'duration')) as any)
+    }, [value])
 
     function setModifier(index: number, newValue: keyof Omit<Buff, 'duration'> | null) {
         const oldModifier = modifiers[index]
@@ -164,15 +184,9 @@ const BuffForm:FC<{value: Buff, onUpdate: (newValue: Buff) => void}> = ({ value,
         onUpdate(buffClone)
     }
 
-    function addModifier() {
-        const newModifier = BuffStatOptions.find(({value}) => !modifiers.includes(value))
-        if (!newModifier) return;
-        setModifiers([...modifiers, newModifier.value])
-    }
-
     return (
         <>
-            Effects:
+            { (modifiers.length > 0) && "Effects:" }
             {modifiers.map((modifier, index) => (
                 <div key={modifier} className={styles.modifier}>
                     <Select 
@@ -197,25 +211,61 @@ const BuffForm:FC<{value: Buff, onUpdate: (newValue: Buff) => void}> = ({ value,
                             onChange={v => updateDiceFormula(modifier, v || 0)}
                         />
                     )}
-                    <button onClick={() => setModifier(index, null)}>
+                    <button className={styles.controlBtn} onClick={() => setModifier(index, null)}>
                         <FontAwesomeIcon icon={faTrash} />
                     </button>
                 </div>
             ))}
-
-            <button 
-                className="tooltipContainer" 
-                disabled={modifiers.length === BuffStatOptions.length}
-                onClick={addModifier}>
-                    <FontAwesomeIcon icon={faPlus} />
-                    <div className="tooltip">Add effect to the buff/debuff</div>
-            </button>
         </>
     )
 }
 
-const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDown }) => {
-    function update(callback: (valueClone: Action) => void) {
+enum FormActionField {
+    "Limited Resource",
+    "Condition",
+    "Effect",
+    "Action",
+}
+
+const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDown, formType }) => {
+    const [addedFields, setAddedFields] = useState<FormActionField[]>([])
+    const [isAddFieldMenuOpen, setAddFieldMenuOpen] = useState(false)
+    const addFieldMenuRef = useRef<HTMLDivElement>(null)
+
+    function removeField(field: FormActionField) {
+        const index = addedFields.indexOf(field)
+
+        if (index >= 0) addedFields.splice(index, 1)
+    }
+
+    const addableActions = useMemo(() => {
+        let result: FormActionField[] = []
+
+        if ((value.freq === "at will") && (!addedFields.includes(FormActionField["Limited Resource"]))) result.push(FormActionField["Limited Resource"])
+        if ((value.condition === "default") && (!addedFields.includes(FormActionField.Condition))) result.push(FormActionField.Condition)
+        if ((value.type === "atk") || (value.type === "buff") || (value.type === "debuff")) result.push(FormActionField.Effect)
+        if (value.type === "multi") result.push(FormActionField.Action)
+
+        return result
+    }, [value, addedFields])
+
+    useEffect(function removeAddFieldMenu() {
+        if (!isAddFieldMenuOpen) return;
+        if (!addFieldMenuRef.current) return;
+
+        function closeMenu(e: MouseEvent) {
+            const elem = e.target as HTMLElement
+            const isInside = addFieldMenuRef.current!.contains(elem)
+            
+            if (!isInside) setAddFieldMenuOpen(false)
+        }
+
+        window.addEventListener("click", closeMenu)
+
+        return () => { window.removeEventListener("click", closeMenu) }
+    }, [isAddFieldMenuOpen, addFieldMenuRef])
+
+    function update(callback: (valueClone: typeof value) => void) {
         const valueClone = clone(value)
         callback(valueClone)
         onChange(valueClone)
@@ -223,6 +273,7 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
 
     function updateFinalAction(callback: (valueClone: FinalAction) => void) {
         if (value.type === 'template') return
+        if (value.type === 'multi') return
 
         const valueClone = clone(value)
         callback(valueClone)
@@ -231,6 +282,14 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
 
     function updateTemplateAction(callback: (valueClone: TemplateAction) => void) {
         if (value.type !== 'template') return
+
+        const valueClone = clone(value)
+        callback(valueClone)
+        onChange(valueClone)
+    }
+
+    function updateMultiAction(callback: (valueclone: MultiAction) => void) {
+        if (value.type !== "multi") return
 
         const valueClone = clone(value)
         callback(valueClone)
@@ -247,7 +306,6 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
             : v.freq
 
         onChange(v)
-        console.log(v)
     }
 
     function updateRiderEffect(callback: (riderEffect: { dc: number, buff: Buff }) => void) {
@@ -261,7 +319,7 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
     function updateType(type: ActionType) {
         if (type === value.type) return
 
-        const finalAction = getFinalAction(value)
+        const finalAction = (value.type === "template") ? getFinalActions(value)[0] : value
 
         const common = {
             id: value.id,
@@ -269,7 +327,6 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
             actionSlot: finalAction.actionSlot,
             condition: finalAction.condition,
             freq: finalAction.freq,
-            targets: finalAction.targets,
         }
 
         const templateAction: TemplateAction = {
@@ -282,10 +339,11 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
 
         switch (type) {
             case "template": return onChange(templateAction)
-            case "atk": return onChange({...common, type, target: "enemy with most HP", dpr: 0, toHit: 0 })
-            case "heal": return onChange({...common, type, amount: 0, target: "ally with the least HP" })
-            case "buff": return onChange({...common, type, target: "ally with the highest DPR", buff: { duration: '1 round' } })
-            case "debuff": return onChange({...common, type, target: "enemy with highest DPR", saveDC: 10, buff: { duration: '1 round' } })
+            case "atk": return onChange({...common, type, target: "enemy with most HP", targets: 1, dpr: 0, toHit: 0 })
+            case "heal": return onChange({...common, type, amount: 0, target: "ally with the least HP", targets: 1, })
+            case "buff": return onChange({...common, type, target: "ally with the highest DPR", targets: 1, buff: { duration: '1 round' } })
+            case "debuff": return onChange({...common, type, target: "enemy with highest DPR", targets: 1, saveDC: 10, buff: { duration: '1 round' } })
+            case "multi": return onChange({ ...common, type, actions: [newSubAction(), newSubAction()] })
         }
     }
 
@@ -312,19 +370,23 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
         <div className={styles.actionForm}>
             <div className={styles.arrowBtns}>
                 <button
+                    className={styles.controlBtn}
                     onClick={onMoveUp}
                     disabled={!onMoveUp}>
                         <FontAwesomeIcon icon={faChevronUp} />
                 </button>
                 <button
+                    className={styles.controlBtn}
                     onClick={onMoveDown}
                     disabled={!onMoveDown}>
                         <FontAwesomeIcon icon={faChevronDown} />
                 </button>
             </div>
 
-            <button onClick={onDelete}>
-                <FontAwesomeIcon icon={faTrash} />
+            <button
+                className={styles.controlBtn}
+                onClick={onDelete}>
+                    <FontAwesomeIcon icon={faTrash} />
             </button>
 
             { value.type !== 'template' ? (
@@ -332,33 +394,79 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
                     <input 
                         type='text' 
                         value={value.name} 
-                        onChange={(e) => updateFinalAction(v => { v.name = e.target.value.length < 100 ? e.target.value : v.name })} 
+                        onChange={(e) => update(v => {
+                            if (v.type === "template") return;
+                            v.name = e.target.value.length < 100 ? e.target.value : v.name 
+                        })}
                         placeholder="Action name..." 
                         style={{ minWidth: `${value.name.length}ch` }}
                     />
-                    <Select value={value.actionSlot} options={ActionOptions} onChange={actionSlot => updateFinalAction(v => { v.actionSlot = actionSlot })} />
+                    
+                    { formType !== "multiaction" && (
+                        <div className="tooltipContainer">
+                            <Select
+                                value={value.actionSlot}
+                                options={ActionOptions}
+                                onChange={actionSlot => updateFinalAction(v => { v.actionSlot = actionSlot })} />
+
+                            <div className="tooltip">
+                                <b>Action slot:</b> each action slot can be used once per round, except:
+
+                                <ul>
+                                    <li>"When reducing an enemy to 0 hit points"</li>
+                                    <li>"When the encounter starts"</li>
+                                </ul>
+                            </div>
+                        </div>
+                    )}
                 </>
             ) : null }
 
-            <Select value={value.type} options={TypeOptions} onChange={updateType} />
+            <div className="tooltipContainer">
+                <Select
+                    value={value.type}
+                    options={formType !== "multiaction" ? TypeOptions : TypeOptions.filter(type => type.value !== "multi")}
+                    onChange={updateType} />
+
+                <div className="tooltip">
+                    <b>Action Type</b>
+                </div>
+            </div>
 
             { value.type === 'template' ? (
-                <Select
-                    value={value.templateOptions.templateName}
-                    options={Object.keys(ActionTemplates).map(key => ({ value: key as keyof typeof ActionTemplates, label: key }))}
-                    onChange={onTemplateChange}/>
+                <div className="tooltipContainer">
+                    <Select
+                        value={value.templateOptions.templateName}
+                        options={Object.keys(ActionTemplates).map(key => ({ value: key as keyof typeof ActionTemplates, label: key }))}
+                        onChange={onTemplateChange}/>
+
+                    <div className="tooltip">
+                        <b>Spell Name</b>
+                    </div>
+                </div>
             ) : null }
 
-            <Select 
-                value={
-                    typeof value.freq === 'string' ? value.freq
-                  : value.freq.reset === 'sr' ? srFreq
-                  : value.freq.reset === 'lr' ? lrFreq
-                  : value.freq.reset === 'recharge' ? rechargeFreq
-                  : 'at will'
-                }
-                options={FreqOptions}
-                onChange={freq => updateFrequency(freq)} />
+            { ((value.freq !== "at will") || addedFields.includes(FormActionField["Limited Resource"])) && (
+                <div className={"tooltipContainer " + (addedFields.includes(FormActionField["Limited Resource"]) && styles.pristine)}>
+                    <Select 
+                        value={
+                            typeof value.freq === 'string' ? value.freq
+                          : value.freq.reset === 'sr' ? srFreq
+                          : value.freq.reset === 'lr' ? lrFreq
+                          : value.freq.reset === 'recharge' ? rechargeFreq
+                          : 'at will'
+                        }
+                        options={FreqOptions}
+                        onChange={freq => {
+                            updateFrequency(freq)
+                            if (freq === "at will") removeField(FormActionField["Limited Resource"])
+                        }} />
+                    
+                    <div className="tooltip">
+                        <b>Frequency:</b> does this action have limited uses?
+                    </div>
+                </div>
+            )}
 
             { typeof value.freq !== 'string' ? (
                 value.freq.reset === 'recharge' ? (
@@ -388,22 +496,40 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
             
             { ((value.type === 'atk') && (!value.useSaves)) ? (
                 <Select value={value.targets} options={HitCountOptions} onChange={targets => updateFinalAction(v => v.targets = targets)} />
-            ) : (value.type !== 'template') ? (
+            ) : ((value.type !== 'template') && (value.type !== 'multi')) ? (
                 <Select value={value.targets} options={TargetCountOptions} onChange={targets => updateFinalAction(v => { v.targets = targets })} />
             ) : null }
-            Use this action if:
-            <Select value={value.condition} options={ConditionOptions} onChange={condition => update(v => { v.condition = condition })} />
+
+            { ((value.condition !== "default") || addedFields.includes(FormActionField.Condition)) && (
+                <div className={`${styles.conditionContainer} ${addedFields.includes(FormActionField.Condition) && styles.pristine}`}>
+                    Use this action if:
+                    <Select
+                        value={value.condition}
+                        options={ConditionOptions}
+                        onChange={condition => update(v => {
+                            v.condition = condition
+                            if (condition === "default") removeField(FormActionField.Condition)
+                        })} />
+                </div>
+            )}
 
             { (value.type === "atk") ? (
                 <>
-                    <Select 
-                        value={!!value.useSaves} 
-                        options={AtkOptions} 
-                        onChange={useSaves => update(v => {
-                            const atk = (v as AtkAction);
-                            if (atk.useSaves !== useSaves) atk.targets = 1
-                            atk.useSaves = useSaves 
-                        })} />
+                    <div className="tooltipContainer">
+                        <Select
+                            value={!!value.useSaves} 
+                            options={AtkOptions} 
+                            onChange={useSaves => update(v => {
+                                const atk = (v as AtkAction);
+                                if (atk.useSaves !== useSaves) atk.targets = 1
+                                atk.useSaves = useSaves 
+                            })} />
+
+                        <div className="tooltip">
+                            <div><b>To Hit:</b> this action uses an attack roll</div>
+                            <div><b>Save DC:</b> this action uses a saving throw</div>
+                        </div>
+                    </div>
                     <DiceFormulaInput value={value.toHit} onChange={toHit => update(v => { (v as AtkAction).toHit = toHit || 0 })} />
                     Damage: 
                     <DiceFormulaInput value={value.dpr} onChange={dpr => update(v => { (v as AtkAction).dpr = dpr || 0 })} canCrit={!value.useSaves} />
@@ -420,14 +546,6 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
                     
                     Target:
                     <Select value={value.target} options={EnemyTargetOptions} onChange={target => updateFinalAction(v => { v.target = target })} />
-                    On Hit Effect:
-                    <Select 
-                        value={value.riderEffect !== undefined} 
-                        options={[{ value: true, label: 'Yes'},{ value: false, label: 'No'}]}
-                        onChange={b => { 
-                            if(b) update(v => { (v as AtkAction).riderEffect ||= {dc: 0, buff: {duration: "1 round"}} }) 
-                            else update(v => { delete (v as AtkAction).riderEffect })
-                        }}/>
 
                     { (!!value.riderEffect) ? (
                         <>
@@ -435,17 +553,35 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
                             <DecimalInput value={value.riderEffect.dc} onChange={dc => updateRiderEffect(e => { e.dc = dc || 0 })} />
                             Duration:
                             <Select value={value.riderEffect.buff.duration} options={BuffDurationOptions} onChange={duration => updateRiderEffect(e => { e.buff.duration = duration })} />
-                            <BuffForm value={value.riderEffect.buff} onUpdate={newValue => updateRiderEffect(e => { e.buff = newValue })} />
+                            
+                            <BuffForm
+                                value={value.riderEffect.buff}
+                                onUpdate={newValue => {
+                                    const { duration, displayName, magnitude, ...modifiers } = newValue
+
+                                    if (!Object.keys(modifiers).length) {
+                                        update(clone => delete (clone as AtkAction).riderEffect)
+                                    } else {
+                                        updateRiderEffect(e => { e.buff = newValue })
+                                    }
+                                }} />
                         </>
                     ) : null }
                 </>
             ) : null }
             { (value.type === "heal") ? (
                 <>
-                    <Select
-                        value={!!value.tempHP}
-                        options={[ {value: true, label: 'Temp HP:'}, {value: false, label: 'Heal Amount:'} ]}
-                        onChange={tempHP => update(v => { (v as HealAction).tempHP = tempHP })}/>
+                    <div className="tooltipContainer">
+                        <Select
+                            value={!!value.tempHP}
+                            options={[ {value: true, label: 'Temp HP:'}, {value: false, label: 'Heal Amount:'} ]}
+                            onChange={tempHP => update(v => { (v as HealAction).tempHP = tempHP })}/>
+
+                        <div className="tooltip">
+                            <div><b>Heal Amount:</b> this action will heal the target up to its max HP.</div>
+                            <div><b>Temp HP:</b> this action will grant temporary hit points if the amount is larger than the target's current temporary hit points.</div>
+                        </div>
+                    </div>
                     <DiceFormulaInput value={value.amount} onChange={heal => update(v => { (v as HealAction).amount = heal || 0 })} />
                     Target:
                     <Select value={value.target} options={AllyTargetOptions} onChange={target => updateFinalAction(v => { v.target = target })} />
@@ -510,6 +646,104 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
 
                 return targetForm
             })() : null }
+
+            {(addableActions.length > 0) && (
+                <div className={styles.addFieldBtnContainer} ref={addFieldMenuRef}>
+                    <button className={styles.addFieldBtn} onClick={() => setAddFieldMenuOpen(true)}>
+                        <FontAwesomeIcon icon={faPlus} />
+                    </button>
+                    { isAddFieldMenuOpen && (
+                        <div className={styles.addFieldMenu}>
+                            { addableActions.map(addable => (
+                                <button onClick={() => {
+                                    setAddFieldMenuOpen(false)
+
+                                    if (addable === FormActionField["Limited Resource"]) setAddedFields([...addedFields, FormActionField["Limited Resource"]])
+                                    if (addable === FormActionField.Condition) setAddedFields([...addedFields, FormActionField.Condition])
+
+                                    if (addable === FormActionField.Effect) {
+                                        type BuffModifier = keyof Omit<Buff, 'duration'|'displayName'>
+                                        
+                                        if ((value.type === "buff") || (value.type === "debuff")) {
+                                            update(clone => {
+                                                const newModifier: undefined|BuffModifier = BuffStatOptions.find(({ value: buffType }) => !Object.keys(value.buff).includes(buffType))?.value
+                                                if (!newModifier) return;
+                                                
+                                                if (newModifier === "condition") {
+                                                    ((clone as BuffAction).buff!).condition = "Poisoned"
+                                                } else {
+                                                    ((clone as BuffAction).buff!)[newModifier] = 0
+                                                }
+                                            })
+                                        } else if (value.type === "atk") {
+                                            update(clone => {
+                                                const newModifier: undefined|BuffModifier = BuffStatOptions.find(({ value: buffType }) => !Object.keys(value.riderEffect?.buff || {}).includes(buffType))?.value
+                                                if (!newModifier) return;
+                                                
+                                                if (!(clone as AtkAction).riderEffect) {
+                                                    (clone as AtkAction).riderEffect = { dc: 10, buff: { duration: "1 round" } }
+                                                }
+
+                                                if (newModifier === "condition") {
+                                                    ((clone as AtkAction).riderEffect!.buff!).condition = "Poisoned"
+                                                } else {
+                                                    ((clone as AtkAction).riderEffect!.buff!)[newModifier] = 0
+                                                }
+                                            })
+                                        }
+                                    }
+
+                                    if ((addable === FormActionField.Action) && (value.type === "multi")) {
+                                        updateMultiAction(clone => {
+                                            clone.actions.push(newSubAction())
+                                        })
+                                    }
+                                }}>
+                                    {FormActionField[addable]}
+                                </button>
+                            ))}
+                        </div>
+                    )}
+                </div>
+            )}
+
+            { (value.type === "multi") && <>
+                <div className={styles.multiContainer}>
+                    {value.actions.map((subAction, i) => (
+                        <ActionForm
+                            key={subAction.id}
+                            formType="multiaction"
+                            value={subAction.type === "template" ? subAction: ({ ...subAction, actionSlot: 0 })}
+                            onChange={newValue => {
+                                if (newValue.type === "multi") return
+
+                                let cleanValue = value.actions[i];
+                                if (newValue.type === "template") {
+                                    cleanValue = newValue
+                                } else {
+                                    const { actionSlot, ...otherFields } = newValue
+                                    cleanValue = otherFields
+                                }
+
+                                updateMultiAction(clone => { clone.actions[i] = cleanValue })
+                            }}
+                            onDelete={() => {
+                                updateMultiAction(clone => { delete clone.actions[i]})
+                            }}
+                            onMoveDown={((value.actions.length <= 1) || (i + 1 >= value.actions.length)) ? undefined : () => updateMultiAction(clone => {
+                                const tmp = clone.actions[i + 1]
+                                clone.actions[i + 1] = clone.actions[i]
+                                clone.actions[i] = tmp
+                            })}
+                            onMoveUp={((value.actions.length <= 1) || (i - 1 < 0)) ? undefined : () => updateMultiAction(clone => {
+                                const tmp = clone.actions[i - 1]
+                                clone.actions[i - 1] = clone.actions[i]
+                                clone.actions[i] = tmp
+                            })}
+                        />
+                    ))}
+                </div>
+            </>}
         </div>
     )
 }

@@ -127,6 +127,17 @@ const TemplateActionSchema = z.object({
     }),
 })
 
+const MultiActionSchema = ActionSchemaBase.omit({ "targets": true }).merge(z.object({
+    type: z.literal('multi'),
+    actions: z.array(z.discriminatedUnion('type', [
+        HealActionSchema.omit({ "actionSlot": true }),
+        AtkActionSchema.omit({ "actionSlot": true }),
+        BuffActionSchema.omit({ "actionSlot": true }),
+        DebuffActionSchema.omit({ "actionSlot": true }),
+        TemplateActionSchema,
+    ])),
+}))
+
 // Like a regular Action, but without the possibility of it being a TemplateAction
 export const FinalActionSchema = z.discriminatedUnion('type', [
     HealActionSchema, 
@@ -141,6 +152,7 @@ const ActionSchema = z.discriminatedUnion('type', [
     BuffActionSchema, 
     DebuffActionSchema, 
     TemplateActionSchema,
+    MultiActionSchema,
 ])
 
 // Creature is the definition of the creature. It's what the user inputs.
@@ -170,6 +182,7 @@ export const CreatureSchema = z.object({
     hp: z.number(),
     AC: z.number(),
     saveBonus: z.number(), // Average save bonus. Using this to simplify the input, even if it makes the result slightly less accurate.
+    legendarySaves: z.number().optional(),
     actions: z.array(ActionSchema),
 })
 
@@ -178,6 +191,7 @@ const TeamSchema = z.array(CreatureSchema)
 const CreatureStateSchema = z.object({
     currentHP: z.number(),
     tempHP: z.number().optional(),
+    remainingLegendarySaves: z.number(),
     buffs: z.map(z.string(), BuffSchema),
     remainingUses: z.map(z.string(), z.number()),
     upcomingBuffs: z.map(z.string(), BuffSchema),
@@ -240,6 +254,7 @@ export type HealAction = z.infer<typeof HealActionSchema>
 export type BuffAction = z.infer<typeof BuffActionSchema>
 export type DebuffAction = z.infer<typeof DebuffActionSchema>
 export type TemplateAction = z.infer<typeof TemplateActionSchema>
+export type MultiAction = z.infer<typeof MultiActionSchema>
 export type Action = z.infer<typeof ActionSchema>
 export type FinalAction = z.infer<typeof FinalActionSchema>
 export type Creature = z.infer<typeof CreatureSchema>

@@ -56,13 +56,27 @@
                         left: 50%;
                         transform: translate(-50%, -50%);
                     }
-
                 }
                 ul {
                     margin: 0;
                     padding-left: 1em;
 
                     b { color: #c88 }
+                }
+                
+                .legRes {
+                    position: absolute;
+                    top: -5px;
+                    left: 0;
+                    right: 0;
+                    display: flex;
+                    
+                    > * {
+                        flex-grow: 1;
+                        width: 10px;
+                        height: 10px;
+                        color: #aaf;
+                    }
                 }
     
                 .creatureName {
