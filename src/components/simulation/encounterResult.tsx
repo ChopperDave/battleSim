@@ -1,5 +1,5 @@
 import { FC, useState } from "react"
-import { Combattant, EncounterResult as EncounterResultType, EncounterStats, FinalAction, Buff, DiceFormula } from "../../model/model"
+import { Combattant, EncounterResult as EncounterResultType, EncounterStats, FinalAction, Buff, DiceFormula, SummonAction } from "../../model/model"
 import styles from './encounterResult.module.scss'
 import { Round } from "../../model/model"
 import { clone, range } from "../../model/utils"
@@ -16,7 +16,25 @@ type TeamPropType = {
 
 const TeamResults:FC<TeamPropType> = ({ round, team, stats, highlightedIds, onHighlight }) => {
     function getTarget(combattantAction: { action: FinalAction, targets: Map<string, number> }) {
+        if (combattantAction.action.type === "summon") return ""
+
         if (combattantAction.action.target === 'self') return 'itself'
+
+        if (combattantAction.action.target === "random enemy") {
+            const count = combattantAction.action.targets
+
+            return (count > 1) ? 
+                `a random enemy x${count}`
+              : 'a random enemy'
+        }
+
+        if (combattantAction.action.target === "random ally") {
+            const count = combattantAction.action.targets
+
+            return (count > 1) ? 
+                `a random ally x${count}`
+              : 'a random ally'
+        }
 
         const allCombattants = [...round.team1, ...round.team2].map(combattant => combattant)
         const targetNames = Array.from(combattantAction.targets.entries()).map(([targetId, count]) => {
@@ -34,6 +52,20 @@ const TeamResults:FC<TeamPropType> = ({ round, team, stats, highlightedIds, onHi
             .filter(nullable => !!nullable)
 
         return targetNames.join(' and ')
+    }
+
+    function getSummoned(action: SummonAction) {
+        const { creatureId } = action
+        const combattant = team.find(combattant => (combattant.creature.id === creatureId))
+        
+        if (!combattant) return ""
+
+        const { name } = combattant.creature
+        const result = ": " + (
+            (action.targets > 1) ? `${name} x${action.targets}` : name
+        )
+
+        return result
     }
 
     function getNumberWithSign(n: DiceFormula) {
@@ -113,18 +145,25 @@ const TeamResults:FC<TeamPropType> = ({ round, team, stats, highlightedIds, onHi
                                             {creatureStats.buffsReceived ? <li><b>Was buffed:</b> {Math.round(creatureStats.buffsReceived)} times</li> : null}
                                             {creatureStats.charactersDebuffed ? <li><b>Debuffed:</b> {Math.round(creatureStats.charactersDebuffed)} enemies</li> : null}
                                             {creatureStats.debuffsReceived ? <li><b>Was debuffed:</b> {Math.round(creatureStats.debuffsReceived)} times</li> : null}
+                                            {creatureStats.creaturesSummoned ? <li><b>Summoned:</b> {Math.round(creatureStats.creaturesSummoned)} allies</li> : null}
                                         </>
                                     )
                                 })() : (() => {
                                     const li = combattant.actions
-                                    .filter(({ targets }) => !!targets.size)
-                                    .map((action, index) => (
-                                        <li 
-                                            key={index}
-                                            onMouseEnter={() => onHighlight?.(Array.from(action.targets.keys()))}
-                                            onMouseLeave={() => onHighlight?.(combattant.actions.flatMap(a => Array.from(a.targets.keys())))}>
-                                            <b>{action.action.name}</b> on {getTarget(action)}
-                                        </li>
+                                    .filter(({ targets, action }) => ((action.type === "summon") || !!targets.size))
+                                    .map(({ action, targets }) => (
+                                        (action.type === "summon") ? (
+                                            <li key={action.id}>
+                                                <b>{action.name}</b> {getSummoned(action)}
+                                            </li>
+                                        ) : (
+                                            <li 
+                                                key={action.id}
+                                                onMouseEnter={() => onHighlight?.(Array.from(targets.keys()))}
+                                                onMouseLeave={() => onHighlight?.(combattant.actions.flatMap(a => Array.from(a.targets.keys())))}>
+                                                <b>{action.name}</b> on {getTarget({ action, targets })}
+                                            </li>
+                                        )
                                     ))
 
                                     //todo effects that disappear in the same round are not shown, which can be misleading

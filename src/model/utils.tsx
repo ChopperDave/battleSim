@@ -1,5 +1,6 @@
-import { DependencyList, FC, ReactNode, createContext, useContext, useEffect, useState } from "react"
+import { DependencyList, FC, ReactNode, createContext, useContext, useEffect, useMemo, useState } from "react"
 import { semiPersistentContext } from "./simulationContext"
+import { z } from "zod"
 
 export function clone<T>(obj: T): T {
     return structuredClone(obj)
@@ -62,16 +63,6 @@ export function sharedStateGenerator(componentName: string) {
     }
 }
 
-export function useCalculatedState<T>(generator: () => T, dependencies: DependencyList) {
-    const [state, setState] = useState(generator())
-
-    useEffect(() => {
-        setState(generator())
-    }, dependencies)
-
-    return state
-}
-
 // Returns an array of numbers from 0 to n
 export function range(n: number) {
     return Array.from(Array(n).keys())
@@ -87,22 +78,50 @@ export function capitalize(str: string) {
     }).join(' ')
 }
 
-// Sort by multiple criteria, e.g. first sort by challenge rating, then by name
-export function multiSort<T>(arr: T[], ...criteria: (keyof T)[]) {
-    return arr.sort((a, b) => {
-        for (let i = 0 ; i < criteria.length; i++) {
-            const criterion = criteria[i]
-
-            if (a[criterion] > b[criterion]) return 1
-            if (a[criterion] < b[criterion]) return -1
-        }
-        return 0
-    })
-}
-
 // Can be useful for debug purposes
 let inDevEnvironment = false;
 if (process && process.env.NODE_ENV === 'development') {
   inDevEnvironment = true;
 }
 export {inDevEnvironment};
+
+// changes the return type of Object.keys to `keyof T`
+export const keys: <T extends object>(obj: T) => (keyof T)[] = Object.keys
+
+/**
+ * Validates the given object, logs the errors if it finds any, and returns a map of errors so the UI can be updated accordingly.
+ * @param obj the object to validate
+ * @param schema the schema to use for validation
+ * @returns 
+ *   * isValid: a boolean indicating whether or not the object is valid
+ *   * errorPaths: an object map, showing the different invalid properties, e.g. `{ item.name: true }`
+ */
+export function validate<T>(obj: T, schema: z.ZodSchema<T>) {
+    const parsed = schema.safeParse(obj)
+    const isValid = parsed.success
+
+    type AllPossibleKeys<T2> = T2 extends T2 ? keyof T2: never;
+
+    const errorPaths: { [K in AllPossibleKeys<T>]?: true } = {}
+    if (!isValid) {
+        console.warn(
+            "Invalid:", obj,
+            "issues:", ...parsed.error.issues.map(issue => ({
+                code: issue.code,
+                path: issue.path.join('.'),
+                ...( ('expected' in issue) ? {
+                    message: `expected ${issue.expected}, received ${issue.received}`,
+                } : {})
+            })),
+        )
+        for (let issue of parsed.error.issues) {
+            (errorPaths as any)[issue.path[0]] = true
+        }
+    }
+
+    return { isValid, errorPaths }
+}
+
+export function exists<TValue>(value: TValue | null | undefined): value is TValue {
+    return value !== null && value !== undefined;
+}

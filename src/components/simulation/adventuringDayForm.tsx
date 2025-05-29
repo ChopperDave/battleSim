@@ -1,7 +1,7 @@
-import { FC, useState } from "react"
+import { FC, useMemo, useState } from "react"
 import { Creature, CreatureSchema, Encounter, EncounterSchema } from "../../model/model"
 import styles from './adventuringDayForm.module.scss'
-import { sharedStateGenerator, useCalculatedState } from "../../model/utils"
+import { sharedStateGenerator } from "../../model/utils"
 import {z} from 'zod'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDownload, faFolder, faSave, faTrash, faUpload } from "@fortawesome/free-solid-svg-icons"
@@ -79,8 +79,8 @@ const AdventuringDayForm:FC<PropType> = ({ players, encounters, onCancel, onLoad
     const [deleted, setDeleted] = useState(0)
     const [error, setError] = useState<string|null>(null)
     
-    const isValid = useCalculatedState(() => !!name, [name])
-    const searchResults = useCalculatedState(loadSaves, [name, deleted])
+    const isValid = useMemo(() => !!name, [name])
+    const searchResults = useMemo(loadSaves, [name, deleted])
 
     function save() {
         if (!isValid) return

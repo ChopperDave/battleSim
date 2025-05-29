@@ -1,7 +1,7 @@
-import { FC, useEffect, useState } from "react"
+import { FC, useEffect, useMemo, useState } from "react"
 import { Creature, CreatureSchema } from "../../model/model"
 import styles from './creatureForm.module.scss'
-import { clone } from "../../model/utils"
+import { clone, validate } from "../../model/utils"
 import PlayerForm from "./playerForm"
 import MonsterForm from "./monsterForm"
 import CustomForm from "./customForm"
@@ -34,21 +34,14 @@ function newCreature(mode: 'player'|'monster'): Creature {
 
 const CreatureForm:FC<PropType> = ({ initialMode, onSubmit, onCancel, initialValue, onDelete }) => {
     const [value, setValue] = useState<Creature>(initialValue || newCreature(initialMode || 'player'))
-    const [isValid, setIsValid] = useState(false)
-    useEffect(() => {
-        if (!CreatureSchema.safeParse(value).success) {
-            setIsValid(false)
-            return
-        }
-
-        if (value.mode === 'player') {
-            setIsValid(!!value.class)
-        } else if (value.mode === 'monster') {
-            setIsValid(!!value.cr)
-        } else {
-            setIsValid(true)
-        }
-    }, [value])
+ 
+    const { isValid, errorPaths } = validate(value, CreatureSchema.refine(v => {
+        if (value.mode === 'player') return !!value.class
+        
+        if (value.mode === 'monster') return !!value.cr
+            
+        return true
+    }))
 
     function update(callback: (clonedValue: Creature) => void, condition?: boolean) {
         if (condition === false) return

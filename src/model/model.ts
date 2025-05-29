@@ -23,10 +23,7 @@ export const FrequencySchema = z.enum(FrequencyList).or(z.discriminatedUnion('re
 ]))
 export type Frequency = z.infer<typeof FrequencySchema>;
 
-const BuffSchema = z.object({
-    displayName: z.string().optional(),
-    duration: BuffDurationSchema,
-
+export const BuffModifiersSchema = z.object({
     ac: DiceFormulaSchema.optional(),
     toHit: DiceFormulaSchema.optional(),
     damage: DiceFormulaSchema.optional(),
@@ -36,10 +33,30 @@ const BuffSchema = z.object({
     dc: DiceFormulaSchema.optional(),
     save: DiceFormulaSchema.optional(),
     condition: CreatureConditionSchema.optional(),
+})
+
+export const BuffMetadataSchema = z.object({
+    // The id of the creature who created the buff. 
+    // This is used to determine the save DC if the duration is "repeat save once per round", or to reduce the magnitude when the buffer gets hit if the duration is "concentration"
+    bufferId: z.string(),
+
+    // Name of the action that created the buff
+    displayName: z.string().optional(),
+
+    duration: BuffDurationSchema,
 
     // Odds that the buff was applied. All of the effects are multiplied by this value. Default 1.
     magnitude: z.number().optional(),
 })
+
+const BuffSchema = z.intersection(BuffMetadataSchema, BuffModifiersSchema)
+
+export function extractModifiers(buff: Buff) {
+    const { bufferId, displayName, duration, magnitude, ...modifiers } = buff
+    const metadata = { bufferId, displayName, duration, magnitude }
+
+    return { metadata, modifiers }
+}
 
 // Not to be used directly. See ActionSchema
 const ActionSchemaBase = z.object({
@@ -127,30 +144,41 @@ const TemplateActionSchema = z.object({
     }),
 })
 
+const SummonActionSchema = ActionSchemaBase.merge(z.object({
+    type: z.literal("summon"),
+    creatureId: z.string(),
+    // "target" field represents the number of summoned creatures
+}))
+
+const SubActionSchema = z.discriminatedUnion('type', [
+    HealActionSchema.omit({ "actionSlot": true }),
+    AtkActionSchema.omit({ "actionSlot": true }),
+    BuffActionSchema.omit({ "actionSlot": true }),
+    DebuffActionSchema.omit({ "actionSlot": true }),
+    SummonActionSchema.omit({ "actionSlot": true }),
+    TemplateActionSchema,
+])
+
 const MultiActionSchema = ActionSchemaBase.omit({ "targets": true }).merge(z.object({
     type: z.literal('multi'),
-    actions: z.array(z.discriminatedUnion('type', [
-        HealActionSchema.omit({ "actionSlot": true }),
-        AtkActionSchema.omit({ "actionSlot": true }),
-        BuffActionSchema.omit({ "actionSlot": true }),
-        DebuffActionSchema.omit({ "actionSlot": true }),
-        TemplateActionSchema,
-    ])),
+    actions: z.array(SubActionSchema),
 }))
 
 // Like a regular Action, but without the possibility of it being a TemplateAction
 export const FinalActionSchema = z.discriminatedUnion('type', [
-    HealActionSchema, 
-    AtkActionSchema, 
-    BuffActionSchema, 
-    DebuffActionSchema, 
+    HealActionSchema,
+    AtkActionSchema,
+    BuffActionSchema,
+    DebuffActionSchema,
+    SummonActionSchema,
 ])
 
-const ActionSchema = z.discriminatedUnion('type', [
-    HealActionSchema, 
-    AtkActionSchema, 
-    BuffActionSchema, 
-    DebuffActionSchema, 
+export const ActionSchema = z.discriminatedUnion('type', [
+    HealActionSchema,
+    AtkActionSchema,
+    BuffActionSchema,
+    DebuffActionSchema,
+    SummonActionSchema,
     TemplateActionSchema,
     MultiActionSchema,
 ])
@@ -225,6 +253,7 @@ export const EncounterSchema = z.object({
 
 const EncounterStatsSchema = z.object({
     damageDealt: z.number(),
+    damagePerAction: z.map(z.string(), z.number()),
     damageTaken: z.number(),
     
     healGiven: z.number(),
@@ -236,6 +265,8 @@ const EncounterStatsSchema = z.object({
     charactersDebuffed: z.number(),
     debuffsReceived: z.number(),
 
+    creaturesSummoned: z.number(),
+
     timesUnconscious: z.number(),
 })
 
@@ -245,15 +276,37 @@ const EncounterResultSchema = z.object({
 })
 const SimulationResultSchema = z.array(EncounterResultSchema)
 
+const StrategySchema = z.enum([
+    'CUSTOM',
+    'SPREAD_OUT',
+    'FOCUS_FIRE',
+] as const)
+
+export const EncounterTweakSchema = z.object({
+    hpTweaks: z.map(z.string(), z.number()),
+    damageTweaks: z.map(z.string(), z.map(z.string(), z.number())), // Map(creatureId, Map(actionId, newDamage))
+})
+
+export const SimulationSettingsSchema = z.object({
+    luck: z.number().int(),
+    team1Strategy: StrategySchema,
+    team2Strategy: StrategySchema,
+    encounterTweaks: z.map(z.number(), EncounterTweakSchema),
+})
+
 export type DiceFormula = z.infer<typeof DiceFormulaSchema>
+export type BuffMetadata = z.infer<typeof BuffMetadataSchema>
+export type BuffModifiers = z.infer<typeof BuffModifiersSchema>
 export type Buff = z.infer<typeof BuffSchema>
 export type EnemyTarget = z.infer<typeof EnemyTargetSchema>
 export type AllyTarget = z.infer<typeof AllyTargetSchema>
+export type SummonAction = z.infer<typeof SummonActionSchema>
 export type AtkAction = z.infer<typeof AtkActionSchema>
 export type HealAction = z.infer<typeof HealActionSchema>
 export type BuffAction = z.infer<typeof BuffActionSchema>
 export type DebuffAction = z.infer<typeof DebuffActionSchema>
 export type TemplateAction = z.infer<typeof TemplateActionSchema>
+export type SubAction = z.infer<typeof SubActionSchema>
 export type MultiAction = z.infer<typeof MultiActionSchema>
 export type Action = z.infer<typeof ActionSchema>
 export type FinalAction = z.infer<typeof FinalActionSchema>
@@ -266,3 +319,6 @@ export type EncounterStats = z.infer<typeof EncounterStatsSchema>
 export type Encounter = z.infer<typeof EncounterSchema>
 export type EncounterResult = z.infer<typeof EncounterResultSchema>
 export type SimulationResult = z.infer<typeof SimulationResultSchema>
+export type Strategy = z.infer<typeof StrategySchema>
+export type EncounterTweak = z.infer<typeof EncounterTweakSchema>
+export type SimulationSettings = z.infer<typeof SimulationSettingsSchema>

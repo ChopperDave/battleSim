@@ -22,6 +22,7 @@ export const EnemyTargetList = [
     'enemy with highest DPR',
     'enemy with lowest AC',
     'enemy with highest AC',
+    'random enemy'
 ] as const
 export const EnemyTargetSchema = z.enum(EnemyTargetList)
 export type EnemyTarget = z.infer<typeof EnemyTargetSchema>
@@ -33,6 +34,7 @@ export const AllyTargetList = [
     'ally with the lowest AC',
     'ally with the highest AC',
     'self',
+    'random ally',
 ] as const
 export const AllyTargetSchema = z.enum(AllyTargetList)
 export type AllyTarget = z.infer<typeof AllyTargetSchema>
@@ -79,11 +81,18 @@ export const CreatureConditionList = [
 export const CreatureConditionSchema = z.enum(CreatureConditionList)
 export type CreatureCondition = z.infer<typeof CreatureConditionSchema>
 
-export const ActionTypeList = ['atk', 'heal', 'buff', 'debuff', 'template', 'multi'] as const
+export const ActionTypeList = ['atk', 'heal', 'buff', 'debuff', 'summon', 'template', 'multi'] as const
 export const ActionTypeSchema = z.enum(ActionTypeList)
 export type ActionType = z.infer<typeof ActionTypeSchema>
 
-export const BuffDurationList = ['until next attack made', 'until next attack taken', '1 round', 'repeat the save each round', 'entire encounter'] as const
+export const BuffDurationList = [
+    'until next attack made', 
+    'until next attack taken', 
+    '1 round', 
+    'repeat the save each round', 
+    'entire encounter',
+    'concentration',
+] as const
 export const BuffDurationSchema = z.enum(BuffDurationList)
 export type BuffDuration = z.infer<typeof BuffDurationSchema>
 

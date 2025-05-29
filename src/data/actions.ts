@@ -1,5 +1,5 @@
 import { v4 as uuid } from 'uuid'
-import { Action, FinalAction } from "../model/model"
+import { Action, AtkAction, BuffAction, DebuffAction, FinalAction, HealAction } from "../model/model"
 import { ActionSlots, AllyTarget, EnemyTarget } from '../model/enums';
 
 export const ActionTemplates = {
@@ -8,6 +8,7 @@ export const ActionTemplates = {
         type: 'debuff',
         targets: 3,
         buff: {
+            bufferId: "",
             duration: 'entire encounter',
             toHit: '-1d4',
             save: '-1d4',
@@ -20,6 +21,7 @@ export const ActionTemplates = {
         type: 'buff',
         targets: 3,
         buff: {
+            bufferId: "",
             duration: 'entire encounter',
             toHit: '1d4',
             save: '1d4',
@@ -58,6 +60,7 @@ export const ActionTemplates = {
         
         saveDC: 0,
         buff: {
+            bufferId: "",
             duration: '1 round',
             condition: 'Incapacitated',
         },
@@ -78,6 +81,7 @@ export const ActionTemplates = {
         targets: 1,
         target: 'self',
         buff: {
+            bufferId: "",
             duration: '1 round',
             ac: 5,
         },
@@ -85,7 +89,7 @@ export const ActionTemplates = {
 }
 
 type RealOmit<T, K extends keyof T> = { [P in keyof T as P extends K ? never : P]: T[P] };
-type ActionTemplate = RealOmit<FinalAction, 'condition'|'target'|'freq'|'name'|'id'> & { target?: AllyTarget|EnemyTarget }
+type ActionTemplate = RealOmit<AtkAction|BuffAction|DebuffAction|HealAction, 'condition'|'target'|'freq'|'name'|'id'> & { target?: AllyTarget|EnemyTarget }
 
 // For type safety
 function createTemplate(action: ActionTemplate): ActionTemplate {

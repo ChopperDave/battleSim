@@ -3,7 +3,7 @@ import { Creature, CreatureSchema } from "../../model/model";
 import styles from './loadCreatureForm.module.scss'
 import Modal from "../utils/modal";
 import { z } from 'zod'
-import { clone, useCalculatedState } from "../../model/utils";
+import { clone } from "../../model/utils";
 import SortTable from "../utils/sortTable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolder, faTrash } from "@fortawesome/free-solid-svg-icons";

@@ -1,8 +1,8 @@
-import { FC, } from "react"
+import { FC, useMemo, } from "react"
 import { Creature, CreatureSchema } from "../../model/model"
 import styles from './monsterForm.module.scss'
 import { ChallengeRating, ChallengeRatingList, CreatureType, CreatureTypeList, numericCR } from "../../model/enums"
-import { capitalize, clone, sharedStateGenerator, useCalculatedState } from "../../model/utils"
+import { capitalize, clone, sharedStateGenerator } from "../../model/utils"
 import { Monsters } from "../../data/monsters"
 import Range from "../utils/range"
 import SortTable from "../utils/sortTable"
@@ -21,7 +21,7 @@ const MonsterForm:FC<PropType> = ({ onChange, value }) => {
     const [maxCR, setMaxCR] = useSharedState<ChallengeRating>(ChallengeRatingList[ChallengeRatingList.length - 2])
     const [name, setName] = useSharedState<string>('')
 
-    const searchResults = useCalculatedState(() => Monsters.filter(monster => {
+    const searchResults = useMemo(() => Monsters.filter(monster => {
         if (!monster.name.toLocaleLowerCase().includes(name.toLocaleLowerCase())) return false
         if (!monster.cr) return false
         if (numericCR(monster.cr) > numericCR(maxCR)) return false

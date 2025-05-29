@@ -85,8 +85,38 @@
                 margin: 0;
                 border-radius: 0;
                 text-align: left;
+                display: flex;
+                align-items: center;
+                gap: 1em;
+                padding: 1em;
 
                 &:not(:hover) { background: none }
+
+                svg { margin: 0 }
+            }
+        }
+
+        .copyBtn {
+            position: relative;
+
+            .success {
+                pointer-events: none;
+                user-select: none;
+                position: absolute;
+                top: -15px;
+                opacity: 0;
+            }
+
+            &:focus .success {
+                animation-name: fadeOut;
+                animation-duration: 400ms;
+                animation-fill-mode: forwards;
+                animation-iteration-count: 1;
+            }
+            
+            @keyframes fadeOut {
+                from { opacity: 1; top: -15px }
+                to { opacity: 0; top: -30px }
             }
         }
     }

@@ -1,6 +1,6 @@
 {
     "$type": {
-        "$from": "./monsters.ts",
+        "$from": "../monsters.ts",
         "$import": "MonsterBook"
     },
 

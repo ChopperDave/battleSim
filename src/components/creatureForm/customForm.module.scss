@@ -31,8 +31,32 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        gap: 1em;
 
         .label { flex-grow: 1 }
-        .createActionBtn { flex-shrink: 1; margin: 0 }
+        
+        .createActionBtn {
+            flex-shrink: 1; 
+            margin: 0;
+            display: flex;
+            gap: 1em;
+            padding: 1em;
+
+            svg { margin: 0 }
+
+            label {
+                cursor: pointer;
+                @media (width < 500px) { display: none }
+            }
+        }
+    }
+
+    .parseError {
+        color: #faa;
+        display: flex;
+        align-items: center;
+        gap: 1em;
+
+        button { padding: 6px; margin: 0 }
     }
 }

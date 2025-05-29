@@ -1,15 +1,16 @@
 import { FC, useEffect, useMemo, useRef, useState } from "react"
-import { Action, AllyTarget, AtkAction, Buff, BuffAction, DebuffAction, DiceFormula, EnemyTarget, FinalAction, Frequency, HealAction, MultiAction, TemplateAction } from "../../model/model"
+import { Action, AllyTarget, AtkAction, Buff, BuffAction, BuffModifiers, DebuffAction, DiceFormula, EnemyTarget, extractModifiers, FinalAction, Frequency, HealAction, MultiAction, SummonAction, TemplateAction } from "../../model/model"
 import styles from './actionForm.module.scss'
-import { clone } from "../../model/utils"
+import { clone, keys } from "../../model/utils"
 import { ActionType, BuffDuration, ActionCondition, CreatureConditionList, CreatureCondition, ActionSlots } from "../../model/enums"
 import Select from "../utils/select"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChevronDown, faChevronUp, faPlus, faTrash } from "@fortawesome/free-solid-svg-icons"
+import { faChevronDown, faChevronUp, faCopy, faPlus, faTrash } from "@fortawesome/free-solid-svg-icons"
 import DecimalInput from "../utils/DecimalInput"
 import DiceFormulaInput from "../utils/diceFormulaInput"
 import { ActionTemplates, getFinalActions } from "../../data/actions"
 import { v4 as uuid } from 'uuid'
+import { Monsters } from "../../data/monsters"
 
 type PropType = {
     value: Action,
@@ -52,6 +53,7 @@ const TypeOptions: Options<ActionType> = [
     { value: 'heal', label: 'Heal' },
     { value: 'buff', label: 'Buff' },
     { value: 'debuff', label: 'Debuff' },
+    { value: 'summon', label: 'Summon' },
     { value: 'multi', label: 'Multiple Actions' },
 ]
 
@@ -95,6 +97,7 @@ const EnemyTargetOptions: Options<EnemyTarget> = [
     { value: 'enemy with highest DPR', label: 'Enemy with highest DPR' },
     { value: 'enemy with lowest AC', label: 'Enemy with lowest AC' },
     { value: 'enemy with highest AC', label: 'Enemy with highest AC' },
+    { value: 'random enemy', label: 'Random enemy' },
 ]
 
 const AllyTargetOptions: Options<AllyTarget> = [
@@ -104,17 +107,19 @@ const AllyTargetOptions: Options<AllyTarget> = [
     { value: 'ally with the highest DPR', label: 'Ally with the highest DPR' },
     { value: 'ally with the lowest AC', label: 'Ally with the lowest AC' },
     { value: 'ally with the highest AC', label: 'Ally with the highest AC' },
+    { value: 'random ally', label: 'Random ally' },
 ]
 
 const BuffDurationOptions: Options<BuffDuration> = [
     { value: '1 round', label: "1 Round" },
+    { value: 'concentration', label: "Concentration" },
     { value: 'repeat the save each round', label: "Repeat the save each round" },
     { value: 'entire encounter', label: 'Entire Encounter' },
     { value: 'until next attack taken', label: 'Until the next attack taken' },
     { value: 'until next attack made', label: 'Until the next attack made' }
 ]
 
-const BuffStatOptions: Options<keyof Omit<Buff, 'duration'|'displayName'>> = [
+const BuffStatOptions: Options<keyof BuffModifiers> = [
     { value: 'condition', label: 'Condition' },
     { value: 'ac', label: 'Armor Class' },
     { value: 'save', label: 'Bonus to Saves' },
@@ -146,13 +151,16 @@ function newSubAction(): Omit<AtkAction, 'actionSlot'> {
 }
 
 const BuffForm:FC<{value: Buff, onUpdate: (newValue: Buff) => void}> = ({ value, onUpdate }) => {
-    const [modifiers, setModifiers] = useState<(keyof Omit<Buff, 'duration'>)[]>(Object.keys(value).filter(key => (key !== 'duration')) as any)
+    // This makes sure the order of the modifiers is consistent in the UI
+    const [modifiers, setModifiers] = useState<(keyof BuffModifiers)[]>(keys(extractModifiers(value).modifiers))
 
+    // This is triggered when a new effect is added by the parent ActionForm
     useEffect(function onBuffUpdated() {
-        setModifiers(Object.keys(value).filter(key => (key !== 'duration')) as any)
+        const newModifiers = keys(extractModifiers(value).modifiers).filter(key => !modifiers.includes(key))
+        setModifiers([...modifiers, ...newModifiers])
     }, [value])
 
-    function setModifier(index: number, newValue: keyof Omit<Buff, 'duration'> | null) {
+    function setModifier(index: number, newValue: keyof BuffModifiers | null) {
         const oldModifier = modifiers[index]
         if (oldModifier === newValue) return
 
@@ -166,15 +174,15 @@ const BuffForm:FC<{value: Buff, onUpdate: (newValue: Buff) => void}> = ({ value,
         setModifiers(modifiersClone)
     }
 
-    function updateValue(modifier: keyof Omit<Buff, 'duration'|'condition'|'displayName'>, newValue: number) {
+    function updateValue(modifier: keyof Omit<BuffModifiers, 'condition'>, newValue: number) {
         const buffClone = clone(value)
         buffClone[modifier] = newValue
         onUpdate(buffClone)
     }
 
-    function updateDiceFormula(modifier: string, newValue: DiceFormula) {
+    function updateDiceFormula(modifier: keyof Omit<BuffModifiers, "condition"|"damageMultiplier"|"damageTakenMultiplier">, newValue: DiceFormula) {
         const buffClone = clone(value);
-        (buffClone as any)[modifier] = newValue
+        buffClone[modifier] = newValue
         onUpdate(buffClone)
     }
 
@@ -190,7 +198,7 @@ const BuffForm:FC<{value: Buff, onUpdate: (newValue: Buff) => void}> = ({ value,
             {modifiers.map((modifier, index) => (
                 <div key={modifier} className={styles.modifier}>
                     <Select 
-                        value={modifier} 
+                        value={modifier}
                         onChange={newValue => setModifier(index, newValue)} 
                         options={BuffStatOptions.filter(option => (modifier === option.value) || !modifiers.includes(option.value))}
                     />
@@ -311,7 +319,7 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
     function updateRiderEffect(callback: (riderEffect: { dc: number, buff: Buff }) => void) {
         update((actionClone) => {
             const atkAction = (actionClone as AtkAction)
-            atkAction.riderEffect ||= { dc: 0, buff: { duration: '1 round' } }
+            atkAction.riderEffect ||= { dc: 0, buff: { bufferId: "", duration: '1 round' } }
             callback(atkAction.riderEffect)
         })
     }
@@ -341,9 +349,10 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
             case "template": return onChange(templateAction)
             case "atk": return onChange({...common, type, target: "enemy with most HP", targets: 1, dpr: 0, toHit: 0 })
             case "heal": return onChange({...common, type, amount: 0, target: "ally with the least HP", targets: 1, })
-            case "buff": return onChange({...common, type, target: "ally with the highest DPR", targets: 1, buff: { duration: '1 round' } })
-            case "debuff": return onChange({...common, type, target: "enemy with highest DPR", targets: 1, saveDC: 10, buff: { duration: '1 round' } })
+            case "buff": return onChange({...common, type, target: "ally with the highest DPR", targets: 1, buff: { bufferId: "", duration: '1 round' } })
+            case "debuff": return onChange({...common, type, target: "enemy with highest DPR", targets: 1, saveDC: 10, buff: { bufferId: "", duration: '1 round' } })
             case "multi": return onChange({ ...common, type, actions: [newSubAction(), newSubAction()] })
+            case "summon": return onChange({ ...common, type, creatureId: "", targets: 1 })
         }
     }
 
@@ -382,12 +391,6 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
                         <FontAwesomeIcon icon={faChevronDown} />
                 </button>
             </div>
-
-            <button
-                className={styles.controlBtn}
-                onClick={onDelete}>
-                    <FontAwesomeIcon icon={faTrash} />
-            </button>
 
             { value.type !== 'template' ? (
                 <>
@@ -496,9 +499,32 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
             
             { ((value.type === 'atk') && (!value.useSaves)) ? (
                 <Select value={value.targets} options={HitCountOptions} onChange={targets => updateFinalAction(v => v.targets = targets)} />
+            ) : (value.type === 'summon') ? (
+                <div className="tooltipContainer">
+                    <input 
+                        type='number'
+                        min={1}
+                        max={20}
+                        step={1}
+                        className={value.targets < 1 ? styles.invalid : ''}
+                        value={value.targets}
+                        style={{ maxWidth: `${String(value.targets).length + 3}ch`}}
+                        onChange={e => update(v => { (v as SummonAction).targets = Math.max(1, Math.min(20, Math.round(Number(e.target.value || 0)))) })}/>
+                    
+                    <div className="tooltip">
+                        Summoned creatures count
+                    </div>
+                </div>
             ) : ((value.type !== 'template') && (value.type !== 'multi')) ? (
                 <Select value={value.targets} options={TargetCountOptions} onChange={targets => updateFinalAction(v => { v.targets = targets })} />
             ) : null }
+
+            { (value.type === 'summon') && (
+                <Select
+                    value={value.creatureId}
+                    options={Monsters.map(monster => ({ value: monster.id, label: monster.name }))}
+                    onChange={newValue => update(clone => { (clone as SummonAction).creatureId = newValue })} />
+            )}
 
             { ((value.condition !== "default") || addedFields.includes(FormActionField.Condition)) && (
                 <div className={`${styles.conditionContainer} ${addedFields.includes(FormActionField.Condition) && styles.pristine}`}>
@@ -545,7 +571,10 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
                     ) : null }
                     
                     Target:
-                    <Select value={value.target} options={EnemyTargetOptions} onChange={target => updateFinalAction(v => { v.target = target })} />
+                    <Select
+                        value={value.target}
+                        options={EnemyTargetOptions}
+                        onChange={target => updateFinalAction(v => { (v as AtkAction).target = target })} />
 
                     { (!!value.riderEffect) ? (
                         <>
@@ -557,7 +586,7 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
                             <BuffForm
                                 value={value.riderEffect.buff}
                                 onUpdate={newValue => {
-                                    const { duration, displayName, magnitude, ...modifiers } = newValue
+                                    const { modifiers } = extractModifiers(newValue)
 
                                     if (!Object.keys(modifiers).length) {
                                         update(clone => delete (clone as AtkAction).riderEffect)
@@ -584,27 +613,49 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
                     </div>
                     <DiceFormulaInput value={value.amount} onChange={heal => update(v => { (v as HealAction).amount = heal || 0 })} />
                     Target:
-                    <Select value={value.target} options={AllyTargetOptions} onChange={target => updateFinalAction(v => { v.target = target })} />
+                    <Select
+                        value={value.target}
+                        options={AllyTargetOptions}
+                        onChange={target => updateFinalAction(v => { (v as HealAction).target = target })} />
                 </>
             ) : null }
             { (value.type === "buff") ? (
                 <>
                     Target:
-                    <Select value={value.target} options={AllyTargetOptions} onChange={target => updateFinalAction(v => { v.target = target })} />
+                    <Select
+                        value={value.target}
+                        options={AllyTargetOptions}
+                        onChange={target => updateFinalAction(v => { (v as BuffAction).target = target })} />
                     Duration:
-                    <Select value={value.buff.duration} options={BuffDurationOptions} onChange={duration => update(v => { (v as BuffAction).buff.duration = duration })} />
-                    <BuffForm value={value.buff} onUpdate={newValue => update(v => { (v as BuffAction).buff = newValue })} />
+                    <Select
+                        value={value.buff.duration}
+                        options={BuffDurationOptions}
+                        onChange={duration => update(v => { (v as BuffAction).buff.duration = duration })} />
+                    <BuffForm
+                        value={value.buff}
+                        onUpdate={newValue => update(v => { (v as BuffAction).buff = newValue })} />
                 </>
             ) : null }
             { (value.type === "debuff") ? (
                 <>
                     Target:
-                    <Select value={value.target} options={EnemyTargetOptions} onChange={target => updateFinalAction(v => { v.target = target })} />
+                    <Select
+                        value={value.target}
+                        options={EnemyTargetOptions}
+                        onChange={target => updateFinalAction(v => { (v as DebuffAction).target = target })} />
                     Duration:
-                    <Select value={value.buff.duration} options={BuffDurationOptions} onChange={duration => update(v => { (v as DebuffAction).buff.duration = duration })} />
+                    <Select
+                        value={value.buff.duration}
+                        options={BuffDurationOptions}
+                        onChange={duration => update(v => { (v as DebuffAction).buff.duration = duration })} />
                     Save DC:
-                    <input type='number' value={value.saveDC} onChange={e => update(v => { (v as DebuffAction).saveDC = Number(e.target.value) })} />
-                    <BuffForm value={value.buff} onUpdate={newValue => update(v => { (v as DebuffAction).buff = newValue })} />
+                    <input
+                        type='number'
+                        value={value.saveDC}
+                        onChange={e => update(v => { (v as DebuffAction).saveDC = Number(e.target.value) })} />
+                    <BuffForm
+                        value={value.buff}
+                        onUpdate={newValue => update(v => { (v as DebuffAction).buff = newValue })} />
                 </>
             ) : null }
             { (value.type === "template") ? (() => {
@@ -647,65 +698,78 @@ const ActionForm:FC<PropType> = ({ value, onChange, onDelete, onMoveUp, onMoveDo
                 return targetForm
             })() : null }
 
-            {(addableActions.length > 0) && (
-                <div className={styles.addFieldBtnContainer} ref={addFieldMenuRef}>
-                    <button className={styles.addFieldBtn} onClick={() => setAddFieldMenuOpen(true)}>
-                        <FontAwesomeIcon icon={faPlus} />
-                    </button>
-                    { isAddFieldMenuOpen && (
-                        <div className={styles.addFieldMenu}>
-                            { addableActions.map(addable => (
-                                <button onClick={() => {
-                                    setAddFieldMenuOpen(false)
+            <div className={styles.addFieldBtnContainer} ref={addFieldMenuRef}>
+                <button className={styles.addFieldBtn} onClick={() => setAddFieldMenuOpen(true)}>
+                    <FontAwesomeIcon icon={faPlus} />
+                </button>
+                { isAddFieldMenuOpen && (
+                    <div className={styles.addFieldMenu}>
+                        { addableActions.map(addable => (
+                            <button onClick={() => {
+                                setAddFieldMenuOpen(false)
 
-                                    if (addable === FormActionField["Limited Resource"]) setAddedFields([...addedFields, FormActionField["Limited Resource"]])
-                                    if (addable === FormActionField.Condition) setAddedFields([...addedFields, FormActionField.Condition])
+                                if (addable === FormActionField["Limited Resource"]) setAddedFields([...addedFields, FormActionField["Limited Resource"]])
+                                if (addable === FormActionField.Condition) setAddedFields([...addedFields, FormActionField.Condition])
 
-                                    if (addable === FormActionField.Effect) {
-                                        type BuffModifier = keyof Omit<Buff, 'duration'|'displayName'>
-                                        
-                                        if ((value.type === "buff") || (value.type === "debuff")) {
-                                            update(clone => {
-                                                const newModifier: undefined|BuffModifier = BuffStatOptions.find(({ value: buffType }) => !Object.keys(value.buff).includes(buffType))?.value
-                                                if (!newModifier) return;
-                                                
-                                                if (newModifier === "condition") {
-                                                    ((clone as BuffAction).buff!).condition = "Poisoned"
-                                                } else {
-                                                    ((clone as BuffAction).buff!)[newModifier] = 0
-                                                }
-                                            })
-                                        } else if (value.type === "atk") {
-                                            update(clone => {
-                                                const newModifier: undefined|BuffModifier = BuffStatOptions.find(({ value: buffType }) => !Object.keys(value.riderEffect?.buff || {}).includes(buffType))?.value
-                                                if (!newModifier) return;
-                                                
-                                                if (!(clone as AtkAction).riderEffect) {
-                                                    (clone as AtkAction).riderEffect = { dc: 10, buff: { duration: "1 round" } }
-                                                }
+                                if (addable === FormActionField.Effect) {
+                                    if ((value.type === "buff") || (value.type === "debuff")) {
+                                        update(clone => {
+                                            const newModifier: undefined|keyof BuffModifiers = BuffStatOptions.find(({ value: buffType }) => !keys(value.buff).includes(buffType))?.value
+                                            if (!newModifier) return;
+                                            
+                                            if (newModifier === "condition") {
+                                                ((clone as BuffAction).buff).condition = "Poisoned"
+                                            } else {
+                                                ((clone as BuffAction).buff)[newModifier] = 0
+                                            }
+                                        })
+                                    } else if (value.type === "atk") {
+                                        update(clone => {
+                                            const newModifier: undefined|keyof BuffModifiers = BuffStatOptions.find(({ value: buffType }) => !keys(value.riderEffect?.buff ? extractModifiers(value.riderEffect?.buff).modifiers : {}).includes(buffType))?.value
+                                            if (!newModifier) return;
+                                            
+                                            if (!(clone as AtkAction).riderEffect) {
+                                                (clone as AtkAction).riderEffect = { dc: 10, buff: { bufferId: "", duration: "1 round" } }
+                                            }
 
-                                                if (newModifier === "condition") {
-                                                    ((clone as AtkAction).riderEffect!.buff!).condition = "Poisoned"
-                                                } else {
-                                                    ((clone as AtkAction).riderEffect!.buff!)[newModifier] = 0
-                                                }
-                                            })
-                                        }
-                                    }
-
-                                    if ((addable === FormActionField.Action) && (value.type === "multi")) {
-                                        updateMultiAction(clone => {
-                                            clone.actions.push(newSubAction())
+                                            if (newModifier === "condition") {
+                                                ((clone as AtkAction).riderEffect!.buff!).condition = "Poisoned"
+                                            } else {
+                                                ((clone as AtkAction).riderEffect!.buff!)[newModifier] = 0
+                                            }
                                         })
                                     }
-                                }}>
-                                    {FormActionField[addable]}
-                                </button>
-                            ))}
-                        </div>
-                    )}
-                </div>
-            )}
+                                }
+
+                                if ((addable === FormActionField.Action) && (value.type === "multi")) {
+                                    updateMultiAction(clone => {
+                                        clone.actions.push(newSubAction())
+                                    })
+                                }
+                            }}>
+                                <FontAwesomeIcon icon={faPlus} />
+                                {FormActionField[addable]}
+                            </button>
+                        ))}
+
+                        <button 
+                            className={styles.copyBtn}
+                            onClick={() => navigator.clipboard.write([new ClipboardItem({
+                                "text/plain": JSON.stringify(value),
+                            })])}>
+                                <FontAwesomeIcon icon={faCopy} />
+                                Copy Action
+
+                                <span className={styles.success}>Copied!</span>
+                        </button>
+                        
+                        <button onClick={onDelete}>
+                            <FontAwesomeIcon icon={faTrash} />
+                            Delete Action
+                        </button>
+                    </div>
+                )}
+            </div>
 
             { (value.type === "multi") && <>
                 <div className={styles.multiContainer}>
