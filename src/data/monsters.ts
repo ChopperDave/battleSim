@@ -34649,7 +34649,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8,
                 "targets": 1,
                 "actionSlot": 0,
-                "freq": "1/short rest",
+                "freq": "1/fight",
                 "condition": "default",
                 "target": "enemy with most HP"
             },
@@ -34661,7 +34661,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8,
                 "targets": 1,
                 "actionSlot": 0,
-                "freq": "1/short rest",
+                "freq": "1/fight",
                 "condition": "default",
                 "target": "enemy with most HP"
             },
@@ -34673,7 +34673,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8,
                 "targets": 1,
                 "actionSlot": 0,
-                "freq": "1/short rest",
+                "freq": "1/fight",
                 "condition": "default",
                 "target": "enemy with most HP"
             },
@@ -34685,7 +34685,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8,
                 "targets": 1,
                 "actionSlot": 0,
-                "freq": "1/short rest",
+                "freq": "1/fight",
                 "condition": "default",
                 "target": "enemy with most HP"
             },
