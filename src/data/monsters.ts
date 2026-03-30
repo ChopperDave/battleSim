@@ -25025,7 +25025,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 15,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -27128,7 +27128,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -27563,7 +27563,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 13,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -27717,7 +27717,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 100,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -27795,7 +27795,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 16,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -27853,7 +27853,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 14,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -28254,7 +28254,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 100,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -28780,7 +28780,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 12,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -29017,7 +29017,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 13,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -29358,7 +29358,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -29781,7 +29781,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 12,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -29939,7 +29939,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -29999,7 +29999,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 17,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -30072,7 +30072,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 19,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -30198,7 +30198,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 16,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -30217,7 +30217,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -30341,7 +30341,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 12,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -30535,7 +30535,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 11,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -31104,7 +31104,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -31475,7 +31475,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 10,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -31698,7 +31698,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 100,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -31808,7 +31808,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -31866,7 +31866,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 13,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -32091,7 +32091,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 100,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -32649,7 +32649,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 100,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -32812,7 +32812,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -33141,7 +33141,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 100,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -33600,7 +33600,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -33711,7 +33711,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -33765,7 +33765,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 12,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -34304,7 +34304,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -34512,7 +34512,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 12,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -35492,7 +35492,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 13,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -35698,7 +35698,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 11,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -36303,7 +36303,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -36885,7 +36885,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 11,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -37615,7 +37615,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -37671,7 +37671,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 15,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -37852,7 +37852,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 17,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -37948,7 +37948,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 100,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -38094,7 +38094,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -38125,7 +38125,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -38196,7 +38196,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 21,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -38242,7 +38242,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 100,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -38273,7 +38273,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 100,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -38625,7 +38625,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 12,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -38807,7 +38807,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -38827,7 +38827,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 10,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -38926,7 +38926,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 18,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -39148,7 +39148,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 15,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -39302,7 +39302,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 14,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -39704,7 +39704,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 14,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -39723,7 +39723,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -39768,7 +39768,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -39788,7 +39788,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 11,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -39911,7 +39911,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 11,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -40387,7 +40387,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 12,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -40549,7 +40549,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 20,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -40583,7 +40583,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 20,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -41435,7 +41435,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 27,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Frightened"
                     }
                 }
@@ -41910,7 +41910,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 17,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Stunned"
                     }
                 }
@@ -42067,7 +42067,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 100,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -42159,7 +42159,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 100,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -42281,7 +42281,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 15,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -42355,7 +42355,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 15,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
@@ -43163,7 +43163,7 @@ export const Monsters: Creature[] = [
             "riderEffect": {
                 "dc": 100,
                 "buff": {
-                    "duration": "1 rounds",
+                    "duration": "1 round",
                     "condition": "Poisoned"
                 }
             }
@@ -43830,7 +43830,7 @@ export const Monsters: Creature[] = [
                 "riderEffect": {
                     "dc": 14,
                     "buff": {
-                        "duration": "1 rounds",
+                        "duration": "1 round",
                         "condition": "Poisoned"
                     }
                 }
