@@ -43,6 +43,46 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
+    "id": "6ab402dc-366b-4ba5-ab32-f3fab5916592",
+    "mode": "monster",
+    "name": "Aarakocra Aeromancer",
+    "type": "elemental",
+    "src": "2024 MM p.10",
+    "cr": "4",
+    "hp": 66,
+    "AC": 16,
+    "actions": [
+        {
+            "id": "576ca8c7-6c95-4490-9dcd-ed7c070d8932",
+            "name": "Lightning Bolt",
+            "actionSlot": 0,
+            "condition": "is available",
+            "targets": 2,
+            "type": "atk",
+            "dpr": 28,
+            "target": "enemy with most HP",
+            "useSaves": "true",
+            "halfOnSave": "true",
+            "freq": "1/day",
+            "toHit": 13
+          },
+          {
+            "id": "b60f3aa3-3ca5-4a1c-9fb6-f88f90368e40",
+            "name": "Wind Staff x2",
+            "type": "atk",
+            "actionSlot": 0,
+            "freq": "at will",
+            "condition": "default",
+            "target": "enemy with most HP",
+            "targets": 1,
+            "dpr": 37.0,
+            "toHit": 5
+          }
+        ],
+    "count": 1,
+    "saveBonus": 2
+    },
+    {
         "id": "87662fb6-772f-4a82-95c2-b69b89fe88c9",
         "mode": "monster",
         "name": "Aboleth",
