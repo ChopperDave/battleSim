@@ -25022,7 +25022,7 @@ export const Monsters: Creature[] = [
                 "toHit": 15,
                 "useSaves": true,
                 "halfOnSave": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 15,
                     "buff": {
                         "duration": "1 rounds",
@@ -27125,7 +27125,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 75,
                 "toHit": 7,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -27560,7 +27560,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 13,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 13,
                     "buff": {
                         "duration": "1 rounds",
@@ -27714,7 +27714,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 16.0,
             "toHit": 5,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 100,
                 "buff": {
                     "duration": "1 rounds",
@@ -27792,7 +27792,7 @@ export const Monsters: Creature[] = [
                 "toHit": 16,
                 "useSaves": true,
                 "halfOnSave": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 16,
                     "buff": {
                         "duration": "1 rounds",
@@ -27850,7 +27850,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14,
                 "useSaves": true,
                 "halfOnSave": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 14,
                     "buff": {
                         "duration": "1 rounds",
@@ -28251,7 +28251,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 59,
             "toHit": 8,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 100,
                 "buff": {
                     "duration": "1 rounds",
@@ -28777,7 +28777,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 12,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 12,
                     "buff": {
                         "duration": "1 rounds",
@@ -29014,7 +29014,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 13,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 13,
                     "buff": {
                         "duration": "1 rounds",
@@ -29355,7 +29355,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 11.5,
                 "toHit": 7,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -29778,7 +29778,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 9.0,
             "toHit": 4,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 12,
                 "buff": {
                     "duration": "1 rounds",
@@ -29936,7 +29936,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 44,
                 "toHit": 9,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -29996,7 +29996,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17,
                 "useSaves": true,
                 "halfOnSave": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 17,
                     "buff": {
                         "duration": "1 rounds",
@@ -30069,7 +30069,7 @@ export const Monsters: Creature[] = [
                 "dpr": 70,
                 "toHit": 19,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 19,
                     "buff": {
                         "duration": "1 rounds",
@@ -30195,7 +30195,7 @@ export const Monsters: Creature[] = [
                 "toHit": 16,
                 "useSaves": true,
                 "halfOnSave": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 16,
                     "buff": {
                         "duration": "1 rounds",
@@ -30214,7 +30214,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 66,
                 "toHit": 10,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -30338,7 +30338,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 12,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 12,
                     "buff": {
                         "duration": "1 rounds",
@@ -30532,7 +30532,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 11,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 11,
                     "buff": {
                         "duration": "1 rounds",
@@ -31101,7 +31101,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 15,
                 "toHit": 4,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -31472,7 +31472,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 10,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 10,
                     "buff": {
                         "duration": "1 rounds",
@@ -31695,7 +31695,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 3.5,
             "toHit": 0,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 100,
                 "buff": {
                     "duration": "1 rounds",
@@ -31805,7 +31805,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 30,
                 "toHit": 7,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -31863,7 +31863,7 @@ export const Monsters: Creature[] = [
                 "dpr": 10,
                 "toHit": 13,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 13,
                     "buff": {
                         "duration": "1 rounds",
@@ -32088,7 +32088,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 4.5,
             "toHit": 4,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 100,
                 "buff": {
                     "duration": "1 rounds",
@@ -32646,7 +32646,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 9,
             "toHit": 4,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 100,
                 "buff": {
                     "duration": "1 rounds",
@@ -32809,7 +32809,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 88.5,
                 "toHit": 10,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -33138,7 +33138,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 28.5,
             "toHit": 5,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 100,
                 "buff": {
                     "duration": "1 rounds",
@@ -33597,7 +33597,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 41.0,
                 "toHit": 8,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -33708,7 +33708,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 25.5,
                 "toHit": 7,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -33762,7 +33762,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 18.5,
             "toHit": 4,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 12,
                 "buff": {
                     "duration": "1 rounds",
@@ -34301,7 +34301,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 16,
                 "toHit": 8,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -34509,7 +34509,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 1,
             "toHit": 4,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 12,
                 "buff": {
                     "duration": "1 rounds",
@@ -35489,7 +35489,7 @@ export const Monsters: Creature[] = [
                 "dpr": 13.5,
                 "toHit": 13,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 13,
                     "buff": {
                         "duration": "1 rounds",
@@ -35695,7 +35695,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 11,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 11,
                     "buff": {
                         "duration": "1 rounds",
@@ -36300,7 +36300,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 6.5,
                 "toHit": 6,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -36882,7 +36882,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 11,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 11,
                     "buff": {
                         "duration": "1 rounds",
@@ -37612,7 +37612,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 9,
                 "toHit": 5,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -37668,7 +37668,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 36,
                 "toHit": 6,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 15,
                     "buff": {
                         "duration": "1 rounds",
@@ -37849,7 +37849,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17,
                 "useSaves": true,
                 "halfOnSave": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 17,
                     "buff": {
                         "duration": "1 rounds",
@@ -37945,7 +37945,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 35.0,
             "toHit": 5,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 100,
                 "buff": {
                     "duration": "1 rounds",
@@ -38091,7 +38091,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 23.5,
                 "toHit": 10,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -38122,7 +38122,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 0,
                 "toHit": 0,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -38193,7 +38193,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 134.5,
                 "toHit": 14,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 21,
                     "buff": {
                         "duration": "1 rounds",
@@ -38239,7 +38239,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 1,
             "toHit": 4,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 100,
                 "buff": {
                     "duration": "1 rounds",
@@ -38270,7 +38270,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 30,
             "toHit": 7,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 100,
                 "buff": {
                     "duration": "1 rounds",
@@ -38622,7 +38622,7 @@ export const Monsters: Creature[] = [
                 "dpr": 5,
                 "toHit": 12,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 12,
                     "buff": {
                         "duration": "1 rounds",
@@ -38804,7 +38804,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 5.5,
                 "toHit": 5,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -38824,7 +38824,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 10,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 10,
                     "buff": {
                         "duration": "1 rounds",
@@ -38923,7 +38923,7 @@ export const Monsters: Creature[] = [
                 "dpr": 28,
                 "toHit": 18,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 18,
                     "buff": {
                         "duration": "1 rounds",
@@ -39145,7 +39145,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 15,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 15,
                     "buff": {
                         "duration": "1 rounds",
@@ -39299,7 +39299,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 0,
                 "toHit": 7,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 14,
                     "buff": {
                         "duration": "1 rounds",
@@ -39701,7 +39701,7 @@ export const Monsters: Creature[] = [
                 "dpr": 10,
                 "toHit": 14,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 14,
                     "buff": {
                         "duration": "1 rounds",
@@ -39720,7 +39720,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 10,
                 "toHit": 0,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -39765,7 +39765,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 6,
                 "toHit": 3,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -39785,7 +39785,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 11,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 11,
                     "buff": {
                         "duration": "1 rounds",
@@ -39908,7 +39908,7 @@ export const Monsters: Creature[] = [
                 "dpr": 13.5,
                 "toHit": 11,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 11,
                     "buff": {
                         "duration": "1 rounds",
@@ -40384,7 +40384,7 @@ export const Monsters: Creature[] = [
                 "toHit": 12,
                 "useSaves": true,
                 "halfOnSave": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 12,
                     "buff": {
                         "duration": "1 rounds",
@@ -40546,7 +40546,7 @@ export const Monsters: Creature[] = [
                 "targets": 25,
                 "dpr": 84,
                 "toHit": 12,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 20,
                     "buff": {
                         "duration": "1 rounds",
@@ -40580,7 +40580,7 @@ export const Monsters: Creature[] = [
                 "dpr": 0,
                 "toHit": 20,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 20,
                     "buff": {
                         "duration": "1 rounds",
@@ -41432,7 +41432,7 @@ export const Monsters: Creature[] = [
                 "toHit": 27,
                 "useSaves": true,
                 "halfOnSave": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 27,
                     "buff": {
                         "duration": "1 rounds",
@@ -41907,7 +41907,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 60.5,
                 "toHit": 9,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 17,
                     "buff": {
                         "duration": "1 rounds",
@@ -42064,7 +42064,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 26,
             "toHit": 5,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 100,
                 "buff": {
                     "duration": "1 rounds",
@@ -42156,7 +42156,7 @@ export const Monsters: Creature[] = [
                 "targets": 1,
                 "dpr": 16,
                 "toHit": 10,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 100,
                     "buff": {
                         "duration": "1 rounds",
@@ -42278,7 +42278,7 @@ export const Monsters: Creature[] = [
                 "toHit": 15,
                 "useSaves": true,
                 "halfOnSave": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 15,
                     "buff": {
                         "duration": "1 rounds",
@@ -42352,7 +42352,7 @@ export const Monsters: Creature[] = [
                 "dpr": 5.5,
                 "toHit": 15,
                 "useSaves": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 15,
                     "buff": {
                         "duration": "1 rounds",
@@ -43160,7 +43160,7 @@ export const Monsters: Creature[] = [
             "targets": 1,
             "dpr": 48.5,
             "toHit": 7,
-            "riderEffects": {
+            "riderEffect": {
                 "dc": 100,
                 "buff": {
                     "duration": "1 rounds",
@@ -43827,7 +43827,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14,
                 "useSaves": true,
                 "halfOnSave": true,
-                "riderEffects": {
+                "riderEffect": {
                     "dc": 14,
                     "buff": {
                         "duration": "1 rounds",
