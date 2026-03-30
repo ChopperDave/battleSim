@@ -14,9 +14,12 @@ type PropType = {
 
 const defaultTypeFilter: {[type in CreatureType]: boolean} = Object.fromEntries(CreatureTypeList.map(t => [t, true])) as any
 
+const SourceList = [...new Set(Monsters.map(m => m.src?.split(' p.')[0]).filter(Boolean))] as string[];
+const defaultSourceFilter: Record<string, boolean> = Object.fromEntries(SourceList.map(s => [s, true]));
 const MonsterForm:FC<PropType> = ({ onChange, value }) => {
     const useSharedState = sharedStateGenerator('monsterForm')
     const [creatureType, setCreatureType] = useSharedState(defaultTypeFilter)
+    const [sourceFilter, setSourceFilter] = useSharedState(defaultSourceFilter)
     const [minCR, setMinCR] = useSharedState<ChallengeRating>(ChallengeRatingList[0])
     const [maxCR, setMaxCR] = useSharedState<ChallengeRating>(ChallengeRatingList[ChallengeRatingList.length - 2])
     const [name, setName] = useSharedState<string>('')
@@ -28,9 +31,14 @@ const MonsterForm:FC<PropType> = ({ onChange, value }) => {
         if (numericCR(monster.cr) < numericCR(minCR)) return false
         if (!monster.type) return false
         if (!creatureType[monster.type]) return false
+        
+        if (monster.src) {
+            const baseSrc = monster.src.split(' p.')[0]
+            if (sourceFilter[baseSrc] === false) return false
+        }
 
         return true
-    }), [creatureType, minCR, maxCR, name])
+    }), [creatureType, sourceFilter, minCR, maxCR, name])
     
     function toggleCreatureType(type: CreatureType) {
         const newValue = clone(creatureType)
@@ -73,6 +81,29 @@ const MonsterForm:FC<PropType> = ({ onChange, value }) => {
                             onClick={() => toggleCreatureType(type)}
                             className={creatureType[type] ? styles.active : undefined}>
                                 {capitalize(type)}
+                        </button>
+                    )) }
+                </div>
+            </section>
+
+            <section>
+                <h3>Source</h3>
+                <div className={styles.creatureTypes}>
+                    <button 
+                        onClick={() => setSourceFilter(defaultSourceFilter)} 
+                        className={!Object.entries(sourceFilter).find(([_, b]) => !b) ? styles.active : undefined}>
+                            All
+                    </button>
+                    { SourceList.map(src => (
+                        <button
+                            key={src}
+                            onClick={() => {
+                                const newValue = clone(sourceFilter)
+                                newValue[src] = !newValue[src]
+                                setSourceFilter(newValue)
+                            }}
+                            className={sourceFilter[src] ? styles.active : undefined}>
+                                {src}
                         </button>
                     )) }
                 </div>
