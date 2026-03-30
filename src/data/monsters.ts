@@ -61,8 +61,8 @@ export const Monsters: Creature[] = [
             "type": "atk",
             "dpr": 28,
             "target": "enemy with most HP",
-            "useSaves": "true",
-            "halfOnSave": "true",
+            "useSaves": true,
+            "halfOnSave": true,
             "freq": "1/day",
             "toHit": 13
           },
