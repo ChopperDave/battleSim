@@ -26676,6 +26676,32 @@ export const Monsters: Creature[] = [
         "saveBonus": 10
     },
     {
+        "id": "c036677c-2048-4fa4-9734-3e8342125972",
+        "mode": "monster",
+        "name": "Animated Armor",
+        "type": "construct",
+        "src": "2024 MM p.16",
+        "cr": "1",
+        "hp": 33,
+        "AC": 18,
+        "actions": [
+            {
+                "id": "b5e78fda-2727-44de-9455-af2dc97ca0f6",
+                "name": "Slam x2",
+                "type": "atk",
+                "actionSlot": 0,
+                "freq": "at will",
+                "condition": "default",
+                "target": "enemy with most HP",
+                "targets": 1,
+                "dpr": 11,
+                "toHit": 4
+            }
+        ],
+        "count": 1,
+        "saveBonus": 0.5
+    },
+    {
         "id": "1084f3f7-392d-4e05-8696-2f2740f20a64",
         "mode": "monster",
         "name": "Animated Broom",
