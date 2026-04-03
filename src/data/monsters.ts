@@ -24910,7 +24910,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 11.5
     },
     {
-        "id": "af00e77b-d876-4421-8b99-1a9b11e506bd",
+        "id": "12a33fdf-d089-4399-b40e-ea2e173ac3a2",
         "mode": "monster",
         "name": "Aarakocra Aeromancer",
         "type": "elemental",
@@ -24920,7 +24920,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "6540176c-c0e6-45a2-bb18-0432808b8223",
+                "id": "364e4d2f-68e0-4747-8bc0-7917b16f06f2",
                 "name": "Lightning Bolt",
                 "actionSlot": 0,
                 "condition": "is available",
@@ -24934,7 +24934,7 @@ export const Monsters: Creature[] = [
                 "toHit": 13
             },
             {
-                "id": "33d1e7a6-81f1-47f7-b5cf-7f23c31deedd",
+                "id": "da63d956-ff77-416b-bdc7-4682d41b7b95",
                 "name": "Wind Staff x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -24950,7 +24950,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "700e5731-c423-4e35-900b-5c0a25143af2",
+        "id": "d6b26987-be4e-4b7b-bb47-2a2a2e3a3b19",
         "mode": "monster",
         "name": "Aarakocra Skirmisher",
         "type": "elemental",
@@ -24960,7 +24960,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "4c576ac3-6fad-41e7-8e40-ccb89ff41502",
+                "id": "cdf6e497-90da-4353-8ae9-a1ae5c787e3f",
                 "name": "Wind Javelin",
                 "type": "atk",
                 "actionSlot": 0,
@@ -24972,7 +24972,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "94f1e121-10b8-42cf-8524-6dfa5ab8652f",
+                "id": "0dfc6ff1-a5cc-4e6b-a75f-a5a83887a85f",
                 "name": "Talons",
                 "type": "atk",
                 "actionSlot": 0,
@@ -24988,7 +24988,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "2c9aa065-034d-4743-a41a-6e2c893784a1",
+        "id": "dc5039ab-4879-48ae-9b8d-481671800fb9",
         "mode": "monster",
         "name": "Aberrant Cultist",
         "type": "humanoid",
@@ -24998,7 +24998,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "ad008a84-4c0e-4621-b407-4f598dfe4704",
+                "id": "76bc86ff-786d-4fa0-81b7-e9298cc542ca",
                 "name": "Tentacle Lash x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25010,7 +25010,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "a164a8bc-5001-4091-b690-0ffbcb40d91a",
+                "id": "5b21f728-36c0-4d5f-a731-787171fd2724",
                 "name": "Mind Rot",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25035,7 +25035,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "f6e1973c-d3b5-42eb-b452-b35ee8a16e38",
+        "id": "27a1f9ec-5af4-45c4-b826-5e81f8006eea",
         "mode": "monster",
         "name": "Aboleth",
         "type": "aberration",
@@ -25045,7 +25045,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "086c7488-86e2-4b54-9d27-31d3554c9d95",
+                "id": "f9bdbee7-83c7-49b0-8f6e-b438ab894782",
                 "name": "Consume Memories, Tentacle x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25057,7 +25057,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "a66af626-cc7c-4050-a9e4-ee1fa57fd71f",
+                "id": "de7738e9-b21d-450b-94c3-3a85686aac2b",
                 "name": "Dominate Mind",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25073,7 +25073,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "d4406fdd-254a-49f8-938a-e9c1753e5af7",
+                "id": "c6239376-2283-435c-98bc-ac034a691576",
                 "name": "Lash",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25089,7 +25089,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "42f18c50-35ee-49fa-a88b-18f7d02c283a",
+        "id": "853871ed-3c51-436b-90be-39856348a2e4",
         "mode": "monster",
         "name": "Abominable Yeti",
         "type": "monstrosity",
@@ -25099,7 +25099,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "2a7f1640-38d0-41af-bea6-fb0ecefbedfc",
+                "id": "bbed29bb-3a04-4cf8-9ab3-700e293b076d",
                 "name": "Cold Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25116,7 +25116,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "097c8da7-4629-4ace-8cd7-81aefdd9fc75",
+                "id": "f52fb21d-090d-456e-a5f4-9d288cb95a03",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25128,7 +25128,7 @@ export const Monsters: Creature[] = [
                 "toHit": 11
             },
             {
-                "id": "977571c8-fbdd-4fdb-b00a-7ab0f711250c",
+                "id": "9f27aae1-ab8a-44af-a7ef-1376b0cabc50",
                 "name": "Chilling Gaze",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25141,7 +25141,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "633e3883-4add-4876-88b5-2f8054410449",
+                "id": "1416745b-c216-4263-9978-7290d2b58fe4",
                 "name": "Ice Throw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25157,7 +25157,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "b38c5122-5531-431a-aa46-3e489cf780d8",
+        "id": "f80ae694-2f1d-4b5c-9c1c-64a2d3724d6f",
         "mode": "monster",
         "name": "Adult Black Dragon",
         "type": "dragon",
@@ -25167,7 +25167,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "06d40394-bdc4-4160-9ee7-62164e2eff97",
+                "id": "10eaaa5e-d352-448d-acf6-b841f57d916e",
                 "name": "Acid Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25184,7 +25184,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "cda0d57d-e1fa-4bb4-80f7-eb6918dbefc8",
+                "id": "348b9072-7823-4dce-82d3-52fbce56b580",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25196,7 +25196,7 @@ export const Monsters: Creature[] = [
                 "toHit": 11
             },
             {
-                "id": "6585b357-70c1-4d61-81e0-786a48c6ac18",
+                "id": "c4f3c8ed-0896-42ff-bee7-a9c5f9da62ac",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25212,7 +25212,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 7
     },
     {
-        "id": "04cec761-e0eb-45f1-bb76-3828e6c96c65",
+        "id": "19e035b5-4089-4df2-8e28-eacb579c5c78",
         "mode": "monster",
         "name": "Adult Blue Dragon",
         "type": "dragon",
@@ -25222,7 +25222,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "f50c672b-d82b-47cc-b548-ee67812ed571",
+                "id": "9cfdc990-c702-44f4-a8c8-459a3f90f47a",
                 "name": "Lightning Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25239,7 +25239,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "0103a995-151c-4bde-8f02-a10f2f370c91",
+                "id": "98388d22-2ea9-40e2-879c-75064c4df09c",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25251,7 +25251,7 @@ export const Monsters: Creature[] = [
                 "toHit": 12
             },
             {
-                "id": "42a0d2a9-55bd-447d-9f41-2de5d2126d3d",
+                "id": "6a1a018b-07b0-4e69-b43a-79395225e106",
                 "name": "Tail Swipe",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25267,7 +25267,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8
     },
     {
-        "id": "624942ed-6fc9-47fb-8e57-f01d86e82e3f",
+        "id": "e3bc7891-bdf0-47d5-a078-fd7313dc048c",
         "mode": "monster",
         "name": "Adult Brass Dragon",
         "type": "dragon",
@@ -25277,7 +25277,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "3a6388cd-eb8d-4a33-8bbd-53d0fb665612",
+                "id": "868706aa-6a53-420f-96b5-6adb73df020b",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25294,7 +25294,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "e22ba00e-5fd8-4f80-b43a-56caf9e144fb",
+                "id": "ced3dd40-eb5f-45c0-9e56-ab27373303de",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25306,7 +25306,7 @@ export const Monsters: Creature[] = [
                 "toHit": 11
             },
             {
-                "id": "aa93f9e5-0435-4b77-9693-014262650015",
+                "id": "5f5bef99-3d57-40fc-ab4d-687dd9dbff14",
                 "name": "Sleep Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25319,7 +25319,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "7d23960f-5426-4851-92dc-88a476474f47",
+                "id": "c972f9f1-31b2-4250-8d4a-f92b4ed415c0",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25335,7 +25335,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6.5
     },
     {
-        "id": "a4b8eea6-fd13-4a72-9311-639b6d737d52",
+        "id": "58e114c7-ddea-43e6-ac25-3df0b367ffb9",
         "mode": "monster",
         "name": "Adult Bronze Dragon",
         "type": "dragon",
@@ -25345,7 +25345,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "7c2135be-0a63-4711-8985-07137bcc04ba",
+                "id": "7418e038-9c07-42a6-8f5f-7a99c3e6ff6e",
                 "name": "Lightning Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25362,7 +25362,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "1cfcac09-0ed7-4dba-b965-a0f425a1b28d",
+                "id": "fc1feb03-666f-4f86-be4a-418061608d2e",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25374,7 +25374,7 @@ export const Monsters: Creature[] = [
                 "toHit": 12
             },
             {
-                "id": "174fe820-5187-4bc4-abd7-1b76761f7e29",
+                "id": "3e57af12-8f4a-4504-96fe-7c807f17e3a3",
                 "name": "Guiding Bolt",
                 "actionSlot": 0,
                 "condition": "default",
@@ -25393,7 +25393,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "6184077f-9cea-4653-b71a-c3a2e8686aa4",
+                "id": "0d8669e7-a163-4aa7-bb15-de4c774e3162",
                 "name": "Repulsion Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25406,7 +25406,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "dfb429f2-a4eb-4f7f-a46b-02ab43a6d105",
+                "id": "e89ce387-df45-4b42-942b-cb1273c964ad",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25422,7 +25422,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 7.5
     },
     {
-        "id": "4daf0d58-9bb4-4832-a64a-df88cc930312",
+        "id": "3df815a4-210f-49b6-8f0e-98d72e933c0b",
         "mode": "monster",
         "name": "Adult Copper Dragon",
         "type": "dragon",
@@ -25432,7 +25432,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "d9f5b498-9755-4eb9-8e92-108feed975e0",
+                "id": "d3c99e63-33a1-4af2-a200-216f93c18928",
                 "name": "Acid Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25449,7 +25449,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "d10f367e-2241-4e6f-aa82-21c43d28f78b",
+                "id": "6a2cb703-06d4-4173-9acc-e0bc44513962",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25461,7 +25461,7 @@ export const Monsters: Creature[] = [
                 "toHit": 11
             },
             {
-                "id": "b5692fe0-97e5-4aab-a3ff-ac7bd340507b",
+                "id": "5ee86c08-f48d-4480-8f9c-8938d3d8519f",
                 "name": "Slowing Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25474,7 +25474,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "64f7619a-4240-4a28-9c9c-3a2e24820dc4",
+                "id": "a71d1b5d-004c-4bfc-a0f5-f522766100ca",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25490,7 +25490,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 7
     },
     {
-        "id": "1fed7cac-5848-4255-aced-328394b8c510",
+        "id": "74c99901-ea3f-415b-81b6-0947e41d0296",
         "mode": "monster",
         "name": "Adult Gold Dragon",
         "type": "dragon",
@@ -25500,7 +25500,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "357963f8-9d77-4562-86b0-49f72e9be5e3",
+                "id": "2da051a7-f403-4090-834e-f6d8bcb7bf1a",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25517,7 +25517,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "eec91d28-3ccf-4785-a3c6-7e9aca8be824",
+                "id": "bbc4613c-dfab-43f5-a318-61a699aada95",
                 "actionSlot": 0,
                 "name": "Flame Strike",
                 "condition": "default",
@@ -25529,7 +25529,7 @@ export const Monsters: Creature[] = [
                 "toHit": 21
             },
             {
-                "id": "8f10f56e-ca8b-42ba-aef3-09a830539f37",
+                "id": "776712d7-1bb1-493c-95d0-3580f171a734",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25541,7 +25541,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14
             },
             {
-                "id": "174fe820-5187-4bc4-abd7-1b76761f7e29",
+                "id": "3e57af12-8f4a-4504-96fe-7c807f17e3a3",
                 "name": "Guiding Bolt",
                 "actionSlot": 0,
                 "condition": "default",
@@ -25560,7 +25560,7 @@ export const Monsters: Creature[] = [
                 "toHit": 13
             },
             {
-                "id": "2981b93e-774c-4201-a073-2e2431a2a6ad",
+                "id": "5ad1b318-e2b6-4b3a-b0bb-6834008abeda",
                 "name": "Weakening Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25573,7 +25573,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "988e3c1a-119a-4d1a-ab50-b4e5146d307e",
+                "id": "d915f9f9-8d5a-4902-ae4f-4b3964b6017e",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25589,7 +25589,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8.5
     },
     {
-        "id": "61ab475a-281a-4844-a64a-d6e8ff782ffb",
+        "id": "b98b30bd-f153-4a20-8a73-b6f4c498178d",
         "mode": "monster",
         "name": "Adult Green Dragon",
         "type": "dragon",
@@ -25599,7 +25599,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "f46dfd99-554d-48a6-b671-93d6e1bb3d7c",
+                "id": "1e332d9e-ee07-4f21-be40-f66e5a430ec3",
                 "name": "Poison Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25616,7 +25616,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "1a74df92-c765-43f0-a3eb-8f018348beb0",
+                "id": "ce256b8e-2fbc-452b-801d-c0609a3b458e",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25628,7 +25628,7 @@ export const Monsters: Creature[] = [
                 "toHit": 11
             },
             {
-                "id": "44435110-1320-4df5-ba3c-e96ad46107c1",
+                "id": "87606b6d-8501-4479-9a6a-aab54aa49491",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25644,7 +25644,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 7.5
     },
     {
-        "id": "11e2ffbd-9f56-456d-9789-4f9299b6b4fa",
+        "id": "7c5d927f-6a05-4c13-897a-10fca8bd1f6e",
         "mode": "monster",
         "name": "Adult Red Dragon",
         "type": "dragon",
@@ -25654,7 +25654,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "dc5439ab-9d04-4921-8cdb-34fc7b3242e3",
+                "id": "88d50e4a-813e-4945-9105-fd107fd8cb3c",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25671,7 +25671,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "844391e0-36e7-46bb-b65d-ec6f156bc0a1",
+                "id": "ca782948-cf90-4d8b-94ae-c927d4b921e3",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25683,7 +25683,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14
             },
             {
-                "id": "9df986dd-4b37-462d-8047-73132c8ccccb",
+                "id": "5cc5f957-1eaa-4150-9aac-573993805cd9",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25695,7 +25695,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14
             },
             {
-                "id": "24cf9688-45f1-4f32-962d-361bd6ffc578",
+                "id": "33cf02a5-055e-4e08-8367-9fe000e0942b",
                 "type": "template",
                 "condition": "default",
                 "templateOptions": {
@@ -25710,7 +25710,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8.5
     },
     {
-        "id": "7c02998d-26b6-40ef-8c9c-121df59a7200",
+        "id": "4001979c-dd94-4737-b036-b3e9afc8bcc6",
         "mode": "monster",
         "name": "Adult Silver Dragon",
         "type": "dragon",
@@ -25720,7 +25720,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "55def46a-5f33-48b6-bea2-ac5281deeb99",
+                "id": "cc7eac94-f883-45ac-8aa1-adce62ee50a2",
                 "name": "Cold Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25737,7 +25737,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "3b6b17a5-330a-452c-a6cb-debc052b0502",
+                "id": "2ed93588-8606-442b-ab6d-f573edcb77c8",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25749,7 +25749,7 @@ export const Monsters: Creature[] = [
                 "toHit": 13
             },
             {
-                "id": "8fdd01cb-d2ef-46d5-b8d4-d4116b41a052",
+                "id": "a8f21963-2563-41c4-b13d-c68bfa2fc792",
                 "name": "Paralyzing Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25762,7 +25762,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "b2a5287d-67b5-4ff1-9693-ceaa88c89684",
+                "id": "0d4d0bfa-7dd6-43d8-b4b9-e52b94688f66",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25778,7 +25778,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8
     },
     {
-        "id": "79a4f45f-1e19-473f-8bc3-11cdc0d571b7",
+        "id": "72d3b859-4f7a-42d6-bb0f-85924eda600f",
         "mode": "monster",
         "name": "Adult White Dragon",
         "type": "dragon",
@@ -25788,7 +25788,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "f4ba4d1e-b917-430d-865b-a89419bec4c9",
+                "id": "5db14090-9140-4b61-ad88-7ce7981c0e94",
                 "name": "Cold Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25805,7 +25805,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "2db35757-a017-402c-8370-a92e35b7095d",
+                "id": "0f3febad-76f8-4929-9d7f-9ba9b367f0e4",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25817,7 +25817,7 @@ export const Monsters: Creature[] = [
                 "toHit": 11
             },
             {
-                "id": "afd361a2-b3c3-4365-ae3c-0236da3f9080",
+                "id": "df730fa3-111c-49a6-bf4d-36ce7c58d2c6",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25833,7 +25833,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6.5
     },
     {
-        "id": "df046d89-7ff0-455c-b8cc-e8619c0855b9",
+        "id": "d8c8f826-45fa-4182-b6e2-e804246a0c4d",
         "mode": "monster",
         "name": "Air Elemental",
         "type": "elemental",
@@ -25843,7 +25843,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "58dad531-b1d8-46a9-bfc5-e4f4e92bd0c6",
+                "id": "5830ee0e-9fc0-417a-a4f7-4963ba770fec",
                 "name": "Thunderous Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25855,7 +25855,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "b6b4016e-7186-4c7a-b1d4-da4d9d2e1c9f",
+                "id": "aa0c3a03-f77c-4c61-92c2-b6a5023dd96d",
                 "name": "Whirlwind",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25876,7 +25876,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "69330ade-ce5c-4243-b93c-dff1ecbc7cf7",
+        "id": "febc1f6a-ab21-464c-ad32-49a8789bf0de",
         "mode": "monster",
         "name": "Allosaurus",
         "type": "beast",
@@ -25886,7 +25886,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "d7c2826b-8873-4ef6-a4a0-925bbfc4a0e4",
+                "id": "28fc026c-abc1-412f-906d-2b6ba061baf3",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25898,7 +25898,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "46658312-8416-49a4-9a8a-f20e0a95bc71",
+                "id": "37ae537f-9214-4353-b6fa-3df41bb35435",
                 "name": "Claws",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25914,7 +25914,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "01c578b5-fd0f-4074-aebf-585b47144ac6",
+        "id": "adf89d71-73b1-4239-83ba-6793cc1b0b32",
         "mode": "monster",
         "name": "Ancient Black Dragon",
         "type": "dragon",
@@ -25924,7 +25924,7 @@ export const Monsters: Creature[] = [
         "AC": 22,
         "actions": [
             {
-                "id": "2e994874-5afa-4dc5-a164-d7204a915390",
+                "id": "f6e47534-5f58-40fc-a327-795eeadeaa0c",
                 "name": "Acid Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25941,7 +25941,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "ef44a207-0977-4269-b215-e94092809807",
+                "id": "21041eeb-b53a-4219-a0c9-4a588d2ac444",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25953,7 +25953,7 @@ export const Monsters: Creature[] = [
                 "toHit": 15
             },
             {
-                "id": "d184a69d-a84e-4c5e-b6fa-700ae94254e1",
+                "id": "cf6c303b-c72a-40eb-8339-4816a140c149",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -25969,7 +25969,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 10.5
     },
     {
-        "id": "937d9e25-18a0-441d-85a3-af0230ba8dc7",
+        "id": "fc46edc6-aa55-4815-be04-635c8111dbde",
         "mode": "monster",
         "name": "Ancient Blue Dragon",
         "type": "dragon",
@@ -25979,7 +25979,7 @@ export const Monsters: Creature[] = [
         "AC": 22,
         "actions": [
             {
-                "id": "ae3bdf62-01d7-4703-be16-9f28053d0394",
+                "id": "4923b904-892b-4424-9106-4dcf8da4fb12",
                 "name": "Lightning Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -25996,7 +25996,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "872572e6-4073-42b7-b211-3b118ebdc6a9",
+                "id": "25239bbd-2bc4-4893-b9ec-a76efd47a477",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26008,7 +26008,7 @@ export const Monsters: Creature[] = [
                 "toHit": 16
             },
             {
-                "id": "78fe4bd3-2c4a-407a-a4ad-ad9a5043b726",
+                "id": "ceb83172-ef4d-4c06-8528-5b52b427e7ec",
                 "name": "Tail Swipe",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26024,7 +26024,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 11.5
     },
     {
-        "id": "b7120a4f-cb2f-48ca-99d4-903fa987f4cb",
+        "id": "7076536c-35a4-4c43-8955-49cc803fe0b8",
         "mode": "monster",
         "name": "Ancient Brass Dragon",
         "type": "dragon",
@@ -26034,7 +26034,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "e35fe5e6-b2af-404f-9f65-d31d0bee7200",
+                "id": "c6b3a8f2-f5ba-452c-994b-4c91fb9e966a",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26051,7 +26051,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "b129efb1-1054-44ae-97d0-0eeb1fffe2aa",
+                "id": "aa0ee7bf-557b-41cd-90cd-cb011c0e1898",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26063,7 +26063,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14
             },
             {
-                "id": "7e278975-6a8c-46ab-9590-3393b0ca440b",
+                "id": "885a7c57-b2b5-4db8-a0ac-02c2a650a8f8",
                 "name": "Sleep Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26076,7 +26076,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "b9f1fc89-4899-4d5f-a7ad-03166fc86a94",
+                "id": "ab0d40ef-c821-4803-9171-b97d472fa5a0",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26092,7 +26092,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 10
     },
     {
-        "id": "4514bd0f-d3d0-4df7-a65b-a429d28d48df",
+        "id": "acf4f265-7086-4fa0-9a72-adb19436744f",
         "mode": "monster",
         "name": "Ancient Bronze Dragon",
         "type": "dragon",
@@ -26102,7 +26102,7 @@ export const Monsters: Creature[] = [
         "AC": 22,
         "actions": [
             {
-                "id": "4c051943-5e0c-4e95-b7b8-5147e6342067",
+                "id": "d0ffd72c-8234-4345-a7f5-9dfb77571cea",
                 "name": "Lightning Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26119,7 +26119,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "f98f2042-1eb8-4cdd-aad0-35643e48cdc9",
+                "id": "21c1e586-2bd9-4310-ae1c-d23a2628437e",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26131,7 +26131,7 @@ export const Monsters: Creature[] = [
                 "toHit": 16
             },
             {
-                "id": "174fe820-5187-4bc4-abd7-1b76761f7e29",
+                "id": "3e57af12-8f4a-4504-96fe-7c807f17e3a3",
                 "name": "Guiding Bolt",
                 "actionSlot": 0,
                 "condition": "default",
@@ -26150,7 +26150,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14
             },
             {
-                "id": "ea78ed94-04cb-4b45-9ed3-770568c6ebc9",
+                "id": "351452ca-0fba-42ba-8aec-3b0acf7ad842",
                 "name": "Repulsion Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26163,7 +26163,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "a33f5c71-238b-42b9-943d-37e5d7b4cc53",
+                "id": "e5b59945-af22-41cb-9984-34f5909d5dfd",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26179,7 +26179,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 11
     },
     {
-        "id": "f8ca0ac2-fae5-4e5b-8c2b-3300c5836938",
+        "id": "3e88f405-d6bf-4c34-8b88-75f0bca93382",
         "mode": "monster",
         "name": "Ancient Copper Dragon",
         "type": "dragon",
@@ -26189,7 +26189,7 @@ export const Monsters: Creature[] = [
         "AC": 21,
         "actions": [
             {
-                "id": "80e715c0-26c3-41eb-87dc-d96d58a6abb1",
+                "id": "c95db582-4e09-4a4c-92b9-7b51e41dc8dd",
                 "name": "Acid Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26206,7 +26206,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "6d56eb10-5bc0-4588-9fcc-b63a322afb6f",
+                "id": "92f37726-8086-45a6-b608-cf3dba342c32",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26218,7 +26218,7 @@ export const Monsters: Creature[] = [
                 "toHit": 15
             },
             {
-                "id": "d99b53c5-4b42-4386-b09e-be82caafb01f",
+                "id": "339d75e0-b3c9-4cdc-81c6-3215c93eba37",
                 "name": "Slowing Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26231,7 +26231,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "529b588b-65b3-498b-aee9-e19cf392844f",
+                "id": "ae01a232-6ca6-4676-a466-b716ff1c768c",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26247,7 +26247,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 10.5
     },
     {
-        "id": "aee58ce1-d192-4ed2-900d-64000e68b472",
+        "id": "5de33e3d-d9f0-442f-9a17-f8793a3a4845",
         "mode": "monster",
         "name": "Ancient Gold Dragon",
         "type": "dragon",
@@ -26257,7 +26257,7 @@ export const Monsters: Creature[] = [
         "AC": 22,
         "actions": [
             {
-                "id": "1b852c60-df6a-47bb-bc97-6cd3636d199a",
+                "id": "d5ebfced-0bcc-468b-8127-50e2595200d4",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26274,7 +26274,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "92470ea0-e032-4783-87c7-c704ef799276",
+                "id": "2b097d55-db6f-443f-9916-e9259775de26",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26286,7 +26286,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17
             },
             {
-                "id": "eec91d28-3ccf-4785-a3c6-7e9aca8be824",
+                "id": "bbc4613c-dfab-43f5-a318-61a699aada95",
                 "actionSlot": 0,
                 "name": "Flame Strike",
                 "condition": "default",
@@ -26298,7 +26298,7 @@ export const Monsters: Creature[] = [
                 "toHit": 24
             },
             {
-                "id": "174fe820-5187-4bc4-abd7-1b76761f7e29",
+                "id": "3e57af12-8f4a-4504-96fe-7c807f17e3a3",
                 "name": "Guiding Bolt",
                 "actionSlot": 0,
                 "condition": "default",
@@ -26317,7 +26317,7 @@ export const Monsters: Creature[] = [
                 "toHit": 16
             },
             {
-                "id": "e0533831-eda3-4abb-84de-fa3b0f07be8a",
+                "id": "edd0f86e-81e1-4fc0-8d20-6e1cbeb3b088",
                 "name": "Weakening Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26330,7 +26330,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "8dbd9642-8437-4c66-b948-f0e4519bb75d",
+                "id": "60a0d6b3-9009-40ce-b0dc-b7247a45bd8b",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26346,7 +26346,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 12
     },
     {
-        "id": "16183bb4-52d7-4403-9246-19a9f43057d9",
+        "id": "2d1f0d58-b46f-4805-9c8c-eb2089e80596",
         "mode": "monster",
         "name": "Ancient Green Dragon",
         "type": "dragon",
@@ -26356,7 +26356,7 @@ export const Monsters: Creature[] = [
         "AC": 21,
         "actions": [
             {
-                "id": "586978c4-1c3c-44f5-bfff-d3f0ff9803bb",
+                "id": "bf1a74ca-c8bc-49d9-aa7d-f405e79128a5",
                 "name": "Poison Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26373,7 +26373,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "7f8ef913-b956-4ad9-95b3-e2d43dfa7613",
+                "id": "ad8a2072-2a6a-4e71-a81a-b86d0e64d64e",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26385,7 +26385,7 @@ export const Monsters: Creature[] = [
                 "toHit": 15
             },
             {
-                "id": "f58e0fc7-2d91-46fc-81ed-67001f0ba165",
+                "id": "e1221e18-4ac4-42a5-ae8b-5fc8ab6feeb5",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26401,7 +26401,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 11
     },
     {
-        "id": "888b981e-a4d2-48c7-8516-4670d4f0a7c2",
+        "id": "a1fb39fb-2332-445e-bbce-9f2951a12b13",
         "mode": "monster",
         "name": "Ancient Red Dragon",
         "type": "dragon",
@@ -26411,7 +26411,7 @@ export const Monsters: Creature[] = [
         "AC": 22,
         "actions": [
             {
-                "id": "c2a92bef-5f7b-4034-aeca-ff30e16e7846",
+                "id": "19b89382-5727-47ef-acf3-d8e3b870c6dd",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26428,7 +26428,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "c908880f-746d-4f5c-8f76-34f80e886795",
+                "id": "3890a338-9001-4e5e-bae0-9a9e7f06a354",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26440,7 +26440,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17
             },
             {
-                "id": "1d791646-f0a2-4f46-89fa-563f57cf183e",
+                "id": "57823d2a-dc05-499e-b101-8996d84b32fa",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26452,7 +26452,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17
             },
             {
-                "id": "24cf9688-45f1-4f32-962d-361bd6ffc578",
+                "id": "33cf02a5-055e-4e08-8367-9fe000e0942b",
                 "type": "template",
                 "condition": "default",
                 "templateOptions": {
@@ -26467,7 +26467,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 12
     },
     {
-        "id": "f3a20658-9cfc-43a8-b8ed-9c47b3f076ff",
+        "id": "6077e0b8-62c8-42d6-b396-0b2c5557a2bb",
         "mode": "monster",
         "name": "Ancient Silver Dragon",
         "type": "dragon",
@@ -26477,7 +26477,7 @@ export const Monsters: Creature[] = [
         "AC": 22,
         "actions": [
             {
-                "id": "dc237e58-36ef-4aaa-87ec-0d3e30f45674",
+                "id": "c4921238-16cf-4bbe-b7d4-0b6565d58729",
                 "name": "Cold Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26494,7 +26494,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "3f5d5a3e-ac58-4bd4-bfed-89f7a803579a",
+                "id": "63a942c2-56c7-49dd-97df-25fd5c835a19",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26506,7 +26506,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17
             },
             {
-                "id": "65e88b90-1826-45c3-9eab-a07f911eca11",
+                "id": "d8be396a-0e79-4126-890f-83fcdd6959e9",
                 "name": "Paralyzing Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26519,7 +26519,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "b305bdc7-0a28-4034-8e3b-970371249b15",
+                "id": "4c50c6ad-2a75-44c0-9672-b749a43309e2",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26535,7 +26535,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 11.5
     },
     {
-        "id": "bafc2caa-5f50-4dce-96ba-49b9638a7c30",
+        "id": "5481bae6-31c7-4f86-acd0-18ea9fa122c1",
         "mode": "monster",
         "name": "Ancient White Dragon",
         "type": "dragon",
@@ -26545,7 +26545,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "84d52cc3-d7a2-448a-aa4b-29a508ce49c3",
+                "id": "b2693a07-8b5c-4902-9375-1af738da6f53",
                 "name": "Cold Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26562,7 +26562,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "c5f46f56-ab91-4f77-9030-cbb46af3c200",
+                "id": "6a2eb092-01d8-46d6-a623-84b1251c054d",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26574,7 +26574,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14
             },
             {
-                "id": "d6e76ae0-0995-4590-9c20-09d8788f6fea",
+                "id": "5da0886f-472c-47a0-9022-698cdcc49576",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26590,7 +26590,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 10
     },
     {
-        "id": "107a7ee9-2287-4c6f-99ff-2ca172eaa33b",
+        "id": "5d602f2e-e608-4913-b5fb-264de9c7428e",
         "mode": "monster",
         "name": "Animal Lord",
         "type": "celestial",
@@ -26600,7 +26600,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "ddea9e64-57f7-49d3-804f-592ec51bd3dc",
+                "id": "cbdd9b38-f281-4536-8405-d7a9117fce23",
                 "name": "Animal Spirit, Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26612,7 +26612,7 @@ export const Monsters: Creature[] = [
                 "toHit": 13
             },
             {
-                "id": "72fbb666-9543-4d7f-bf9d-30eb73aeae57",
+                "id": "9e170262-ce54-48d8-a693-9d5aab8e965b",
                 "name": "Fortify (Forager Only)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26624,7 +26624,7 @@ export const Monsters: Creature[] = [
                 "toHit": 0
             },
             {
-                "id": "77c4813d-8287-458c-9013-c0e61524a6a1",
+                "id": "acb4519a-2fdb-4901-9b86-bd98b35be1f1",
                 "name": "Marked as Prey (Hunter Only)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26636,7 +26636,7 @@ export const Monsters: Creature[] = [
                 "toHit": 0
             },
             {
-                "id": "b5c296f8-2495-4204-8d4b-7fab9d59aa93",
+                "id": "d79a2943-7cb8-4c9d-b615-1644caff73b8",
                 "name": "Pesky Swarm (Sage Only)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26648,7 +26648,7 @@ export const Monsters: Creature[] = [
                 "toHit": 0
             },
             {
-                "id": "d292a2ed-395a-472d-87b2-57c981ff2693",
+                "id": "73c2939a-c9d9-4035-9858-6aa80ea21b3b",
                 "name": "Feral Strike",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26660,7 +26660,7 @@ export const Monsters: Creature[] = [
                 "toHit": 13
             },
             {
-                "id": "a26c3b34-39a0-4a52-849e-ea32ba7a848c",
+                "id": "fc12a4bd-05d7-43a3-b4dc-8de8c8f943db",
                 "name": "Radiant Strike",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26676,7 +26676,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 10
     },
     {
-        "id": "80a7b107-f53e-40ee-b41b-a6c4293a3951",
+        "id": "6687e82e-e1ea-4038-919f-ed809ad4ec0e",
         "mode": "monster",
         "name": "Animated Armor",
         "type": "construct",
@@ -26686,7 +26686,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "93b20cf6-4f3d-4855-aaa1-64956c8308d5",
+                "id": "f615de45-d72d-49f2-a8e8-59443803aa0b",
                 "name": "Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26702,7 +26702,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "eec90614-62f6-455c-b9d2-4211fadcf4c3",
+        "id": "b69cae4b-c26f-4ee2-a728-df2d09756d62",
         "mode": "monster",
         "name": "Animated Broom",
         "type": "construct",
@@ -26712,7 +26712,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "397a4d8d-4670-4226-a2f5-ae3d9c29b70a",
+                "id": "12030ef7-bed8-47af-b34d-608b250fdaf8",
                 "name": "Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26728,7 +26728,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "be3d0fb5-0010-4db7-88c0-1b0d3c1d8ec0",
+        "id": "a0eb90bd-af41-4889-9fec-7c05b3e69259",
         "mode": "monster",
         "name": "Animated Flying Sword",
         "type": "construct",
@@ -26738,7 +26738,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "60a03c06-de0f-4251-88e5-09bf27d5ea39",
+                "id": "dc6f5e17-a525-4a61-9184-c09e675c54b8",
                 "name": "Slash",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26754,7 +26754,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "13548931-171d-4cbf-80f6-6e369d5b0d7c",
+        "id": "137334bb-d6f0-4641-9e78-ee8dfe026b1d",
         "mode": "monster",
         "name": "Animated Rug of Smothering",
         "type": "construct",
@@ -26764,7 +26764,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "d7d9199d-cda6-4473-9944-1e0ed83ae723",
+                "id": "24150490-b585-46bb-a409-9ce0b2cf7b38",
                 "name": "Smother",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26780,7 +26780,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "63b1623d-e0a3-4b08-9837-a56c12a57a41",
+        "id": "c54d0c1e-fe5b-4b3b-8e4b-a184773fe62c",
         "mode": "monster",
         "name": "Ankheg",
         "type": "monstrosity",
@@ -26790,7 +26790,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "29921cf8-e116-472d-87b0-741a09a999b1",
+                "id": "4e926bb2-16c0-4ef6-8d16-014ead4ea4f6",
                 "name": "Acid Spray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26807,7 +26807,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "d64b8506-61fa-4503-9d75-f31ee707acc1",
+                "id": "7f304d0d-0c3b-480d-a039-a703b553006d",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26823,7 +26823,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "b801d97b-baf9-4e12-979a-835ae9a7c5eb",
+        "id": "59618b7d-3346-4ced-ba83-d59aba93c940",
         "mode": "monster",
         "name": "Ankylosaurus",
         "type": "beast",
@@ -26833,7 +26833,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "e4219a1e-26d4-4f9a-ba09-dbd553572f8a",
+                "id": "57034f80-9347-4bb8-93c0-7ad881d4e58e",
                 "name": "Tail x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26849,7 +26849,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "44baae5b-3555-43a9-85a3-a534efe6a31e",
+        "id": "276fd918-3ad7-4e9c-a1e3-a8cb72c084fc",
         "mode": "monster",
         "name": "Ape",
         "type": "beast",
@@ -26859,7 +26859,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "fef17e26-5a5e-4f06-a8a4-c9b722d9bb2e",
+                "id": "ca13acc7-7091-4b22-be66-08c3fff401c3",
                 "name": "Fist x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26871,7 +26871,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "47526ba4-b216-4c8e-9e4f-318034762052",
+                "id": "4025c518-4234-4e12-8f4d-e2bb0525337e",
                 "name": "Rock",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26890,7 +26890,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "e4de1640-5be3-4a61-aa34-b72c995e046d",
+        "id": "0296dac3-952b-48a3-9b24-2c7f610d6ab1",
         "mode": "monster",
         "name": "Arcanaloth",
         "type": "fiend",
@@ -26900,7 +26900,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "aabeb125-0281-42ab-9ea0-67283dad3768",
+                "id": "e95653f0-e770-444c-b3b2-570a63ffeeea",
                 "name": "Fiendish Burst x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26912,7 +26912,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "7e94fb02-e327-42f9-a05b-9ce4f356a544",
+                "id": "935fa5d2-d919-4642-bd42-7c88ac78ec47",
                 "name": "Banishing Claw (Requires Soul Tome)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26928,7 +26928,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6
     },
     {
-        "id": "276d8d94-16f4-42a2-a117-75d8ee4ef7e0",
+        "id": "086203ce-8760-411d-8508-b9c2f39f57fa",
         "mode": "monster",
         "name": "Arch-hag",
         "type": "fey",
@@ -26938,7 +26938,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "ea4e341e-d97d-48bb-af8d-28f6573ce00e",
+                "id": "651c4082-42de-40f4-99a6-abd11ee8e04c",
                 "name": "Crackling Wave, Spectral Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26950,7 +26950,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14
             },
             {
-                "id": "7ebb9355-2f2b-47fe-8f50-cdd7d2213139",
+                "id": "79f8e325-90cf-44a6-9f9d-cc6bd29c95db",
                 "name": "Hag's Swipe",
                 "type": "atk",
                 "actionSlot": 2,
@@ -26966,7 +26966,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 10.5
     },
     {
-        "id": "f4eabead-fdba-445b-816b-9c184cb3d90b",
+        "id": "0dae69b0-b8ac-4b4d-b030-bc78c6f906f7",
         "mode": "monster",
         "name": "Archelon",
         "type": "beast",
@@ -26976,7 +26976,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "c6d75128-6348-4b83-a956-e2ccfc65c0ea",
+                "id": "d35cb16c-5cf9-4fd5-a335-268e95043410",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -26992,7 +26992,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "5600f3f2-52ee-4b28-a281-b0d4716bea1b",
+        "id": "554da20d-320f-4655-b7fc-612df0e17ef2",
         "mode": "monster",
         "name": "Archmage",
         "type": "humanoid",
@@ -27002,7 +27002,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "3a759de1-c60a-4259-b9cf-f90b06b99fcf",
+                "id": "ec6cc11d-5fd7-4d58-8f95-545d2971e39d",
                 "name": "Arcane Burst x4",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27014,7 +27014,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "b93c3e77-f9d5-4db3-877e-146954288fd3",
+                "id": "10246fe5-af3a-420c-aad7-5d6d34d18be6",
                 "actionSlot": 0,
                 "name": "Cone of Cold",
                 "condition": "default",
@@ -27028,7 +27028,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17
             },
             {
-                "id": "6540176c-c0e6-45a2-bb18-0432808b8223",
+                "id": "364e4d2f-68e0-4747-8bc0-7917b16f06f2",
                 "name": "Lightning Bolt",
                 "actionSlot": 0,
                 "condition": "is available",
@@ -27045,7 +27045,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17
             },
             {
-                "id": "4c80515c-53bb-4b8f-ac5d-8239b72f5305",
+                "id": "873b033a-d72a-49d7-9272-b4c3dea40f45",
                 "condition": "default",
                 "type": "template",
                 "templateOptions": {
@@ -27061,7 +27061,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6
     },
     {
-        "id": "68e4503a-989e-47e3-9ab4-a55df774a1be",
+        "id": "7f97416b-d912-457a-9087-abff550e903e",
         "mode": "monster",
         "name": "Archpriest",
         "type": "humanoid",
@@ -27071,7 +27071,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "e324769c-b808-4c4b-b160-649df430a947",
+                "id": "3b01f163-da82-4470-8d0b-b57dff86bed7",
                 "name": "Radiant Burst x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27083,7 +27083,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "eec91d28-3ccf-4785-a3c6-7e9aca8be824",
+                "id": "bbc4613c-dfab-43f5-a318-61a699aada95",
                 "actionSlot": 0,
                 "name": "Flame Strike",
                 "condition": "default",
@@ -27095,7 +27095,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17
             },
             {
-                "id": "ffb10130-8977-4e66-b256-0a53e9374025",
+                "id": "50388feb-6ece-435d-8a56-b1f3bcb9428f",
                 "name": "Holy Word",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27129,7 +27129,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6
     },
     {
-        "id": "df804e6a-8a34-47e2-a9f5-07e37c365f32",
+        "id": "55b7714a-969c-4ca5-b170-d0817fd9d1c8",
         "mode": "monster",
         "name": "Assassin",
         "type": "humanoid",
@@ -27139,7 +27139,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "ba9fc4bc-5c43-40c7-bc44-487bdcd15795",
+                "id": "0f5dc9e9-8040-437b-acc1-f0ab15d8c2b8",
                 "name": "Shortsword x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27158,7 +27158,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "89a85840-1ec1-4b74-8196-3d8def17702b",
+                "id": "143efe39-a923-4615-870f-0c2c9ad3b81a",
                 "name": "Light Crossbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27174,7 +27174,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "9acb11cc-a378-44d8-bff3-b12db8c27de4",
+        "id": "9c14d722-3566-4a28-b993-a2f4ca9f0604",
         "mode": "monster",
         "name": "Awakened Shrub",
         "type": "plant",
@@ -27184,7 +27184,7 @@ export const Monsters: Creature[] = [
         "AC": 9,
         "actions": [
             {
-                "id": "0491aa55-8272-4c6c-861b-83b3d44a14cf",
+                "id": "2fe5409b-50ae-4494-80e4-6eb801b92c66",
                 "name": "Rake",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27200,7 +27200,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "3820a7db-49d7-4bba-a07a-4d27753dfb74",
+        "id": "d87ef8e8-af41-4c93-88d4-b51aa3a1a991",
         "mode": "monster",
         "name": "Awakened Tree",
         "type": "plant",
@@ -27210,7 +27210,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "5be7a364-4c6c-421a-a7a4-01572be80973",
+                "id": "e7c9d87a-cb98-4ca9-8842-8bb1ab9eedf0",
                 "name": "Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27226,7 +27226,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "ce2f4318-fc53-4a02-a3f7-e9636002492b",
+        "id": "ccaad00d-53db-4dbe-a4f8-428b945f4b01",
         "mode": "monster",
         "name": "Axe Beak",
         "type": "monstrosity",
@@ -27236,7 +27236,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "bf14e3f2-8af6-492f-a8e3-635773f57356",
+                "id": "428f2b76-c68b-4d28-bf0c-db7d17f4b631",
                 "name": "Beak",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27252,7 +27252,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "5cc58cf5-f1b1-466b-8c7a-d1266f6390c8",
+        "id": "bde1f54b-a280-4edf-9a22-e8f37d879d9c",
         "mode": "monster",
         "name": "Azer Pyromancer",
         "type": "elemental",
@@ -27262,7 +27262,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "d23dbdcf-ab59-47e8-b417-e8330834d221",
+                "id": "36369982-8323-4da3-823b-94f8918dda8a",
                 "name": "Flame Burst x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27274,7 +27274,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "24cf9688-45f1-4f32-962d-361bd6ffc578",
+                "id": "33cf02a5-055e-4e08-8367-9fe000e0942b",
                 "type": "template",
                 "condition": "default",
                 "templateOptions": {
@@ -27289,7 +27289,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "5c866211-083d-4f72-a70b-bc4a735596cc",
+        "id": "b4eb176c-a8ee-464a-aaf7-965d65aa6db7",
         "mode": "monster",
         "name": "Azer Sentinel",
         "type": "elemental",
@@ -27299,7 +27299,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "7aca77a2-2971-4c58-a5a0-b684ed2c50db",
+                "id": "591006b6-55af-4b83-9b24-729f8661abc5",
                 "name": "Burning Hammer",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27315,7 +27315,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "95a05448-4331-4f55-8d5b-56dee1b642ee",
+        "id": "c9f804e5-31d1-4c0d-8b7a-0e7c93127da8",
         "mode": "monster",
         "name": "Baboon",
         "type": "beast",
@@ -27325,7 +27325,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "762a3586-c732-42f7-863c-eb44faedfba2",
+                "id": "79d81507-a3a2-43e1-b027-d0d731efc35b",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27341,7 +27341,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "7927afa3-c681-4e55-a4e7-4da19af83565",
+        "id": "c3bcf6c3-5c82-46df-8132-41a45977b9f1",
         "mode": "monster",
         "name": "Badger",
         "type": "beast",
@@ -27351,7 +27351,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "52486640-5b03-4769-b25d-89e8ea554b83",
+                "id": "20b79871-a236-4b78-b630-d5bd4314592c",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27367,7 +27367,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "5131eb72-3d62-46a6-94ab-7a4162372779",
+        "id": "1a8af5e0-f56b-485f-b8fa-99296ace10f5",
         "mode": "monster",
         "name": "Balor",
         "type": "fiend",
@@ -27377,7 +27377,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "fa849c0a-0915-4e25-8077-89b5029cca0d",
+                "id": "82903753-29b6-4d25-800b-74d496e74f77",
                 "name": "Flame Whip, Lightning Blade",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27393,7 +27393,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 9.5
     },
     {
-        "id": "317a68cd-b001-48f9-96d5-f3823e2143f5",
+        "id": "86630e2d-dae1-40ce-ba3a-26dc3ec9c6cc",
         "mode": "monster",
         "name": "Bandit",
         "type": "humanoid",
@@ -27403,7 +27403,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "0f98cc42-964a-429b-9fe1-e1a802e1bb66",
+                "id": "e296fce8-511b-4c59-b81e-7bbe203347e5",
                 "name": "Light Crossbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27415,7 +27415,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "1e4f64e5-9a96-4bd8-9e67-8d9e9fa10476",
+                "id": "34b09234-359c-4c4e-abc4-b00ef32b5548",
                 "name": "Scimitar",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27431,7 +27431,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "c9501c26-4c14-48a5-923e-ed3f331cb260",
+        "id": "4ce2c06a-3107-4ce5-9951-93d8bc8258ec",
         "mode": "monster",
         "name": "Bandit Captain",
         "type": "humanoid",
@@ -27441,7 +27441,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "e10373a7-189c-4c30-b9e2-2a8daca69833",
+                "id": "6c4baa4d-22b9-4858-bd93-2efd819f746a",
                 "name": "Pistol, Scimitar",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27453,7 +27453,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "b8645b83-1b4a-4ffc-bfa8-e257c3e33fab",
+                "id": "d8893ad7-cb62-4dd2-ac21-dc3cd9b37384",
                 "name": "Parry",
                 "actionSlot": 4,
                 "condition": "default",
@@ -27471,7 +27471,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "82fb603f-f1c3-48b4-828d-185da58e1586",
+        "id": "4fc49bdb-62f1-4189-833d-78f8ed523850",
         "mode": "monster",
         "name": "Bandit Crime Lord",
         "type": "humanoid",
@@ -27481,7 +27481,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "d10619e6-adb1-4e2c-85db-505b610be4d0",
+                "id": "4410e8ef-5570-4c94-9f8b-36e66a089aca",
                 "name": "Scimitar x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27493,7 +27493,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "1ac47d97-6991-49e0-8df2-ae55076fd566",
+                "id": "6481b929-dfa9-41b4-bc5f-0e22c3cbec88",
                 "name": "Pistol",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27509,7 +27509,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "f5113214-80fe-4d41-a008-ae5a5cae6145",
+        "id": "86c4bcca-3c11-43e1-ab27-445d6bb0970b",
         "mode": "monster",
         "name": "Bandit Deceiver",
         "type": "humanoid",
@@ -27519,7 +27519,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "47bcc359-e7f1-4a54-8cd3-a47ca6b25933",
+                "id": "262463f0-ac2e-4d9a-85b8-c101aa593898",
                 "name": "Dagger x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27531,7 +27531,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "248e4ec2-6f1b-4598-ba28-f50b90680368",
+                "id": "b706bdf2-7417-4b90-bfd7-e04b51bf7832",
                 "name": "Blinding Flash",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27552,7 +27552,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "96a4b183-0331-4f54-9182-7fdcc81a5cae",
+        "id": "57deeda6-4c16-4508-ac54-7aab2a3e6da0",
         "mode": "monster",
         "name": "Banshee",
         "type": "undead",
@@ -27562,7 +27562,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "befc5271-52e8-4968-8f0a-bc72c59c42cf",
+                "id": "6b0ebb43-73f7-4c4b-951f-e15ecfbd5a3a",
                 "name": "Deathly Wail",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27575,7 +27575,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "22e99d1e-cebf-4331-947d-872bd19761e8",
+                "id": "1c9c0f6e-4ec9-4958-8398-4636db5fad5e",
                 "name": "Corrupting Touch x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27587,7 +27587,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "1cb27487-7b83-4fa9-a31b-e79527202990",
+                "id": "9b27558d-1b62-4cee-bab3-ab704fabcb25",
                 "name": "Horrify",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27611,7 +27611,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "b658f5d0-6098-40ea-a5f0-0ba7efc64173",
+        "id": "7f1a4045-4264-4b79-87fb-c1473a9c048f",
         "mode": "monster",
         "name": "Barbed Devil",
         "type": "fiend",
@@ -27621,7 +27621,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "fd5d0550-6d06-4746-adca-6dfea21e02bc",
+                "id": "6169aff7-3305-4578-894f-8ced944974ee",
                 "name": "Hurl Flame x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27633,7 +27633,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "00842947-d6ce-40a2-ba45-c1a2afef5802",
+                "id": "2c0fbaa3-27a2-4a0f-85be-047ca52072e1",
                 "name": "Tail",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27645,7 +27645,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "ed3350ef-436a-4b9c-939e-fa35d3e424e1",
+                "id": "7f565a36-6187-4c38-a576-f5fd6eca14fb",
                 "name": "Claws",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27661,7 +27661,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "5d28cf33-8bd8-4405-86aa-18f08915926f",
+        "id": "4f0046d0-6469-49ff-8a7e-0b82162149c3",
         "mode": "monster",
         "name": "Barlgura",
         "type": "fiend",
@@ -27671,7 +27671,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "3d9e2473-48d0-4c36-a74a-d101a89b2aa6",
+                "id": "9e51c6e9-912e-423f-b5c1-2862d80ed8e5",
                 "name": "Thrash x2, Tormenting Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27687,7 +27687,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "70a3c454-8adc-4773-9a37-dc930d9721fc",
+        "id": "11ce54ec-955a-478d-915f-f7dbacd0a677",
         "mode": "monster",
         "name": "Basilisk",
         "type": "monstrosity",
@@ -27697,7 +27697,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "ad91d66e-986e-4725-8a94-2a034918678f",
+                "id": "94e9e88f-a00f-4c97-a875-e72255bbca1c",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27713,7 +27713,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "5cfadb2d-b287-4cfa-8162-7755a2a8206c",
+        "id": "987dbfbc-361f-4e95-8e7b-93d8c08a18b0",
         "mode": "monster",
         "name": "Bat",
         "type": "beast",
@@ -27723,7 +27723,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "ebdb8966-cce3-4023-af41-f235a385ea48",
+                "id": "043b449e-ff10-4c0b-9bad-49a6ee822e95",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27739,7 +27739,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "1909eec6-b498-4197-a44e-dba9fb995ff2",
+        "id": "b6b6080f-ae96-4dfa-bd42-fbc57f22e404",
         "mode": "monster",
         "name": "Bearded Devil",
         "type": "fiend",
@@ -27749,7 +27749,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "208ca0d7-22e0-41d3-a39b-50b066f7f462",
+                "id": "d4b0988f-20f9-43a1-adac-bd4020dbabe6",
                 "name": "Beard, Infernal Glaive",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27772,7 +27772,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "cea07fe3-1d00-4f31-bb8c-2e8972532d72",
+        "id": "55d3ccde-6508-42cd-be3c-2f876d3a0c26",
         "mode": "monster",
         "name": "Behir",
         "type": "monstrosity",
@@ -27782,7 +27782,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "5e4bb085-0358-4d58-a7d2-04b97b244f98",
+                "id": "a7fc6ab6-0a22-4874-abf8-00d9ca4e174a",
                 "name": "Lightning Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27799,7 +27799,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "890d70b3-e0d9-48a3-bd34-f28129cb039d",
+                "id": "06acdef3-166d-4806-8fba-c889d9567e68",
                 "name": "Bite, Constrict",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27816,7 +27816,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "d3d5c910-7d75-4e68-89df-d2aa2c1babc4",
+        "id": "17a1f956-498e-44cb-87eb-468e2ef9672c",
         "mode": "monster",
         "name": "Beholder",
         "type": "aberration",
@@ -27826,7 +27826,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "a3d66913-d49e-488a-9d62-0383d21e94b6",
+                "id": "5b872555-9cd0-4e16-9784-4964738e69c1",
                 "name": "Eye Rays x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27847,7 +27847,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "514d1e8d-acf6-4f1e-a753-9c076f831ac3",
+                "id": "ac83c1b5-09f2-411e-8ad9-93b276e82a15",
                 "name": "Chomp",
                 "type": "atk",
                 "actionSlot": 2,
@@ -27863,7 +27863,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6.5
     },
     {
-        "id": "a4ae043c-4594-4717-8260-c989c952cb5b",
+        "id": "478e2edb-6b75-4bde-ac90-cc41bf95afa5",
         "mode": "monster",
         "name": "Beholder Zombie",
         "type": "undead",
@@ -27873,7 +27873,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "bffae685-9887-41f2-83b5-41ec9c28480d",
+                "id": "92a3eccd-0468-48bb-b9bf-d6857205ce56",
                 "name": "Undead Fortitude",
                 "type": "heal",
                 "actionSlot": -1,
@@ -27884,7 +27884,7 @@ export const Monsters: Creature[] = [
                 "amount": 1
             },
             {
-                "id": "da4b5b31-65ba-48b6-baf5-f5f01fa2730c",
+                "id": "97beabfc-2278-401a-8e57-13a8d75975ee",
                 "name": "Eye Rays x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27905,7 +27905,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "f990eb81-cba7-4225-bab9-d7217514d995",
+                "id": "6aeaa5ed-a7bd-49b2-8664-b0e1d4a37e00",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27921,7 +27921,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "7c790454-c65f-418d-9e28-81393b8330b4",
+        "id": "de6b5e9a-044a-4485-a0e8-c5bd1f513311",
         "mode": "monster",
         "name": "Berserker",
         "type": "humanoid",
@@ -27931,7 +27931,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "f49b9219-6381-4598-bfa0-26f04ff6d7e0",
+                "id": "55a71c4a-968c-4bc6-b688-23e52c7bcb67",
                 "name": "Greataxe",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27947,7 +27947,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "01f9be82-92e3-4352-a5d8-0c15f68afdfe",
+        "id": "fb40b25c-ac1f-454b-9c8c-f9b2d2f67b62",
         "mode": "monster",
         "name": "Berserker Commander",
         "type": "humanoid",
@@ -27957,7 +27957,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "8be4fb1d-3a6b-4847-9c99-cc3c07231938",
+                "id": "b7cabc75-41a4-4a18-8e91-2aa0b21b8cb4",
                 "name": "Greataxe x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27969,7 +27969,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "08a12aff-dcdc-4c8e-85fa-44e5906feee6",
+                "id": "c0f5cbc1-1fb5-4000-a8d2-26781723d7db",
                 "name": "Javelin",
                 "type": "atk",
                 "actionSlot": 0,
@@ -27985,7 +27985,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "c0c26b41-6221-47d4-b8f5-74c07a2e4ddc",
+        "id": "04a60a41-9ac4-4e18-9f68-a79d16094a3c",
         "mode": "monster",
         "name": "Black Bear",
         "type": "beast",
@@ -27995,7 +27995,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "3390b581-cb92-493e-9129-88ea5c527bea",
+                "id": "4c091dc6-18de-47ea-96a9-1a815a0fb8f5",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28011,7 +28011,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "e7097603-0b98-4089-9bde-1a803f47bc71",
+        "id": "75995287-ac8b-4c6f-85eb-59517eb42588",
         "mode": "monster",
         "name": "Black Dragon Wyrmling",
         "type": "dragon",
@@ -28021,7 +28021,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "ea17bf2a-8064-4d9f-9a05-932ca583adbb",
+                "id": "ae55be28-09fe-41dc-bbfb-786c0c27cd22",
                 "name": "Acid Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28038,7 +28038,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "f0801a90-fcf1-4582-bd75-16ee94d56d03",
+                "id": "f841fc39-4b35-4579-96e8-3bf7aebbd71b",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28054,7 +28054,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "09626e54-1b94-4f59-8321-fba2afa7fd9d",
+        "id": "6f193fed-a686-4197-ae4b-9fb1c1bc53c3",
         "mode": "monster",
         "name": "Black Pudding",
         "type": "ooze",
@@ -28064,7 +28064,7 @@ export const Monsters: Creature[] = [
         "AC": 7,
         "actions": [
             {
-                "id": "acaf5f5d-8e1f-4112-94af-656ab822caef",
+                "id": "53ae2a17-a51d-463c-8677-7f7fa45fb94c",
                 "name": "Dissolving Pseudopod",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28080,7 +28080,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "813a02bf-a50b-4138-92f2-81d3d9573db2",
+        "id": "f4634db4-da2b-4984-9b46-bb945219250a",
         "mode": "monster",
         "name": "Blink Dog",
         "type": "fey",
@@ -28090,7 +28090,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "31f8721c-f1ee-4ffb-9b69-5c8a63e4ca8f",
+                "id": "598fb987-ed81-475a-b1b5-74e2bf2d428e",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28106,7 +28106,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "08ba8667-bb13-4aeb-842b-43538942ef56",
+        "id": "0a3fb459-13f6-46d1-8caa-cfcde2c00840",
         "mode": "monster",
         "name": "Blob of Annihilation",
         "type": "ooze",
@@ -28116,7 +28116,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "4b6b477a-e8a8-45e2-9877-77348b995ed7",
+                "id": "32c6e37c-289f-4ea8-b141-993b11f1fa17",
                 "name": "Engulf, Pseudopod x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28128,7 +28128,7 @@ export const Monsters: Creature[] = [
                 "toHit": 15
             },
             {
-                "id": "344d7dae-5209-45ec-8c1b-e57e53eddcc4",
+                "id": "258bca28-3f3f-4a2f-9cc7-4fd0c830fc37",
                 "name": "Restraining Glob",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28142,7 +28142,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "cefe165b-5f17-47c6-92d5-b5697f14d692",
+                "id": "16e3cd2c-c410-429e-b5ae-b9c6938f5dd8",
                 "name": "Lashing Goop",
                 "type": "atk",
                 "actionSlot": 2,
@@ -28158,7 +28158,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 11.5
     },
     {
-        "id": "adad7233-2b8a-40a6-999a-632d885dd27b",
+        "id": "f0d3289e-f5ca-4015-99ef-82a4748b9749",
         "mode": "monster",
         "name": "Blood Hawk",
         "type": "beast",
@@ -28168,7 +28168,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "15f130a2-c8ce-4622-909e-3a3f138fcdee",
+                "id": "6d171abb-fa91-4a21-b72b-e80965903714",
                 "name": "Beak",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28184,7 +28184,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "ea5c775e-6e73-46e9-aa4e-9045d1b87ba0",
+        "id": "ebae40e8-edad-44fd-a71d-30b964b717f0",
         "mode": "monster",
         "name": "Blue Dragon Wyrmling",
         "type": "dragon",
@@ -28194,7 +28194,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "76c3d653-6628-4c8d-9d8c-42a492d28d7a",
+                "id": "52269351-7869-4d5a-b478-58b0748072f8",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28206,7 +28206,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "ce5e3b83-a149-40d9-825c-e275c7488f9e",
+                "id": "b8da4508-f91c-496f-bdc8-c5ceba940230",
                 "name": "Lightning Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28227,7 +28227,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "d322655a-62c0-422a-9af2-1e74ac48c163",
+        "id": "03f7a857-daec-4bc4-85fd-b46aacf752fc",
         "mode": "monster",
         "name": "Blue Slaad",
         "type": "aberration",
@@ -28237,7 +28237,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "5b059553-520f-4d17-93e2-7df52fb825f4",
+                "id": "c843abef-24b3-4409-b30f-74bc624243f4",
                 "name": "Mutating Claw x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28249,7 +28249,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "e5995ed1-8673-4cd4-881a-766c0c76c7a8",
+                "id": "37e4400e-39b4-41eb-830b-da3ded72ffbb",
                 "name": "Regeneration",
                 "actionSlot": 4,
                 "condition": "default",
@@ -28264,7 +28264,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "c3e3d29e-69db-491b-9857-be060fd5c742",
+        "id": "4d998ee2-62f5-47d7-8054-5b3c10ec5c1d",
         "mode": "monster",
         "name": "Boar",
         "type": "beast",
@@ -28274,7 +28274,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "f538fa0f-1d87-422e-b1a4-4c096da0e307",
+                "id": "3ad1c929-31f7-4ae4-a9e3-57abb9b5a1b1",
                 "name": "Gore",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28290,7 +28290,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "b51ce2b9-d36c-4592-baaa-403b1f486350",
+        "id": "7f86ccc7-eac5-46de-8182-61aa9e76ceb6",
         "mode": "monster",
         "name": "Bone Devil",
         "type": "fiend",
@@ -28300,7 +28300,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "bd281c30-8967-45ae-9e99-6a2ab91d1b4a",
+                "id": "90754d5f-f215-444a-bb94-6f043ddae867",
                 "name": "Claw x2, Infernal Sting",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28323,7 +28323,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "bc1c3c17-5975-43cf-8bc9-c40352c1473c",
+        "id": "16287172-5808-40f5-aa60-8a9d0ea063e8",
         "mode": "monster",
         "name": "Bone Naga",
         "type": "undead",
@@ -28333,7 +28333,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "6540176c-c0e6-45a2-bb18-0432808b8223",
+                "id": "364e4d2f-68e0-4747-8bc0-7917b16f06f2",
                 "name": "Lightning Bolt",
                 "actionSlot": 0,
                 "condition": "is available",
@@ -28347,7 +28347,7 @@ export const Monsters: Creature[] = [
                 "toHit": 13
             },
             {
-                "id": "8fbc22e7-403c-4874-972e-c1cbe2827c51",
+                "id": "1744314c-e536-421f-911a-91333af5c83b",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28359,7 +28359,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "17b3cc9d-31b0-44cd-b40f-b316a21a846e",
+                "id": "07869279-f823-4ead-aba7-a78015b436d5",
                 "name": "Serpentine Gaze",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28376,7 +28376,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "fba42c91-df14-4b64-96c4-5020cb158977",
+        "id": "5e67daaa-a579-486c-af2c-2376833c1ab7",
         "mode": "monster",
         "name": "Brass Dragon Wyrmling",
         "type": "dragon",
@@ -28386,7 +28386,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "041e7396-92a2-4540-a5ee-0a49db42b6d9",
+                "id": "1679d62f-da6e-49f8-a400-800f8c62dd8d",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28403,7 +28403,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "56f6cfef-22fc-4e99-811e-2f6836c789fb",
+                "id": "7f9ec9b2-ccf4-4e46-8b1c-3b0e8bacda68",
                 "name": "Rend",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28415,7 +28415,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "78226771-cc38-4cde-b5eb-aa2897ad9dff",
+                "id": "086c7d3d-8a15-4aff-84f1-14f1717c83d2",
                 "name": "Sleep Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28432,7 +28432,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "2cde7781-8f28-4960-b219-8d508519c997",
+        "id": "c23d54e5-e14e-4e0d-8316-5d68f659cf36",
         "mode": "monster",
         "name": "Brazen Gorgon",
         "type": "construct",
@@ -28442,7 +28442,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "b29a30d8-9349-4351-b7d7-be74a0f5401e",
+                "id": "454e5f12-059a-41d8-bd9c-41844449d772",
                 "name": "Gore x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28454,7 +28454,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "7dc71a1a-22a2-4583-ac25-691de9c7dfc3",
+                "id": "27e1aac4-5647-48a5-ab42-e1a3be64c4d0",
                 "name": "Smelting Charge",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28474,7 +28474,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "40976627-21f5-4f20-b256-3dcf957d8eb5",
+        "id": "96bc8237-88f1-4d0b-8ff5-65329feaf68e",
         "mode": "monster",
         "name": "Bronze Dragon Wyrmling",
         "type": "dragon",
@@ -28484,7 +28484,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "d1a1249e-5c1b-4ff5-a3d8-ee06951c188d",
+                "id": "7104c21b-109e-4332-89e0-c4aa00e6aa41",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28496,7 +28496,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "3ae63f93-1c59-4af7-8f05-576bb567862d",
+                "id": "29eef446-4f4f-4c27-8392-a2c955e44694",
                 "name": "Lightning Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28513,7 +28513,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "67342f5f-a82e-4329-a642-b4d679460109",
+                "id": "12227fb1-c212-43c7-93a7-7a2479b578cb",
                 "name": "Repulsion Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28530,7 +28530,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "9541c2ed-2646-4ddd-ba5a-7b5357f900aa",
+        "id": "86727221-62a6-48c2-9ded-e19745ba8b85",
         "mode": "monster",
         "name": "Brown Bear",
         "type": "beast",
@@ -28540,7 +28540,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "80894cf5-fbe8-4148-881c-dc961b833162",
+                "id": "6deda59e-c1d7-496e-8572-6bbc8aba3358",
                 "name": "Bite, Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28556,7 +28556,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "98ddc6f1-bcb2-4e79-99fc-35d295358007",
+        "id": "344ebff4-1e88-42c8-bb78-099fbe6cca4f",
         "mode": "monster",
         "name": "Bugbear Stalker",
         "type": "fey",
@@ -28566,7 +28566,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "c4150daa-648b-48be-b620-ca7cb6b1cb27",
+                "id": "61abd2fe-c027-4c4f-a431-7ec255474c85",
                 "name": "Morningstar x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28578,7 +28578,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "d316fae8-99f8-4949-8d08-70f6dc57f8ad",
+                "id": "de2db72d-708c-49cc-ba93-b3cee978d907",
                 "name": "Javelin",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28594,7 +28594,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "e0d2a78b-cc41-45b7-bded-fe33328a0615",
+        "id": "3cc880dc-bd27-4de7-9adf-a55a46d5684f",
         "mode": "monster",
         "name": "Bugbear Warrior",
         "type": "fey",
@@ -28604,7 +28604,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "723bcd79-2115-4a8e-8e10-550cf526f408",
+                "id": "6017cd34-fbea-4225-a6e5-8bffc6d9a3f2",
                 "name": "Light Hammer",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28616,7 +28616,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "09b8bb1f-fb02-44f6-9a63-4fdd68bb45b1",
+                "id": "33ea50ae-f549-42c8-91f4-b0937c026d3c",
                 "name": "Grab",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28632,7 +28632,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "28900307-b340-4bce-9481-973d4da99067",
+        "id": "3afe620a-6bde-4c7b-b412-b51e6550c5f4",
         "mode": "monster",
         "name": "Bulette",
         "type": "monstrosity",
@@ -28642,7 +28642,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "f4ff6993-a09e-4ccf-9931-c1124d1d8a13",
+                "id": "ecb59626-1f14-42f3-a750-3ff21e25a5f2",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28654,7 +28654,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "611cb9a1-be62-45ea-b6c7-785c18a1c413",
+                "id": "dff2a6ed-fc74-4cd0-afc1-0d429be528c1",
                 "name": "Deadly Leap",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28672,7 +28672,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "22477e72-71a2-45d7-84ce-d9c4ab294e6a",
+        "id": "77833380-c65a-4046-847e-d3ab196cf6a6",
         "mode": "monster",
         "name": "Bulette Pup",
         "type": "monstrosity",
@@ -28682,7 +28682,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "e5e3f8c5-e87c-40aa-b0c8-e5ecc1395a45",
+                "id": "8d5bb318-9d0b-406a-bd07-beeb058d3637",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28698,7 +28698,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "e21463bc-06db-429e-b044-d148fadaab11",
+        "id": "9203e441-92ab-4b84-8fb3-80f6ea1b6430",
         "mode": "monster",
         "name": "Bullywug Bog Sage",
         "type": "fey",
@@ -28708,7 +28708,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "9f191177-bcdf-4382-aeca-19bd9ceba65d",
+                "id": "c2ea4947-e855-4f0d-bfd4-d9bcd94ae445",
                 "name": "Bog Staff x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28724,7 +28724,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "7d590ca3-4413-4f18-9da1-c2fee291c782",
+        "id": "ab9f0ece-0fa1-487e-a0bb-c93dcbeff459",
         "mode": "monster",
         "name": "Bullywug Warrior",
         "type": "fey",
@@ -28734,7 +28734,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "a461834b-4543-4887-a9fb-1c55caf4d94f",
+                "id": "47b02b98-fb59-4f43-a624-b693059bf1c0",
                 "name": "Insectile Rapier",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28750,7 +28750,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "1168eb3e-8567-416a-bac9-d72fff5b4341",
+        "id": "c443e28e-027d-43b0-bc85-07b0fb110432",
         "mode": "monster",
         "name": "Cambion",
         "type": "fiend",
@@ -28760,7 +28760,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "b947f02a-0ccd-46ad-8359-236dc14523a3",
+                "id": "37e9bc4c-6ac5-488c-b4f2-29eae56ae983",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28772,7 +28772,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "4933ca7d-c48b-4f11-9af4-7f87591f812a",
+                "id": "570711af-52b8-4e6e-9f79-09629133f64e",
                 "name": "Fire Ray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28788,7 +28788,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "e6399d4b-8038-47ad-87af-c62781d83487",
+        "id": "d06f002f-5f5f-4bf5-8389-c5c5781c811a",
         "mode": "monster",
         "name": "Camel",
         "type": "beast",
@@ -28798,7 +28798,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "44ea00ed-39ac-4551-ada3-c204db861775",
+                "id": "674c241a-bd25-4928-9144-9bb6640d82bb",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28814,7 +28814,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "f8295b64-d27b-4768-958f-7b6cac94893d",
+        "id": "7bfc7be7-f4b0-4f78-9925-fb4e007a6549",
         "mode": "monster",
         "name": "Carrion Crawler",
         "type": "monstrosity",
@@ -28824,7 +28824,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "554f9d70-49a9-4681-9d4b-a0f1fb63bf1f",
+                "id": "8c915788-cf8c-416d-a144-7c4d9ae0fa0b",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28836,7 +28836,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "5fcdd43b-bb74-4b5a-8799-b36b7934328d",
+                "id": "bca5ff88-b67a-4eb2-8c84-456266d6780f",
                 "name": "Paralyzing Tentacles",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28860,7 +28860,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "70a2b4db-b40e-4d52-8395-c9a510a2ab4e",
+        "id": "a113650f-20b1-4ff2-a3e8-8d7d55fe3b78",
         "mode": "monster",
         "name": "Cat",
         "type": "beast",
@@ -28870,7 +28870,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "61a7ec98-218a-4654-b034-33d2306edaa4",
+                "id": "ee02ddd4-ba47-4fd1-b137-b61b4769a8e6",
                 "name": "Scratch",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28886,7 +28886,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "2c76cd76-9138-46eb-953e-e6f965c2a078",
+        "id": "d936459c-c083-4674-a1e5-f248d1c18470",
         "mode": "monster",
         "name": "Centaur Trooper",
         "type": "fey",
@@ -28896,7 +28896,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "58c04611-c300-4fa2-9f6f-dd72929000bd",
+                "id": "a9f1b6b4-9fda-40dd-9fe1-dc598e976a75",
                 "name": "Pike x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28908,7 +28908,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "5bdd1a5e-e57d-4c1d-947a-29b037e36420",
+                "id": "5a56fd45-7848-4c9c-8dab-d437aa7d4863",
                 "name": "Longbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28924,7 +28924,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "4ca12534-7441-4ca0-8c71-26db23c5c196",
+        "id": "a24f907c-90c9-4c20-bb19-ee634786899d",
         "mode": "monster",
         "name": "Centaur Warden",
         "type": "fey",
@@ -28934,7 +28934,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "3bafb2b5-fc46-445b-9642-c27c0ac6c1be",
+                "id": "9fd848fe-5d6f-4c48-814e-99d45ed08b61",
                 "name": "Forest Staff x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28946,7 +28946,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "68a23f26-12fe-427f-8ffe-ad3b269e2037",
+                "id": "e420c7c2-fc00-4f5a-ae28-736318c292d7",
                 "name": "Sun Ray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28962,7 +28962,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "127b16e1-d850-471f-8ada-a24c3176d751",
+        "id": "d7ea618a-2f66-4e8b-8a17-277fd2a92490",
         "mode": "monster",
         "name": "Chain Devil",
         "type": "fiend",
@@ -28972,7 +28972,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "a12caed7-d88d-46fe-87d7-9cdd2f789863",
+                "id": "7c6c3e44-dfdb-4286-93cc-c608ac5ce3c1",
                 "name": "Chain x2, Conjure Infernal Chain",
                 "type": "atk",
                 "actionSlot": 0,
@@ -28988,7 +28988,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "088b73de-df0e-4178-a28f-0cdbe4e85af7",
+        "id": "cef0211a-817a-4386-a31a-a26abee9a7d2",
         "mode": "monster",
         "name": "Chasme",
         "type": "fiend",
@@ -28998,7 +28998,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "25d1f88a-d799-4ec8-ae85-e7a72c3a79a5",
+                "id": "ffbff5bb-4d49-455c-8341-cc033f2fa349",
                 "name": "Proboscis",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29014,7 +29014,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "7e6d8871-3172-4706-b497-c6db2ef4056d",
+        "id": "bcdc8607-2eab-4e4a-8f4f-ff71cee897c5",
         "mode": "monster",
         "name": "Chimera",
         "type": "monstrosity",
@@ -29024,7 +29024,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "b4dcbf49-c77c-426c-a10a-b2877f378f95",
+                "id": "26680e24-104e-4de7-9a64-b8722a9d9d48",
                 "name": "Bite, Claw, Ram",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29036,7 +29036,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "5d12123d-b3c2-409f-99c8-b9a38ef95c60",
+                "id": "6d2cc365-3886-42b8-b9e7-4fbf415ce916",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29057,7 +29057,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "07794ec7-ddf8-4337-a4f3-68b9c17550af",
+        "id": "74c64818-ac82-4ef5-9e90-138f02248e2f",
         "mode": "monster",
         "name": "Chuul",
         "type": "aberration",
@@ -29067,7 +29067,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "b8acb7b6-f315-4a48-a16c-65d9b8eadfd5",
+                "id": "91f10120-4207-480d-9a1f-ef2240edf3f9",
                 "name": "Pincer x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29079,7 +29079,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "495e581d-0d27-476f-b108-3996bd425aa0",
+                "id": "f932b55c-a488-431b-ab4f-b9bb91013a51",
                 "name": "Paralyzing Tentacles",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29103,7 +29103,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "f6efc315-991a-44bb-832a-b4ec639e0b40",
+        "id": "fdefc945-be0a-4f9f-9018-8cf4dc972f7d",
         "mode": "monster",
         "name": "Clay Golem",
         "type": "construct",
@@ -29113,7 +29113,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "02425f18-4ca2-4ff1-a11b-e38909038700",
+                "id": "09418479-eb39-4570-8c7a-793fce1ce374",
                 "name": "Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29129,7 +29129,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "67b3d7c7-db45-4b65-bbf5-6ebcde56af0c",
+        "id": "99b46912-6570-46f0-a986-817dd1c696ae",
         "mode": "monster",
         "name": "Cloaker",
         "type": "aberration",
@@ -29139,7 +29139,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "d8dbdc48-f3d7-4777-9321-5fc8db7ff948",
+                "id": "72f1f515-a8ca-47b4-86c0-1ea598101cd5",
                 "name": "Attach, Tail x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29155,7 +29155,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "51afdb11-ffcb-4d7c-bfce-2dd84b56a3e9",
+        "id": "cfa187c4-1792-46b9-b87e-f853c4bc29a9",
         "mode": "monster",
         "name": "Cloud Giant",
         "type": "giant",
@@ -29165,7 +29165,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "f2ad3aaf-9dbb-4494-88d1-2bdb45adbe18",
+                "id": "854b2790-197b-43ba-aa04-e2735e9853ff",
                 "name": "Thunderous Mace x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29177,7 +29177,7 @@ export const Monsters: Creature[] = [
                 "toHit": 12
             },
             {
-                "id": "f5252182-8b1a-46be-b404-dfb6083218df",
+                "id": "90b07f2b-c12d-4225-93aa-fb20a85482a8",
                 "name": "Thundercloud",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29193,7 +29193,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "f3e44bdb-5c56-4b71-a5ab-ffa6b9cb7919",
+        "id": "fa7a86b8-e07a-41b3-b1b2-de96f91ce185",
         "mode": "monster",
         "name": "Cockatrice",
         "type": "monstrosity",
@@ -29203,7 +29203,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "ac76855d-be83-4d08-a0ae-2ff3aa357fdc",
+                "id": "0bc132a1-947d-4b60-a197-afcb4af91add",
                 "name": "Petrifying Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29219,7 +29219,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "ceb07f38-0dfc-4730-bf65-2816f5ea38b9",
+        "id": "5d322c7a-1ba8-495b-ad38-65c599aef7eb",
         "mode": "monster",
         "name": "Cockatrice Regent",
         "type": "monstrosity",
@@ -29229,7 +29229,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "a6722084-2690-462b-a0bb-1a233163266c",
+                "id": "14c651d7-0b1a-4fbb-8c88-bcee1a08c7fc",
                 "name": "Petrifying Bite, Talons x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29245,7 +29245,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "0bff61eb-c8bf-429a-95a3-deaf03182d24",
+        "id": "3d19b092-742b-4a08-86dd-88ad72b0b8c9",
         "mode": "monster",
         "name": "Colossus",
         "type": "construct",
@@ -29255,7 +29255,7 @@ export const Monsters: Creature[] = [
         "AC": 23,
         "actions": [
             {
-                "id": "350ea315-e1fd-45f7-ac6e-f5836c61d323",
+                "id": "c47454cd-1627-4e3d-a817-3c60823ca300",
                 "name": "Divine Beam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29272,7 +29272,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "f6aa0987-9126-48d1-a62f-d7f8ed256f6a",
+                "id": "01197b0f-eaca-43cf-9df1-926f8df31e4f",
                 "name": "Slam x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29284,7 +29284,7 @@ export const Monsters: Creature[] = [
                 "toHit": 18
             },
             {
-                "id": "ae7226fe-9d5c-41e7-aecb-3896946eaca2",
+                "id": "6d9b5e1f-0ef8-4fd7-ab63-c67da2ad527e",
                 "name": "Smite",
                 "type": "atk",
                 "actionSlot": 2,
@@ -29300,7 +29300,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 12.5
     },
     {
-        "id": "ddc54700-b084-42d7-8142-26f4b756e77a",
+        "id": "e0060dc7-b3df-49de-92ed-32a5114a9a56",
         "mode": "monster",
         "name": "Commoner",
         "type": "humanoid",
@@ -29310,7 +29310,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "289c6726-4c38-4028-aefe-5a3b0c3c73dc",
+                "id": "ca01730f-c3a9-4232-b834-429195c10e95",
                 "name": "Club",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29326,7 +29326,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "5dd325cd-5a87-4a20-aa63-a640a4b6ea1d",
+        "id": "39e8bf61-d5a7-489c-bf69-be593dcf6220",
         "mode": "monster",
         "name": "Constrictor Snake",
         "type": "beast",
@@ -29336,7 +29336,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "cf08661a-6912-4921-99a1-590d577bde72",
+                "id": "2b5da502-9175-4a1b-8857-5dd56118ce72",
                 "name": "Constrict",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29349,7 +29349,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "cbae9dfd-8f6d-4a8b-9ee5-1ab8c9c5c581",
+                "id": "d765a56b-1ccf-45d2-91a2-04b54ac09620",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29365,7 +29365,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "3e734a01-aba5-43a3-9744-05a2035c3b23",
+        "id": "23d79ea6-dcb9-4358-b0f5-2f49cb63541c",
         "mode": "monster",
         "name": "Copper Dragon Wyrmling",
         "type": "dragon",
@@ -29375,7 +29375,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "ec9d2327-0317-440a-bb26-f54bd0b7c65b",
+                "id": "f67d7e02-a488-4bd0-b84d-4a1c0a0ca540",
                 "name": "Acid Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29392,7 +29392,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "129cd07c-736b-4aa3-9bdf-7677dc4648c7",
+                "id": "4f0dece2-fa30-410a-8737-f9ee50fa6251",
                 "name": "Rend",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29404,7 +29404,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "d27d0946-06a3-4373-9ea1-c90f98ddfc29",
+                "id": "b041b858-bb51-4637-a75b-4dd98906d149",
                 "name": "Slowing Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29421,7 +29421,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "116f60f8-3873-4417-9787-dae306afee92",
+        "id": "96ebe81e-9641-4640-9d6b-fd7c7b98130a",
         "mode": "monster",
         "name": "Couatl",
         "type": "celestial",
@@ -29431,7 +29431,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "8e819ce5-6e66-44aa-8745-b72d5a5889f6",
+                "id": "e1dfc19b-ca82-4e51-a13b-23afed86c139",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29450,7 +29450,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "f4b672eb-007c-48cf-bb9f-b503ada8b2e2",
+                "id": "134dd876-c6b4-4596-92dc-81ba02bd54da",
                 "name": "Constrict",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29480,7 +29480,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "8abdb387-8b88-4427-9f3d-5cc8ab8287f4",
+        "id": "649d4d7f-c187-444a-922f-0a20f195002e",
         "mode": "monster",
         "name": "Crab",
         "type": "beast",
@@ -29490,7 +29490,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "ca075e95-982a-4afc-ac8d-ecd180f571b0",
+                "id": "69703978-1259-4c0e-8ef7-0d3c739d2b9f",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29506,7 +29506,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "7e57d354-8578-4e00-8a5c-5bdfc2223235",
+        "id": "ea21ee84-02d2-4f64-87a3-a82ffa976669",
         "mode": "monster",
         "name": "Crawling Claw",
         "type": "undead",
@@ -29516,7 +29516,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "597e2e78-5540-4197-b192-daad6239aff7",
+                "id": "c053d8ed-7af7-447d-92d0-39c7dc4a5b9b",
                 "name": "Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29532,7 +29532,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "6a603c03-6b0b-4045-833e-9a9ef69a0f14",
+        "id": "38a8fec0-45cb-4f79-9cfa-365e7fee7184",
         "mode": "monster",
         "name": "Crocodile",
         "type": "beast",
@@ -29542,7 +29542,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "c2bcf8c8-2d5e-4f4e-9e7a-b4ccb047157c",
+                "id": "e03ef056-c368-4b36-bf63-e65a1cda11ae",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29558,7 +29558,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "c9d1c93c-292f-41d4-aaa0-de2de1935534",
+        "id": "d98882dd-d000-4bea-92c4-b3ee5bb4cb32",
         "mode": "monster",
         "name": "Cultist",
         "type": "humanoid",
@@ -29568,7 +29568,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "24980d14-5be1-478f-a1f4-5af03c68ae91",
+                "id": "be64b017-a6c6-425b-94b1-aef9c8b68636",
                 "name": "Ritual Sickle",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29584,7 +29584,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "e8a5967c-b863-4800-9c89-c7f013e6b296",
+        "id": "18894c89-4460-47a0-8334-2954787db86c",
         "mode": "monster",
         "name": "Cultist Fanatic",
         "type": "humanoid",
@@ -29594,7 +29594,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "f2156793-a55c-4557-8e0b-1fa678957424",
+                "id": "2eb2fee8-837a-4411-bb55-49b259d76218",
                 "name": "Pact Blade",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29606,7 +29606,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "3de2f563-f940-4144-91a1-6c7415be1696",
+                "id": "4b44e2d6-6a7c-42e0-b316-0429065871fb",
                 "name": "Spiritual Weapon",
                 "actionSlot": 0,
                 "condition": "default",
@@ -29625,7 +29625,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "8844a279-5ae0-4e5e-8311-55b844c81fef",
+        "id": "afecc7c7-087b-4e3e-bb6d-24346e31adad",
         "mode": "monster",
         "name": "Cultist Hierophant",
         "type": "humanoid",
@@ -29635,7 +29635,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "ffbee8bf-ad64-4066-8748-20c7dc54d2a4",
+                "id": "7c691267-f9cd-4eb8-be75-1f495ae0e35e",
                 "name": "Pact Blade x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29647,7 +29647,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "69e67d33-41b8-406e-9982-d4b671ba7053",
+                "id": "6877fdda-5192-453b-9335-beb527017b2b",
                 "name": "Radiant Ray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29663,7 +29663,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "f94326fa-d5e5-4866-9d31-5a65b5505baf",
+        "id": "34870b33-a6d2-4bc2-bb7e-80e1cfeb9401",
         "mode": "monster",
         "name": "Cyclops Oracle",
         "type": "giant",
@@ -29673,7 +29673,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "72bd48dc-5f85-43da-b271-6aa4abb49ca9",
+                "id": "8dde09a4-b7e9-448a-bb61-dc7754891e66",
                 "name": "Radiant Strike x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29685,7 +29685,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "2592987d-a956-4349-a39c-ce7919475105",
+                "id": "417ad064-1be9-4e47-84a1-2085cdae23ca",
                 "name": "Flash of Light",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29701,7 +29701,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "8615457a-e2d1-420d-ade1-b1eb48425bdc",
+        "id": "74072aee-1af6-4f52-a981-703ab75c1294",
         "mode": "monster",
         "name": "Cyclops Sentry",
         "type": "giant",
@@ -29711,7 +29711,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "c2c8e356-60c6-4c46-8f1d-0a39e015fab4",
+                "id": "7c3c613c-bb52-48e5-8aca-55a3e8ba88af",
                 "name": "Stone Club x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29723,7 +29723,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "b418b9f1-0da6-4845-a10b-8220752a59fd",
+                "id": "5b8d4a64-bd06-4d05-b3bd-8bff7e134aaf",
                 "name": "Rock",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29739,7 +29739,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "6526319a-532d-454b-8717-3754b7227040",
+        "id": "53198261-d0d7-404d-b41b-1ba4852ebf99",
         "mode": "monster",
         "name": "Dao",
         "type": "elemental",
@@ -29749,7 +29749,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "73b96968-0fe6-4c2c-b1e1-f05229bcf1f6",
+                "id": "afd0dcba-26bf-4f87-8e41-109a58cd5ef1",
                 "name": "Earthen Maul x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29761,7 +29761,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "b38243b5-6061-4415-b94a-42e3118eaaab",
+                "id": "8df2ed36-f2c5-4bdd-b2b8-43effda4c0c3",
                 "name": "Earth Burst",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29777,7 +29777,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "652adbe9-2654-4a71-ad2d-fc8f2011cc11",
+        "id": "17276022-513a-4cc9-8621-8f2f06ee9175",
         "mode": "monster",
         "name": "Darkmantle",
         "type": "aberration",
@@ -29787,7 +29787,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "a0be36c2-86db-4e79-9b96-e4013ce47288",
+                "id": "d2e31ca0-981e-4768-a409-e256e666abff",
                 "name": "Crush",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29799,7 +29799,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "7771b73b-0eee-472f-a386-2a2eccd6835f",
+                "id": "80c1a95c-c587-4baa-b8d0-216ed7d61d18",
                 "name": "Darkness Aura",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29815,7 +29815,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "2640b918-a8a7-446b-a4c3-1cc4e091fac3",
+        "id": "ae4b6581-5c6d-4e73-bb29-febdcf65a93f",
         "mode": "monster",
         "name": "Death Cultist",
         "type": "humanoid",
@@ -29825,7 +29825,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "15bba89f-ceaf-4a8d-9e16-3cfc73642b98",
+                "id": "615df2da-194e-4ea4-89fc-211ad8463370",
                 "name": "Dread Scythe x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29837,7 +29837,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "1985a30a-7e13-4899-b4b9-fa107bd470b1",
+                "id": "24ff328f-0f4b-4b18-922d-6180df2e619c",
                 "name": "Deathly Ray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29853,7 +29853,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "48b9ad15-69c4-4b7d-b6dd-12bd77f431a1",
+        "id": "ea3a343f-5bdf-4027-b000-a9c36c36c037",
         "mode": "monster",
         "name": "Death Dog",
         "type": "monstrosity",
@@ -29863,7 +29863,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "b9422fda-57da-42f2-864a-74ec63614ba1",
+                "id": "68f63801-7af8-4085-a16c-4a292cc259c3",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29886,7 +29886,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "4bda2299-c033-425e-8f4c-504bde8256fb",
+        "id": "33d9802a-e8d5-43ed-94ec-292c84b0ce44",
         "mode": "monster",
         "name": "Death Knight",
         "type": "undead",
@@ -29896,7 +29896,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "36a962fa-3f40-4031-9b43-b4bceb75d9ce",
+                "id": "bb30e4d8-e5e6-4a79-b633-8d81dcd7f5f7",
                 "name": "Hellfire Orb",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29913,7 +29913,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "5205202f-bd56-43af-b0eb-e58f4812a672",
+                "id": "6fd9e2da-f517-4c11-adb1-c42586226683",
                 "name": "Dread Blade x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29925,7 +29925,7 @@ export const Monsters: Creature[] = [
                 "toHit": 11
             },
             {
-                "id": "973e6e30-4761-4cc1-a6f2-09916ad4ab41",
+                "id": "ff19fbee-48fb-42fd-84bb-39bbb3512b71",
                 "name": "Lunge",
                 "type": "atk",
                 "actionSlot": 2,
@@ -29937,7 +29937,7 @@ export const Monsters: Creature[] = [
                 "toHit": 11
             },
             {
-                "id": "b8645b83-1b4a-4ffc-bfa8-e257c3e33fab",
+                "id": "d8893ad7-cb62-4dd2-ac21-dc3cd9b37384",
                 "name": "Parry",
                 "actionSlot": 4,
                 "condition": "default",
@@ -29955,7 +29955,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8.5
     },
     {
-        "id": "8c8585bd-27d8-4d70-b89c-e5595a14f3c7",
+        "id": "219bfe97-1387-4338-8bab-db7cdc02ed10",
         "mode": "monster",
         "name": "Death Knight Aspirant",
         "type": "undead",
@@ -29965,7 +29965,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "bd43fb55-ea08-4fad-b074-6f7cea1df297",
+                "id": "4863aced-3f44-468e-8b5a-ac7cd8b7656a",
                 "name": "Hellfire Orb",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29982,7 +29982,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "1bb638c3-53e9-4419-9212-483ca5649869",
+                "id": "2c5976ea-8ad3-4cce-832d-a987390d5952",
                 "name": "Dread Blade x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -29994,7 +29994,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "b8645b83-1b4a-4ffc-bfa8-e257c3e33fab",
+                "id": "d8893ad7-cb62-4dd2-ac21-dc3cd9b37384",
                 "name": "Parry",
                 "actionSlot": 4,
                 "condition": "default",
@@ -30012,7 +30012,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "49823598-5fd1-421c-8bf0-a3a82bcc800c",
+        "id": "eb4f36d3-a9e6-473a-b7dd-b569dfde7876",
         "mode": "monster",
         "name": "Death Slaad",
         "type": "aberration",
@@ -30022,7 +30022,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "0b9201ff-617a-494b-ab52-150d9a6e6e2a",
+                "id": "937b496f-aa90-42c5-bfe4-0c86dbf3e79a",
                 "name": "Chaos Blade x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30041,7 +30041,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "37b4bfb8-8e6b-4c5a-82b9-0af89188e521",
+                "id": "fce15833-7852-468b-96cc-3999ccd64453",
                 "name": "Blight",
                 "actionSlot": 0,
                 "condition": "default",
@@ -30055,7 +30055,7 @@ export const Monsters: Creature[] = [
                 "toHit": 16
             },
             {
-                "id": "e5995ed1-8673-4cd4-881a-766c0c76c7a8",
+                "id": "37e4400e-39b4-41eb-830b-da3ded72ffbb",
                 "name": "Regeneration",
                 "actionSlot": 4,
                 "condition": "default",
@@ -30070,7 +30070,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "3b3d4037-18e0-4530-a955-9d63d0726989",
+        "id": "799232b9-b6fa-4c9d-880f-a8ca51bc40ec",
         "mode": "monster",
         "name": "Death Tyrant",
         "type": "undead",
@@ -30080,7 +30080,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "05fddfd0-50f3-4a84-b0c5-10f81a87eb2d",
+                "id": "0d1da7e6-a1ff-4146-bc75-fa82c2787908",
                 "name": "Eye Rays x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30101,7 +30101,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "38964deb-62bf-4279-9368-420887ee4055",
+                "id": "8b38ea9b-8b51-4d20-870e-34e56d8ef274",
                 "name": "Chomp",
                 "type": "atk",
                 "actionSlot": 2,
@@ -30117,7 +30117,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 7
     },
     {
-        "id": "dbc73a3e-a4fa-4b52-8869-c8cc80a514ef",
+        "id": "d4bbed38-4e87-4c29-b01b-45cd8620be99",
         "mode": "monster",
         "name": "Deer",
         "type": "beast",
@@ -30127,7 +30127,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "7f7a55a5-1924-4f05-a50e-4f583e1c4f28",
+                "id": "d9e40215-f7e2-4fe7-bff1-624026ae2066",
                 "name": "Ram",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30143,7 +30143,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "a3735b15-6110-4e1e-91ee-95e214103964",
+        "id": "74156d17-7ab7-4ee6-9ae9-290b60050574",
         "mode": "monster",
         "name": "Demilich",
         "type": "undead",
@@ -30153,7 +30153,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "836ac4c7-a9eb-4ec5-957b-f3b63796b6cd",
+                "id": "ba6110ed-b868-4fb5-bfea-78b67ab568a2",
                 "name": "Howl",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30176,7 +30176,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "3ee01f73-1892-446e-bdb7-9547d9ea33b5",
+                "id": "bf50ac98-ae1c-40d5-8e4d-e37b61b30749",
                 "name": "Necrotic Burst x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30188,7 +30188,7 @@ export const Monsters: Creature[] = [
                 "toHit": 11
             },
             {
-                "id": "78c17fb0-ce32-4834-8ee3-342d2fee2fa6",
+                "id": "7d09d2d4-87c6-4e3e-86c6-4ee278df51d7",
                 "name": "Necrosis",
                 "type": "atk",
                 "actionSlot": 2,
@@ -30204,7 +30204,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 9
     },
     {
-        "id": "805c207b-5366-4edc-b028-3d749bfdeb14",
+        "id": "37bc1491-434e-400c-905d-907b609f065f",
         "mode": "monster",
         "name": "Deva",
         "type": "celestial",
@@ -30214,7 +30214,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "484cf68a-00c9-4be0-9b05-42d49c555916",
+                "id": "6ae84e22-bb12-4b83-bf60-373761e6a94b",
                 "name": "Cure Wounds",
                 "actionSlot": 0,
                 "condition": "ally under half HP",
@@ -30228,7 +30228,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "57342214-84da-41ed-9513-f9039cd7432a",
+                "id": "dc901462-3397-452c-b040-d069731c679c",
                 "name": "Holy Mace x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30244,7 +30244,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "483000e3-0d21-429a-8fc9-8cc1bcefa6f6",
+        "id": "c12f8e8b-a01a-44be-a6f1-6ffac6e3731b",
         "mode": "monster",
         "name": "Dire Wolf",
         "type": "beast",
@@ -30254,7 +30254,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "e9f117c4-36b7-4949-adb4-55bf9db1c580",
+                "id": "267a882c-2bdb-43ce-abe1-5894424ff949",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30270,7 +30270,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "331efd01-d656-453a-a5fd-91f031c166b8",
+        "id": "f39a7747-9aac-4b2d-9c04-fa2bdbe5efa9",
         "mode": "monster",
         "name": "Dire Worg",
         "type": "fey",
@@ -30280,7 +30280,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "43606a80-6f70-44ab-bbf6-21f797ea7b65",
+                "id": "2d44d5e2-6756-48c0-9eb7-715bba462f46",
                 "name": "Dreadful Howl",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30304,7 +30304,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "50b79100-c374-4eb9-a22c-f8aa1ca3066b",
+                "id": "ec94b0fc-a349-437b-90db-c86603990ab3",
                 "name": "Bite x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30327,7 +30327,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "a4f0d8ff-7274-4ac2-abef-05e886db1391",
+        "id": "47dca34d-da07-429f-afce-16a9a06dac14",
         "mode": "monster",
         "name": "Displacer Beast",
         "type": "monstrosity",
@@ -30337,7 +30337,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "c20f0684-de87-4170-b063-589704ff8d63",
+                "id": "121c37fe-b7be-4fd5-b287-b5843eb80486",
                 "name": "Rend, Tentacle",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30353,7 +30353,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "80631128-13e1-48f4-b0f9-69331b130759",
+        "id": "1f0a70bd-3415-4fb6-b7f0-bb47274199fb",
         "mode": "monster",
         "name": "Djinni",
         "type": "elemental",
@@ -30363,7 +30363,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "43667d0f-02a9-434d-988c-534e57b02d3c",
+                "id": "b7183f22-7420-4b37-a4d5-2d7687270e5f",
                 "name": "Storm Blade x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30375,7 +30375,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "1cbdee81-7208-44b9-bae8-707eb58232ac",
+                "id": "7cc98b33-631b-4746-ae57-568732806ea1",
                 "name": "Create Whirlwind",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30388,7 +30388,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "2504efdf-3721-4090-a7fc-4a6e42916ddb",
+                "id": "2d1c3d65-7ad2-4d51-bf35-8955c4276ecf",
                 "name": "Storm Bolt",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30404,7 +30404,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "aae530cd-70d5-44ef-bc15-5f48cb57beca",
+        "id": "024ddbd6-3256-4b33-926d-ee4a1118c40d",
         "mode": "monster",
         "name": "Doppelganger",
         "type": "monstrosity",
@@ -30414,7 +30414,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "e7cce8a9-1de2-4a78-a0b3-673202d8cbf5",
+                "id": "0d5fa3ff-c60c-49bf-9ec9-462bf689a7c4",
                 "name": "Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30426,7 +30426,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "ebda33c1-505f-415d-807f-9407aac1dad3",
+                "id": "d877006b-df1d-454e-aaea-6c985013e6e2",
                 "name": "Unsettling Visage",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30453,7 +30453,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "db6d4053-bd45-486e-8b81-e276d7e8a361",
+        "id": "497ebb56-bc11-47c1-924f-f613ee02069d",
         "mode": "monster",
         "name": "Dracolich",
         "type": "undead",
@@ -30463,7 +30463,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "8ec8b764-32ef-4041-946b-bf3580ac4ca4",
+                "id": "6f4c3b0f-e3cd-4e5f-9867-9eb4cb48531d",
                 "name": "Necrotic Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30480,7 +30480,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "2f52b72a-62c7-4f88-8d9a-cb8cbfd08e82",
+                "id": "16ac8842-ace1-4d6c-9c04-e9233eab95fb",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30492,7 +30492,7 @@ export const Monsters: Creature[] = [
                 "toHit": 13
             },
             {
-                "id": "e5f1fc93-d715-4475-baee-e88ec3227826",
+                "id": "8965bd57-3bf8-4860-83cc-d3b28778111a",
                 "name": "Finger of Death",
                 "actionSlot": 0,
                 "condition": "is available",
@@ -30506,7 +30506,7 @@ export const Monsters: Creature[] = [
                 "toHit": 19
             },
             {
-                "id": "c91bb1b5-91a1-450c-9e86-deac958125fd",
+                "id": "52d803d1-bb4d-4a8c-974c-6317e81276ab",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -30522,7 +30522,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8.5
     },
     {
-        "id": "902c4d2f-d246-47da-8a82-8c6cb7597501",
+        "id": "04fe5fe5-8be3-4296-9467-8c9f224a4662",
         "mode": "monster",
         "name": "Draft Horse",
         "type": "beast",
@@ -30532,7 +30532,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "3f1482db-ef38-49ec-9b75-8439458741f2",
+                "id": "a9e24d8c-6e5f-416a-9d91-eee31dda4829",
                 "name": "Hooves",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30548,7 +30548,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "5fabffae-9572-4dc3-833d-238db7c1f5ab",
+        "id": "8e9c18fb-1d30-41e5-adeb-61524b077830",
         "mode": "monster",
         "name": "Dragon Turtle",
         "type": "dragon",
@@ -30558,7 +30558,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "065cb4f3-8dfe-4bb7-be5d-5a70a0133d9e",
+                "id": "b2763001-f986-4308-9ff9-a3154f66977f",
                 "name": "Steam Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30575,7 +30575,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "8182516a-189c-44c1-be1e-2e28963f5dac",
+                "id": "8c3a7cd2-d333-49b2-a874-9fbb955cd471",
                 "name": "Bite x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30587,7 +30587,7 @@ export const Monsters: Creature[] = [
                 "toHit": 13
             },
             {
-                "id": "ef314fdd-f78b-4178-a60d-826052e5c458",
+                "id": "bce9e027-0916-4ad3-9a0e-ac7e434b445f",
                 "name": "Tail",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30603,7 +30603,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8.5
     },
     {
-        "id": "6b4fe6f3-46e3-4eca-95f3-87ec6b43c2d4",
+        "id": "3f4e40f7-bce3-4499-8525-28592c9dff6a",
         "mode": "monster",
         "name": "Dretch",
         "type": "fiend",
@@ -30613,7 +30613,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "132f34d6-1d5e-496a-9b87-566b93a6ebac",
+                "id": "a46611e3-a9f8-4db1-aca6-b67b4b482d41",
                 "name": "Rend",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30625,7 +30625,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "a5148e48-1ac4-4b37-866b-fbe5e5e92127",
+                "id": "fcb7b9f7-b2f2-4efa-9476-a581725b89f4",
                 "name": "Fetid Cloud",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30649,7 +30649,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "23e8fda5-2f81-4b2a-acac-7673c012ce5d",
+        "id": "e6ba9d1c-1231-44c3-99e9-635122c6c3fe",
         "mode": "monster",
         "name": "Drider",
         "type": "monstrosity",
@@ -30659,7 +30659,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "92c26f7d-125c-42d6-b7f9-5a5b95213f04",
+                "id": "aaba4794-9035-4fc0-adbd-b3fc941b9556",
                 "name": "Foreleg x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30671,7 +30671,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "6e3771cd-dc1f-43d4-a017-9135fe473ea3",
+                "id": "05c1dbf1-c3e5-4f3e-8f17-eb5c66d9c20c",
                 "name": "Poison Burst",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30687,7 +30687,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "ebd80bf0-28ee-4d76-a21d-8f0443049b47",
+        "id": "b404f19b-6dda-4560-9f6b-bba45d8b3413",
         "mode": "monster",
         "name": "Druid",
         "type": "humanoid",
@@ -30697,7 +30697,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "9b88d365-0b1b-438e-a82d-89099ddf764a",
+                "id": "e33421d4-afb8-496a-884b-63c29610da1b",
                 "name": "Vine Staff x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30709,7 +30709,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "51de8f91-ed48-47bf-90de-590d3a516539",
+                "id": "3dd01766-c99b-4eb8-8a4f-7b10decc34d8",
                 "name": "Verdant Wisp",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30725,7 +30725,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "a4a98846-6e44-4c54-a587-9f8c96fbca22",
+        "id": "ada14dfa-35d8-48f9-8f06-76cadcd16cae",
         "mode": "monster",
         "name": "Dryad",
         "type": "fey",
@@ -30735,7 +30735,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "72ce0078-2de3-4804-b8f8-95bc23279e25",
+                "id": "4a70b6c8-15bf-4a3b-bafa-630388177920",
                 "name": "Vine Lash",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30747,7 +30747,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "49121ff2-cbae-437c-a3e0-32847ae410b5",
+                "id": "7962498a-3cb6-4494-b416-f663aeadb609",
                 "name": "Thorn Burst",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30763,7 +30763,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "e8f79cc1-69d6-4bc1-8647-df396a91bc72",
+        "id": "8727e601-5adb-4ea3-8aaa-5b9277ce49fc",
         "mode": "monster",
         "name": "Dust Mephit",
         "type": "elemental",
@@ -30773,7 +30773,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "3381e99d-0242-4d82-99f1-aea12cf643ef",
+                "id": "4225bbd3-9d2e-43cd-96d3-30ebe7f5f4ef",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30785,7 +30785,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "5af1c335-d044-469a-8b2f-9e5647ceac0c",
+                "id": "ee783b92-12c0-468e-bfca-efb1fcf8bdf5",
                 "name": "Blinding Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30805,7 +30805,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "5ccc8ce8-48fb-4bfc-b00a-77d9fac6c2e9",
+        "id": "427fd12c-4fcb-4bbb-b6f4-03ae029cf319",
         "mode": "monster",
         "name": "Eagle",
         "type": "beast",
@@ -30815,7 +30815,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "b1647869-5356-421e-a333-9cde41793454",
+                "id": "d8086a85-db72-4077-9867-ab882d4d6e76",
                 "name": "Talons",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30831,7 +30831,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "5659c248-daa1-47eb-a98f-cd2f52b97a1d",
+        "id": "6a725419-1173-422f-8ed6-f97830b8cac2",
         "mode": "monster",
         "name": "Earth Elemental",
         "type": "elemental",
@@ -30841,7 +30841,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "a20c4b3d-520d-4846-be82-ce41096a6ebf",
+                "id": "3cc41372-918b-4703-903b-9fe6cfd3c33e",
                 "name": "Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30853,7 +30853,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "bf1580f7-4c6d-4d5a-9b36-cddc882212af",
+                "id": "b40f65c1-0d66-4f7b-9796-c7119638284c",
                 "name": "Rock Launch",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30869,7 +30869,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "a9b5a3ff-af2b-47fd-b00a-fa8a443bb0e6",
+        "id": "92ccb656-6a08-4444-a554-489a71bbd901",
         "mode": "monster",
         "name": "Efreeti",
         "type": "elemental",
@@ -30879,7 +30879,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "0e9f8718-601e-4fdd-8dbe-168a6a031382",
+                "id": "78cafc52-3039-40dc-9236-4441d371f3a0",
                 "name": "Heated Blade x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30891,7 +30891,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "1315f608-024b-4f7e-9a2e-7d617f92e75c",
+                "id": "77e1a7ca-6414-4035-adb9-e1d655a91fb3",
                 "name": "Hurl Flame",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30907,7 +30907,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "e16fd654-b4c9-4cda-a28b-46540d05c0bf",
+        "id": "967de8fe-7c4b-4eac-986e-f530e22292e3",
         "mode": "monster",
         "name": "Elemental Cataclysm",
         "type": "elemental",
@@ -30917,7 +30917,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "d0f770c3-ddac-4d1f-a113-79fde3fa17d6",
+                "id": "bb24b926-e4c0-49bd-b88e-1104b8b94cd0",
                 "name": "Cataclysmic Event",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30934,7 +30934,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "0a7419cf-b470-4d5a-b0b0-6e86020c08ac",
+                "id": "daf80c18-995e-4a73-aaa7-dfc12f4c0eb9",
                 "name": "Elemental Burst x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30946,7 +30946,7 @@ export const Monsters: Creature[] = [
                 "toHit": 15
             },
             {
-                "id": "d31cc79d-89e5-4e56-9eaf-dec391f27c9e",
+                "id": "26ff2613-c7c8-4da2-9e16-251f165da444",
                 "name": "Eruption",
                 "type": "atk",
                 "actionSlot": 2,
@@ -30962,7 +30962,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 11
     },
     {
-        "id": "52693c22-1d4b-4ada-b541-578becd8a1b0",
+        "id": "bbe73af2-fac2-4e51-b1d7-b2e35530f950",
         "mode": "monster",
         "name": "Elemental Cultist",
         "type": "humanoid",
@@ -30972,7 +30972,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "16759b53-a914-4c76-a094-29a6e7487bbf",
+                "id": "ba95aa9d-aca7-4290-a8c0-d1b09720e24a",
                 "name": "Elemental Flail x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -30984,7 +30984,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "25f90d8a-c804-4137-98e4-99a78f67d91e",
+                "id": "ea6f7b61-f552-4f26-ab37-4c01818479e3",
                 "name": "Elemental Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31000,7 +31000,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "d149d8d6-0abd-4d6b-a6fc-8517eff76581",
+        "id": "312ee3f3-0007-4df8-8099-ee529ae19369",
         "mode": "monster",
         "name": "Elephant",
         "type": "beast",
@@ -31010,7 +31010,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "22d93681-beac-446b-8ae4-8ea73b407f1c",
+                "id": "d13df136-01cc-4910-8ce7-644cc75ee009",
                 "name": "Gore x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31026,7 +31026,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "80828b06-9e5e-4fd8-b4d8-c8d95e991147",
+        "id": "b6715f9f-1ff2-4a98-bd1a-a9f77fee6694",
         "mode": "monster",
         "name": "Elk",
         "type": "beast",
@@ -31036,7 +31036,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "023cad8e-bc29-41ff-ba0e-aaf576d57458",
+                "id": "639f5224-6079-4940-ab1e-1e9b5db6d23f",
                 "name": "Ram",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31052,7 +31052,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "19931828-ee7f-46ce-bf67-ef69cbc67264",
+        "id": "0e86d70f-19d2-4a2d-bd8c-3ca8e128e1f1",
         "mode": "monster",
         "name": "Empyrean",
         "type": "celestial",
@@ -31062,7 +31062,7 @@ export const Monsters: Creature[] = [
         "AC": 22,
         "actions": [
             {
-                "id": "e27f8d81-3482-4d1f-8935-2a6a51092818",
+                "id": "d61b22b9-eec8-4472-8b9f-f55f8ddb8885",
                 "name": "Divine Ray x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31074,7 +31074,7 @@ export const Monsters: Creature[] = [
                 "toHit": 15
             },
             {
-                "id": "6c427ccf-eddd-448f-9a6b-656411ae3ca8",
+                "id": "c963e368-c72e-4d7e-89fd-a5e621efe434",
                 "name": "Sacred Weapon",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31086,7 +31086,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17
             },
             {
-                "id": "673a7cf9-b28d-49fc-b3fc-ac1bf69fd76d",
+                "id": "2b4b9258-8236-46ed-aca6-ebb4a0c862e1",
                 "name": "Smite",
                 "type": "atk",
                 "actionSlot": 2,
@@ -31102,7 +31102,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 11.5
     },
     {
-        "id": "6fcbeffb-a5c7-4096-8091-f89ff99a6d1b",
+        "id": "10d69888-da3b-4a45-a660-3c31c0a6019b",
         "mode": "monster",
         "name": "Empyrean Iota",
         "type": "celestial",
@@ -31112,7 +31112,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "f44a7359-6b3d-4350-968d-542a05823b15",
+                "id": "39b9334c-b99f-4306-b4ea-06f79b4b9246",
                 "name": "Otherworldly Strike",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31138,7 +31138,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "81c095d5-4d5e-4448-9046-b0e7647bbdf0",
+        "id": "ad36aaea-1b39-4be6-8470-0abf1b074b51",
         "mode": "monster",
         "name": "Erinyes",
         "type": "fiend",
@@ -31148,7 +31148,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "ffa14c29-73c1-4a79-8bec-80de1a152886",
+                "id": "1ede7c1b-3247-4e8e-ab47-843c00df2661",
                 "name": "Withering Sword x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31160,7 +31160,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "6b35a353-dcf7-478b-bcd4-1aeb76eadd19",
+                "id": "747b2e96-88e2-4dd5-a85a-c8e237383c40",
                 "name": "Entangling Rope (Requires Magic Rope)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31173,7 +31173,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "b8645b83-1b4a-4ffc-bfa8-e257c3e33fab",
+                "id": "d8893ad7-cb62-4dd2-ac21-dc3cd9b37384",
                 "name": "Parry",
                 "actionSlot": 4,
                 "condition": "default",
@@ -31191,7 +31191,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6
     },
     {
-        "id": "d921c681-d5ae-4141-901f-985bda001fb0",
+        "id": "50ffef84-0e7c-40ec-8b5b-8afc63eda127",
         "mode": "monster",
         "name": "Ettercap",
         "type": "monstrosity",
@@ -31201,7 +31201,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "bd159aa0-af5c-403a-a0a3-815398ba4a56",
+                "id": "8965d019-1d91-42e6-a81d-7f25b4f0829f",
                 "name": "Bite, Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31220,7 +31220,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "36aaca46-24f4-4ec5-a69a-dec36d29775c",
+                "id": "c8d5cb61-cc03-46f0-a224-2ae23f888432",
                 "name": "Web Strand",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31240,7 +31240,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "2df1adbf-5a30-411a-a356-00f835effa3e",
+        "id": "41c7f848-b838-4e48-8f73-fc315745525b",
         "mode": "monster",
         "name": "Ettin",
         "type": "giant",
@@ -31250,7 +31250,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "cf9cb029-5382-4ee8-a833-be69f050dcec",
+                "id": "5048f127-1a27-454c-9d39-b9e2b5be47c8",
                 "name": "Battleaxe, Morningstar",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31266,7 +31266,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "da360493-49df-404d-91fe-25d883dbcf81",
+        "id": "db2db46e-9fb1-4675-b963-c4a0b8bdbf74",
         "mode": "monster",
         "name": "Faerie Dragon Adult",
         "type": "dragon",
@@ -31276,7 +31276,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "15c5e86c-2316-4abc-a9b6-f8ea727451be",
+                "id": "c6a65bba-6439-4e50-8330-e31a1d5b6009",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31288,7 +31288,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "a36873e0-78d8-4503-a20e-bac8d87cd1a8",
+                "id": "c2306859-9346-4f8e-bccd-b23abbb6b98c",
                 "name": "Euphoria Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31308,7 +31308,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "0d69037e-88e9-4e6f-8380-de23c5cbd49c",
+        "id": "0962cc64-00fd-422c-a69b-94f8d92df89f",
         "mode": "monster",
         "name": "Faerie Dragon Youth",
         "type": "dragon",
@@ -31318,7 +31318,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "2c4b308f-8d7a-40c7-98b2-5609be1749fa",
+                "id": "27aa55db-13d6-4678-9abe-0ccfc169722d",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31330,7 +31330,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "7ddf8c50-f8c1-4746-a1cc-d3d9e4ec2122",
+                "id": "a4b549ee-ce15-4e7f-858c-ef6cd0263562",
                 "name": "Euphoria Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31350,7 +31350,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "703dc4a3-af07-4481-877a-45ceed31402d",
+        "id": "895c4a2e-6532-4841-a976-b669af0b727e",
         "mode": "monster",
         "name": "Fiend Cultist",
         "type": "humanoid",
@@ -31360,7 +31360,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "6977663d-d795-4b20-9d0a-274058a49cf4",
+                "id": "2f974026-05e8-464a-a911-ba55617653f1",
                 "name": "Pact Axe x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31372,7 +31372,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "24cf9688-45f1-4f32-962d-361bd6ffc578",
+                "id": "33cf02a5-055e-4e08-8367-9fe000e0942b",
                 "type": "template",
                 "condition": "default",
                 "templateOptions": {
@@ -31390,7 +31390,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "8f81aa9f-0370-4643-894f-33cd76ee8977",
+        "id": "2211e2b1-a983-40f1-b330-75d039a692a3",
         "mode": "monster",
         "name": "Fire Elemental",
         "type": "elemental",
@@ -31400,7 +31400,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "fc010f9f-801c-4a96-bf18-f931807f7769",
+                "id": "b08723e5-5ca3-4a2a-ab75-0fa3d8d3a034",
                 "name": "Burn x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31416,7 +31416,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "c042bf9b-feba-474b-980a-770e4865d4e6",
+        "id": "96a3fb75-234c-4b7a-a646-2af8c4fade8f",
         "mode": "monster",
         "name": "Fire Giant",
         "type": "giant",
@@ -31426,7 +31426,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "1ae1236b-eeb9-4a7d-95e2-bffda69a5967",
+                "id": "4afd554a-693a-409b-a943-5a2110b8bd7b",
                 "name": "Flame Sword x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31438,7 +31438,7 @@ export const Monsters: Creature[] = [
                 "toHit": 11
             },
             {
-                "id": "6f778e89-d7af-431b-810c-c8600e0034d5",
+                "id": "25971312-ed2d-4979-9261-7cc33f6389ef",
                 "name": "Hammer Throw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31454,7 +31454,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "0eafc909-31e2-4612-8edd-2b8b0dde12cb",
+        "id": "63b87c0a-9fb3-4de6-a730-51f8caa403f9",
         "mode": "monster",
         "name": "Flameskull",
         "type": "undead",
@@ -31464,7 +31464,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "ca767ed1-d2c7-4d68-87d8-20b7cb9378fc",
+                "id": "706f7210-acdd-4cc1-b4b0-27f546098af4",
                 "name": "Fire Ray x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31476,7 +31476,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "24cf9688-45f1-4f32-962d-361bd6ffc578",
+                "id": "33cf02a5-055e-4e08-8367-9fe000e0942b",
                 "type": "template",
                 "condition": "default",
                 "templateOptions": {
@@ -31491,7 +31491,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "69b9c779-a4bd-4c8d-8751-cc8b2f30ef65",
+        "id": "78db606b-53c0-4af8-b8ea-4837c2a33574",
         "mode": "monster",
         "name": "Flaming Skeleton",
         "type": "undead",
@@ -31501,7 +31501,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "7bef76b9-e920-4123-a8c8-3b977544fb22",
+                "id": "3e9badd5-c648-4572-b623-af965247054d",
                 "name": "Flame Scepter x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31513,7 +31513,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "00aca59a-bf5c-4d54-9dae-1bcd49139b5e",
+                "id": "1c17b883-b2f0-4ae1-b945-aa7b74f155fd",
                 "name": "Hurl Flame",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31529,7 +31529,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "ec3f8f7d-a4c4-45fc-9e22-10cfb5bb7e1b",
+        "id": "22391051-1a41-471f-a162-57064463f72d",
         "mode": "monster",
         "name": "Flesh Golem",
         "type": "construct",
@@ -31539,7 +31539,7 @@ export const Monsters: Creature[] = [
         "AC": 9,
         "actions": [
             {
-                "id": "098b1866-93dc-4fa1-a36e-3b2627dd75c5",
+                "id": "f2f8f240-bcce-421d-b905-a0d639813340",
                 "name": "Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31555,7 +31555,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "9bb07102-68ee-4a86-98f9-05be4fa622b0",
+        "id": "956c76cc-b3f5-4dd4-95ed-63e3644156fb",
         "mode": "monster",
         "name": "Flumph",
         "type": "aberration",
@@ -31565,7 +31565,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "65a4cffd-4f1d-470e-924d-5b4b136f81f4",
+                "id": "e553e6ad-a0cd-44be-abc2-f1f2066d182c",
                 "name": "Tentacle",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31577,7 +31577,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "b57f37a8-84ea-4d6b-b4c3-5ce35b2f9f0e",
+                "id": "5f1fbc47-d82b-47a9-8539-afa1202fd57d",
                 "name": "Stench Spray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31601,7 +31601,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "e372c5b4-1004-4b4e-bd65-ec9c81469444",
+        "id": "f0719c64-d165-4d45-b8e9-71755a71f650",
         "mode": "monster",
         "name": "Flying Snake",
         "type": "monstrosity",
@@ -31611,7 +31611,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "d9c128f5-2f4d-4f06-a8a4-9ff610239c84",
+                "id": "9bf08be6-6eb4-4ace-8797-f4cae9397ccd",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31627,7 +31627,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "c6d971b7-cc6a-4116-9e80-ebe80d8ce914",
+        "id": "f7e83ac5-f388-4957-b49e-94f1f08c6ee6",
         "mode": "monster",
         "name": "Fomorian",
         "type": "giant",
@@ -31637,7 +31637,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "8058ceaf-79ad-4619-a7dc-d4256b5ac282",
+                "id": "94f96ed8-da3f-4a90-b663-d56d33f2eb8f",
                 "name": "Stone Club x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31649,7 +31649,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "6f60f098-736b-4807-b7f5-5925ebe64acf",
+                "id": "798e99a5-51ad-4f1a-bc1d-3d9be8dd443c",
                 "name": "Warping Hex",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31670,7 +31670,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "d7ba3acc-6a42-4bce-8594-cf78bbaef68f",
+        "id": "c72a6ce0-03a2-4d92-a2a5-9fd7fb700839",
         "mode": "monster",
         "name": "Frog",
         "type": "beast",
@@ -31680,7 +31680,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "33e3a310-5990-4f1d-95fa-e6c19ce47345",
+                "id": "88368b96-dbb6-474f-8d17-2fecbc4a79ad",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31696,7 +31696,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "7edeb94a-e393-47d2-b466-5390b51947fd",
+        "id": "05fef6ef-328a-405e-9415-75d49b5ac347",
         "mode": "monster",
         "name": "Frost Giant",
         "type": "giant",
@@ -31706,7 +31706,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "7ae94bf2-8edf-4a62-a188-7a957b0f7bd4",
+                "id": "c9d2c126-7afd-44a8-a23e-17bbbb95b17f",
                 "name": "Frost Axe x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31718,7 +31718,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "c7bc96e0-89c6-4f22-a43b-0cc679633272",
+                "id": "b5733978-563b-4d05-bbc4-f77b7ca7f2e1",
                 "name": "Great Bow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31734,7 +31734,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "ec1c0353-6815-4da5-9437-ec4a9527595c",
+        "id": "37d2559b-aa29-49d1-9349-6d04a3b3ada8",
         "mode": "monster",
         "name": "Galeb Duhr",
         "type": "elemental",
@@ -31744,7 +31744,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "a1e330fb-ae02-4f87-9c40-65b9a6f16cd2",
+                "id": "cae2f925-6829-4113-8e19-35e129ee5e2d",
                 "name": "Avalanche Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31756,7 +31756,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "8b209528-63f2-4370-b5b8-8cc6041edc63",
+                "id": "ca05340e-db77-41d9-aa83-50d595e7532a",
                 "name": "Animate Boulders",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31772,7 +31772,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "7c677d64-b60d-489e-88bd-f3251742d8b1",
+        "id": "e9cd2420-78ea-4b30-8e4c-7f07a21a5009",
         "mode": "monster",
         "name": "Gargoyle",
         "type": "elemental",
@@ -31782,7 +31782,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "9af64774-bd12-4af7-a8a3-6d8ab27277d3",
+                "id": "c1b05b77-30a8-4ed5-9274-96efed0f4220",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31798,7 +31798,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "949b0ee4-02b7-48ef-b913-f86ed09e7cb2",
+        "id": "a6c628fa-11ce-4979-aab0-e230cbc204e5",
         "mode": "monster",
         "name": "Gas Spore Fungus",
         "type": "plant",
@@ -31808,7 +31808,7 @@ export const Monsters: Creature[] = [
         "AC": 8,
         "actions": [
             {
-                "id": "ac887ca7-23d8-46fc-ba96-1254dbdcb49d",
+                "id": "9598ccbb-44d8-489d-9bd1-dadc01b4740c",
                 "name": "Tendril",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31831,7 +31831,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "a6c69b77-9877-4d27-87da-ab3e373998b1",
+        "id": "08ffb460-df5a-4e41-afb7-e07141f345c9",
         "mode": "monster",
         "name": "Gelatinous Cube",
         "type": "ooze",
@@ -31841,7 +31841,7 @@ export const Monsters: Creature[] = [
         "AC": 6,
         "actions": [
             {
-                "id": "09b93dc4-c74e-48c7-a1ca-963d7441ab45",
+                "id": "816e669c-7601-4f40-9246-59ef8f88fac3",
                 "name": "Engulf",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31855,7 +31855,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "ae6db5c9-8c38-4a37-865d-880aaa980a27",
+                "id": "3a0cf896-c206-47f3-a6ea-3e1cdff0a810",
                 "name": "Pseudopod",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31871,7 +31871,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "730c8871-6bb2-4e40-94bd-05b759a247e8",
+        "id": "2bc94dad-a68c-4dce-9eaa-11471a3b6628",
         "mode": "monster",
         "name": "Ghast",
         "type": "undead",
@@ -31881,7 +31881,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "4fad0de6-0085-438f-b117-047b322e60de",
+                "id": "9543a379-3807-45df-9861-99e9a35c303e",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31893,7 +31893,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "2dfdec70-6da8-48f9-b3c0-68d62dd4ff09",
+                "id": "bba4a75d-de40-49d6-8b4e-a8dc71fd01c4",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31909,7 +31909,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "2cf10cf5-2158-4ffd-9411-a3912750a1a9",
+        "id": "b1dc4653-a28c-4d05-844f-75bdad85a5df",
         "mode": "monster",
         "name": "Ghast Gravecaller",
         "type": "undead",
@@ -31919,7 +31919,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "bc7873f3-b7b9-4396-9d0c-c775e6371dbd",
+                "id": "b3164646-a14b-4587-b8cb-3ebc99802ccb",
                 "name": "Horrific Necrosis x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31938,7 +31938,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "bb6588b6-300e-4eb1-83d4-43798c210ef3",
+                "id": "7ffb2b7a-3415-4607-8282-47fc1af2b42d",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31954,7 +31954,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "8ecdab21-29d4-4849-aa7d-5a6ac87a83ba",
+        "id": "6f692d5f-6dad-4966-b9c3-ba6fc9b9e713",
         "mode": "monster",
         "name": "Ghost",
         "type": "undead",
@@ -31964,7 +31964,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "45e86b5b-20d9-4feb-a93b-7b33c7c07d4c",
+                "id": "6195111f-a723-462e-a286-87e4ffcf0724",
                 "name": "Withering Touch x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31976,7 +31976,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "e11c10ab-bb8b-4453-8847-2d7502bf7002",
+                "id": "a8038e98-143f-4608-8321-a6c5bc8ed02e",
                 "name": "Horrific Visage",
                 "type": "atk",
                 "actionSlot": 0,
@@ -31996,7 +31996,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "9e8c850b-188a-402a-8430-1f077c0f5ed3",
+                "id": "0c1aa1e0-8a7f-4779-9771-88b7e584838d",
                 "name": "Possession",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32016,7 +32016,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "cd5bbee0-3bde-4254-abf0-b794b186f245",
+        "id": "cf13e78c-1575-4124-944b-e12be3c85ec3",
         "mode": "monster",
         "name": "Ghoul",
         "type": "undead",
@@ -32026,7 +32026,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "d18277a5-aa84-4ad9-9db4-c4f358b5e021",
+                "id": "f7103e46-d16a-4359-a80b-cd88c200f262",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32038,7 +32038,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "feb71ef6-6bab-410d-a8f9-ae91b5d1f14e",
+                "id": "d62c4425-5905-4498-ac47-05da25d81cd2",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32054,7 +32054,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "27c3a543-2be0-4674-adf6-3fbf34ee9ac5",
+        "id": "5aafb784-9334-4f85-8930-d8c6ec6ffc4b",
         "mode": "monster",
         "name": "Giant Ape",
         "type": "beast",
@@ -32064,7 +32064,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "df570ccd-7e10-49f4-b421-5e1e39d7e49a",
+                "id": "73d37d7d-68ea-4714-bc9b-dab77e02ba22",
                 "name": "Fist x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32076,7 +32076,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "75d3a25a-7250-4cb1-9f4a-69e4b521008d",
+                "id": "f36f7b80-c8fa-41ac-8c57-ffa227ba0acb",
                 "name": "Boulder Toss",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32097,7 +32097,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "49a07180-ba77-4feb-82f9-cc5784671b15",
+        "id": "527c21c6-4c60-4162-bddd-01ea7de6bb75",
         "mode": "monster",
         "name": "Giant Axe Beak",
         "type": "monstrosity",
@@ -32107,7 +32107,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "e1fa0b1e-bdcb-4fee-b382-bc59f92a82bd",
+                "id": "604f1128-d624-4dcd-9e7c-a1e8ab107ff0",
                 "name": "Sharpened Beak, Talons",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32123,7 +32123,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "2b80e2c2-a304-4fae-b6bd-96775fd632d1",
+        "id": "79ef21b1-fd97-42f7-bd15-b66437335ee5",
         "mode": "monster",
         "name": "Giant Badger",
         "type": "beast",
@@ -32133,7 +32133,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "59b5ffe5-5d28-48f0-b833-a6e9eee3b77d",
+                "id": "9a72a671-d84b-4aab-9813-ffe3506088e8",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32149,7 +32149,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "b9c93e33-786e-433d-9e98-7491133e1a0b",
+        "id": "00c435a3-1995-4af0-8e79-51a0cc2034b4",
         "mode": "monster",
         "name": "Giant Bat",
         "type": "beast",
@@ -32159,7 +32159,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "a4d03135-e2ba-44d6-9a2e-5b57c039b650",
+                "id": "bb39e895-4ee7-4ce1-af2d-dc7ca0e83000",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32175,7 +32175,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "800a77c2-bffc-445d-91c4-e12c94776e83",
+        "id": "2bf9a2d9-8cf7-4a05-ae04-e4a7a8559392",
         "mode": "monster",
         "name": "Giant Boar",
         "type": "beast",
@@ -32185,7 +32185,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "8b9be843-531e-4fb6-aac6-829d790927d0",
+                "id": "d010d23e-10e8-4aa8-b222-fd7142b09071",
                 "name": "Gore",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32201,7 +32201,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "30e82439-4f72-4ca4-9f84-a44fc55bde6c",
+        "id": "0ea09f69-dadf-4586-9ce2-a244f7277ced",
         "mode": "monster",
         "name": "Giant Centipede",
         "type": "beast",
@@ -32211,7 +32211,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "d52c3449-5ffb-48de-bc68-2e07afec710b",
+                "id": "481153a8-3edc-4333-a04b-05b7e21e5824",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32234,7 +32234,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "35328f45-5077-4e58-b43b-76a77d4b0e30",
+        "id": "fbfee79b-a5c7-402e-8702-852c6b26ba9b",
         "mode": "monster",
         "name": "Giant Constrictor Snake",
         "type": "beast",
@@ -32244,7 +32244,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "1c1ce17e-86f1-4fb3-b2ba-d34e7a19eb2d",
+                "id": "a14d9bb9-0baf-4bad-8db6-057d2321ef23",
                 "name": "Bite, Constrict",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32261,7 +32261,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "4004e2f8-4fe0-4603-b758-6df4b731beab",
+        "id": "cb8ef758-d209-4c4d-a560-aef9ac8ec1b3",
         "mode": "monster",
         "name": "Giant Crab",
         "type": "beast",
@@ -32271,7 +32271,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "76702f88-a322-433d-bbd8-7eda62d958c2",
+                "id": "8476c944-e32d-4493-870c-6b0ab4367a87",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32287,7 +32287,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "57a5feb5-4722-4d8f-be14-0b02a0630cbf",
+        "id": "727d17e2-c386-48dd-915e-5512bf2147f0",
         "mode": "monster",
         "name": "Giant Crocodile",
         "type": "beast",
@@ -32297,7 +32297,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "30671593-4b2f-4349-90e4-faae7cc8e476",
+                "id": "a8c7bc3d-ca19-49c9-8d75-236b2f38384e",
                 "name": "Bite, Tail",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32313,7 +32313,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "c288db12-1c28-46be-8889-07bf9e10b417",
+        "id": "bb16c29a-6ac4-46e4-b716-522e72815773",
         "mode": "monster",
         "name": "Giant Eagle",
         "type": "celestial",
@@ -32323,7 +32323,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "7ccb4b00-5b02-4362-b14a-fa533fc3c25e",
+                "id": "ac7145c4-6b37-460a-a99b-99aa38a956c9",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32339,7 +32339,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "7c30f022-9d9d-492b-bbe9-163be0bcd197",
+        "id": "c61d097c-0ff7-4496-88a5-d70ae319caa4",
         "mode": "monster",
         "name": "Giant Elk",
         "type": "celestial",
@@ -32349,7 +32349,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "2acf6f3d-cd98-42ca-8c0c-d50dfbf4dc3c",
+                "id": "70bf40ef-c3c4-4241-87f6-8a6d6b19c125",
                 "name": "Ram",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32365,7 +32365,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "10921269-ba24-4ce2-af13-bc1e0f6bd018",
+        "id": "c5545b46-9dbb-4a8d-a243-90064e65225d",
         "mode": "monster",
         "name": "Giant Fire Beetle",
         "type": "beast",
@@ -32375,7 +32375,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "839d3031-00ee-410e-8cb6-80f1a3b16402",
+                "id": "5a233440-415e-4343-ab25-cbdc5e8722a9",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32391,7 +32391,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "c0909f1f-503e-48e6-9283-91ff2ccfb3ee",
+        "id": "11afa334-9c56-4cf2-9668-756f24f352cb",
         "mode": "monster",
         "name": "Giant Frog",
         "type": "beast",
@@ -32401,7 +32401,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "4099d63c-04c0-475f-8ca6-e596a261b78a",
+                "id": "fd8706ba-0e3a-478f-8011-701a90fde2a0",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32413,7 +32413,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "ac32289f-084e-4709-95fd-34767b3cab98",
+                "id": "4ba95663-2833-436d-9a28-27c017359245",
                 "name": "Swallow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32429,7 +32429,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "d6efc342-dd2b-4f60-aaf9-1ff7c9871aa4",
+        "id": "8c93d29c-ff84-43b6-af5a-b674256b7540",
         "mode": "monster",
         "name": "Giant Goat",
         "type": "beast",
@@ -32439,7 +32439,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "b283b1ee-56a6-4647-b634-ca41e6daa94e",
+                "id": "913e0c94-57f5-4837-8a72-4bfc4c48b224",
                 "name": "Ram",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32455,7 +32455,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "2d3b5762-e067-47cf-affb-b7b5f8d08cf3",
+        "id": "179a7620-6baa-4457-b2e7-a680baeac31d",
         "mode": "monster",
         "name": "Giant Hyena",
         "type": "beast",
@@ -32465,7 +32465,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "96fe43b1-a6ad-4748-8c29-3c9b74cee766",
+                "id": "fe5a69ec-a6d9-45ea-b970-cf38ceeed190",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32481,7 +32481,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "71240a9e-16a4-4710-a297-3386b58fd2c5",
+        "id": "496d932c-390d-40bb-ae86-082df55b0b16",
         "mode": "monster",
         "name": "Giant Lizard",
         "type": "beast",
@@ -32491,7 +32491,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "25b0d428-56aa-4ad2-8683-cd21477adb7c",
+                "id": "10e699d8-1037-451c-936e-61725b4d2ff0",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32507,7 +32507,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "dd04e35e-ef9e-4d03-b7d9-13c7a1548dcb",
+        "id": "714b17f1-e907-4fd2-971c-fca9a80b5aca",
         "mode": "monster",
         "name": "Giant Octopus",
         "type": "beast",
@@ -32517,7 +32517,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "aceb4ffe-869f-49a6-bb55-cdfdba1b8cfe",
+                "id": "91d37b46-4087-4ba4-821e-872dc7ddfc18",
                 "name": "Tentacles",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32533,7 +32533,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "d0ebff59-9463-416a-bfaf-de177ed04c52",
+        "id": "7b0b8d49-41a2-4dea-8c63-5eed96435e3c",
         "mode": "monster",
         "name": "Giant Owl",
         "type": "celestial",
@@ -32543,7 +32543,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "05bea55b-34fd-433f-b08b-b19306d399da",
+                "id": "1630687d-dd3b-44ae-8286-fe2b8303d688",
                 "name": "Talons",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32559,7 +32559,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "83b4730a-1ae6-4b9f-9aea-4d0ba10c4f1c",
+        "id": "538f4cd4-9a35-4e5f-b9a4-bd49cc2f4a13",
         "mode": "monster",
         "name": "Giant Rat",
         "type": "beast",
@@ -32569,7 +32569,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "2a254aa5-36c9-4703-9667-f74316a9887c",
+                "id": "4f3022fd-e6e4-4c7c-9211-269bab5616cb",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32585,7 +32585,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "002f3d3f-14d5-43cf-93ce-0124b2bebfad",
+        "id": "045ed930-d4a0-47c6-946b-0a023094248b",
         "mode": "monster",
         "name": "Giant Scorpion",
         "type": "beast",
@@ -32595,7 +32595,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "7a7c0251-1d62-4c1e-94fb-429984899b96",
+                "id": "11d1a119-ada1-493c-aac6-8784a9a27a07",
                 "name": "Claw x2, Sting",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32611,7 +32611,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "186c1fc5-b616-4dfc-8ca4-4778b5fea70e",
+        "id": "6e3d78f1-e8b1-4785-bd66-f0b96a459f3a",
         "mode": "monster",
         "name": "Giant Seahorse",
         "type": "beast",
@@ -32621,7 +32621,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "3f29888f-bf68-46d6-b7c4-a651c541980d",
+                "id": "70ed8b22-fa12-44d5-b0b2-0e371db2f035",
                 "name": "Ram",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32637,7 +32637,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "f8269e96-ec2a-42f4-9536-1b95ac6d2ce6",
+        "id": "e4afe7be-5920-47f6-8d75-c581f0816d19",
         "mode": "monster",
         "name": "Giant Shark",
         "type": "beast",
@@ -32647,7 +32647,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "087abc5e-e245-4ce4-a5ce-a7a44052ba6f",
+                "id": "0b64b37c-ad42-4ab0-880c-ce074e47fcca",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32663,7 +32663,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "17ed5a0b-cbd1-4b0b-ba75-f7849382b5bf",
+        "id": "ba378afd-f906-48cf-86ec-7b5efaad3f7c",
         "mode": "monster",
         "name": "Giant Spider",
         "type": "beast",
@@ -32673,7 +32673,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "b2a28880-dbb7-433d-a285-f0410db0ddc5",
+                "id": "954783d3-e754-48d7-b1b5-9864edef0b0e",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32685,7 +32685,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "1565838b-c605-45ca-806c-4ffd820d6b30",
+                "id": "bda9e749-ab88-4c9a-97f0-a2e952cb3796",
                 "name": "Web",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32705,7 +32705,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "f32eee75-9f71-4578-8412-c40fbcf53b81",
+        "id": "74ce05ce-c541-4213-90c1-f49406ebae63",
         "mode": "monster",
         "name": "Giant Squid",
         "type": "beast",
@@ -32715,7 +32715,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "b714f39e-a311-447e-8694-58a0d5ee97b9",
+                "id": "488822e3-49fe-4cc7-b890-c9af0b0fe6ec",
                 "name": "Bite, Tentacle",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32731,7 +32731,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "61cf937e-4160-4b3f-a9e7-cef2d715e79e",
+        "id": "f82929c6-07d0-420c-8c21-f58a3c73e08e",
         "mode": "monster",
         "name": "Giant Toad",
         "type": "beast",
@@ -32741,7 +32741,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "4944c78e-c669-4ad3-8c63-76490c67fc35",
+                "id": "31d90de4-1061-4f39-8f6e-f758fee6716c",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32753,7 +32753,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "a5f18474-3dc8-4fdd-b0c0-320a39389bab",
+                "id": "292887bb-fcff-44d6-b9de-d4fe28b04188",
                 "name": "Swallow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32769,7 +32769,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "bf2afbbc-c646-4e95-9a19-221afbb48d6c",
+        "id": "187a36e2-ac3e-4942-b868-f8bfbc0c0d06",
         "mode": "monster",
         "name": "Giant Venomous Snake",
         "type": "beast",
@@ -32779,7 +32779,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "f77c15da-25f9-4256-94f3-8b6b3d3f4307",
+                "id": "effc0f12-c8d7-4c4c-8c2d-b5e6ef8dc60d",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32795,7 +32795,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "e23cf382-4503-44ea-85b3-7c39c443fae9",
+        "id": "bf2f463c-9899-4697-bc4e-cbe7b1edaa6e",
         "mode": "monster",
         "name": "Giant Vulture",
         "type": "monstrosity",
@@ -32805,7 +32805,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "060aa42f-368e-4e20-90f1-2a55db35f837",
+                "id": "8a3c011a-62da-4179-b344-5f90b42688d0",
                 "name": "Gouge",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32828,7 +32828,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "475b00e3-1a7d-4f30-a0fd-4adce69944f0",
+        "id": "91f5ea46-4026-4de7-afb5-4afdf267da7e",
         "mode": "monster",
         "name": "Giant Wasp",
         "type": "beast",
@@ -32838,7 +32838,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "6abafc7e-66db-4706-930f-f52f876bbac9",
+                "id": "5edf1ada-4f79-490b-b237-c5d97511d9b4",
                 "name": "Sting",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32854,7 +32854,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "83ec30f4-4a24-4c0c-8695-334f244928fb",
+        "id": "704e7cfc-dd1a-4801-9a8d-51a6bdf7daa6",
         "mode": "monster",
         "name": "Giant Weasel",
         "type": "beast",
@@ -32864,7 +32864,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "6615d230-aa2c-4be6-9157-2abd6d38a525",
+                "id": "2dafb9d4-db7d-48e6-9657-b9751637ee2f",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32880,7 +32880,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "dd4ca2a9-45cb-4ac7-a946-4f05720a06a2",
+        "id": "f9579b12-db58-49f0-94d2-7f061a6549be",
         "mode": "monster",
         "name": "Giant Wolf Spider",
         "type": "beast",
@@ -32890,7 +32890,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "14a594dd-0469-47d7-95f4-95199c0fdd58",
+                "id": "13073c70-9bb4-4499-b11f-14fed3de1ceb",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32906,7 +32906,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "c2ef9c7f-14ee-4aa9-925e-debb049505d1",
+        "id": "0ce76dde-d41a-4ec8-8880-0481d2dd2263",
         "mode": "monster",
         "name": "Gibbering Mouther",
         "type": "aberration",
@@ -32916,7 +32916,7 @@ export const Monsters: Creature[] = [
         "AC": 9,
         "actions": [
             {
-                "id": "270d5509-742d-4f84-85e7-fe60668fd5d3",
+                "id": "a89fc251-f975-4f55-84ac-5e98f081b703",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32928,7 +32928,7 @@ export const Monsters: Creature[] = [
                 "toHit": 2
             },
             {
-                "id": "bab41a43-dad8-4944-ab5c-84c6afa031c5",
+                "id": "0db5bf62-df5c-4bf7-904b-1ab3fe3eb38f",
                 "name": "Blinding Spittle",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32948,7 +32948,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "17d49c5b-4a7d-4f5f-8c2f-3c869004825d",
+        "id": "1676c7f0-621a-4f65-b11e-6828df496366",
         "mode": "monster",
         "name": "Githyanki Dracomancer",
         "type": "aberration",
@@ -32958,7 +32958,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "372e7530-4700-4b09-98aa-1f084e4cad07",
+                "id": "50bd1b80-4094-424e-9357-6618a144fbff",
                 "name": "Conjured Dragon's Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32975,7 +32975,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "0ca2d7a3-1c3e-441e-bc6e-8065e5e993e7",
+                "id": "9e2befff-94e3-41c2-b89b-940c21525594",
                 "name": "Draconic Strike x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -32998,7 +32998,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8
     },
     {
-        "id": "ca2c7a66-263f-471f-a1dc-acaa0446862a",
+        "id": "345eb228-7b29-4d8a-9b28-d4e1fc56245b",
         "mode": "monster",
         "name": "Githyanki Knight",
         "type": "aberration",
@@ -33008,7 +33008,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "ec3ca8df-19f0-434f-9516-8803cd3f5211",
+                "id": "f27f91e6-79d4-4b26-9ffb-8fdf62e2b59e",
                 "name": "Silver Sword x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33024,7 +33024,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "6ea21d7b-c502-4b8c-b982-bdc395b8f34d",
+        "id": "b633ca49-87ad-4879-96e8-10689345548a",
         "mode": "monster",
         "name": "Githyanki Warrior",
         "type": "aberration",
@@ -33034,7 +33034,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "05aec92f-0df5-41d8-87ee-966c8f2c8ce3",
+                "id": "34070cab-8371-4026-a185-c9934780040a",
                 "name": "Psi Blade x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33050,7 +33050,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "d858d15b-bbe0-4b7f-96cb-ebc37a1270aa",
+        "id": "706604e9-6f96-4288-b785-837bfebce5c0",
         "mode": "monster",
         "name": "Githzerai Monk",
         "type": "aberration",
@@ -33060,7 +33060,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "41fb118e-59c8-4140-a4f6-6f700af184b1",
+                "id": "acd86efc-24bd-4396-af9c-b239746170f7",
                 "name": "Psi Strike x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33072,7 +33072,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "4c80515c-53bb-4b8f-ac5d-8239b72f5305",
+                "id": "873b033a-d72a-49d7-9272-b4c3dea40f45",
                 "condition": "default",
                 "type": "template",
                 "templateOptions": {
@@ -33088,7 +33088,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "a21bc59e-eca8-436e-a7a6-b5c619af5502",
+        "id": "1683c29c-9fd0-4c86-8251-13497f49c6e1",
         "mode": "monster",
         "name": "Githzerai Psion",
         "type": "aberration",
@@ -33098,7 +33098,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "67156966-a0a3-4937-9633-5e7b919ee18f",
+                "id": "241e6d3f-105e-4876-9d10-29eca75ba892",
                 "name": "Psychic Warp x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33110,7 +33110,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "4c80515c-53bb-4b8f-ac5d-8239b72f5305",
+                "id": "873b033a-d72a-49d7-9272-b4c3dea40f45",
                 "condition": "default",
                 "type": "template",
                 "templateOptions": {
@@ -33123,7 +33123,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6
     },
     {
-        "id": "7c945ecb-9f46-49cc-9148-b55c2bbb6405",
+        "id": "568ddd68-3e56-4e63-9c8a-b4fa68c1bbdb",
         "mode": "monster",
         "name": "Githzerai Zerth",
         "type": "aberration",
@@ -33133,7 +33133,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "aa87acd4-b17a-436a-93db-1029493634ba",
+                "id": "931ac86f-d1d8-4a1e-a19f-fd6fd05c93a8",
                 "name": "Psi Strike x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33145,7 +33145,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "4c80515c-53bb-4b8f-ac5d-8239b72f5305",
+                "id": "873b033a-d72a-49d7-9272-b4c3dea40f45",
                 "condition": "default",
                 "type": "template",
                 "templateOptions": {
@@ -33161,7 +33161,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "21660906-0aef-4f46-b339-3e2131482e89",
+        "id": "50c68ab9-caf1-4afb-965a-ffd6d7d4e362",
         "mode": "monster",
         "name": "Glabrezu",
         "type": "fiend",
@@ -33171,7 +33171,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "d4066ea3-95d4-424a-be4f-bd2def5346c4",
+                "id": "610f948f-05c3-4933-921c-f2116f8ac90d",
                 "name": "Confusion",
                 "actionSlot": 0,
                 "condition": "is available",
@@ -33183,10 +33183,10 @@ export const Monsters: Creature[] = [
                     "condition": "Incapacitated"
                 },
                 "freq": "1/day",
-                "toHit": 16
+                "saveDC": 16
             },
             {
-                "id": "cd9b83ca-f836-4351-8d2d-85242eec5443",
+                "id": "b744c7fa-6266-4dbc-b91b-b4fb60b7361b",
                 "name": "Pincer x2, Pummel",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33202,7 +33202,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "1ed2a609-5b1a-4d6d-bfec-41a21c59c348",
+        "id": "93c6f629-a6b1-4219-b5c7-93330b121052",
         "mode": "monster",
         "name": "Gladiator",
         "type": "humanoid",
@@ -33212,7 +33212,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "4530df0b-be15-4cbb-b5f7-0a953a39510a",
+                "id": "d73a905d-fa42-4b77-9223-dac643114aa7",
                 "name": "Spear x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33224,7 +33224,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "b7e26b3e-cc19-4a96-b34f-7c3831d25832",
+                "id": "8dfa4773-32d2-4e49-8aa1-af0f731b53f0",
                 "name": "Shield Bash",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33237,7 +33237,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "b8645b83-1b4a-4ffc-bfa8-e257c3e33fab",
+                "id": "d8893ad7-cb62-4dd2-ac21-dc3cd9b37384",
                 "name": "Parry",
                 "actionSlot": 4,
                 "condition": "default",
@@ -33255,7 +33255,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "fc740040-a44b-43fd-9a9d-e414f74f1952",
+        "id": "3b4f0b0c-daae-438a-8c21-16e437c07125",
         "mode": "monster",
         "name": "Gnoll Demoniac",
         "type": "fiend",
@@ -33265,7 +33265,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "ca40d47d-1eed-4781-b106-9ce0a612f5f8",
+                "id": "799e0f87-0eda-4485-8555-fd0242131f18",
                 "name": "Abyssal Strike x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33277,7 +33277,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "e6fd06e3-063f-4777-8ce6-7c26a2428057",
+                "id": "ca15d696-b9e1-4445-912d-f0d3066c87b5",
                 "name": "Hunger of Yeenoghu",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33298,7 +33298,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "e8c038ec-28ad-47ae-b463-8ef96d9f3b3c",
+        "id": "4acf2a9f-6210-4fd4-9fc8-78dc8c57ca1e",
         "mode": "monster",
         "name": "Gnoll Fang of Yeenoghu",
         "type": "fiend",
@@ -33308,7 +33308,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "08281468-2729-4638-a11f-a3672e70593c",
+                "id": "a63acf96-0e8f-4ff8-8bac-2f109a86ab08",
                 "name": "Bite, Bone Flail x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33331,7 +33331,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "c40cd49c-27b5-4f29-bdc4-f2591720e28b",
+        "id": "6932bb46-14a9-4d4d-acd8-e9926c0b9521",
         "mode": "monster",
         "name": "Gnoll Pack Lord",
         "type": "fiend",
@@ -33341,7 +33341,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "e3a459a8-4f77-44ee-8d37-318902d6a994",
+                "id": "d79f7cbc-597a-402b-be45-eb9f701c4c82",
                 "name": "Bone Whip x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33353,7 +33353,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "2adcd3e8-6869-4ea0-8329-08a12494424b",
+                "id": "e57f04fc-2fda-4fbf-87e7-0c50a3cca891",
                 "name": "Bone Javelin",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33365,7 +33365,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "6fdb6635-7756-4a3d-9dc5-e63d7fd697db",
+                "id": "d2dc6a14-933b-4f0f-a6fe-96edf5c67c14",
                 "name": "Incite Rampage",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33384,7 +33384,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "a574e760-eb60-41f4-83f8-1b26a3eb9d59",
+        "id": "192021b7-1ede-4035-a6ad-abaae31b7a00",
         "mode": "monster",
         "name": "Gnoll Warrior",
         "type": "fiend",
@@ -33394,7 +33394,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "48d091ce-2e46-45cf-baa4-2d6473c713e9",
+                "id": "f78a38d2-e92d-41d9-b4eb-5d21f355abeb",
                 "name": "Bone Bow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33406,7 +33406,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "3144ac6e-29b4-48fd-b04c-a1577291b386",
+                "id": "acc6a4da-8aca-40fc-a712-4df60a2f85f7",
                 "name": "Rend",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33422,7 +33422,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "33b4ba75-d8c3-43c2-913e-954c4c7da2c9",
+        "id": "2c4f05cc-88f4-4f84-a0b0-ba59bbbc9c01",
         "mode": "monster",
         "name": "Goat",
         "type": "beast",
@@ -33432,7 +33432,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "7744f524-a41d-4a50-b801-c44b77c143bd",
+                "id": "e44f672a-2f3e-4d87-8dd6-b1a76b272eb8",
                 "name": "Ram",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33448,7 +33448,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "01f7df3c-0b06-416f-bb42-8b54f1bcd5e0",
+        "id": "65e90efa-1f8b-4b74-88c2-26ae510ffe6d",
         "mode": "monster",
         "name": "Goblin Boss",
         "type": "fey",
@@ -33458,7 +33458,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "23f3f358-5497-49ca-be13-57717bc65928",
+                "id": "24a07e18-63e4-40ae-a366-df248a403967",
                 "name": "Scimitar x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33470,7 +33470,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "e53f773c-124f-4aa3-a982-314b7ed7dff4",
+                "id": "5c00c523-eb6e-4142-a835-66671fb8608d",
                 "name": "Shortbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33486,7 +33486,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "f5962387-e499-4fe9-b501-ddc3e3233a22",
+        "id": "3f9ae985-5c4d-41f3-9680-e7718fb59448",
         "mode": "monster",
         "name": "Goblin Hexer",
         "type": "fey",
@@ -33496,7 +33496,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "50e59645-c770-4c04-9351-cfb98acebb12",
+                "id": "6a14d76e-01eb-4620-9082-90f4aee6df63",
                 "name": "Hex Stick x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33512,7 +33512,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "b8c425d0-b16e-45e5-89a9-7864151a5635",
+        "id": "5ae2f501-d593-4096-9675-5daf39a2712c",
         "mode": "monster",
         "name": "Goblin Minion",
         "type": "fey",
@@ -33522,7 +33522,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "6a567644-d2d8-4d11-a569-eaf676424987",
+                "id": "10ddce01-cc27-4825-bd57-d5b4b4c24574",
                 "name": "Dagger",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33538,7 +33538,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "9529a974-1ce0-4dbe-8f3e-c1176e9051c1",
+        "id": "3096fc3c-3709-4187-a863-47d8d9a50b75",
         "mode": "monster",
         "name": "Goblin Warrior",
         "type": "fey",
@@ -33548,7 +33548,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "c31e67bf-62bf-4bc3-81f3-966ade865089",
+                "id": "45f9d9db-5d0e-4ff9-8c40-213282fedbb7",
                 "name": "Scimitar",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33560,7 +33560,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "58e9d205-bd1d-419e-9446-54a733e02be0",
+                "id": "670251a4-e54b-4daf-b8bf-4cca3857c589",
                 "name": "Shortbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33576,7 +33576,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "a4951b38-0725-4e70-913a-1ba74bdb2d69",
+        "id": "78f2fcff-9bed-472b-9564-dc01be27e5d4",
         "mode": "monster",
         "name": "Gold Dragon Wyrmling",
         "type": "dragon",
@@ -33586,7 +33586,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "d187e15d-199f-4033-86e8-49a99e4a2685",
+                "id": "2d1d5252-79ad-4147-ba29-106482e9359e",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33603,7 +33603,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "e0f34e08-abc3-444e-bfb3-c9264e11ce6e",
+                "id": "de27b140-025a-44a0-93f7-cf37b438453e",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33615,7 +33615,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "80caf9e1-a53d-491c-a8ff-cc0e937a89d4",
+                "id": "05abcf83-9a8a-4279-8adf-6a4cca2ae19f",
                 "name": "Weakening Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33632,7 +33632,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "6517eaec-4c63-4a53-8a74-f9ed974c788b",
+        "id": "50f0bb0c-d243-49ee-bc39-8b22b2047416",
         "mode": "monster",
         "name": "Gorgon",
         "type": "construct",
@@ -33642,7 +33642,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "8346e1ff-f4de-47e4-8925-7824da66412b",
+                "id": "aacde396-cad9-49ee-b124-aae3b333567c",
                 "name": "Gore",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33654,7 +33654,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "af28a712-f999-48ca-83e9-65442879c892",
+                "id": "bd47ccea-7101-4899-9da1-66978410ea2a",
                 "name": "Petrifying Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33674,7 +33674,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "8c127088-fc42-47fc-b706-413ff7fd0d5f",
+        "id": "487b87cc-20b9-4422-a51f-27e887efe3b0",
         "mode": "monster",
         "name": "Goristro",
         "type": "fiend",
@@ -33684,7 +33684,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "95437a7b-547a-472e-9c8c-3eab183b3632",
+                "id": "5d79fef2-4a60-4ab1-af04-b345aea17f06",
                 "name": "Brutal Gore, Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33700,7 +33700,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8.5
     },
     {
-        "id": "4e789865-1fa5-4b71-ada7-d367b714bc42",
+        "id": "acb19b69-79f0-4975-b5b8-f4cc0de57eef",
         "mode": "monster",
         "name": "Graveyard Revenant",
         "type": "undead",
@@ -33710,7 +33710,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "6ca07a3f-d308-4bdf-9a28-23ce8029285d",
+                "id": "83e00736-4f82-4c46-871f-338042a706dd",
                 "name": "Suffocate x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33722,7 +33722,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "2db46a6b-f92d-4f6e-b6b4-f3057d17de36",
+                "id": "b4a2d5c3-b182-49f6-8922-8537a928a8ac",
                 "name": "Haunting Glare",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33742,7 +33742,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "2e8aaf83-ecfd-481d-97d0-29c827d23e0a",
+        "id": "583f8aac-3349-44dc-9dae-3e722a02d617",
         "mode": "monster",
         "name": "Gray Ooze",
         "type": "ooze",
@@ -33752,7 +33752,7 @@ export const Monsters: Creature[] = [
         "AC": 9,
         "actions": [
             {
-                "id": "d01eb55b-25fa-44a5-945c-c63fa735238a",
+                "id": "ebee1ce2-ecbe-4ebc-8af2-2a1a81011d51",
                 "name": "Pseudopod",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33768,7 +33768,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "e4f89e1b-9290-407b-aca3-c0b1027e905c",
+        "id": "7d85ab7f-d675-431a-b9e3-fd3e80da3fa2",
         "mode": "monster",
         "name": "Gray Slaad",
         "type": "aberration",
@@ -33778,7 +33778,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "1c36c0a0-4801-4260-aede-8ea541c76dd2",
+                "id": "0fccf253-74ec-42b9-9ad5-a2c06fe2679a",
                 "name": "Chaos Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33797,7 +33797,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "e5995ed1-8673-4cd4-881a-766c0c76c7a8",
+                "id": "37e4400e-39b4-41eb-830b-da3ded72ffbb",
                 "name": "Regeneration",
                 "actionSlot": 4,
                 "condition": "default",
@@ -33812,7 +33812,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "a48a158e-6c9d-4bca-a1a9-c08b1eb8f816",
+        "id": "ef163b46-3371-461f-87b1-347a699f4497",
         "mode": "monster",
         "name": "Green Dragon Wyrmling",
         "type": "dragon",
@@ -33822,7 +33822,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "31312bee-6ece-45be-b7b7-e8afd304e55e",
+                "id": "d360c378-a940-4bcd-8f01-4e1091fa5b8a",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33834,7 +33834,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "eae3bad8-97e6-4b35-b189-04c5a2829102",
+                "id": "b22dae90-4a31-47e0-9d37-2474f8a9b45b",
                 "name": "Poison Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33855,7 +33855,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "fdd086ee-7457-482e-a80b-cad0d2075a14",
+        "id": "6143e60c-8f39-4bb8-9e1b-420de024b403",
         "mode": "monster",
         "name": "Green Hag",
         "type": "fey",
@@ -33865,7 +33865,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "00a2bda5-355f-4acc-b21a-29daa8a61b25",
+                "id": "085388fc-dcee-4cb8-8c4f-8a2249383fd7",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33881,7 +33881,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "1f4927f7-4fe7-40ef-b34c-25fab3c72b25",
+        "id": "024816c4-4413-4c2e-a85f-716b57c16624",
         "mode": "monster",
         "name": "Green Slaad",
         "type": "aberration",
@@ -33891,7 +33891,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "59b743df-adab-4b80-9f35-6c01c12fc6c2",
+                "id": "044dab84-30b2-4ea8-92ef-ee01dd4bb5d6",
                 "name": "Chaos Staff x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33910,7 +33910,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "e5995ed1-8673-4cd4-881a-766c0c76c7a8",
+                "id": "37e4400e-39b4-41eb-830b-da3ded72ffbb",
                 "name": "Regeneration",
                 "actionSlot": 4,
                 "condition": "default",
@@ -33921,7 +33921,7 @@ export const Monsters: Creature[] = [
                 "target": "self"
             },
             {
-                "id": "24cf9688-45f1-4f32-962d-361bd6ffc578",
+                "id": "33cf02a5-055e-4e08-8367-9fe000e0942b",
                 "type": "template",
                 "condition": "default",
                 "templateOptions": {
@@ -33936,7 +33936,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "aa57e76c-df34-4e02-83ed-3f4aa1c94bb4",
+        "id": "ce5bffb8-92b8-47d7-b0ac-9399842916a7",
         "mode": "monster",
         "name": "Grell",
         "type": "aberration",
@@ -33946,7 +33946,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "af7888bb-0f84-4b1a-b44b-6a35e021eb06",
+                "id": "45bea6d7-ac40-4df2-9cbe-d77e30c690a8",
                 "name": "Beak, Paralyzing Tentacles",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33969,7 +33969,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "6fc1fe48-1aa4-4adb-a878-fac938ca6fcd",
+        "id": "bdd58a62-c5d6-45a8-8ee1-c4e3a880131f",
         "mode": "monster",
         "name": "Grick",
         "type": "aberration",
@@ -33979,7 +33979,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "162c553d-eb61-4919-b837-86afed8ee6d0",
+                "id": "b794b9fa-e39e-4ff4-87f3-4771561fa329",
                 "name": "Beak, Tentacles",
                 "type": "atk",
                 "actionSlot": 0,
@@ -33995,7 +33995,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "fa518621-8193-4fed-b225-3d33fed049ba",
+        "id": "faf65f06-a56f-4645-b3c5-a5ca579644ce",
         "mode": "monster",
         "name": "Grick Ancient",
         "type": "aberration",
@@ -34005,7 +34005,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "a14a53ef-7575-4f3f-ae2f-2f8b9f1be998",
+                "id": "01b0f7cf-bece-40e2-9090-91eb53a03261",
                 "name": "Beak, Slam, Tentacles",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34021,7 +34021,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "a75968e0-5fd6-4544-ab5c-2ca621047a18",
+        "id": "7c016f6e-b1c5-45b4-86ea-299d2e8e35b8",
         "mode": "monster",
         "name": "Griffon",
         "type": "monstrosity",
@@ -34031,7 +34031,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "b3b72d95-012f-404a-b5da-b957f95fbff0",
+                "id": "8f6ba188-1a20-4e37-8f9c-7f627e875120",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34047,7 +34047,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "d145cd47-b4de-4514-b97a-89bfa2d7ffd7",
+        "id": "38eba566-6ad3-4723-bbe9-ffd22b647720",
         "mode": "monster",
         "name": "Grimlock",
         "type": "aberration",
@@ -34057,7 +34057,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "694641fb-494e-40a8-b4d5-8ead41b57231",
+                "id": "b3a368e7-5cae-4631-bf07-c8bd83e67235",
                 "name": "Bone Cudgel",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34073,7 +34073,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "10c7ea64-a65a-49ba-9ca8-59f9d0f91478",
+        "id": "3902e530-e174-4a79-a7ef-834cca914f36",
         "mode": "monster",
         "name": "Guard",
         "type": "humanoid",
@@ -34083,7 +34083,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "2bda1ca6-5f7b-4e36-96ab-580d454eb5db",
+                "id": "d656edf4-b3c5-46b7-82cc-710c5c8af22d",
                 "name": "Spear",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34099,7 +34099,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "e5740e19-a101-48e8-84d8-2a1ddae2880d",
+        "id": "0c1db840-d31f-4e63-9d33-65ae261b3e6c",
         "mode": "monster",
         "name": "Guard Captain",
         "type": "humanoid",
@@ -34109,7 +34109,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "53d1a6be-23b6-4ac1-9824-bf5823be2833",
+                "id": "17f2cc50-fac5-4f10-841f-3724a5da98cd",
                 "name": "Longsword x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34121,7 +34121,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "b86491e8-37ce-42d0-a1e2-793155ec5cbf",
+                "id": "5a1c90ac-60e6-4425-bafa-622c9dd4486c",
                 "name": "Javelin",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34137,7 +34137,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "8b508b8f-92b7-428a-85fb-3d8e1ec0bbbc",
+        "id": "0ca0765f-f736-4791-91d3-a5dfe7e54cf7",
         "mode": "monster",
         "name": "Guardian Naga",
         "type": "celestial",
@@ -34147,7 +34147,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "484cf68a-00c9-4be0-9b05-42d49c555916",
+                "id": "6ae84e22-bb12-4b83-bf60-373761e6a94b",
                 "name": "Cure Wounds",
                 "actionSlot": 0,
                 "condition": "ally under half HP",
@@ -34158,7 +34158,7 @@ export const Monsters: Creature[] = [
                 "freq": "1/day"
             },
             {
-                "id": "cfabdb7f-4304-4733-a336-c6ef6542d8ac",
+                "id": "813e5bb4-e855-4769-9f0f-c4eadfb4ed53",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34170,7 +34170,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "eec91d28-3ccf-4785-a3c6-7e9aca8be824",
+                "id": "bbc4613c-dfab-43f5-a318-61a699aada95",
                 "actionSlot": 0,
                 "name": "Flame Strike",
                 "condition": "default",
@@ -34182,7 +34182,7 @@ export const Monsters: Creature[] = [
                 "toHit": 16
             },
             {
-                "id": "46963554-1db3-4d48-960e-72045f28f9fb",
+                "id": "a62cc1db-9f23-4669-831e-0eb737507925",
                 "name": "Poisonous Spittle",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34200,7 +34200,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "c816f95a-2714-4b82-8604-6e4a05d45386",
+        "id": "d07d134d-7bb0-4c88-a55e-7689639a8965",
         "mode": "monster",
         "name": "Gulthias Blight",
         "type": "plant",
@@ -34210,7 +34210,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "ec2aacd4-2077-4ccd-a088-f8d7c8365dd4",
+                "id": "5a973655-c625-44a8-86c5-36a4871f04a4",
                 "name": "Life-Draining Root, Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34222,7 +34222,7 @@ export const Monsters: Creature[] = [
                 "toHit": 12
             },
             {
-                "id": "183e0537-5200-45aa-be07-84da0f718976",
+                "id": "d5b0ab9f-9ba9-4bea-a685-4efb35b635a6",
                 "name": "Thorn Volley",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34238,7 +34238,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8
     },
     {
-        "id": "f8412edc-78df-4a51-9029-2b1799ac20f1",
+        "id": "e0171456-7f98-485d-9b84-e280ba814323",
         "mode": "monster",
         "name": "Half-Dragon",
         "type": "dragon",
@@ -34248,7 +34248,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "0e5f722a-a1d2-4dbc-b00e-5b715c667df6",
+                "id": "7b56d194-1539-48c4-9d95-6a3ac0ae73ac",
                 "name": "Dragon's Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34265,7 +34265,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "03577907-887a-4d1c-8265-24b8cc913ad9",
+                "id": "cb794f90-93b6-42de-923e-6ef07afe118f",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34281,7 +34281,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "6ed04e21-b878-4cd5-a5e6-ea3874a1735d",
+        "id": "43350e8b-df17-4781-b1e9-fc78e46f0f67",
         "mode": "monster",
         "name": "Harpy",
         "type": "monstrosity",
@@ -34291,7 +34291,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "64c83c58-396d-46d4-bdfc-e58047963a5c",
+                "id": "6cdae1ea-95b9-4454-b60c-11676c85e5e7",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34303,7 +34303,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "6023e1d5-ac0b-4727-a390-c4c1c843f514",
+                "id": "c90d0010-80ac-45e3-84e5-3bb80b2e4dc6",
                 "name": "Luring Song",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34320,7 +34320,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "8c94a082-64d4-435b-bd6b-3d10b69d1e21",
+        "id": "c0e7e6df-1a7f-48d2-b99a-3620cad18419",
         "mode": "monster",
         "name": "Haunting Revenant",
         "type": "undead",
@@ -34330,7 +34330,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "1317962a-ec26-437c-aae6-2572ba0b86b1",
+                "id": "ff836cc6-8050-40b0-bf6f-b5d8eb0349d0",
                 "name": "Object Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34342,7 +34342,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "5781d28f-0162-4fb5-aed1-b6427f36c1a8",
+                "id": "92800b0b-79e7-4d4c-b4c3-a3ec505fac35",
                 "name": "Invitation",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34359,7 +34359,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "361b0195-0c83-4c97-8e9b-8fe775e3e393",
+        "id": "0ef4aec0-5074-41c0-8f5a-784f74e67640",
         "mode": "monster",
         "name": "Hawk",
         "type": "beast",
@@ -34369,7 +34369,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "df6c3735-fca5-4603-adad-9dd2a1d02a73",
+                "id": "046e87d5-123f-4a5f-a146-8e0f58a6f45f",
                 "name": "Talons",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34385,7 +34385,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "00e75e2b-97e0-426f-9036-76b8f6c6085a",
+        "id": "87da9447-e207-46e2-98cb-4d8aa4fc5364",
         "mode": "monster",
         "name": "Hell Hound",
         "type": "fiend",
@@ -34395,7 +34395,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "6923d4f5-5964-4674-9904-6777164d7e1a",
+                "id": "c0c89372-1e0b-4e5a-be98-4d8e3cf1fdda",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34407,7 +34407,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "c4d4e6e5-c509-4461-86a4-6e888020fe98",
+                "id": "99b7822a-30f9-4931-a92e-50f5132afe1a",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34428,7 +34428,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "80d48a25-22e5-46e0-bd15-98a244085e66",
+        "id": "3f74d7ac-50c1-4d0c-a1e2-d02345114132",
         "mode": "monster",
         "name": "Helmed Horror",
         "type": "construct",
@@ -34438,7 +34438,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "c48fe317-2f39-4d18-8a95-554ddb4952cc",
+                "id": "a99fa78c-003c-461c-bfc7-b602fd6bbdaa",
                 "name": "Arcane Sword x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34454,7 +34454,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "a7fdf639-7c2d-4f21-a982-dfa808d42fe2",
+        "id": "d790045a-2187-465f-b17b-83a19ddebd36",
         "mode": "monster",
         "name": "Hezrou",
         "type": "fiend",
@@ -34464,7 +34464,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "91bb865a-1f09-4ef5-83a5-f2dfc81ca6c1",
+                "id": "05f5eb24-93f4-4bb6-970e-b448f1dff4e8",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34480,7 +34480,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "c8c2c25a-37f0-488b-9b07-04ce18aae678",
+        "id": "e812c861-8c0d-4bfd-bec6-0048238c6410",
         "mode": "monster",
         "name": "Hill Giant",
         "type": "giant",
@@ -34490,7 +34490,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "d4679e74-0b90-4b16-a94e-36805d244d48",
+                "id": "e67a0f68-a85c-4901-a3d8-a0bacc9c33fc",
                 "name": "Tree Club x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34502,7 +34502,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "77791184-9592-4258-91ea-04e8467c737c",
+                "id": "94f0b61a-d4f1-4de2-9845-f73a8cf11205",
                 "name": "Trash Lob",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34525,7 +34525,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "ffb2b2b6-adb1-4290-baec-21f0166965b5",
+        "id": "8836e8f7-13ad-4ef4-8747-69131627888b",
         "mode": "monster",
         "name": "Hippogriff",
         "type": "monstrosity",
@@ -34535,7 +34535,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "18040f98-d094-4846-b2cf-b7f2046bd56e",
+                "id": "45fc713a-2576-411e-a6ee-c40eca1d914b",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34551,7 +34551,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "94c29d74-9608-4984-80af-71b271cbe716",
+        "id": "be92f260-bbd7-4a5a-8825-0dd4c81a9ff3",
         "mode": "monster",
         "name": "Hippopotamus",
         "type": "beast",
@@ -34561,7 +34561,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "603c5ba2-a949-46f5-9f03-6148fc49c30a",
+                "id": "de2dcfff-bef9-4fb2-bbd1-54b5f544eb89",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34577,7 +34577,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "05a1ecdd-ec1e-4fd1-a05d-571249cb8f77",
+        "id": "049c75ea-25e6-466e-9cd7-3737ed8dcb4c",
         "mode": "monster",
         "name": "Hobgoblin Captain",
         "type": "fey",
@@ -34587,7 +34587,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "9a689e47-0161-4709-899b-790f18d1aadc",
+                "id": "8f8571f2-bcf3-4604-b700-7c58b49bf93b",
                 "name": "Greatsword x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34599,7 +34599,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "eca6edeb-65fb-4fdf-8402-d8ec2efe09dd",
+                "id": "3299a8e7-5f3e-42e7-8b0c-0c9311488375",
                 "name": "Longbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34615,7 +34615,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "a72e497a-42a7-4795-9dbe-b67f0c7a6d45",
+        "id": "97af4436-f4ee-451b-a461-5875c5f5cea2",
         "mode": "monster",
         "name": "Hobgoblin Warlord",
         "type": "fey",
@@ -34625,7 +34625,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "17141f6f-7175-4b30-940f-d2ad4067c085",
+                "id": "ff6d5c9f-b0cd-4409-b177-69fe21e294f4",
                 "name": "Longsword x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34637,7 +34637,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "819e7404-69db-4c6f-bcd4-f779d0f9a905",
+                "id": "d2549c48-ab9f-4753-8a09-0807a562bd4f",
                 "name": "Javelin",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34649,7 +34649,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "b8645b83-1b4a-4ffc-bfa8-e257c3e33fab",
+                "id": "d8893ad7-cb62-4dd2-ac21-dc3cd9b37384",
                 "name": "Parry",
                 "actionSlot": 4,
                 "condition": "default",
@@ -34667,7 +34667,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "ae3a25f8-b696-4108-a546-04c909d2629b",
+        "id": "1d747407-da02-4299-9895-4ff2e96f910c",
         "mode": "monster",
         "name": "Hobgoblin Warrior",
         "type": "fey",
@@ -34677,7 +34677,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "36d8138e-7cd8-4d53-ba1e-9e9b11217a5e",
+                "id": "05ffcd27-a3c5-46ff-8377-26eef4620190",
                 "name": "Longbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34689,7 +34689,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "66ad06a0-3ec1-4632-84e6-4e756f34aab2",
+                "id": "e3b14dab-4dfc-4c76-920e-7c80f7967c15",
                 "name": "Longsword",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34705,7 +34705,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "00ebf8e5-07a1-45c3-96d8-5c22c26ff640",
+        "id": "bcbe05cd-208d-41d3-b168-b7f9d73df2eb",
         "mode": "monster",
         "name": "Homunculus",
         "type": "construct",
@@ -34715,7 +34715,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "7712d8a0-c949-4721-82de-fce5caa49631",
+                "id": "74659c82-4820-44d2-96bf-60dd784d1a41",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34738,7 +34738,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "819605d4-fbc6-441a-b0e9-6b0b6ad28044",
+        "id": "94a5e65e-89aa-45e9-8b58-2a12c4eddaaf",
         "mode": "monster",
         "name": "Hook Horror",
         "type": "monstrosity",
@@ -34748,7 +34748,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "d8d7f88f-4602-4548-b9ba-7c6616a68d02",
+                "id": "dd889265-4b30-47ff-b882-42f2395d6fa9",
                 "name": "Hook x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34764,7 +34764,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "53a7af36-c9f8-4fdf-956d-f2613e0f608c",
+        "id": "a38c0677-3fa4-4b01-b421-18c5ce7bd34f",
         "mode": "monster",
         "name": "Horned Devil",
         "type": "fiend",
@@ -34774,7 +34774,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "4ccd14d4-deaf-48f0-99b0-667763e61380",
+                "id": "7baa15d1-d539-4465-a3f5-90faa3e1658c",
                 "name": "Searing Fork x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34786,7 +34786,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "530ed144-ba82-403b-b6dc-0d107ea8b576",
+                "id": "6bbc39ff-fa09-4d20-9429-8395fee5cfb4",
                 "name": "Hurl Flame",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34798,7 +34798,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "48d7792a-da8b-431a-b187-c89a5d59d046",
+                "id": "c4e07078-d70a-4a6c-8819-3a77e21457c0",
                 "name": "Infernal Tail",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34815,7 +34815,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "096a0f97-20a7-463c-a6a2-bf0c9a90b185",
+        "id": "3ccbe304-0c1f-429a-9d4d-1e8cea04c892",
         "mode": "monster",
         "name": "Hunter Shark",
         "type": "beast",
@@ -34825,7 +34825,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "5e13fc9f-5b08-4ed0-8512-453651ea0a5b",
+                "id": "147e684f-3eef-4188-8397-e76ceccfb0e4",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34841,7 +34841,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "e9cebe69-c2c7-42a4-a813-69fe4f568e9c",
+        "id": "7a78c461-1656-42fc-a8f8-fd2f1b6ca4d0",
         "mode": "monster",
         "name": "Hydra",
         "type": "monstrosity",
@@ -34851,7 +34851,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "55f58121-1652-42fc-af12-b9131a3aa081",
+                "id": "75188920-9e14-4a3d-b4a6-c46980d5885f",
                 "name": "Bite x5",
                 "type": "atk",
                 "dpr": 52,
@@ -34863,7 +34863,7 @@ export const Monsters: Creature[] = [
                 "target": "enemy with most HP"
             },
             {
-                "id": "c7db87b0-7e51-4893-aff2-445d310aaa3b",
+                "id": "66f9a5cc-80d3-47f7-8046-c38a886aa6ce",
                 "name": "Bite x4",
                 "type": "atk",
                 "dpr": 42,
@@ -34875,7 +34875,7 @@ export const Monsters: Creature[] = [
                 "target": "enemy with most HP"
             },
             {
-                "id": "d7db7f75-8162-49ad-a11d-28260949a11f",
+                "id": "b42334f8-4efc-4ef1-8f35-a143f43cb984",
                 "name": "Bite x3",
                 "type": "atk",
                 "dpr": 31,
@@ -34887,7 +34887,7 @@ export const Monsters: Creature[] = [
                 "target": "enemy with most HP"
             },
             {
-                "id": "162f52ec-12fd-4764-9ca4-1aa0884e0d0c",
+                "id": "a1b951bd-06d5-4803-a0ff-8cf64fc7a51d",
                 "name": "Bite x2",
                 "type": "atk",
                 "dpr": 21,
@@ -34899,7 +34899,7 @@ export const Monsters: Creature[] = [
                 "target": "enemy with most HP"
             },
             {
-                "id": "a7abe280-dead-43b9-bc83-d45179d13941",
+                "id": "217bd686-07fc-4d8d-b3e6-d54f62be8b22",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34915,7 +34915,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "fbec0c9a-4bb6-4733-96db-e624b220c407",
+        "id": "20aa2722-4c48-4352-80cc-8053dff8671c",
         "mode": "monster",
         "name": "Hyena",
         "type": "beast",
@@ -34925,7 +34925,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "ff3f5269-f879-4ea7-9ffb-18e9ef8af4aa",
+                "id": "7e3cc5ac-7728-4d9d-a0c7-f3b6d7e25807",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34941,7 +34941,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "71c564e9-f8f1-4848-9a17-dbbff4537f4b",
+        "id": "e9388c3c-5fef-4bf6-84bc-e85e964a1979",
         "mode": "monster",
         "name": "Ice Devil",
         "type": "fiend",
@@ -34951,7 +34951,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "db4c5f65-2c14-41ba-a39d-2063a479a839",
+                "id": "6b140fb2-0c91-4eec-a2d3-8a9f6432794e",
                 "name": "Ice Spear x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34963,7 +34963,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "4da0a09a-464a-4292-b3d4-2967574e3e59",
+                "id": "a89fffa1-4153-425e-8f90-b8f1a0ca5433",
                 "name": "Tail",
                 "type": "atk",
                 "actionSlot": 0,
@@ -34979,7 +34979,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 7
     },
     {
-        "id": "cdd8cad7-9e94-46ce-9c81-20103df7224a",
+        "id": "f06beb44-951d-4d57-acff-676b3d783453",
         "mode": "monster",
         "name": "Ice Mephit",
         "type": "elemental",
@@ -34989,7 +34989,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "e3f21573-003c-4c02-935f-1cac719a4a7f",
+                "id": "5e186ba0-ee0f-41ef-8182-7b092b33c6f8",
                 "name": "Frost Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35006,7 +35006,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "689388eb-1b5f-4011-9e52-f5ef676b4d54",
+                "id": "83efb218-3160-42fe-a294-b4951e8c262f",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35022,7 +35022,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "c59128dc-fbfd-419e-8fd6-aaad80d9aeac",
+        "id": "241589e9-8377-4d4b-86c5-01b77ddb5c74",
         "mode": "monster",
         "name": "Imp",
         "type": "fiend",
@@ -35032,7 +35032,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "fe54c4d4-153e-41cf-9c23-85e4da221e6e",
+                "id": "bb4121a6-d0f3-41f5-8cef-3a73e6ef0d28",
                 "name": "Sting",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35044,7 +35044,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "a8aa4afc-854b-4ab2-b931-1f6ece7a1193",
+                "id": "5af179e8-d871-4042-8429-eac46c0522f0",
                 "name": "Shape-Shift",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35060,7 +35060,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "32a7b0d2-5dc5-4864-b528-fe194e5c9c1c",
+        "id": "70a7bd56-c4c6-4626-84f4-775a7d559066",
         "mode": "monster",
         "name": "Incubus",
         "type": "fiend",
@@ -35070,7 +35070,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "2a96be86-ff8d-4cfc-93eb-1b7252da225b",
+                "id": "0956f967-ba84-486d-8f82-26d39575b93f",
                 "name": "Restless Touch x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35086,7 +35086,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "26073266-520a-4fab-b203-f98f217e2783",
+        "id": "899b6621-5f7e-47a1-bf55-f08cd2d910d4",
         "mode": "monster",
         "name": "Intellect Devourer",
         "type": "aberration",
@@ -35096,7 +35096,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "b7d84af8-ecf3-4224-a652-c851d1375a5b",
+                "id": "336994d0-3261-4710-893e-5cf1e622d263",
                 "name": "Claw, Devour Intellect",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35109,7 +35109,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "b5a633ac-dc3c-4adb-9a44-0ad71f57cabc",
+                "id": "56ab22b9-46bb-42bd-a22e-ef7a55e90ac6",
                 "name": "Steal Body",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35126,7 +35126,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "bbbf338b-e9e3-4bcc-8ba4-f9002204ee8d",
+        "id": "abda4398-5652-455b-bbf3-eba1c17f63cd",
         "mode": "monster",
         "name": "Invisible Stalker",
         "type": "elemental",
@@ -35136,7 +35136,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "86cb5137-760d-41c6-a421-a846c988789e",
+                "id": "cf6f3b9f-c274-4457-ba09-023139547171",
                 "name": "Wind Swipe x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35148,7 +35148,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "836a7697-9fdb-4f1f-b91d-b7d70e09381f",
+                "id": "dc8175f0-99a1-4c57-bcc5-2b25a23538db",
                 "name": "Vortex",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35165,7 +35165,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "d3ca6ac5-984f-4659-93f3-9a2398d56e9c",
+        "id": "b9e8e0c0-aa57-4d20-b35f-4039db1cd9e9",
         "mode": "monster",
         "name": "Iron Golem",
         "type": "construct",
@@ -35175,7 +35175,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "2529ebde-5ff7-4599-9da8-3c6a606b165e",
+                "id": "6e4681e9-86a0-4147-b06e-f01ec2189b85",
                 "name": "Poison Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35192,7 +35192,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "80751591-a2b6-42c5-9a7c-bb699c2f1e21",
+                "id": "7618a8e7-5ff0-41b2-b8d5-cb8354bcc573",
                 "name": "Bladed Arm x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35204,7 +35204,7 @@ export const Monsters: Creature[] = [
                 "toHit": 12
             },
             {
-                "id": "f2a164ad-72c0-4c65-81b7-bc33d57886d8",
+                "id": "241daf65-8f58-4879-9f96-1e0411370f2c",
                 "name": "Fiery Bolt",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35220,7 +35220,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8
     },
     {
-        "id": "16ff0cc0-3e7f-4386-921b-7847039c9da7",
+        "id": "823b73b7-6a96-40fd-a46b-8a0946be90e3",
         "mode": "monster",
         "name": "Jackal",
         "type": "beast",
@@ -35230,7 +35230,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "89da6dcc-19d2-4c95-bc04-615e469f9064",
+                "id": "8877c791-e01e-4c41-899e-4af54c8578e1",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35246,7 +35246,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "896e492a-53f6-44f2-a285-b2e140d06df3",
+        "id": "b57ec7bb-1127-4f8a-9e8b-55ca70d3bd8b",
         "mode": "monster",
         "name": "Jackalwere",
         "type": "fiend",
@@ -35256,7 +35256,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "e044748b-572b-42f8-b777-f974891fb157",
+                "id": "d52e65e7-5ee1-4cee-af3d-c0d9665fd9a2",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35268,7 +35268,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "fde3cd77-f48b-42da-be7a-4339264a41f4",
+                "id": "46226021-48ff-46cd-b831-96377de7e6f2",
                 "name": "Slam (Human or Hybrid Form Only)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35280,7 +35280,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "2a68783b-d6e8-4bab-bc3a-b744fb32442f",
+                "id": "7d47921b-ba9f-40ee-b711-ef261e6a2211",
                 "name": "Sleep Gaze",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35300,7 +35300,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "4ef8098c-e97a-43d8-8372-1d0c8e350c7b",
+        "id": "1cb240f3-4db1-4cf3-aa99-252abdcf0d95",
         "mode": "monster",
         "name": "Juvenile Shadow Dragon",
         "type": "dragon",
@@ -35310,7 +35310,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "229610f7-d208-4828-a891-72b19263c91a",
+                "id": "baa3ecfb-5aaa-49f2-a10d-073c009dc999",
                 "name": "Shadow Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35327,7 +35327,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "07cc85e8-93d0-41b2-aa8b-9cb8219e3f7e",
+                "id": "84be39e9-1aa3-4d5b-81d7-6d3131b6ea02",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35343,7 +35343,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "bb29e72b-6c8e-4cc5-9889-a6e4e5e0b993",
+        "id": "801ad9da-d511-44d1-b1dc-e09d57ef277e",
         "mode": "monster",
         "name": "Kenku",
         "type": "monstrosity",
@@ -35353,7 +35353,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "8b42429e-7b62-4503-a231-a7cb8cc0fb63",
+                "id": "51cbdb38-43ad-4eb2-9a22-29ea827c3779",
                 "name": "Shadow Blade",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35369,7 +35369,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "57f4fa05-daca-44e9-bd72-6bdb96b9a0c9",
+        "id": "3557fdf2-6730-4e5e-aa48-c8769e35e4b1",
         "mode": "monster",
         "name": "Killer Whale",
         "type": "beast",
@@ -35379,7 +35379,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "9cef24e8-dade-459b-b09b-ffc5d21aa288",
+                "id": "31c00ff0-2c79-408c-8dfb-fff10bc415ef",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35395,7 +35395,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "b9cabbe1-38c4-4e39-a549-c54d0cd939c2",
+        "id": "2dfef8d4-b8a0-4827-8963-d43a261d9e58",
         "mode": "monster",
         "name": "Knight",
         "type": "humanoid",
@@ -35405,7 +35405,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "d6d984ba-19cc-4fd1-bbf9-b026171291bb",
+                "id": "99f746b3-2e57-4f7b-b9a8-b05410a71d3f",
                 "name": "Greatsword x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35417,7 +35417,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "f39cbbbd-e97e-4c07-9b4d-677806d58aec",
+                "id": "5aad090d-f48f-4eac-a24e-a7d945c0ead9",
                 "name": "Heavy Crossbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35429,7 +35429,7 @@ export const Monsters: Creature[] = [
                 "toHit": 2
             },
             {
-                "id": "b8645b83-1b4a-4ffc-bfa8-e257c3e33fab",
+                "id": "d8893ad7-cb62-4dd2-ac21-dc3cd9b37384",
                 "name": "Parry",
                 "actionSlot": 4,
                 "condition": "default",
@@ -35447,7 +35447,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "ef2ae099-c299-4029-b1a8-9ab03b0aa8ed",
+        "id": "28051759-b1e1-4aa4-939f-d8b77b37dd5a",
         "mode": "monster",
         "name": "Kobold Warrior",
         "type": "dragon",
@@ -35457,7 +35457,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "07411bf3-20fd-4ab4-a6c9-7ec1360904c0",
+                "id": "accde9f7-3886-487f-a57c-f91037909b49",
                 "name": "Dagger",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35473,7 +35473,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "f29c98a1-889b-402f-9754-4bd5e4ccb366",
+        "id": "ed107167-24b4-4217-98d4-78bea50d7b1a",
         "mode": "monster",
         "name": "Kraken",
         "type": "monstrosity",
@@ -35483,7 +35483,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "4f57b118-7862-4d1e-8ea5-cde091468117",
+                "id": "7094a68f-dcfd-4302-bbe8-cc002814daa3",
                 "name": "Fling, Tentacle x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35495,7 +35495,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17
             },
             {
-                "id": "8062f5d5-ff1b-446a-bd98-5c5a141d043e",
+                "id": "c10e2558-0bb9-402a-94d8-275e2bff573f",
                 "name": "Swallow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35508,7 +35508,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "8c17622b-b9d0-4b32-ba80-9ac7db8b27c3",
+                "id": "9754de37-a474-4945-ba2e-486135d68d0a",
                 "name": "Lightning Strike",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35526,7 +35526,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 11.5
     },
     {
-        "id": "7156148a-c258-44dc-9b05-d697aec5fc15",
+        "id": "f6c7f607-2adb-48b7-b574-23f5586fb762",
         "mode": "monster",
         "name": "Kuo-toa",
         "type": "aberration",
@@ -35536,7 +35536,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "09ee8346-28c7-48fb-bfea-1063c84db3ca",
+                "id": "175dc07d-ea74-4859-a046-50105bfbf26d",
                 "name": "Spear",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35548,7 +35548,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "4794f3d1-f29f-49ee-bcf6-aea3bdd152a3",
+                "id": "057f0f09-a8c1-434e-b95f-062ed20362d6",
                 "name": "Sticky Net",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35565,7 +35565,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "ce2008e0-5927-4e53-a844-b03719c97fbd",
+        "id": "e52adccf-e3d5-44f4-b35a-8d6cce9cbad2",
         "mode": "monster",
         "name": "Kuo-toa Archpriest",
         "type": "aberration",
@@ -35575,7 +35575,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "0401e21c-8e50-4734-8107-4f8567f918c1",
+                "id": "cd13b0aa-8473-40ab-8997-5741ce6403d2",
                 "name": "Strange Scepter x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35591,7 +35591,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "4734437c-4ecd-4eb8-860a-6f0146564d21",
+        "id": "a5d8aa25-89f9-4d7d-810b-82e736ca070e",
         "mode": "monster",
         "name": "Kuo-toa Monitor",
         "type": "aberration",
@@ -35601,7 +35601,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "06b4035d-90f4-474f-8cc6-8ef0d439a70e",
+                "id": "7fe48f74-446a-4c3d-aa43-9928743907b8",
                 "name": "Bone Whip x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35617,7 +35617,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "465ec358-bbe8-418d-8a99-1cb5562197a4",
+        "id": "d2d199da-fde3-4d80-9667-5a9b4e3c3600",
         "mode": "monster",
         "name": "Kuo-toa Whip",
         "type": "aberration",
@@ -35627,7 +35627,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "c54e737f-d64f-420f-9175-04d1a978ba5a",
+                "id": "6c6f9dda-a906-46bd-8086-74aec3ffd911",
                 "name": "Conjure Slimy Glob",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35639,7 +35639,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "015f40a0-7652-4ed9-ba8a-5e2a93a328f1",
+                "id": "e22c4808-d93f-4e22-af1d-867b46f09a09",
                 "name": "Pincer Staff",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35655,7 +35655,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "272c04ae-d5b9-4af6-8074-a9eb5df60827",
+        "id": "1ae11840-700e-4308-963a-8a8c6484a53d",
         "mode": "monster",
         "name": "Lacedon Ghoul",
         "type": "undead",
@@ -35665,7 +35665,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "5930f579-4ab3-4d7e-a439-e5165be5867b",
+                "id": "c619d1b6-719d-4630-801b-39d2d47c64a7",
                 "name": "Icy Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35677,7 +35677,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "7be0152a-1873-45be-a755-839ea4da7489",
+                "id": "2f41705f-d045-4bb1-a1c7-98f7605b7fed",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35693,7 +35693,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "4ce8cd62-ef0e-4707-b92c-63e3ae149c35",
+        "id": "40b9fdcf-fe6b-4e59-a1c9-da05bcd0edaa",
         "mode": "monster",
         "name": "Lamia",
         "type": "fiend",
@@ -35703,7 +35703,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "f87874ae-8c58-4367-9018-9c701ce194a7",
+                "id": "4a541306-1a7e-4c70-adfc-c0f579359f34",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35715,7 +35715,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "906cae06-39e8-42f5-8915-75caddf8a6e8",
+                "id": "fc53b545-3541-44f6-b3f7-9d9e39d21188",
                 "name": "Corrupting Touch",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35739,7 +35739,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "2ab192c1-b6d3-4af0-b6ae-768a4d03b4f2",
+        "id": "8f1698f1-d34c-4e7f-af52-70f975d0ac21",
         "mode": "monster",
         "name": "Larva",
         "type": "fiend",
@@ -35749,7 +35749,7 @@ export const Monsters: Creature[] = [
         "AC": 9,
         "actions": [
             {
-                "id": "2db01092-0675-46df-990f-dbfca8fd6d71",
+                "id": "d2d99af6-d412-4792-91a9-43f410adcbaa",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35765,7 +35765,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "53dbe529-6fa1-4577-8db0-8067b3ee3a8e",
+        "id": "2b2a1293-e1dd-430c-bbd2-e44d6f557ec4",
         "mode": "monster",
         "name": "Lemure",
         "type": "fiend",
@@ -35775,7 +35775,7 @@ export const Monsters: Creature[] = [
         "AC": 9,
         "actions": [
             {
-                "id": "358c9f7a-23c3-495d-a5df-cd298689f61c",
+                "id": "2f3c209e-fa21-42d8-bcc3-7e29ff2c8577",
                 "name": "Vile Slime",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35791,7 +35791,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "8f846859-25fd-45aa-8dd5-2a6db466cf7c",
+        "id": "e69a1e92-6165-46e5-8631-c9f805a843df",
         "mode": "monster",
         "name": "Lich",
         "type": "undead",
@@ -35801,7 +35801,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "26b97959-fccc-419f-a5ed-f369d6b30a93",
+                "id": "f8027ec5-2e91-4ea1-9e12-1c3f4d3f3c98",
                 "name": "Power Word Kill",
                 "actionSlot": 0,
                 "condition": "is under half HP",
@@ -35813,7 +35813,7 @@ export const Monsters: Creature[] = [
                 "toHit": 20
             },
             {
-                "id": "48d2cdfa-5905-40b1-8dcf-14364eded1ce",
+                "id": "3e4c6ca5-c310-4e78-a5ca-04e89e92a974",
                 "name": "Eldritch Burst x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35825,7 +35825,7 @@ export const Monsters: Creature[] = [
                 "toHit": 12
             },
             {
-                "id": "01fd04df-38b5-4e30-971e-845f60705eb1",
+                "id": "4b27c3bf-143b-4db9-950c-4e19dd91b743",
                 "name": "Chain Lightning",
                 "actionSlot": 0,
                 "condition": "is available",
@@ -35839,7 +35839,7 @@ export const Monsters: Creature[] = [
                 "toHit": 20
             },
             {
-                "id": "e5f1fc93-d715-4475-baee-e88ec3227826",
+                "id": "8965bd57-3bf8-4860-83cc-d3b28778111a",
                 "name": "Finger of Death",
                 "actionSlot": 0,
                 "condition": "is available",
@@ -35853,7 +35853,7 @@ export const Monsters: Creature[] = [
                 "toHit": 20
             },
             {
-                "id": "6540176c-c0e6-45a2-bb18-0432808b8223",
+                "id": "364e4d2f-68e0-4747-8bc0-7917b16f06f2",
                 "name": "Lightning Bolt",
                 "actionSlot": 0,
                 "condition": "is available",
@@ -35867,7 +35867,7 @@ export const Monsters: Creature[] = [
                 "toHit": 20
             },
             {
-                "id": "68b3d6f7-f79a-4d38-a05a-7074d09b1c85",
+                "id": "49b024b7-a869-4b74-a3c7-905faf62beaa",
                 "name": "Paralyzing Touch",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35879,7 +35879,7 @@ export const Monsters: Creature[] = [
                 "toHit": 12
             },
             {
-                "id": "24cf9688-45f1-4f32-962d-361bd6ffc578",
+                "id": "33cf02a5-055e-4e08-8367-9fe000e0942b",
                 "type": "template",
                 "condition": "default",
                 "templateOptions": {
@@ -35890,7 +35890,7 @@ export const Monsters: Creature[] = [
                 "freq": "at will"
             },
             {
-                "id": "4c80515c-53bb-4b8f-ac5d-8239b72f5305",
+                "id": "873b033a-d72a-49d7-9272-b4c3dea40f45",
                 "condition": "default",
                 "type": "template",
                 "templateOptions": {
@@ -35903,7 +35903,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 10.5
     },
     {
-        "id": "16bc6382-7dda-4be2-b54e-1ac0d5511285",
+        "id": "ccce6028-5f45-4356-80a4-e209a63a6b1d",
         "mode": "monster",
         "name": "Lion",
         "type": "beast",
@@ -35913,7 +35913,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "34c85837-497f-44f4-8cf1-4742e0b9a8c2",
+                "id": "cea3f14a-3167-425b-9999-07312469e2f1",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35925,7 +35925,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "340ed5d0-a05e-4818-bd06-12ef1fca5e62",
+                "id": "07d06fc8-0db0-41ce-9d07-86d83f064b75",
                 "name": "Roar",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35949,7 +35949,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "98e88555-c125-4844-b7a3-a86f34ca2d79",
+        "id": "7d27b305-02c4-4ca1-8a18-031df3200254",
         "mode": "monster",
         "name": "Lizard",
         "type": "beast",
@@ -35959,7 +35959,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "92919b07-1e31-44c4-965d-eff161c3dfd1",
+                "id": "183dc06e-db0a-4562-ad4c-d7877f357e0c",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -35975,7 +35975,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "a5e7d395-7307-4607-b81d-ac78cad00d6a",
+        "id": "c65f1588-768a-49cb-9ad5-60180f71a0b8",
         "mode": "monster",
         "name": "Lizardfolk Geomancer",
         "type": "elemental",
@@ -35985,7 +35985,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "0be275e5-6cdb-416c-95cd-66e0411dd938",
+                "id": "c9f3a5ce-f06a-4363-9f13-ab943e999de8",
                 "name": "Hail of Stone",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36002,7 +36002,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "6ef2b158-4071-4214-a3b2-55843e5f064c",
+                "id": "c82be578-ef22-450b-bbe7-3d4069cadd77",
                 "name": "Earth Burst x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36018,7 +36018,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "e6464ef4-f33e-4347-9fcc-8e87ce6cd2d5",
+        "id": "4d8aa77d-35ab-479a-b159-825ac9c023b0",
         "mode": "monster",
         "name": "Lizardfolk Sovereign",
         "type": "elemental",
@@ -36028,7 +36028,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "ebaa8024-651b-42de-b0fb-3ad97467a0eb",
+                "id": "afbd1857-3ec7-404a-a8e0-6c2ee03e34f8",
                 "name": "Bite, Earthen Maul",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36044,7 +36044,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "12f8cf40-0cda-4972-a2d7-c2578b00285b",
+        "id": "679dd325-af0c-4683-b0dc-1a42ffda5abf",
         "mode": "monster",
         "name": "Mage",
         "type": "humanoid",
@@ -36054,7 +36054,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "b93c3e77-f9d5-4db3-877e-146954288fd3",
+                "id": "10246fe5-af3a-420c-aad7-5d6d34d18be6",
                 "actionSlot": 0,
                 "name": "Cone of Cold",
                 "condition": "default",
@@ -36068,7 +36068,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14
             },
             {
-                "id": "7d5db2ba-c22a-4ad3-9b89-b955de8182b5",
+                "id": "7f3139a4-a8ce-4bed-b1f7-ee1c4c6abf59",
                 "name": "Arcane Burst x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36080,7 +36080,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "24cf9688-45f1-4f32-962d-361bd6ffc578",
+                "id": "33cf02a5-055e-4e08-8367-9fe000e0942b",
                 "type": "template",
                 "condition": "default",
                 "templateOptions": {
@@ -36094,7 +36094,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "4c80515c-53bb-4b8f-ac5d-8239b72f5305",
+                "id": "873b033a-d72a-49d7-9272-b4c3dea40f45",
                 "condition": "default",
                 "type": "template",
                 "templateOptions": {
@@ -36110,7 +36110,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "e360a56f-62be-45be-aafb-43e368537e60",
+        "id": "6d8cc6a9-5203-4946-99c3-f29742e83603",
         "mode": "monster",
         "name": "Mage Apprentice",
         "type": "humanoid",
@@ -36120,7 +36120,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "f455f310-add6-4bf5-973c-501180bb57d2",
+                "id": "4ff83ed0-632e-4b2b-82b0-e0ecc3d7123e",
                 "name": "Arcane Burst",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36136,7 +36136,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "86e46f8c-72a1-4fa4-9745-bb9527ea499e",
+        "id": "63026941-9519-4e7c-80e9-ad925c26830a",
         "mode": "monster",
         "name": "Magma Mephit",
         "type": "elemental",
@@ -36146,7 +36146,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "3b634d3d-209d-4128-9e98-3811ab2b1025",
+                "id": "80972fc9-acd3-4fb2-a65a-089af59570e2",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36158,7 +36158,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "6d85fbe1-4f7b-4f1b-94f9-57743e001930",
+                "id": "c0174c50-80d8-4b94-8b78-a0817c5b56ac",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36179,7 +36179,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "c16323e5-d721-45e0-8e14-29f83f342085",
+        "id": "73814f47-d53b-4c39-aaba-87f0f1f62161",
         "mode": "monster",
         "name": "Magmin",
         "type": "elemental",
@@ -36189,7 +36189,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "b90fd208-5340-499b-90b0-cf132cffef2d",
+                "id": "b009492d-8c01-4c24-b178-b888695a0f9c",
                 "name": "Touch",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36205,7 +36205,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "11c95e0c-f0ea-4000-b1fd-9b2c1962e71a",
+        "id": "4bbb0f02-ac58-455a-b846-5faded8e9117",
         "mode": "monster",
         "name": "Mammoth",
         "type": "beast",
@@ -36215,7 +36215,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "aede91e8-4c5d-4dec-9c71-46603045583e",
+                "id": "3d42513c-365d-472e-9e58-d97eb1162d49",
                 "name": "Gore x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36231,7 +36231,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "9e069bd1-f64d-46ad-9250-704cdee87f07",
+        "id": "f8d450e3-b660-4cc6-b96e-398b1977784d",
         "mode": "monster",
         "name": "Manes",
         "type": "fiend",
@@ -36241,7 +36241,7 @@ export const Monsters: Creature[] = [
         "AC": 9,
         "actions": [
             {
-                "id": "120b5b06-10dd-4ccb-8b72-b2947725b5ff",
+                "id": "5b766c17-cbd6-46ed-bec7-6fe03b7934b1",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36257,7 +36257,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "1a8edae6-bf7e-4491-bc24-ff3570513d86",
+        "id": "3f9feebd-4de9-46c3-a7eb-1d3da6879115",
         "mode": "monster",
         "name": "Manes Vaporspawn",
         "type": "fiend",
@@ -36267,7 +36267,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "24122f62-13fb-41f6-bc90-c8c0d1680499",
+                "id": "d06b366a-27d0-4bcd-a708-ad7c10fd7ccb",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36283,7 +36283,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "200fda7b-3f13-4faf-a6b5-802efd28af35",
+        "id": "b0592bcc-9729-4d43-ae83-cbc255bc312e",
         "mode": "monster",
         "name": "Manticore",
         "type": "monstrosity",
@@ -36293,7 +36293,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "0234ec8e-60ee-4546-80fc-cf5b4579a1e0",
+                "id": "a5b0f305-2610-483e-beb4-5637a5b711c8",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36305,7 +36305,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "044711d6-0aaf-45e4-a15a-a867e331bc4d",
+                "id": "bd80a594-837c-4912-84cc-33a74f6d71d4",
                 "name": "Tail Spike",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36321,7 +36321,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "2fa786c4-617b-454f-a77d-3c711e440c2c",
+        "id": "8959fd78-d1a2-419e-9e11-145eba9be64f",
         "mode": "monster",
         "name": "Marid",
         "type": "elemental",
@@ -36331,7 +36331,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "0b5d934a-2178-41ac-8f24-fcead66be928",
+                "id": "f59f8610-758e-4000-b9b2-55170e4814c9",
                 "name": "Aquatic Lash x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36343,7 +36343,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "f3d30eee-6046-42f7-982b-eb3ec3f37473",
+                "id": "8c9099e0-337f-406e-8a10-a7be23296d7a",
                 "name": "Water Jet",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36361,7 +36361,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "e44ba8e1-349a-4fce-9bbc-5a208c65fd25",
+        "id": "64d1a14f-d277-44b7-af7a-618d2ffd3279",
         "mode": "monster",
         "name": "Marilith",
         "type": "fiend",
@@ -36371,7 +36371,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "00d0a101-ce1a-4568-994f-fe7c063a0085",
+                "id": "5aa5b6ac-986e-42e8-9ef2-b8a4d449451b",
                 "name": "Constrict, Pact Blade x6",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36383,7 +36383,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "b8645b83-1b4a-4ffc-bfa8-e257c3e33fab",
+                "id": "d8893ad7-cb62-4dd2-ac21-dc3cd9b37384",
                 "name": "Parry",
                 "actionSlot": 4,
                 "condition": "default",
@@ -36401,7 +36401,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8
     },
     {
-        "id": "c85fe102-713b-4c8e-93dd-fda98010847e",
+        "id": "b965351a-a1b5-41c8-a2a2-d743f25648a5",
         "mode": "monster",
         "name": "Mastiff",
         "type": "beast",
@@ -36411,7 +36411,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "c19e9bb8-b6cf-44d4-b376-59ba3dd9c6fe",
+                "id": "2b6b822d-4bf7-44c6-80c7-03bed9cfcfdd",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36427,7 +36427,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "03f682f8-2d63-4a04-a784-f42873af8966",
+        "id": "29faa6fc-7d23-4acd-8bb9-08b93457c645",
         "mode": "monster",
         "name": "Medusa",
         "type": "monstrosity",
@@ -36437,7 +36437,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "307b6ff1-a49c-4f8b-9908-8f674a7946d6",
+                "id": "06bfd325-6589-4168-9295-54f6fc6d7015",
                 "name": "Claw x2, Snake Hair",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36449,7 +36449,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "4af7ce5b-32eb-4a53-a07a-25115bdf68f6",
+                "id": "de607094-c1ed-4f41-a93f-f238509c0e2c",
                 "name": "Poison Ray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36465,7 +36465,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "94dd26ea-a72e-473e-a790-6a47b1d355d0",
+        "id": "37c1e99c-a792-4feb-894d-99ebf984a957",
         "mode": "monster",
         "name": "Merfolk Skirmisher",
         "type": "elemental",
@@ -36475,7 +36475,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "8fe0ff88-ce90-4071-9fc8-f3138841ddc5",
+                "id": "28ace3dd-a6ad-42ef-b408-6b0405c80782",
                 "name": "Ocean Spear",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36491,7 +36491,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "53faa4d2-379d-4eb2-807e-6ed183b9ac6f",
+        "id": "c0fdb99f-6bda-4b65-8dc1-8c4a88e70819",
         "mode": "monster",
         "name": "Merfolk Wavebender",
         "type": "elemental",
@@ -36501,7 +36501,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "c8851505-83c4-4e7d-b19b-ec39941b6d97",
+                "id": "32c98d2e-f57f-4a53-a926-03dc4b47c1b0",
                 "name": "Aquatic Burst x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36517,7 +36517,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "8ee32fbb-9f85-4d2a-99d7-7021cb43b873",
+        "id": "89dbcf8d-defc-470a-b557-adaee8ac9fa6",
         "mode": "monster",
         "name": "Merrow",
         "type": "monstrosity",
@@ -36527,7 +36527,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "bc2ca53d-6355-4da7-b2c4-03d570c22913",
+                "id": "a190ec67-9cf7-4ac0-8edd-d1f30d29c1f4",
                 "name": "Harpoon x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36539,7 +36539,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "3a32f633-7b1d-4cfb-8ee8-676870fc6279",
+                "id": "d76d0c8a-0c91-4847-b7ca-431b8819296a",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36551,7 +36551,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "2b778793-a36f-4be2-a000-717825a2f012",
+                "id": "0bb2f7d9-8ec0-4331-a5c0-b95ca64004b4",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36574,7 +36574,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "9afe1576-c390-41e2-bf7a-524f7a2f46d7",
+        "id": "869d1a41-cfe6-4000-a473-7fa73588ec8c",
         "mode": "monster",
         "name": "Mezzoloth",
         "type": "fiend",
@@ -36584,7 +36584,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "14f60fca-6a18-4aa7-bc82-7d1f193c213c",
+                "id": "e4650cf1-da5a-4590-95be-65810440c9dd",
                 "name": "Mercurial Trident x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36596,7 +36596,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "73be5873-202c-4bc7-bc0b-5caf99191980",
+                "id": "15860741-59fa-46a1-b220-3757431f6fe9",
                 "name": "Claws",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36612,7 +36612,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "acd5450d-058c-43df-9db4-f52cc6ea77c6",
+        "id": "e4ba1b94-0dc0-409b-b1e4-f5932e571012",
         "mode": "monster",
         "name": "Mimic",
         "type": "monstrosity",
@@ -36622,7 +36622,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "9de4cc46-96e5-41e0-bc00-12db7086c9ba",
+                "id": "d57a8611-79ec-4f96-9aa6-d13694c39666",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36634,7 +36634,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "df88235d-9a5b-4dee-88e9-c76090f1d6f3",
+                "id": "fad63c5a-1f96-4448-97eb-f7849fec3dbf",
                 "name": "Pseudopod",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36650,7 +36650,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "bd0ee6b2-3dfb-4464-890a-282c9dc9a60f",
+        "id": "0a94b519-3a8b-40dd-ad3a-1f7bf8999ab3",
         "mode": "monster",
         "name": "Mind Flayer",
         "type": "aberration",
@@ -36660,7 +36660,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "c13b9780-97c9-405c-9238-d3c52cee903b",
+                "id": "441b1124-5f77-47a5-927e-b5dd71ebad12",
                 "name": "Mind Blast",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36677,7 +36677,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "419515ac-087d-4c29-8a9d-6fa0fe800be0",
+                "id": "fec158af-f35d-4a3a-bd6b-30f3c3a48287",
                 "name": "Extract Brain",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36691,7 +36691,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "dca6084f-dcd0-48ac-81ea-f5a3cf00f7a1",
+                "id": "3ba15257-3037-4347-bd2a-33fbd615e2d0",
                 "name": "Tentacles",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36707,7 +36707,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "292fe2ea-fa66-40dd-8e4b-95342da0face",
+        "id": "32b322c0-34b1-48fe-b89e-6487a2b653a1",
         "mode": "monster",
         "name": "Mind Flayer Arcanist",
         "type": "aberration",
@@ -36717,7 +36717,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "f96bf10a-39bf-45aa-86bc-1a6faf3df741",
+                "id": "225950df-e71a-4ad8-a3f7-febe460a19dd",
                 "name": "Mind Burst",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36734,7 +36734,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "61243a0c-5ed1-416d-ac8e-51eaa2be98d6",
+                "id": "b97f69af-630e-42df-b8be-68df1a402f0a",
                 "name": "Arcane Tentacles x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36746,7 +36746,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "6540176c-c0e6-45a2-bb18-0432808b8223",
+                "id": "364e4d2f-68e0-4747-8bc0-7917b16f06f2",
                 "name": "Lightning Bolt",
                 "actionSlot": 0,
                 "condition": "is available",
@@ -36760,7 +36760,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17
             },
             {
-                "id": "24cf9688-45f1-4f32-962d-361bd6ffc578",
+                "id": "33cf02a5-055e-4e08-8367-9fe000e0942b",
                 "type": "template",
                 "condition": "default",
                 "templateOptions": {
@@ -36771,7 +36771,7 @@ export const Monsters: Creature[] = [
                 "freq": "1/day"
             },
             {
-                "id": "4c80515c-53bb-4b8f-ac5d-8239b72f5305",
+                "id": "873b033a-d72a-49d7-9272-b4c3dea40f45",
                 "condition": "default",
                 "type": "template",
                 "templateOptions": {
@@ -36787,7 +36787,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "076e138e-dc18-4c31-b230-f0f8675f6b75",
+        "id": "5826bca2-253a-4df7-9bfc-866e538f48c7",
         "mode": "monster",
         "name": "Minotaur of Baphomet",
         "type": "monstrosity",
@@ -36797,7 +36797,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "6f61353d-07df-4bb5-af2f-64acde08f813",
+                "id": "867fd09d-6ed1-4bd4-ac89-bcbbebd70eba",
                 "name": "Abyssal Glaive",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36809,7 +36809,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "f1568688-8eda-42bb-a90e-65d3df0ac17b",
+                "id": "ecabd1f2-e196-4749-bf27-a316a3104283",
                 "name": "Gore",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36828,7 +36828,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "0af6fcd8-ce07-4215-b655-b6b31ddb7ffc",
+        "id": "9f61cb51-1991-4ebd-853e-4bd8d9bf42cc",
         "mode": "monster",
         "name": "Minotaur Skeleton",
         "type": "undead",
@@ -36838,7 +36838,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "6519302d-5a94-4462-9ed5-893c81ded0aa",
+                "id": "4da4c9c5-2741-4f9e-8cdb-e08d82eaf7e2",
                 "name": "Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36850,7 +36850,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "85972169-7bf5-4188-b38f-88040ca87f3a",
+                "id": "8264369b-8224-4d4c-8303-341320287762",
                 "name": "Gore",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36866,7 +36866,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "8a25bac1-33a1-42b7-b8e5-b1c9dc249958",
+        "id": "12e7c99d-84b5-4b87-a969-086e0740bd49",
         "mode": "monster",
         "name": "Modron Duodrone",
         "type": "construct",
@@ -36876,7 +36876,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "0607fc75-a2a3-44e6-a8b0-f54093e078fc",
+                "id": "1809efdd-1be2-4e29-9d4a-149c57737874",
                 "name": "Clockwork Blade x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36892,7 +36892,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "33e9481a-6a6f-4723-a22d-93ed9bea761b",
+        "id": "2f8d7e0b-1ef4-40c0-9730-62d79a8c591e",
         "mode": "monster",
         "name": "Modron Monodrone",
         "type": "construct",
@@ -36902,7 +36902,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "a033835c-1ea4-4a03-9b8b-b4981f88e056",
+                "id": "f6817069-c3a9-4337-a9ec-235d63525993",
                 "name": "Gear",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36914,7 +36914,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "f510f747-14c5-4b4a-810f-1f9649128c25",
+                "id": "609850da-e7b0-4983-ad8f-b115bf14bab3",
                 "name": "Gear Flinger",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36930,7 +36930,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "3b342266-f41d-49a2-9802-78fe1a42be56",
+        "id": "e4aab8b1-8f31-4d16-8139-5c02fdf1e40d",
         "mode": "monster",
         "name": "Modron Pentadrone",
         "type": "construct",
@@ -36940,7 +36940,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "54f02d1a-e50d-409f-9ee1-63aca5eacba0",
+                "id": "9ff64956-1351-41a7-9820-a45904076230",
                 "name": "Slam x5",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36952,7 +36952,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "f9bc2ccc-42c3-4409-9d14-3a91d8ceb581",
+                "id": "8790ef98-3be0-4d11-89d6-c7ee60007c25",
                 "name": "Electrical Discharge",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36964,7 +36964,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "6775f81a-144d-4ce7-acf8-91f4f0d40fa1",
+                "id": "9969d787-fc69-40a3-addc-1be3858dca8f",
                 "name": "Paralysis Gas",
                 "type": "atk",
                 "actionSlot": 0,
@@ -36984,7 +36984,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "c23b70da-b662-459a-96d1-5a7e69c4aa12",
+        "id": "948e835d-588d-4aa6-9972-9ce6de451d6b",
         "mode": "monster",
         "name": "Modron Quadrone",
         "type": "construct",
@@ -36994,7 +36994,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "fcf39359-5a0f-4b81-9875-07e1ccc8a177",
+                "id": "cce5192f-fce3-4b3b-a599-dcb6d0cd8ab3",
                 "name": "Slam x4",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37006,7 +37006,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "0a50519f-bf00-4eb9-b3c5-beadc327e1f5",
+                "id": "c19d572e-c35b-43b2-b4ec-2ddf561be610",
                 "name": "Gears Launcher",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37022,7 +37022,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "480f6918-b149-40ff-966b-398c592650bb",
+        "id": "64d9d487-1bab-4277-9d9d-b8f7dfc387f9",
         "mode": "monster",
         "name": "Modron Tridrone",
         "type": "construct",
@@ -37032,7 +37032,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "ea228829-20b4-4664-a029-0c8b47565403",
+                "id": "c625464c-9970-4b7a-8ab9-1ddf76d08b29",
                 "name": "Clockwork Spear x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37048,7 +37048,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "f88569c8-fd18-4db8-b6a7-bbf42746ab1e",
+        "id": "f6a46c26-7f26-425a-b0c6-0b9d234b68f1",
         "mode": "monster",
         "name": "Mud Mephit",
         "type": "elemental",
@@ -37058,7 +37058,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "a20dde44-7974-48c3-bc25-9a53cc05bd8c",
+                "id": "f1068d42-b8ab-47ff-91d1-bb088eaee57b",
                 "name": "Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37070,7 +37070,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "b3a56e90-2e60-4816-8046-954366466d3b",
+                "id": "6ee55d2d-09a4-4dce-8558-d2724ae68a6c",
                 "name": "Mud Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37090,7 +37090,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "b4ffd18b-05d8-4ee9-abb4-603ef0ce0d3d",
+        "id": "504c4641-8d0b-4a48-b92f-efb8e75d16ac",
         "mode": "monster",
         "name": "Mule",
         "type": "beast",
@@ -37100,7 +37100,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "17b60f66-2f39-47cd-a33d-5db3e84cdd48",
+                "id": "58ed45ab-f71b-45f8-9ed9-844c32a29164",
                 "name": "Hooves",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37116,7 +37116,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "0d60f127-175b-479e-a890-66fbb2297e00",
+        "id": "6ec69673-557c-47c1-8a6a-879c102c26c9",
         "mode": "monster",
         "name": "Mummy",
         "type": "undead",
@@ -37126,7 +37126,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "c9120c4b-1cab-424d-94b7-e65e712642bf",
+                "id": "84de8c60-6008-49d1-9f3d-4730954ee2fb",
                 "name": "Rotting Fist x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37138,7 +37138,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "9bdf488a-1a8b-45bc-a361-0c77082ddce3",
+                "id": "3cfc7c27-b023-4815-8f44-0c9f2a7b4b0b",
                 "name": "Dreadful Glare",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37162,7 +37162,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "01854869-2743-4cb7-8592-26e986aad40f",
+        "id": "7306cf87-8e55-4142-a8b1-ff0c65de3043",
         "mode": "monster",
         "name": "Mummy Lord",
         "type": "undead",
@@ -37172,7 +37172,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "846cd623-b7cd-4062-8897-6bee9dd054ee",
+                "id": "de7ccdf1-cb24-4af8-a174-b8054a01c024",
                 "name": "Dreadful Glare, Rotting Fist",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37185,7 +37185,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "a2fccfe0-1d71-4074-89eb-4dcdd270db92",
+                "id": "4cfab8a7-6cef-4539-89a8-0dbbc02691f2",
                 "name": "Harm",
                 "actionSlot": 0,
                 "condition": "is available",
@@ -37199,7 +37199,7 @@ export const Monsters: Creature[] = [
                 "toHit": 17
             },
             {
-                "id": "3bcf1ee5-cbf9-4e67-886f-45c2db4cd678",
+                "id": "a316d7f0-a11a-4274-8cd0-47852c81d713",
                 "name": "Channel Negative Energy",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37211,7 +37211,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "ac52acbc-64db-4c2b-9e7f-2c8a81fa348b",
+                "id": "3505bbdf-1eb0-49b6-b30f-8adf4af35280",
                 "name": "Necrotic Strike",
                 "type": "atk",
                 "actionSlot": 2,
@@ -37227,7 +37227,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 7.5
     },
     {
-        "id": "0e613e96-78ff-4f31-b15a-e18c26f3ec78",
+        "id": "df8f56bc-c09f-41d1-96bf-f56ddcc0949e",
         "mode": "monster",
         "name": "Myconid Adult",
         "type": "plant",
@@ -37237,7 +37237,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "f76424cf-a5ee-4f29-a1d1-e3859c0585a7",
+                "id": "1dde0fdc-6bc5-4a33-b4af-3540daa99a43",
                 "name": "Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37249,7 +37249,7 @@ export const Monsters: Creature[] = [
                 "toHit": 2
             },
             {
-                "id": "5d27c4a7-5e89-443a-96b6-b4b69b7a3a42",
+                "id": "5bafdfa5-c5a7-4aa4-bbe7-60591646cce1",
                 "name": "Pacifying Spores",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37262,7 +37262,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "523d786c-c703-45a8-87a2-f9881d8f0a33",
+                "id": "b320232d-ed88-490b-a843-a18b501cbdfe",
                 "name": "Rapport Spores",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37278,7 +37278,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "8aed32ed-1c8e-49dd-ad95-70082e754342",
+        "id": "aea02b24-87cf-4793-b6e7-6db3b1a94dd1",
         "mode": "monster",
         "name": "Myconid Sovereign",
         "type": "plant",
@@ -37288,7 +37288,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "2604aafb-7276-453e-87ee-7da595465089",
+                "id": "a7dec193-66d5-4cb9-b89d-5654052ad7ae",
                 "name": "Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37300,7 +37300,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "672b796e-0710-4fe2-992a-54b575360ce5",
+                "id": "36970466-3172-4d04-b1ec-22dbec2f246b",
                 "name": "Animating Spores",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37315,7 +37315,7 @@ export const Monsters: Creature[] = [
                 "toHit": 0
             },
             {
-                "id": "155b7dda-e245-4f44-8ad6-0d2245d82e56",
+                "id": "636e9260-3ae8-4960-a07d-f969dbb4e727",
                 "name": "Pacifying Spores",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37328,7 +37328,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "4eb28883-92ea-42ad-913d-9841d136847b",
+                "id": "a44677db-471e-4f57-82a1-3f305ab1fe6b",
                 "name": "Rapport Spores",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37344,7 +37344,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "6aeadc5e-4ea2-4c30-b318-534ac3640a63",
+        "id": "48aa5464-6391-488d-82ec-129bc21328a4",
         "mode": "monster",
         "name": "Myconid Spore Servant",
         "type": "plant",
@@ -37354,7 +37354,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "ff031345-5020-4c52-a075-52c09b65fb92",
+                "id": "8490ed22-979a-422d-8715-3ed60089b318",
                 "name": "Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37370,7 +37370,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "97ba5117-4aa2-4642-af6f-46b3296cf39e",
+        "id": "2d2b9a1a-3d77-433b-bc6e-bcd569caf7b7",
         "mode": "monster",
         "name": "Myconid Sprout",
         "type": "plant",
@@ -37380,7 +37380,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "d962942a-7c0d-49a5-bd4c-1471ce3fb8fe",
+                "id": "66ed5eb6-800a-402e-945e-5046a0a14699",
                 "name": "Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37392,7 +37392,7 @@ export const Monsters: Creature[] = [
                 "toHit": 1
             },
             {
-                "id": "c47ec05b-fbd1-4aa1-bf1a-5f618c1c3302",
+                "id": "845075e5-daa1-4866-9143-f5e173929037",
                 "name": "Rapport Spores",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37408,7 +37408,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "1077f49d-d284-4b99-9ae6-94724941c43e",
+        "id": "47d6ff01-828e-4a6e-948a-f55c4305e72a",
         "mode": "monster",
         "name": "Nalfeshnee",
         "type": "fiend",
@@ -37418,7 +37418,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "2fce0c95-5b40-4672-b1e5-6084ca0a971d",
+                "id": "ebc632d5-d074-4a3d-89f6-b5421b60cdeb",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37430,7 +37430,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "099da1cf-beee-4eb7-ac5f-346b90b667fd",
+                "id": "72838abc-bb4f-47d8-a53c-dbbc71eb2916",
                 "name": "Teleport",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37446,7 +37446,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6.5
     },
     {
-        "id": "c50aca11-1eaa-4bfa-8c03-99a221ab4397",
+        "id": "06c19fcc-12cd-472c-9936-458e28d38e8a",
         "mode": "monster",
         "name": "Needle Blight",
         "type": "plant",
@@ -37456,7 +37456,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "ee930824-f484-4857-bad7-69622eb9bbea",
+                "id": "89ad9fdc-53f7-4793-9197-ff2281ba692e",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37468,7 +37468,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "c99aad5f-4dd5-4c3c-b69e-c87a0a009c26",
+                "id": "62a48ea8-d231-4970-881c-7aedc8821cba",
                 "name": "Needles",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37484,7 +37484,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "db05006d-a6c0-4f4d-8195-10e0f3cc1cf7",
+        "id": "4e067416-bfa2-4315-b68d-7d9c69063cf9",
         "mode": "monster",
         "name": "Night Hag",
         "type": "fiend",
@@ -37494,7 +37494,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "74d8b9bf-197e-43b1-9bad-4004d4b6c93f",
+                "id": "ba471cd3-d331-492a-9c34-84c4bc0d63aa",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37510,7 +37510,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "1e14d6e3-4ae0-4771-940e-bd7f24a56666",
+        "id": "bde3b3b1-7724-452c-910b-4e4e04ad2267",
         "mode": "monster",
         "name": "Nightmare",
         "type": "fiend",
@@ -37520,7 +37520,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "a2f036f5-940f-4817-8501-aa9cc613a6fa",
+                "id": "ea04c3b1-3210-459e-a477-5085e1f39fa6",
                 "name": "Hooves",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37532,7 +37532,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "f581db75-e411-4152-84be-5300b431ffbb",
+                "id": "a94a4da1-f14e-49b8-8b1b-380abbfb6c01",
                 "name": "Ethereal Stride",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37548,7 +37548,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "dbd14ea2-6651-4cbd-b1c1-81cdc1626922",
+        "id": "69871932-a88c-48c0-8bdc-9549b33222bd",
         "mode": "monster",
         "name": "Noble",
         "type": "humanoid",
@@ -37558,7 +37558,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "84652ac5-93a3-4265-847c-113551851db6",
+                "id": "232ac2c0-f36d-4181-b7f7-a169e4e38f89",
                 "name": "Rapier",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37570,7 +37570,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "b8645b83-1b4a-4ffc-bfa8-e257c3e33fab",
+                "id": "d8893ad7-cb62-4dd2-ac21-dc3cd9b37384",
                 "name": "Parry",
                 "actionSlot": 4,
                 "condition": "default",
@@ -37588,7 +37588,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "ad0e3563-a8f9-4924-9ee7-5b6905b7e5fc",
+        "id": "51c96691-11ed-4e91-aa72-38cb9c22861d",
         "mode": "monster",
         "name": "Noble Prodigy",
         "type": "humanoid",
@@ -37598,7 +37598,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "a5741a6e-365d-4895-8870-ca43ea912fcb",
+                "id": "e89037ae-76f3-4836-9de1-608c6fbfbb07",
                 "name": "Beguiling Strike x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37610,7 +37610,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "4c80515c-53bb-4b8f-ac5d-8239b72f5305",
+                "id": "873b033a-d72a-49d7-9272-b4c3dea40f45",
                 "condition": "default",
                 "type": "template",
                 "templateOptions": {
@@ -37626,7 +37626,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "af3661e0-f102-46e0-8cd4-de053880a488",
+        "id": "e50db1aa-e655-41c0-bf18-dda9e1aa065d",
         "mode": "monster",
         "name": "Nothic",
         "type": "aberration",
@@ -37636,7 +37636,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "0715cef0-b132-4393-a23f-f0ff1a2649ea",
+                "id": "dce73fc3-56a6-4ecf-a736-b109089ceabd",
                 "name": "Rotting Gaze",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37650,7 +37650,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "d27b7f52-8fa2-413a-bdd7-584c3bddcbc6",
+                "id": "b7435e69-51b0-4afc-907b-23ef2212d3c6",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37666,7 +37666,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "50bc1851-6cc2-45bc-93e9-ec65ef1e1da7",
+        "id": "1bb5357a-8770-4e37-9bc7-3fac4fbabd79",
         "mode": "monster",
         "name": "Nycaloth",
         "type": "fiend",
@@ -37676,7 +37676,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "c30b1983-8db4-46cb-932a-30e9b14f7b43",
+                "id": "42b8f5ee-f969-4506-ba34-c0e6d9df9390",
                 "name": "Mercurial Axe x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37692,7 +37692,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "0e227380-9db1-4741-98d2-1a33112fb083",
+        "id": "448f289d-6eec-47a8-826a-4ca6ae312232",
         "mode": "monster",
         "name": "Ochre Jelly",
         "type": "ooze",
@@ -37702,7 +37702,7 @@ export const Monsters: Creature[] = [
         "AC": 8,
         "actions": [
             {
-                "id": "ad9e2e9e-bb19-4418-a999-36068d8204cc",
+                "id": "e2a47f26-ee5b-4229-8507-f0af176fbefe",
                 "name": "Pseudopod",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37718,7 +37718,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "57195907-a807-4143-90c8-967cd3c9a867",
+        "id": "acd6c5e9-482d-432b-ac47-87cb6e61fe57",
         "mode": "monster",
         "name": "Octopus",
         "type": "beast",
@@ -37728,7 +37728,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "6d9d1594-a558-4683-b4f4-b357841512de",
+                "id": "ece2e612-a6be-4f91-8f0c-d2d26b9075c0",
                 "name": "Tentacles",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37744,7 +37744,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "533ea526-837c-4f15-8096-489fb03b2676",
+        "id": "68e5a284-8d43-4b83-8ed7-d02fa44f95f8",
         "mode": "monster",
         "name": "Ogre",
         "type": "giant",
@@ -37754,7 +37754,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "6c795249-2b5e-4084-be77-203425c58fdb",
+                "id": "ce1bfbf5-b427-4638-a4b6-bda9d965d725",
                 "name": "Greatclub",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37766,7 +37766,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "bdadf2cf-4b10-4be0-b66d-af5836a0f9ed",
+                "id": "97f47ec9-0ecb-4f05-84b9-eedb5ea4cf88",
                 "name": "Javelin",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37782,7 +37782,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "d9710d02-8470-4872-9aa1-2036e993fd9e",
+        "id": "68e793c8-39aa-439e-9c74-33d02a6a8616",
         "mode": "monster",
         "name": "Ogre Zombie",
         "type": "undead",
@@ -37792,7 +37792,7 @@ export const Monsters: Creature[] = [
         "AC": 8,
         "actions": [
             {
-                "id": "bffae685-9887-41f2-83b5-41ec9c28480d",
+                "id": "92a3eccd-0468-48bb-b9bf-d6857205ce56",
                 "name": "Undead Fortitude",
                 "type": "heal",
                 "actionSlot": -1,
@@ -37803,7 +37803,7 @@ export const Monsters: Creature[] = [
                 "amount": 1
             },
             {
-                "id": "0227731f-4fd3-4c78-a8ae-89d5d776544d",
+                "id": "6806691f-dfb9-4319-9841-af3874203c4e",
                 "name": "Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37819,7 +37819,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "05087b11-39cd-42fb-be55-8d4d36aeda2d",
+        "id": "dcc91968-7ac5-409b-b484-9c68d0072011",
         "mode": "monster",
         "name": "Ogrillon Ogre",
         "type": "giant",
@@ -37829,7 +37829,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "2ddcefc6-4b2d-4499-ad60-9fb2f4cbe810",
+                "id": "714cbbb6-fba3-48c9-bc68-a53bb72be995",
                 "name": "Battleaxe",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37841,7 +37841,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "97a145d1-42dd-43b2-9383-ff21a5ca5ab4",
+                "id": "15a7a63a-60d9-4473-82ac-c2b569ef2356",
                 "name": "Javelin",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37857,7 +37857,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "5926e5f8-c4dd-4049-b987-e47a148114c0",
+        "id": "f4000222-eaa6-481b-90e5-0228e37dce1b",
         "mode": "monster",
         "name": "Oni",
         "type": "fiend",
@@ -37867,7 +37867,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "cbaaaad7-92ee-43bd-8875-d61edc623518",
+                "id": "f815f13e-6182-4dd6-be0a-fb88358d1954",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37879,7 +37879,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "5df76ca9-481a-4466-ac49-e5823a35decd",
+                "id": "e9b48f22-06ec-4de6-866f-520a43e8fdab",
                 "name": "Nightmare Ray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37898,7 +37898,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "79e61b3b-2c1d-4849-8eb8-251d110de6ae",
+                "id": "6061594b-c441-4b1c-a316-6108e98adde0",
                 "name": "Shape-Shift",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37910,7 +37910,7 @@ export const Monsters: Creature[] = [
                 "toHit": 0
             },
             {
-                "id": "e5995ed1-8673-4cd4-881a-766c0c76c7a8",
+                "id": "37e4400e-39b4-41eb-830b-da3ded72ffbb",
                 "name": "Regeneration",
                 "actionSlot": 4,
                 "condition": "default",
@@ -37925,7 +37925,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "be706bfa-e8d8-4962-9f74-fb74cb01e961",
+        "id": "2e804d45-762d-42e4-b209-19cdf43eca92",
         "mode": "monster",
         "name": "Otyugh",
         "type": "aberration",
@@ -37935,7 +37935,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "1e5e2d3e-3db5-46ba-a1eb-260f6532aa9e",
+                "id": "5d23a665-0d27-43ae-b125-06340b378b64",
                 "name": "Bite, Tentacle x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37954,7 +37954,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "f2afe4e3-ca69-48ef-8858-c462d17ec4bc",
+                "id": "7b9e6cdf-31e6-4eed-9a08-49bcf99cfb59",
                 "name": "Tentacle Slam",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37972,7 +37972,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "e1008592-fbc9-4690-b4b9-e54555eb923b",
+        "id": "980faf6a-e054-41d4-86a5-9bf458820b82",
         "mode": "monster",
         "name": "Owl",
         "type": "beast",
@@ -37982,7 +37982,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "3c4ccfea-f072-44ac-b9a8-5f2029a48227",
+                "id": "55f88508-ffcc-4ca4-9d93-4c509860436d",
                 "name": "Talons",
                 "type": "atk",
                 "actionSlot": 0,
@@ -37998,7 +37998,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "baab25ad-c819-46fb-b2ec-de8673f77f1a",
+        "id": "3b946091-4022-44a7-99c2-84b91253d507",
         "mode": "monster",
         "name": "Owlbear",
         "type": "monstrosity",
@@ -38008,7 +38008,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "11531da3-0e7f-484d-bef3-b8a34e3d8125",
+                "id": "375fa415-8d54-44fd-b2e7-13d54738d5d8",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38024,7 +38024,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "b8df1285-99f4-4b90-a6c7-82afd5038b73",
+        "id": "de7fce98-ddb0-43d5-bda0-e032bf672b00",
         "mode": "monster",
         "name": "Panther",
         "type": "beast",
@@ -38034,7 +38034,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "1e721e68-5491-424c-9621-cf7cfeaa7606",
+                "id": "2ae2c25c-46d7-4674-9526-c3d2879bba09",
                 "name": "Rend",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38050,7 +38050,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "0d2138e6-e3cc-4581-a7b8-9c1cf1577f5d",
+        "id": "e7ca4bfa-0e69-4b46-b7b7-35b348781953",
         "mode": "monster",
         "name": "Pegasus",
         "type": "celestial",
@@ -38060,7 +38060,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "93ef03ad-2081-426f-a72c-10bc2537bd25",
+                "id": "d31dd101-ca48-4ff1-8a2c-f2f25585b62f",
                 "name": "Hooves",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38076,7 +38076,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "b7a69630-a330-4238-9d68-6c81af7646cc",
+        "id": "f2edd3bf-9535-411d-ad0a-4cae78a9bd17",
         "mode": "monster",
         "name": "Performer",
         "type": "humanoid",
@@ -38086,7 +38086,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "8ee741ce-29b4-4dc0-b819-3970b5f791f9",
+                "id": "74e4aad4-3dc6-47ee-8418-a05186ae6aae",
                 "name": "Shortsword",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38102,7 +38102,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "a09dc924-c830-44de-81db-2bf69a6021c9",
+        "id": "dd848841-4e1b-4126-ac2f-1252c56410eb",
         "mode": "monster",
         "name": "Performer Legend",
         "type": "humanoid",
@@ -38112,7 +38112,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "f802d989-4096-4f17-a852-c4b5b7fd2f67",
+                "id": "8bca5298-3c76-4126-ad50-cefcdd824609",
                 "name": "Bejeweled Baton x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38124,7 +38124,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "0d73e907-7170-4df4-bab6-9e70b63317fd",
+                "id": "29de070f-4d55-42cf-a79f-ae0d8179838d",
                 "name": "Majestic Song",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38149,7 +38149,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "ce8d8687-98fe-4ef5-a7b0-30af685a2a50",
+        "id": "7922add0-b250-496a-8815-9cc978648ffd",
         "mode": "monster",
         "name": "Performer Maestro",
         "type": "humanoid",
@@ -38159,7 +38159,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "4683f00e-d13f-4d18-a7cd-1be8b76c21bb",
+                "id": "4c3c765e-6db9-4c7b-806a-5b9c43ef002f",
                 "name": "Rapier x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38171,7 +38171,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "00c29f6c-2b17-4f6f-b06e-b0e2552308ce",
+                "id": "330e1e6f-a18b-46a3-9598-cc83f7bdb640",
                 "name": "Beguiling Song",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38189,7 +38189,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "42aeff03-84ee-42f6-aa60-f3036156d610",
+        "id": "f04da82b-77a3-43b0-b123-d58ddf41351f",
         "mode": "monster",
         "name": "Peryton",
         "type": "monstrosity",
@@ -38199,7 +38199,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "238dbb14-7da8-4a36-9d09-448e74b6b193",
+                "id": "7cf30151-f0d9-4e56-aca5-742c727d041b",
                 "name": "Gore, Talons",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38215,7 +38215,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "3d25ce76-d68b-4107-ad63-f48355f75432",
+        "id": "50f1101e-f491-41bc-8294-4c44979455d9",
         "mode": "monster",
         "name": "Phase Spider",
         "type": "monstrosity",
@@ -38225,7 +38225,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "d0e9abca-ac2a-4e7e-902b-c473ec53f086",
+                "id": "1a92fb1c-96de-49c1-a212-fdcb6efc1fe0",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38248,7 +38248,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "2bd4c8f4-9b3f-4190-84a9-c506f0c9d924",
+        "id": "5865601d-539e-4de6-8ccd-283c845b8160",
         "mode": "monster",
         "name": "Piercer",
         "type": "aberration",
@@ -38258,7 +38258,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "31d3b275-bde6-46bc-ac48-6550e702b578",
+                "id": "2dfa23fb-af92-4c73-8e0d-6e25ed3f47a1",
                 "name": "Drop",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38271,7 +38271,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "ca14fc4b-119b-4633-9252-c99a501a83be",
+                "id": "11b9eebc-9c7f-46e6-b0a0-a1cd05df6720",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38287,7 +38287,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "fc905f73-f40d-4bf9-a394-6d6b78a698bb",
+        "id": "27712b33-1dc6-4abd-ae2e-bb016e496ffa",
         "mode": "monster",
         "name": "Piranha",
         "type": "beast",
@@ -38297,7 +38297,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "6fb675c1-2224-466e-a5df-b813dad8298b",
+                "id": "cecee150-99f0-4724-bcc9-9bfec12d1c1f",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38313,7 +38313,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "7b72e079-2305-404e-b14f-e61504d0efcf",
+        "id": "c6090f29-2dc6-4b99-a583-04ebeee67057",
         "mode": "monster",
         "name": "Pirate",
         "type": "humanoid",
@@ -38323,7 +38323,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "bf95ed61-7cb7-4de1-aa07-c06dff2a42cd",
+                "id": "445653b0-bf5b-4230-8fa5-669558ceba1f",
                 "name": "Dagger x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38335,7 +38335,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "fe6786c3-de94-4cf7-ae47-f0050f4ed751",
+                "id": "d345ecc7-dfc7-42d3-97c6-2e3e82488975",
                 "name": "Enthralling Panache",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38352,7 +38352,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "872febcc-db3a-4356-b4c1-2ee834774033",
+        "id": "01b52b88-a0af-48b2-846d-01f400954b6f",
         "mode": "monster",
         "name": "Pirate Admiral",
         "type": "humanoid",
@@ -38362,7 +38362,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "939e82c4-e7be-499c-8251-b4fe95658d04",
+                "id": "fc1ed504-f902-4376-80ce-ab6547101215",
                 "name": "Pistol x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38374,7 +38374,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "7890dbc1-ef4a-4592-8f72-db13ac5cbcf5",
+                "id": "87c4deca-af08-4db3-8a59-4bcf56784053",
                 "name": "Scimitar",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38393,7 +38393,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "1c31671a-39ca-4a52-a06e-593706c3124c",
+                "id": "4007db67-aa2d-4cd7-905e-2d71012ff1af",
                 "name": "Awestruck",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38405,7 +38405,7 @@ export const Monsters: Creature[] = [
                 "toHit": 0
             },
             {
-                "id": "cf3463bb-a578-4ded-91f5-3e199d5286f3",
+                "id": "37fcdb45-e4ef-4e2f-ade6-8dd3b99dc7b7",
                 "name": "Poison",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38428,7 +38428,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6
     },
     {
-        "id": "376356c8-ef64-4f60-a541-9c71d23d0ecc",
+        "id": "175b4033-031b-46d0-b854-276e49fd2aac",
         "mode": "monster",
         "name": "Pirate Captain",
         "type": "humanoid",
@@ -38438,7 +38438,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "dbb2e580-3402-4ba7-bd2f-cff42fefef31",
+                "id": "dbfd611d-48a1-47b7-ad6a-256eea8f511a",
                 "name": "Pistol x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38450,7 +38450,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "a7583578-c8c5-410b-bf5b-9a07557145a2",
+                "id": "3aff3060-dfa8-4e64-9559-2203dbe847c8",
                 "name": "Rapier",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38466,7 +38466,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "09984d77-0c84-4b41-89aa-95fa0a68f25d",
+        "id": "733f393a-8e61-4257-8a33-13bc7090d16c",
         "mode": "monster",
         "name": "Pit Fiend",
         "type": "fiend",
@@ -38476,7 +38476,7 @@ export const Monsters: Creature[] = [
         "AC": 21,
         "actions": [
             {
-                "id": "a1f22fec-0c31-4787-80e5-6d6e467b3d04",
+                "id": "c1e0dd37-2b88-4a03-92d2-ae4ace774a09",
                 "name": "Bite, Devilish Claw x2, Fiery Mace",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38495,7 +38495,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "24cf9688-45f1-4f32-962d-361bd6ffc578",
+                "id": "33cf02a5-055e-4e08-8367-9fe000e0942b",
                 "type": "template",
                 "condition": "default",
                 "templateOptions": {
@@ -38513,7 +38513,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 10
     },
     {
-        "id": "e13eb009-18c3-4f6e-a068-c89d0c6a7772",
+        "id": "102fd6eb-0b77-40e7-a2fd-54efaa0196a1",
         "mode": "monster",
         "name": "Pixie",
         "type": "fey",
@@ -38523,7 +38523,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "23eadef0-36bd-4daf-a25b-c90d21ed865e",
+                "id": "b0b45003-f6d7-4361-bfe8-6e259a9d1788",
                 "name": "Faerie Dust",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38546,7 +38546,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "f388076b-2b64-4c88-bcad-9c795b21b7e1",
+        "id": "17c4e9ae-6014-4afe-ab24-fb71bcfc9094",
         "mode": "monster",
         "name": "Pixie Wonderbringer",
         "type": "fey",
@@ -38556,7 +38556,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "7169ccee-da56-4f0e-96e8-a36e0307ccd6",
+                "id": "2cca2e19-e2bc-49be-8a24-d016d4e916a8",
                 "name": "Faerie Dust x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38579,7 +38579,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "328fabbe-41fe-4e33-8615-85f20e2bc64b",
+        "id": "7725ddd4-1d38-47a2-b41a-32707d81802f",
         "mode": "monster",
         "name": "Planetar",
         "type": "celestial",
@@ -38589,7 +38589,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "484cf68a-00c9-4be0-9b05-42d49c555916",
+                "id": "6ae84e22-bb12-4b83-bf60-373761e6a94b",
                 "name": "Cure Wounds",
                 "actionSlot": 0,
                 "condition": "ally under half HP",
@@ -38603,7 +38603,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "4a8e8d65-9270-45c9-b378-9fe9684441ef",
+                "id": "8b1d38fc-b632-47f0-86ce-4b1d264d3dcb",
                 "name": "Radiant Sword x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38615,7 +38615,7 @@ export const Monsters: Creature[] = [
                 "toHit": 12
             },
             {
-                "id": "5b9cfb10-e278-474d-9499-fcebd5c57591",
+                "id": "e44f464e-a7b9-4a1a-9468-a7e71bcf672a",
                 "name": "Holy Burst",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38633,7 +38633,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8
     },
     {
-        "id": "6563a0fc-5bb7-4856-b5a3-1fbb6f1112fe",
+        "id": "f3ade820-55c9-4fd1-a12a-e9d0346050cc",
         "mode": "monster",
         "name": "Plesiosaurus",
         "type": "beast",
@@ -38643,7 +38643,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "44101073-3727-4986-bd43-55a0768a7517",
+                "id": "19f808a5-d6f1-4016-974c-4adf577e1b74",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38659,7 +38659,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "b0860c14-5598-479d-878f-e7cd9adfe5b3",
+        "id": "45a07d03-ed90-4dd2-9b3f-9e79537e4971",
         "mode": "monster",
         "name": "Polar Bear",
         "type": "beast",
@@ -38669,7 +38669,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "74f802ad-347b-431f-bd57-bd7dba3fbd61",
+                "id": "7aba1c6f-275f-4f66-8d70-5fd7fe3da500",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38685,7 +38685,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "95aa327d-6e9f-4d0f-8448-70224c206d30",
+        "id": "6cf364ee-b409-4cf0-a8ac-099b9efd5624",
         "mode": "monster",
         "name": "Poltergeist",
         "type": "undead",
@@ -38695,7 +38695,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "dfd9738f-1282-444c-9935-af8262721716",
+                "id": "b3038bb1-6516-49c0-aa39-6cd4ec13bfaa",
                 "name": "Object Slam, Telekinetic Thrust",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38712,7 +38712,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "4ff7a8c1-1110-4328-a594-0cb6b28ef116",
+        "id": "4324d4f0-a32c-42dc-b6c3-00e25f08248a",
         "mode": "monster",
         "name": "Pony",
         "type": "beast",
@@ -38722,7 +38722,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "779d6604-91ff-4f7a-b7ef-fc2855a99db5",
+                "id": "02eb78c1-1999-4543-8aa2-a11ce18dddf7",
                 "name": "Hooves",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38738,7 +38738,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "c33301d7-31cf-4f2f-bda4-3c105badaa74",
+        "id": "6593f4b9-c308-40ce-ab93-fe2a37e2610b",
         "mode": "monster",
         "name": "Priest",
         "type": "humanoid",
@@ -38748,7 +38748,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "ac39a96c-ec06-4582-aaf7-ccc8816bc34b",
+                "id": "1a80df86-cda6-4b14-aab2-89a7a5bb6950",
                 "name": "Mace x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38760,7 +38760,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "e0566bdf-5834-4838-b00e-8ddbd1a6ef2b",
+                "id": "cc828211-adef-49ae-97c6-b0d1d0cef7ee",
                 "name": "Radiant Flame",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38772,7 +38772,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "7c76a03d-42ed-4c13-9bb2-c36a6408b4dc",
+                "id": "9a9317c1-23a8-44fe-90b4-b1eeeaeb8c06",
                 "name": "Spirit Guardians",
                 "actionSlot": 4,
                 "condition": "default",
@@ -38803,7 +38803,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "c8dd6aeb-4154-4fe7-af90-893b7924c9bf",
+        "id": "0a053d20-7cbe-4917-aa73-3657acecfaef",
         "mode": "monster",
         "name": "Priest Acolyte",
         "type": "humanoid",
@@ -38813,7 +38813,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "ca26c869-3baf-4007-9bf2-0e1a3891fac4",
+                "id": "484dd0cd-e56c-4b94-a96d-d6ae2aab2bbb",
                 "name": "Mace",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38825,7 +38825,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "719a514d-6c00-41e6-8062-6e998172e31a",
+                "id": "36b6cdd8-30e8-412a-bac2-7f1b041ebae6",
                 "name": "Radiant Flame",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38851,7 +38851,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "55e4ae6d-9cad-4373-bdec-b9b5169f727b",
+        "id": "4ef4b74f-d2e6-4287-87b1-e6f2fe3f4099",
         "mode": "monster",
         "name": "Primeval Owlbear",
         "type": "monstrosity",
@@ -38861,7 +38861,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "3b09d924-751d-4cee-9a98-b1007ed495d8",
+                "id": "276c824e-385d-4a8c-a497-43b33cd6913a",
                 "name": "Screech",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38878,7 +38878,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "98627742-4fb2-4e5b-9e2d-8171523eff93",
+                "id": "a8d0c43a-6f00-41b6-87f7-d08cac95193d",
                 "name": "Ravage x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38894,7 +38894,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "08b36fa5-8e80-4114-86bf-71f1678f45fc",
+        "id": "c4039cd9-69e8-4d9c-bba0-4993ecb10b7d",
         "mode": "monster",
         "name": "Pseudodragon",
         "type": "dragon",
@@ -38904,7 +38904,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "252d7af7-fe6e-4329-b4d3-dd889ca98e46",
+                "id": "7c7665be-21f1-454f-b89f-baed88cd3734",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38916,7 +38916,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "218228db-9bfe-4552-8dd4-fb4a06610a0d",
+                "id": "c5bea159-c535-47c4-9691-3300975113c1",
                 "name": "Sting",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38940,7 +38940,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "5229801d-6aa3-435c-af43-8075869e080f",
+        "id": "f9f11ed5-17c4-4f27-befb-e96b1133257c",
         "mode": "monster",
         "name": "Psychic Gray Ooze",
         "type": "ooze",
@@ -38950,7 +38950,7 @@ export const Monsters: Creature[] = [
         "AC": 9,
         "actions": [
             {
-                "id": "e57b2ea3-29c0-4fc8-9cec-160344805d55",
+                "id": "3f43a37a-7e60-4b4b-a5f2-12670db5af3e",
                 "name": "Psychic Crush",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38963,7 +38963,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "70f3e725-d1da-427a-9474-e10052e91744",
+                "id": "473e7a6d-39fd-4bf9-bf3c-0150e3303cbc",
                 "name": "Pseudopod",
                 "type": "atk",
                 "actionSlot": 0,
@@ -38979,7 +38979,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "8edbdc00-3c4b-4c80-a880-c516b6392b64",
+        "id": "f2378fce-8c33-4693-8a64-667ee2dc92d7",
         "mode": "monster",
         "name": "Pteranodon",
         "type": "beast",
@@ -38989,7 +38989,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "195e0ba1-bc49-416b-a1fb-3657c976d439",
+                "id": "f707bb01-36cf-4e84-a29b-beb76015ab97",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39005,7 +39005,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "9223ffb7-9657-4e07-ad0c-3832b3983076",
+        "id": "425f3462-1f57-4f54-a50e-966c7869fed3",
         "mode": "monster",
         "name": "Purple Worm",
         "type": "monstrosity",
@@ -39015,7 +39015,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "1a01a816-4c38-413f-a423-c5e06e5c03b5",
+                "id": "242f6a4b-d42d-4d9c-b0eb-f680e0afea99",
                 "name": "Bite, Tail Stinger",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39031,7 +39031,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 7.5
     },
     {
-        "id": "22351f05-3ba6-4665-8b86-68ac82537b95",
+        "id": "aa5d4176-526c-4088-8fae-c4d9f22be219",
         "mode": "monster",
         "name": "Quaggoth",
         "type": "monstrosity",
@@ -39041,7 +39041,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "9d162c2a-a812-44ff-9a8a-8bf7f615c290",
+                "id": "12d5d40b-73e3-4f17-bd2b-fd3b5315fa26",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39057,7 +39057,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "8ed9dd95-3e04-4783-957d-65408738e88b",
+        "id": "8c4ea0d8-d47e-4e32-8d8a-05c3b1c8952c",
         "mode": "monster",
         "name": "Quaggoth Thonot",
         "type": "monstrosity",
@@ -39067,7 +39067,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "e9def15f-3249-48de-8106-78f0f67c81d0",
+                "id": "c6fad682-4a77-4ba7-91c0-aedb9b82a1be",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39079,7 +39079,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "4c80515c-53bb-4b8f-ac5d-8239b72f5305",
+                "id": "873b033a-d72a-49d7-9272-b4c3dea40f45",
                 "condition": "default",
                 "type": "template",
                 "templateOptions": {
@@ -39095,7 +39095,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "6e7f4a6c-ba72-4424-9bf8-7f5685d282ef",
+        "id": "ed1c9ac1-be41-402b-a703-8bb9ac91889f",
         "mode": "monster",
         "name": "Quasit",
         "type": "fiend",
@@ -39105,7 +39105,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "78699e48-6281-42b2-96dd-e79bdb9ac427",
+                "id": "0b410e48-78d9-4d25-bebd-6acafaac5997",
                 "name": "Rend",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39124,7 +39124,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "5a27b3cc-8f6a-41f2-9675-ae91f9229936",
+                "id": "afab7420-e3fa-4642-8a5e-e4cbaa54e4ca",
                 "name": "Scare",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39144,7 +39144,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "7d3d6692-a996-4ba8-8075-71e12c3831cc",
+                "id": "660bc7fd-bcf1-4c5f-8ede-b67b185afaca",
                 "name": "Shape-Shift",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39160,7 +39160,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "a8446765-233c-4de6-97a8-1475b559597c",
+        "id": "27cc9307-b09f-4890-a944-d65b0f800865",
         "mode": "monster",
         "name": "Questing Knight",
         "type": "humanoid",
@@ -39170,7 +39170,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "a5380c2b-4e39-4ffb-bb77-35dce9b7e125",
+                "id": "0545aeda-de04-4c76-af98-e8f2a9818427",
                 "name": "Greatsword x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39182,7 +39182,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "ff339414-f739-4f72-9bb3-3b04c1240b16",
+                "id": "141d6a41-2857-4d7b-be0c-7eb39b0ea259",
                 "name": "Longbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39198,7 +39198,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6
     },
     {
-        "id": "5f377d81-2feb-49df-af1e-1034c3b545dd",
+        "id": "77478e56-45ca-4a99-b5a5-21cb70000f48",
         "mode": "monster",
         "name": "Rakshasa",
         "type": "fiend",
@@ -39208,7 +39208,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "e2cf7f7b-529f-43e4-bbae-6c7ab4438bf9",
+                "id": "f821792f-83c0-4b73-84e9-cdb2fd31dee8",
                 "name": "Cursed Touch x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39220,7 +39220,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "5f2e6249-0860-4eb7-8acd-a2693d9275a0",
+                "id": "41d6f8dc-250d-49a6-bbb1-202eb63d0559",
                 "name": "Baleful Command",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39247,7 +39247,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6.5
     },
     {
-        "id": "d732da26-586b-452f-9ad2-781a03c76a88",
+        "id": "1094f473-f17c-4e96-9d6f-57f9f23361d3",
         "mode": "monster",
         "name": "Rat",
         "type": "beast",
@@ -39257,7 +39257,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "dc01e6ed-7cc2-4448-978d-4a4f4c11cf89",
+                "id": "0a94d261-7f29-4814-8772-ac3afdade9fa",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39273,7 +39273,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "6da5cdd9-080e-4678-bbfe-db333787b7e1",
+        "id": "0fe2adda-e43b-49a0-8612-4e4d4cbe372c",
         "mode": "monster",
         "name": "Raven",
         "type": "beast",
@@ -39283,7 +39283,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "70fd4236-711d-41c0-8117-6dfdc96c60bd",
+                "id": "63d310ca-5a52-40a9-abac-df6e90db17e1",
                 "name": "Beak",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39299,7 +39299,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "1723f96f-8b91-4d17-a7a9-a642c6d77931",
+        "id": "4ee1760e-66ea-4d05-a0de-bd5a86056c05",
         "mode": "monster",
         "name": "Red Dragon Wyrmling",
         "type": "dragon",
@@ -39309,7 +39309,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "20d7c742-670f-479f-b3c3-7a42d42203c7",
+                "id": "5e5c0c9f-c4d7-467c-9f54-be05aa7c7a00",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39321,7 +39321,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "a9729534-391f-4e20-b033-f47580e2f4a4",
+                "id": "c039a255-47a4-4391-af12-c5077ded4c9e",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39342,7 +39342,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "48c5fe0d-6d11-4faf-b3f4-c4f3d6e4f0c1",
+        "id": "b4c02a99-13fa-4924-bece-4d703c0a3bba",
         "mode": "monster",
         "name": "Red Slaad",
         "type": "aberration",
@@ -39352,7 +39352,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "17f6a708-0ae4-46a1-b911-bf7a739af210",
+                "id": "c3809dd1-5b2a-49fa-a4b8-b5851ad1ba7c",
                 "name": "Injecting Claw x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39364,7 +39364,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "e5995ed1-8673-4cd4-881a-766c0c76c7a8",
+                "id": "37e4400e-39b4-41eb-830b-da3ded72ffbb",
                 "name": "Regeneration",
                 "actionSlot": 4,
                 "condition": "default",
@@ -39379,7 +39379,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "21cd65b9-d732-4aa8-b87b-314f0a0ea095",
+        "id": "cf17232e-6b54-4b8e-886e-077331382d55",
         "mode": "monster",
         "name": "Reef Shark",
         "type": "beast",
@@ -39389,7 +39389,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "1f39d17f-a68e-4b5b-8915-3833133d5414",
+                "id": "4ad6643c-d715-4f9c-8adc-3678c93f964e",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39405,7 +39405,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "aad4a288-3ba4-4b09-91fa-661582aa358c",
+        "id": "6b9854e8-a363-4c81-b3cc-31a68e4f1491",
         "mode": "monster",
         "name": "Remorhaz",
         "type": "monstrosity",
@@ -39415,7 +39415,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "25bd8539-f9a3-4075-96ab-99b2f8c7533e",
+                "id": "bb3e074a-a197-4adb-890a-673aa0a51d7e",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39431,7 +39431,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "df844aa1-bd58-4714-8894-07e7289eb576",
+        "id": "9c80e4ed-6c66-4cd8-9dd2-8604267eb663",
         "mode": "monster",
         "name": "Revenant",
         "type": "undead",
@@ -39441,7 +39441,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "a63cbf1c-6f5c-4da1-aa3c-a71d68172295",
+                "id": "0c46d143-0f86-466c-9399-ef4d271c93e9",
                 "name": "Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39453,7 +39453,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "666c4783-b5aa-40f0-adf9-4840076dd270",
+                "id": "2d278528-dcc3-4032-99fa-999c7999ff13",
                 "name": "Vengeful Glare",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39473,7 +39473,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "e5995ed1-8673-4cd4-881a-766c0c76c7a8",
+                "id": "37e4400e-39b4-41eb-830b-da3ded72ffbb",
                 "name": "Regeneration",
                 "actionSlot": 4,
                 "condition": "default",
@@ -39488,7 +39488,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "ea967545-72ca-48db-a4d0-209d6b5a4f35",
+        "id": "0fe80891-b0ee-4406-93b2-8115ac905e69",
         "mode": "monster",
         "name": "Rhinoceros",
         "type": "beast",
@@ -39498,7 +39498,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "619cb9db-619e-41a8-a754-b2401b509fb1",
+                "id": "10b28bcd-b8ef-4ce5-a530-f3d3c7b26eff",
                 "name": "Gore",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39514,7 +39514,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "d19a537d-3561-4c38-b4a8-4c0345b453a5",
+        "id": "b7ba07ef-85bf-4bde-8afd-57c80dbecdcf",
         "mode": "monster",
         "name": "Riding Horse",
         "type": "beast",
@@ -39524,7 +39524,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "a5ee6155-0bed-456f-b0de-a988acd4a503",
+                "id": "7bf4ae3d-2069-4563-af34-875bc790563c",
                 "name": "Hooves",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39540,7 +39540,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "f916820a-e3a8-4449-b6ff-7c0b8635883c",
+        "id": "93a35449-8ed1-47f8-8cb5-508fcf28cdbf",
         "mode": "monster",
         "name": "Roc",
         "type": "monstrosity",
@@ -39550,7 +39550,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "cf5e8923-c058-4256-8667-46fec00f8ac4",
+                "id": "d5f8302a-4d24-4694-8549-531b4b549485",
                 "name": "Beak x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39562,7 +39562,7 @@ export const Monsters: Creature[] = [
                 "toHit": 13
             },
             {
-                "id": "3f84445a-1de2-44c5-ad68-f04117b92575",
+                "id": "a0ed3841-b766-4977-8ea1-4f46886915ca",
                 "name": "Talons",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39578,7 +39578,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "0bf9d4ad-f39e-4c8f-8f84-c2cd92256b08",
+        "id": "55d45c04-6073-4719-8a0c-29749829de93",
         "mode": "monster",
         "name": "Roper",
         "type": "aberration",
@@ -39588,7 +39588,7 @@ export const Monsters: Creature[] = [
         "AC": 20,
         "actions": [
             {
-                "id": "c4ae78ac-6fad-42c8-a829-a34f3d8386e9",
+                "id": "9e4723af-a25d-4007-8db2-101a471794ad",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39600,7 +39600,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "d1bac953-6bdd-4182-ad6c-330643782660",
+                "id": "c7f46027-8fa4-4fae-abb9-a201bda76316",
                 "name": "Reel",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39612,7 +39612,7 @@ export const Monsters: Creature[] = [
                 "toHit": 0
             },
             {
-                "id": "53f1ae4d-9a80-48b7-ac6e-8dde44400d5c",
+                "id": "ae493fc3-a053-41a4-86c3-e9125e5194e7",
                 "name": "Tentacle",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39635,7 +39635,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "b4e1973c-9613-4627-a958-b487ba48337d",
+        "id": "a48e06fa-2527-487f-bbff-0e4611841c96",
         "mode": "monster",
         "name": "Rust Monster",
         "type": "monstrosity",
@@ -39645,7 +39645,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "50143352-a760-467c-b38e-eba940e7e0f1",
+                "id": "96b5e4e4-4e36-411e-8a53-79a65abcd506",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39657,7 +39657,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "ad959ff9-24f7-4a0e-9b89-e5f74c57208e",
+                "id": "6ed0f0af-6a6e-42ea-82e6-cf330b16df15",
                 "name": "Antennae",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39670,7 +39670,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "5b72f8ad-96a1-4fe2-ad7c-685029d7d772",
+                "id": "aebc0078-ee09-48da-a707-2b5d6ee8a61f",
                 "name": "Destroy Metal",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39686,7 +39686,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "e4c021c7-e482-45a9-be0a-49a66e2983d5",
+        "id": "c15b6cd6-23c1-4d2f-b70c-77c3ac9ed9c4",
         "mode": "monster",
         "name": "Saber-Toothed Tiger",
         "type": "beast",
@@ -39696,7 +39696,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "b4824831-44cf-40b1-af78-cf35cf86ea65",
+                "id": "1608cc50-e1eb-4590-9ca2-4c57c57134a8",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39712,7 +39712,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "812fb04d-22ee-4147-a61e-21ff0e02017b",
+        "id": "8180d0bc-fc28-499c-af5c-f94ecf7ec37f",
         "mode": "monster",
         "name": "Sahuagin Baron",
         "type": "fiend",
@@ -39722,7 +39722,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "f9fbd8c1-7970-4306-8ef7-b40752be8709",
+                "id": "22246814-2f21-4134-a06d-392ce7819b13",
                 "name": "Trident x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39734,7 +39734,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "17a5e041-12dd-417b-921f-0f021a41bf73",
+                "id": "a6080ae4-9cb9-48e1-b588-cc48d820b9da",
                 "name": "Blood Frenzy",
                 "actionSlot": 4,
                 "freq": "at will",
@@ -39752,7 +39752,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "efdcfd38-a6b1-4f11-9703-3385b732110a",
+        "id": "44845a59-5d42-4daf-bedd-530a23f05a65",
         "mode": "monster",
         "name": "Sahuagin Priest",
         "type": "fiend",
@@ -39762,7 +39762,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "df1a7a40-4ef7-4bc9-b7f8-36ac752adcfb",
+                "id": "eeaf37cf-6ebe-4c4c-b107-1f1fd5881197",
                 "name": "Spectral Jaws x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39774,7 +39774,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "17a5e041-12dd-417b-921f-0f021a41bf73",
+                "id": "a6080ae4-9cb9-48e1-b588-cc48d820b9da",
                 "name": "Blood Frenzy",
                 "actionSlot": 4,
                 "freq": "at will",
@@ -39805,7 +39805,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "2fe2163e-ffb8-407d-ac5b-277a29fe677c",
+        "id": "9ae1b963-88ed-418f-852b-fa51adf0c9c0",
         "mode": "monster",
         "name": "Sahuagin Warrior",
         "type": "fiend",
@@ -39815,7 +39815,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "9350d2bf-6771-4fb0-9cf7-666331b31e38",
+                "id": "24f9f92c-b35d-4a0e-990b-964ebfac9471",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39827,7 +39827,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "17a5e041-12dd-417b-921f-0f021a41bf73",
+                "id": "a6080ae4-9cb9-48e1-b588-cc48d820b9da",
                 "name": "Blood Frenzy",
                 "actionSlot": 4,
                 "freq": "at will",
@@ -39845,7 +39845,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "ea6bb333-aaae-48d3-9538-0ddb3f31f0f8",
+        "id": "66c7e08d-f4ce-4c45-bcb1-ad89f7d75fe1",
         "mode": "monster",
         "name": "Salamander",
         "type": "elemental",
@@ -39855,7 +39855,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "295b8419-7f5c-4a87-8f5e-4a538d124216",
+                "id": "2ce912e6-2e54-4ddd-93bd-cf88c88e5241",
                 "name": "Flame Spear x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39867,7 +39867,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "778eab37-a689-41c1-a959-ebabb2273556",
+                "id": "2852456b-32c1-4da8-85a5-4024d0be4bc2",
                 "name": "Constrict",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39884,7 +39884,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "fdc0a527-4248-4962-b26a-cac9c2574eed",
+        "id": "e5309fb5-5878-4dcd-bd07-e02bd951b463",
         "mode": "monster",
         "name": "Salamander Fire Snake",
         "type": "elemental",
@@ -39894,7 +39894,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "4ca2f032-e8f5-49dc-a0a1-5593a319bd04",
+                "id": "f19330dc-1cb3-4ab2-a557-88947a9ab690",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39910,7 +39910,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "41302a3f-d37b-4c24-bfdc-66bcf887adde",
+        "id": "475b2ab8-bc0f-43d8-890d-491cf5cc4e30",
         "mode": "monster",
         "name": "Salamander Inferno Master",
         "type": "elemental",
@@ -39920,7 +39920,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "b33fe1a6-85f8-499b-ad11-26553371d7ca",
+                "id": "66967657-9430-4095-b4d0-cb17257089e9",
                 "name": "Inferno Blast",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39937,7 +39937,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "1b2bdb27-3989-4c5e-9682-1f855c1a766a",
+                "id": "2ae7fd02-e920-4f41-8ca1-9c502560cff1",
                 "name": "Flame Trident x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39953,7 +39953,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 7.5
     },
     {
-        "id": "3547eb31-a711-455d-b0cd-05c0d5e054a4",
+        "id": "80de5e5b-161a-4dee-80a3-04df223d6f43",
         "mode": "monster",
         "name": "Satyr",
         "type": "fey",
@@ -39963,7 +39963,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "bcc6dd9f-4c5c-4540-bd5b-42c3cec951cb",
+                "id": "2463c1fc-93f9-49d4-8eb0-1a5fc0e95d96",
                 "name": "Hooves",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39975,7 +39975,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "559e2e74-1f77-4919-9506-f74e3e86fcf1",
+                "id": "44e97a06-e4c5-4bf6-aaf3-de4a9c76a53a",
                 "name": "Mockery",
                 "type": "atk",
                 "actionSlot": 0,
@@ -39992,7 +39992,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "66b00c34-f81b-4726-8695-b7880b1bb017",
+        "id": "c2e5cda6-cc71-4456-9491-9dc193c9082e",
         "mode": "monster",
         "name": "Satyr Revelmaster",
         "type": "fey",
@@ -40002,7 +40002,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "45459f43-985d-41ab-ad4f-bfa26a711709",
+                "id": "6844793a-272b-4ede-9693-109e8bf3293a",
                 "name": "Prance x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40014,7 +40014,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "89590cda-a936-49cf-9e13-f1e885dd8ebd",
+                "id": "51ad38fa-fcce-4eb7-b901-3f6fc769815a",
                 "name": "Fey Melody",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40037,7 +40037,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "46a3589b-6786-4bfb-af6b-c475b4149c68",
+                "id": "61e42d0d-c624-4226-b5db-fe9c62a2ae6f",
                 "name": "Frightening",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40056,7 +40056,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "8a265053-4024-4765-a5fe-318ba79634b3",
+                "id": "26eca1d5-60bc-4489-95ff-f290960b274a",
                 "name": "Charming",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40072,7 +40072,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "59798024-bca5-4753-8a84-5d3b429b8bf9",
+        "id": "bcf6f591-41f8-432b-a7e2-e4ba8efa2940",
         "mode": "monster",
         "name": "Scarecrow",
         "type": "construct",
@@ -40082,7 +40082,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "d4a92356-49ba-4fee-ae75-64b2664e168d",
+                "id": "159c9e07-3957-4f1b-9ced-e567b2b02182",
                 "name": "Fearsome Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40101,7 +40101,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "5b0ea043-18b1-42dd-9db7-5c7a7f33b74f",
+                "id": "cc22386a-84d7-46f1-8656-b7a3e2c42b86",
                 "name": "Terrifying Glare",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40125,7 +40125,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "242d402f-74e4-4948-a346-449b84833e07",
+        "id": "bd4e07cc-6085-4c55-a682-ff618319ace5",
         "mode": "monster",
         "name": "Scorpion",
         "type": "beast",
@@ -40135,7 +40135,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "6443e931-fced-41cb-86c6-5b194537e449",
+                "id": "a999a29c-6800-4dbd-ad46-dedeb3e7b664",
                 "name": "Sting",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40151,7 +40151,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "ddf8d50d-9146-4336-a29e-03f4272d5e94",
+        "id": "c0b102c5-6074-49fd-8fa4-da3c7048a48a",
         "mode": "monster",
         "name": "Scout",
         "type": "humanoid",
@@ -40161,7 +40161,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "9b88568a-6fab-4a4d-9f5d-8a172d266102",
+                "id": "3c887d3d-14d3-4522-b663-7cc0dce9c0f8",
                 "name": "Longbow, Shortsword",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40177,7 +40177,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "fcfd4d1c-8429-4183-b6e0-d2fa1adc292f",
+        "id": "cdcb5597-b9ac-450c-9b65-a74b6def6fde",
         "mode": "monster",
         "name": "Scout Captain",
         "type": "humanoid",
@@ -40187,7 +40187,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "18a5db6f-7a8a-4616-82c5-20ed02d34aa0",
+                "id": "deb9d0da-b524-4ce4-9e33-14f0b7abddcd",
                 "name": "Shortsword x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40199,7 +40199,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "a6049cdd-473c-4b28-ae1a-2ae63174cce4",
+                "id": "f2d7c608-0330-4f71-b762-d8aa7d0796d4",
                 "name": "Longbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40215,7 +40215,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "dbc9c6f1-0fd2-4a7c-928e-c8e2a7c420c6",
+        "id": "06b5db62-5723-4bc1-b510-cbb6888560b0",
         "mode": "monster",
         "name": "Sea Hag",
         "type": "fey",
@@ -40225,7 +40225,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "cd07de96-2026-4e0f-bd45-9b12ab802646",
+                "id": "07b30b27-5188-4bd0-a2c6-aeb709c77865",
                 "name": "Death Glare",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40248,7 +40248,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "37ee1767-41a6-4c0c-bf39-d8aae008483a",
+                "id": "cb359bef-b7fd-4c6c-ba4b-7b312bb5308e",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40264,7 +40264,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "6aaf0d70-a31c-4306-8fb0-e97d5d0eac8d",
+        "id": "d1a10383-ed5b-4db6-beaa-395166901e97",
         "mode": "monster",
         "name": "Seahorse",
         "type": "beast",
@@ -40274,7 +40274,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "d8887191-9267-4b46-811f-f477c8135ed9",
+                "id": "41265c59-3942-4328-8e56-3e257522bf28",
                 "name": "Bubble Dash",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40290,7 +40290,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "c799d135-f2ce-45cd-8531-baf63820cb3c",
+        "id": "0a57b305-80e2-4142-8436-7953333fce01",
         "mode": "monster",
         "name": "Shadow",
         "type": "undead",
@@ -40300,7 +40300,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "f2f87520-6289-4312-ac43-72d756714b4a",
+                "id": "43c58287-fab9-4684-8f60-37ea5874c45e",
                 "name": "Draining Swipe",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40316,7 +40316,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "c27fb0b8-ded2-4b08-ba2d-00f8bfa3f5cb",
+        "id": "228f4b54-c975-4058-82ce-15b3cde12964",
         "mode": "monster",
         "name": "Shadow Demon",
         "type": "fiend",
@@ -40326,7 +40326,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "c4082f60-6299-42f1-892c-3ae012c8c794",
+                "id": "a0b1e956-59a5-4ae0-b62e-c25492553249",
                 "name": "Umbral Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40342,7 +40342,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "f50edc7e-b80b-4173-beaf-96a9daab4c39",
+        "id": "81e576aa-1601-4735-9cde-af8b1e1e06fa",
         "mode": "monster",
         "name": "Shadow Dragon",
         "type": "dragon",
@@ -40352,7 +40352,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "efa21b9c-dedb-4508-a2f2-0fcb75d0dfd2",
+                "id": "b7a61bb3-0401-4183-b7b6-a5796b6ece7c",
                 "name": "Shadow Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40369,7 +40369,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "09e9c338-9849-4de9-8fc0-76a03b605d55",
+                "id": "32503d6d-4dc2-4014-b9b8-67ff0766dff2",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40381,7 +40381,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "d33edb3f-7ec8-413a-8382-19b8ffe31e05",
+                "id": "7845237d-3f7d-4f48-8aa2-90e25670544f",
                 "name": "Pounce",
                 "type": "atk",
                 "actionSlot": 2,
@@ -40397,7 +40397,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6.5
     },
     {
-        "id": "2985e488-92e4-4c74-93a1-1ac7f30280a6",
+        "id": "7792c77d-4d5c-44b9-8bc6-5e18de17c762",
         "mode": "monster",
         "name": "Shambling Mound",
         "type": "plant",
@@ -40407,7 +40407,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "35b3166e-fbf7-4463-b920-54d5e10bfec0",
+                "id": "cea4319c-6774-4790-ab2e-4e511fbf7c84",
                 "name": "Charged Tendril x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40419,7 +40419,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "ae3a1155-cbb0-488a-9aae-9920c50ea200",
+                "id": "64846d4c-1a92-4897-9973-11d04162af1a",
                 "name": "Engulf",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40436,7 +40436,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "168e08a5-1470-4aa9-8422-2e2609202466",
+        "id": "1f4c7a20-1d8e-433d-9a0b-b5f66dc3f222",
         "mode": "monster",
         "name": "Shield Guardian",
         "type": "construct",
@@ -40446,7 +40446,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "231bb55e-b064-4dc6-873a-ab3d92c6dbf8",
+                "id": "46cc5aa1-4c87-4510-9557-bd7c8f209409",
                 "name": "Fist x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40458,7 +40458,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "e5995ed1-8673-4cd4-881a-766c0c76c7a8",
+                "id": "37e4400e-39b4-41eb-830b-da3ded72ffbb",
                 "name": "Regeneration",
                 "actionSlot": 4,
                 "condition": "default",
@@ -40473,7 +40473,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "70dd07a1-fdc8-440e-9491-1dd50bb7ea73",
+        "id": "719e1bc4-6211-4317-8e0b-4afbe018d0a2",
         "mode": "monster",
         "name": "Shrieker Fungus",
         "type": "plant",
@@ -40486,7 +40486,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "fd3c617d-cc9b-41e7-ac0a-98522df72e57",
+        "id": "1482b7be-eb25-4b22-a7c7-4cdc58b8fadf",
         "mode": "monster",
         "name": "Silver Dragon Wyrmling",
         "type": "dragon",
@@ -40496,7 +40496,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "8b86d5c6-f511-40d7-8b5d-33fd6eeb465e",
+                "id": "fe6ba14b-edac-4271-b9f2-5404eb0abe21",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40508,7 +40508,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "bcefc2ad-40bc-4fbc-b4ee-dbcd1bdcdff8",
+                "id": "655acf81-ae73-4678-8de1-aeabd8071b19",
                 "name": "Cold Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40525,7 +40525,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "88e602cf-c22b-42a2-a5f7-4a059ada6ef9",
+                "id": "5b36e1f0-ca8b-4fd0-9e38-0b3d17b0b6b5",
                 "name": "Paralyzing Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40542,7 +40542,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "8705b58d-fc17-46cb-b50e-4b77ad71c38e",
+        "id": "09b46d0f-ff58-4e5b-8d92-455d1ee61ebf",
         "mode": "monster",
         "name": "Skeleton",
         "type": "undead",
@@ -40552,7 +40552,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "afd4b5d9-ca7a-474f-ba01-2e317ead8ba8",
+                "id": "6e27be62-f811-488e-8839-359c22a7b972",
                 "name": "Shortsword",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40564,7 +40564,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "da7931cb-f829-421c-a2c0-94debe1d83e8",
+                "id": "b9912cc9-e775-491f-a74e-dce0b4cb4ff0",
                 "name": "Shortbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40580,7 +40580,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "f75c8f7b-2d59-472f-b0f3-f829790c9863",
+        "id": "bb917668-fbe6-4dec-9659-ea6e6a390544",
         "mode": "monster",
         "name": "Slaad Tadpole",
         "type": "aberration",
@@ -40590,7 +40590,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "cf370f05-0bc0-439e-917f-19c28fd89eb5",
+                "id": "4d360d10-3461-4942-b3e4-772bea7cfed8",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40606,7 +40606,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "d01ba473-ce03-4702-a1d0-0dcc1ca8f317",
+        "id": "fc365f21-abf8-4644-abc3-4f53fc186e94",
         "mode": "monster",
         "name": "Smoke Mephit",
         "type": "elemental",
@@ -40616,7 +40616,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "55fbb6ab-5d4d-459a-a9b1-21490c3540af",
+                "id": "31e4c006-374f-4b57-b22d-80f318b5a015",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40628,7 +40628,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "d1b6f51f-e365-431d-a98b-53650dce8d6e",
+                "id": "9b1bd383-ea35-47d4-a329-4a35d5a77c2e",
                 "name": "Cinder Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40648,7 +40648,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "3b857903-8171-4438-929f-fe952b643d11",
+        "id": "a73bcc02-58ea-43f9-8839-58f5491b32a0",
         "mode": "monster",
         "name": "Solar",
         "type": "celestial",
@@ -40658,7 +40658,7 @@ export const Monsters: Creature[] = [
         "AC": 21,
         "actions": [
             {
-                "id": "484cf68a-00c9-4be0-9b05-42d49c555916",
+                "id": "6ae84e22-bb12-4b83-bf60-373761e6a94b",
                 "name": "Cure Wounds",
                 "actionSlot": 0,
                 "condition": "ally under half HP",
@@ -40672,7 +40672,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "38292707-d7f2-4416-93d0-04ef9f8354ad",
+                "id": "fd4ac07d-8101-4429-bccc-48c7833a0273",
                 "name": "Flying Sword x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40684,7 +40684,7 @@ export const Monsters: Creature[] = [
                 "toHit": 15
             },
             {
-                "id": "6dda53ee-4948-40fd-a7b1-ccb86bdeeacb",
+                "id": "3258f32f-90b3-4acc-90fb-6f3867892a10",
                 "name": "Slaying Bow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40701,7 +40701,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 10.5
     },
     {
-        "id": "75a963a6-30ed-4713-86f0-33364644a7d9",
+        "id": "0d1852e9-5a40-4de1-b8fd-b6ce013f04b6",
         "mode": "monster",
         "name": "Spectator",
         "type": "aberration",
@@ -40711,7 +40711,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "6d6ae54a-4c5d-41f4-8b97-7a37c41a0564",
+                "id": "81d05e2f-6186-41f2-aa9d-f897bf4988cb",
                 "name": "Eye Rays x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40732,7 +40732,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "a2722529-5238-4afe-ba54-028e40da6228",
+                "id": "968f0b72-9319-4406-b4ea-11b3ae3ded07",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40748,7 +40748,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "ed164a16-c8c7-4efa-a01a-92c0d6da92dc",
+        "id": "04f19844-1d7e-4ef7-8d75-a28ed98a690d",
         "mode": "monster",
         "name": "Specter",
         "type": "undead",
@@ -40758,7 +40758,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "9742a3ed-03ee-4dbc-a6e1-8b4d5d8d146f",
+                "id": "bcada38a-1d83-46d6-b8f2-60d525d0e987",
                 "name": "Life Drain",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40774,7 +40774,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "a10f4e98-284f-4502-aaa9-0924eca143ca",
+        "id": "7f6842fc-6124-4443-9afb-7e20531f0ab1",
         "mode": "monster",
         "name": "Sphinx of Lore",
         "type": "celestial",
@@ -40784,7 +40784,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "2ade11dc-31ff-4744-b885-8daff7f785cd",
+                "id": "b74c6bc8-bb9b-4e16-8668-3bc588ca619c",
                 "name": "Mind-Rending Roar",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40800,7 +40800,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "4065531a-3a66-4446-8bcd-23bf7029d8dc",
+                "id": "1480d367-d44f-4705-b9c0-809c8e19ae88",
                 "name": "Claw x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40812,7 +40812,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "07ade1eb-4607-4a90-a569-82d284cecc52",
+                "id": "742314be-d32a-4fe4-b0bd-9ecc57ce06ac",
                 "name": "Arcane Prowl",
                 "type": "atk",
                 "actionSlot": 2,
@@ -40828,7 +40828,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5.5
     },
     {
-        "id": "f7e06105-f820-42a2-94ac-c097d905b1c8",
+        "id": "4efdd6c1-a29b-4368-aa28-8c7ec20bbb3b",
         "mode": "monster",
         "name": "Sphinx of Secrets",
         "type": "celestial",
@@ -40838,7 +40838,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "482ada91-0239-4d10-9c22-5e915531370e",
+                "id": "9de85189-15dc-46dc-a533-b89904e074ae",
                 "name": "Claw x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40850,7 +40850,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "193720c2-2cdc-44bc-8a28-6856e7425e97",
+                "id": "626959fa-f9fd-4b80-8084-489b8cea177a",
                 "name": "Curse of the Riddle",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40867,7 +40867,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "441d48b1-30bd-49fc-8a60-dfec0b734e6d",
+        "id": "2bb0fcf6-180a-485b-95ed-17325e9764d4",
         "mode": "monster",
         "name": "Sphinx of Valor",
         "type": "celestial",
@@ -40877,7 +40877,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "df490adb-cba6-47d9-9988-e32f6ed6be94",
+                "id": "3da06198-9655-4410-9183-82be1957a547",
                 "name": "Claw x2, Roar",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40896,7 +40896,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "d17d09aa-4794-41fa-a561-de6504bbe234",
+                "id": "5ca639e0-7fd0-4d98-a03c-669430b9d43b",
                 "name": "Third Roar",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40910,7 +40910,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "65a26d90-984c-401e-85fd-ac7397b70be7",
+                "id": "b51f22c0-c6fc-4473-b936-061a28d9d7f4",
                 "name": "First Roar",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40930,7 +40930,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "0d5cc76f-9f47-400c-86aa-874cb6926649",
+                "id": "09ac3d10-5e9a-4d77-8eb2-577c43cd9e5a",
                 "name": "Second Roar",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40943,7 +40943,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "aa2767fb-a155-4c31-a638-c3281d6081b7",
+                "id": "e5c8d6cf-5482-4777-813f-947ac895f3fe",
                 "name": "Arcane Prowl",
                 "type": "atk",
                 "actionSlot": 2,
@@ -40959,7 +40959,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 8.5
     },
     {
-        "id": "3c212fdf-c40c-4df9-8581-d2e2e7b10cc4",
+        "id": "18a3daad-04e1-4b0f-b5ae-245bba670fa2",
         "mode": "monster",
         "name": "Sphinx of Wonder",
         "type": "celestial",
@@ -40969,7 +40969,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "8285bec4-6eb0-4b3c-a3d0-e76743aec3c1",
+                "id": "5ad2307b-c167-4abd-ae7f-cc1612364bab",
                 "name": "Rend",
                 "type": "atk",
                 "actionSlot": 0,
@@ -40985,7 +40985,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "e2caba4e-bf6e-4438-b78c-50dc796d87cd",
+        "id": "21b6d9c4-a1d4-4911-a7d9-534722625cb4",
         "mode": "monster",
         "name": "Spider",
         "type": "beast",
@@ -40995,7 +40995,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "a09f9021-3266-4e5b-8fc8-b818a60558ef",
+                "id": "a7783094-4401-4210-8813-1b8fde26c087",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41011,7 +41011,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "bc244e4d-9fe4-42a8-b542-15943e753793",
+        "id": "f07be161-02c5-4bbb-835f-0fe4310524b6",
         "mode": "monster",
         "name": "Spined Devil",
         "type": "fiend",
@@ -41021,7 +41021,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "230e6a09-1273-43c8-b584-455836cd4eb8",
+                "id": "0c3ace7d-8ccb-4e60-b8d0-c4f75c05acc1",
                 "name": "Infernal Fork, Tail Spine",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41037,7 +41037,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "87e6b15c-a921-4567-aa6c-703ac03de35b",
+        "id": "657daf7a-196b-4751-bd7e-10ae803bbc5d",
         "mode": "monster",
         "name": "Spirit Naga",
         "type": "fiend",
@@ -41047,7 +41047,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "f0871264-36e7-4fa8-b647-85b8e8c576c0",
+                "id": "02192051-b7e1-4eb7-80f7-3cb4acb4f313",
                 "name": "Bite x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41059,7 +41059,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "6540176c-c0e6-45a2-bb18-0432808b8223",
+                "id": "364e4d2f-68e0-4747-8bc0-7917b16f06f2",
                 "name": "Lightning Bolt",
                 "actionSlot": 0,
                 "condition": "is available",
@@ -41076,7 +41076,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14
             },
             {
-                "id": "179d4931-1e91-4f48-8ff0-0090b3f369d4",
+                "id": "01270134-8851-490e-829f-a92af623a0b5",
                 "name": "Necrotic Ray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41092,7 +41092,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "9f35cd5c-c1c9-490d-982e-3304e5966f42",
+        "id": "4603277a-9639-4929-b4bf-6127306b145f",
         "mode": "monster",
         "name": "Sprite",
         "type": "fey",
@@ -41102,7 +41102,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "957d97d2-3647-468e-91e6-ca74ffba714d",
+                "id": "7e77f6f4-0f3a-4eb8-ad1a-0cf6a459911c",
                 "name": "Needle Sword",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41114,7 +41114,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "b28cf4fd-936a-4696-b42b-0c5ac0c0c0de",
+                "id": "99ac90c7-aa86-4b22-8449-a3ca42e74138",
                 "name": "Enchanting Bow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41126,7 +41126,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "d7f5c51f-d6d0-4ba7-88ff-32e27b23acf5",
+                "id": "86732a9b-17de-43c5-ba7c-947678e313b9",
                 "name": "Heart Sight",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41143,7 +41143,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "beff9f8e-a002-4673-8ad3-1d5bb963f575",
+        "id": "a69b1fe2-6ab2-446e-877a-3d2227f773ae",
         "mode": "monster",
         "name": "Spy",
         "type": "humanoid",
@@ -41153,7 +41153,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "7137d367-dc5f-4967-861f-44765b583f84",
+                "id": "b9488bdd-0b46-4878-86fe-f87779eaf044",
                 "name": "Shortsword",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41165,7 +41165,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "d3c4dd75-7e39-466d-a049-192f13b15956",
+                "id": "b5fcede8-1886-484a-9ffa-807d785c80b6",
                 "name": "Hand Crossbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41181,7 +41181,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "56f2c462-d2d7-4e3b-89fc-e58b2b77e40d",
+        "id": "cc2bfa23-0d8d-41c0-be81-6f121b65fe3c",
         "mode": "monster",
         "name": "Spy Master",
         "type": "humanoid",
@@ -41191,7 +41191,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "b1420927-f6ed-4a9a-9302-4d4f5f319ba2",
+                "id": "46583795-7650-4eed-88c3-5520221cd5ef",
                 "name": "Rapier x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41203,7 +41203,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "f82e3990-7a9e-4cd9-b875-edb486c87953",
+                "id": "9562419a-79c7-44f2-933e-80771361eb90",
                 "name": "Smoke Bomb",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41217,7 +41217,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "db7dd9e5-1631-4daf-8354-7f790b34f772",
+                "id": "6708b552-fede-4e51-bc34-2fd32ae327ad",
                 "name": "Hand Crossbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41233,7 +41233,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "06aacdd6-6f49-4f25-b636-c9e466ac2631",
+        "id": "9058c774-ff25-47fb-bc1e-0c33f15da289",
         "mode": "monster",
         "name": "Steam Mephit",
         "type": "elemental",
@@ -41243,7 +41243,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "0243ed36-5ef6-4c61-ad9c-28176027be5c",
+                "id": "df0df941-137e-4ac9-8b91-6b703dcb8073",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41255,7 +41255,7 @@ export const Monsters: Creature[] = [
                 "toHit": 2
             },
             {
-                "id": "b65e51d9-98af-478e-a92c-7fa572f6f033",
+                "id": "ba1675e9-f7e7-4963-a0c0-72a4a403d25e",
                 "name": "Steam Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41276,7 +41276,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "95a22c33-1b7e-4be6-bab5-916c44b71c59",
+        "id": "b2a2644f-b484-409c-ac1d-c6711cca17fa",
         "mode": "monster",
         "name": "Stirge",
         "type": "monstrosity",
@@ -41286,7 +41286,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "68e67312-3bf2-411f-8c12-f689abda5b6a",
+                "id": "5bc3138b-ce50-4027-b211-b211e653fe6e",
                 "name": "Proboscis",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41302,7 +41302,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "2421095c-f794-4b8c-8264-0e222ce89fc5",
+        "id": "c11a3ee5-fd43-4018-aa2b-5917b9e5832d",
         "mode": "monster",
         "name": "Stone Giant",
         "type": "giant",
@@ -41312,7 +41312,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "90a82d46-0092-4552-bd0c-016c305af62e",
+                "id": "0b981c8d-0867-4fd2-a16e-9e9c66f5a14c",
                 "name": "Stone Club x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41324,7 +41324,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "769f6759-05de-4c2f-a8d7-0fc77446b425",
+                "id": "7201506c-ee2c-4f57-a789-519850aaf2c2",
                 "name": "Boulder",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41340,7 +41340,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "38677fdf-fc39-445b-a4e7-d9abb1915fe8",
+        "id": "1c79ad40-6607-451f-b2ce-c6bed07a49ae",
         "mode": "monster",
         "name": "Stone Golem",
         "type": "construct",
@@ -41350,7 +41350,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "27d7145a-bb15-4adb-b84a-bff9777e8df1",
+                "id": "0ee2a154-1874-4b0a-b562-aa96c761240c",
                 "name": "Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41362,7 +41362,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "2bab7082-f7f5-4f1c-bd78-9883f7db2086",
+                "id": "596845b7-d4bb-4401-8faa-4f7f0d12eec8",
                 "name": "Force Bolt",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41378,7 +41378,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "cc6f2e20-5275-4da5-974d-a44bf38a551f",
+        "id": "35415027-8970-499d-a665-e43be9630052",
         "mode": "monster",
         "name": "Storm Giant",
         "type": "giant",
@@ -41388,7 +41388,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "00e1a6dc-33e6-4eeb-b456-e22eb91e38c5",
+                "id": "df66965c-794a-4de0-93d0-7d9bab9978f7",
                 "name": "Storm Sword x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41400,7 +41400,7 @@ export const Monsters: Creature[] = [
                 "toHit": 14
             },
             {
-                "id": "6956025c-59e4-450c-9cc4-df5192bf627e",
+                "id": "eaf18fbf-6c32-470a-ad64-327b4e531c89",
                 "name": "Lightning Storm",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41417,7 +41417,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "0b7e1061-55e8-4d35-9a7d-9b5d0776f634",
+                "id": "1ee24da4-44ab-4db9-b331-3c2d18e4ecbe",
                 "name": "Thunderbolt",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41433,7 +41433,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6.5
     },
     {
-        "id": "5c7b33a0-0d41-47cd-8d75-f10cb65503f0",
+        "id": "31293603-9c3d-4e1f-9699-411455055b69",
         "mode": "monster",
         "name": "Succubus",
         "type": "fiend",
@@ -41443,7 +41443,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "76d6deef-3cdd-42b8-a268-460ba452e867",
+                "id": "8892d497-984c-47c3-aa2b-c76ec96d54b1",
                 "name": "Draining Kiss, Fiendish Touch",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41457,7 +41457,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "0012ad27-48e2-477b-98b7-c61234fada8f",
+                "id": "14416e3a-11e6-4884-b39a-27d033ac422b",
                 "name": "Charm",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41474,7 +41474,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "52da3dea-3c3e-4d34-bfef-00cb80179853",
+        "id": "af788aa8-860e-4e5e-990f-ebf75ba3b20a",
         "mode": "monster",
         "name": "Swarm of Bats",
         "type": "beast",
@@ -41484,7 +41484,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "2bb6b9da-d66a-49dc-ba0b-786f393639dd",
+                "id": "da4d4958-3165-451a-ae22-6f0e0286f580",
                 "name": "Bites",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41500,7 +41500,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "8d004414-f8fb-4513-a825-1a71be9cb66b",
+        "id": "355bd6e3-2bfa-4084-823b-c205b08cef13",
         "mode": "monster",
         "name": "Swarm of Crawling Claws",
         "type": "undead",
@@ -41510,7 +41510,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "19e3930d-c92b-42bc-91e8-53f7068d08b9",
+                "id": "58b16734-adbb-41e9-b00c-58e1fcbbd9a5",
                 "name": "Swarm of Grasping Hands",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41526,7 +41526,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "db70faf6-2c70-4780-9eb0-3ed6b641edc6",
+        "id": "f4e5cc55-5eab-41b6-800a-d8adb4ec0570",
         "mode": "monster",
         "name": "Swarm of Dretches",
         "type": "fiend",
@@ -41536,7 +41536,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "60c28211-d07f-40b1-9e72-5afab353675c",
+                "id": "2bd62bc9-a137-49af-8723-89e8af5e666e",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41552,7 +41552,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "a92ccb50-e002-4c66-b36a-a8879d308669",
+        "id": "679bc0ee-9db6-4e31-944f-0535b7b3a654",
         "mode": "monster",
         "name": "Swarm of Insects",
         "type": "beast",
@@ -41562,7 +41562,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "84f16abc-8ea7-4f90-8648-72d6e57c31b1",
+                "id": "6b34bd05-3846-436e-8a72-726a043b6bb8",
                 "name": "Bites",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41578,7 +41578,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "37f09317-74fc-4528-96dd-ce2967915f96",
+        "id": "8551309c-6c34-4892-89e5-b960edf28cc0",
         "mode": "monster",
         "name": "Swarm of Larvae",
         "type": "fiend",
@@ -41588,7 +41588,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "7f5643d0-0251-4238-8123-d2944ab5303c",
+                "id": "380e3f40-f19f-4220-90fe-a954f75f267c",
                 "name": "Bites",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41604,7 +41604,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "a0b97078-b6d9-4018-80d9-2f1bbd2bfa40",
+        "id": "ff8a5b3e-7c62-496f-84ab-5cbe4bafdd9c",
         "mode": "monster",
         "name": "Swarm of Lemures",
         "type": "fiend",
@@ -41614,7 +41614,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "32dcc358-ce7e-4db9-824d-5bd147a91a7b",
+                "id": "77cb7afd-29d9-46c8-8a0c-b8a608fa823e",
                 "name": "Vile Slime x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41630,7 +41630,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "e96a0f33-c879-4e0d-928c-d8b1c508f704",
+        "id": "4016e7ec-8e49-4fa5-91a2-8b01538a0d8d",
         "mode": "monster",
         "name": "Swarm of Piranhas",
         "type": "beast",
@@ -41640,7 +41640,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "5ce50296-ec73-488b-818f-44859a7efed4",
+                "id": "57e77237-a4d5-471e-8a29-d9dfc7774909",
                 "name": "Bites",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41656,7 +41656,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "8db5eb30-cfc9-422f-8e81-552694243a72",
+        "id": "b70602a4-3ced-4c83-9438-9a9f3d5c78f0",
         "mode": "monster",
         "name": "Swarm of Rats",
         "type": "beast",
@@ -41666,7 +41666,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "eb45451e-8eec-4325-ad06-685c7a8ebcf6",
+                "id": "c73619ef-29ce-45c6-bf6a-9f3283b672d3",
                 "name": "Bites",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41682,7 +41682,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "b1114c8a-103c-4089-aa0d-4cbd116de6f5",
+        "id": "607ab641-5f4f-46fd-be99-8cb1b3488155",
         "mode": "monster",
         "name": "Swarm of Ravens",
         "type": "beast",
@@ -41692,7 +41692,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "dffb1edb-4c26-4d92-87ab-f7a7e9f1d635",
+                "id": "be94cc1b-1b12-47e6-a01b-6f3b6c4ff275",
                 "name": "Beaks",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41704,7 +41704,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "57abc03c-92a3-47b4-919f-1a41f0e70215",
+                "id": "5636a030-aa3b-4949-bcf6-5d2344cc3b42",
                 "name": "Cacophony",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41724,7 +41724,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "f3961604-0ac2-4d54-ae46-d24b6c24c231",
+        "id": "41361c99-69e6-4796-859c-1ad73f5d6c07",
         "mode": "monster",
         "name": "Swarm of Stirges",
         "type": "monstrosity",
@@ -41734,7 +41734,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "b645a302-4a00-4ca1-8f16-f4d39c2e2ba3",
+                "id": "ea297bb2-74c2-40ae-8f90-af78f36e3c05",
                 "name": "Swarm of Proboscises",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41750,7 +41750,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "d7c0397c-e19c-4c0b-bdae-73c14cbeb977",
+        "id": "41cccb6a-c1c8-40ff-8b6c-6ef4cc79d56c",
         "mode": "monster",
         "name": "Swarm of Venomous Snakes",
         "type": "beast",
@@ -41760,7 +41760,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "3ed12710-fca6-4d18-9f72-c5aca09e2786",
+                "id": "3ae2a4a8-c826-43b5-8720-9c13216185fa",
                 "name": "Bites",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41776,7 +41776,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "332e7699-9da9-48f7-a945-947e29281b42",
+        "id": "4c8e62ab-eb96-4189-bd9e-423dd1e777a5",
         "mode": "monster",
         "name": "Tarrasque",
         "type": "monstrosity",
@@ -41786,7 +41786,7 @@ export const Monsters: Creature[] = [
         "AC": 25,
         "actions": [
             {
-                "id": "63816713-a6e0-4f2a-830a-b4734180d59a",
+                "id": "be57a681-710e-4b7d-9200-ca24d7686bd6",
                 "name": "Thunderous Bellow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41810,7 +41810,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "5335f5e8-6638-4446-baf8-aa4cb34a589b",
+                "id": "45023644-043f-457d-92f8-3c6f0bddefd3",
                 "name": "Bite, Claw x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41822,7 +41822,7 @@ export const Monsters: Creature[] = [
                 "toHit": 19
             },
             {
-                "id": "42882d80-75b6-463a-809a-9ec6718efd4e",
+                "id": "425f8bff-91a4-4ed6-9a3c-de02024f5627",
                 "name": "Tail",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41834,7 +41834,7 @@ export const Monsters: Creature[] = [
                 "toHit": 19
             },
             {
-                "id": "4c8e9bcf-404b-4809-903b-8561c696cb7b",
+                "id": "ce7ee31e-30ec-4953-bd3b-ee8397ed82f1",
                 "name": "Onslaught",
                 "type": "atk",
                 "actionSlot": 2,
@@ -41850,7 +41850,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 15
     },
     {
-        "id": "f59d5150-def0-4309-90f5-bb2a0596a813",
+        "id": "6240d659-f4ba-4985-8852-0cf6415cecc5",
         "mode": "monster",
         "name": "Thri-kreen Marauder",
         "type": "monstrosity",
@@ -41860,7 +41860,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "ff08a2e6-200f-4c55-be3e-8f3b0a7bdcbd",
+                "id": "a64319e7-cfc3-4c56-aed2-c2491cf798f6",
                 "name": "Gythka x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41872,7 +41872,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "8a07875d-521b-4367-98a0-15bbf705990b",
+                "id": "29da3c40-5dc5-4f14-9c3a-9279a94d48c5",
                 "name": "Chatkcha",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41888,7 +41888,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "54d27b91-67e8-41e0-9297-27b9ba9c8f9d",
+        "id": "aeab4880-0d05-406a-a130-7b7392dc73f2",
         "mode": "monster",
         "name": "Thri-kreen Psion",
         "type": "monstrosity",
@@ -41898,7 +41898,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "47a204f4-ec93-4541-8fef-c6437d12b43e",
+                "id": "f251e0ca-4ff0-4af9-89d2-486dc3f1e7c9",
                 "name": "Psionic Lance x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41914,7 +41914,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "280c8e52-b73a-4572-b6bb-b2e5f706a5c0",
+        "id": "340b216e-8aac-46f1-9d4b-c3f7eba6af7d",
         "mode": "monster",
         "name": "Tiger",
         "type": "beast",
@@ -41924,7 +41924,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "184ca6cb-3898-4b37-a9c2-f067f699c6ca",
+                "id": "d12d5dba-2e24-43b3-8199-8fd52e07fedc",
                 "name": "Rend",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41940,7 +41940,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "6c31e3bb-688b-4814-aef6-d13e0dc6f15b",
+        "id": "d64c19fe-84de-42fd-9ea1-143b5dbad37f",
         "mode": "monster",
         "name": "Tough",
         "type": "humanoid",
@@ -41950,7 +41950,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "05e47a0a-e30c-4b4d-9c85-087313ed4c59",
+                "id": "44ee9938-5edf-46cf-9c24-0d5608e091f2",
                 "name": "Heavy Crossbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41962,7 +41962,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "cb1dc1a1-52fa-47b5-8d39-3eb2c30c8c65",
+                "id": "60908a32-7eca-489f-9d3f-e9c7010d5c55",
                 "name": "Mace",
                 "type": "atk",
                 "actionSlot": 0,
@@ -41978,7 +41978,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "f0f7022f-d51e-4b37-9685-73a378dd6c34",
+        "id": "7c48c6bc-5285-4879-a66b-f60988dd7c83",
         "mode": "monster",
         "name": "Tough Boss",
         "type": "humanoid",
@@ -41988,7 +41988,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "15571e05-fa73-4084-8854-7e69872d9623",
+                "id": "3a599ece-40dd-4004-88fa-779b8818ce20",
                 "name": "Warhammer x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42000,7 +42000,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "7a4bed08-3450-4233-904f-da502b504f25",
+                "id": "2e413da7-2a8e-4a73-a6cb-358db77aa5d1",
                 "name": "Heavy Crossbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42016,7 +42016,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "e308ab60-4acb-4cf0-948e-ecb7c69665ac",
+        "id": "9dd6d1d4-f3c0-4cce-bcac-f91b8669cc20",
         "mode": "monster",
         "name": "Treant",
         "type": "plant",
@@ -42026,7 +42026,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "e5afe0ac-7ed4-476b-ba30-376765d7d2e1",
+                "id": "f184033a-b04d-4406-83ee-f035d051b37c",
                 "name": "Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42038,7 +42038,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "b5eb605f-680e-4c5c-9b27-cdbf3ba1c4e4",
+                "id": "9125a9dd-11ff-4662-a64d-d84f39073c61",
                 "name": "Hail of Bark",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42050,7 +42050,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "9b1faba7-62d5-4066-88bd-eb031e58e797",
+                "id": "6fb8a3e0-c32a-46d4-9c6d-dec32f258904",
                 "name": "Animate Trees",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42066,7 +42066,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "37db4836-84c1-42cb-8fb4-500f1c251098",
+        "id": "0c528a25-1192-4578-9872-fca7121aca30",
         "mode": "monster",
         "name": "Tree Blight",
         "type": "plant",
@@ -42076,7 +42076,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "ffcd3e57-dce9-4bdb-a061-e12d91bdfa70",
+                "id": "85822c27-c9a2-4acf-88ed-d8d0091fd339",
                 "name": "Branch x2, Grasping Root",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42092,7 +42092,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "78aac67b-5d67-46de-bdca-82b197e4b92d",
+        "id": "8d98b81e-58f2-4a1a-80e3-8ad8a669c423",
         "mode": "monster",
         "name": "Triceratops",
         "type": "beast",
@@ -42102,7 +42102,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "74a79e50-59f2-4ad4-8d34-807f518907f2",
+                "id": "6735978f-854f-472c-abfa-38dc6122839a",
                 "name": "Gore x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42118,7 +42118,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "69cecae6-b74c-4829-aa7c-6b2e2f703a6e",
+        "id": "de6254da-a6e9-40a4-ac87-315f09f6b0fb",
         "mode": "monster",
         "name": "Troglodyte",
         "type": "monstrosity",
@@ -42128,7 +42128,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "79226ebd-910b-435e-ab33-28d66e42a01b",
+                "id": "fd848062-b375-484a-8df2-bf40a9d85858",
                 "name": "Rend",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42144,7 +42144,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "5f7defbe-4e6f-4afe-b08f-0d533ef7febd",
+        "id": "c932e447-17d4-4143-b205-2066c169edc9",
         "mode": "monster",
         "name": "Troll",
         "type": "giant",
@@ -42154,7 +42154,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "f6b40eb8-8122-4b3d-b498-cac332848072",
+                "id": "bbf72bd7-2bf5-4ce0-8f6e-d2bd7030c7e9",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42166,7 +42166,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "e5995ed1-8673-4cd4-881a-766c0c76c7a8",
+                "id": "37e4400e-39b4-41eb-830b-da3ded72ffbb",
                 "name": "Regeneration",
                 "actionSlot": 4,
                 "condition": "default",
@@ -42181,7 +42181,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "c6eb7829-3854-48c9-8cca-7994b364db49",
+        "id": "31effeb3-b15c-47dd-a1bb-17afc9814f4d",
         "mode": "monster",
         "name": "Troll Limb",
         "type": "giant",
@@ -42191,7 +42191,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "766cfb33-e36c-44bd-a28e-24c48d2ef200",
+                "id": "05195a2e-6c84-424b-ab5d-97130cfeef26",
                 "name": "Rend",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42203,7 +42203,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "e5995ed1-8673-4cd4-881a-766c0c76c7a8",
+                "id": "37e4400e-39b4-41eb-830b-da3ded72ffbb",
                 "name": "Regeneration",
                 "actionSlot": 4,
                 "condition": "default",
@@ -42218,7 +42218,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "e048c643-5d97-4cac-aef8-75ddced80772",
+        "id": "cb99fad4-702a-48be-944a-90cc35709d2d",
         "mode": "monster",
         "name": "Twig Blight",
         "type": "plant",
@@ -42228,7 +42228,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "ba63dbb7-aa98-4558-bc23-3120d7b92717",
+                "id": "d472d436-36ec-4c60-9188-fe13b9a4b1fd",
                 "name": "Claw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42244,7 +42244,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "55c3f9a0-cd4c-417b-abb5-e6836bfe9fc0",
+        "id": "7e24ee10-1426-4660-ad55-91f8a7714258",
         "mode": "monster",
         "name": "Tyrannosaurus Rex",
         "type": "beast",
@@ -42254,7 +42254,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "db5b4b60-98d9-46d2-b0e6-b2eeeaa0d657",
+                "id": "42627e65-ef92-447d-8250-f62551d9f29e",
                 "name": "Bite, Tail",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42270,7 +42270,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "3d7b4167-236f-4579-affd-e6a8c6389aad",
+        "id": "8b01ce00-8285-4c1e-8dce-d02fc518da2c",
         "mode": "monster",
         "name": "Ultroloth",
         "type": "fiend",
@@ -42280,7 +42280,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "f8cdf5d7-01d8-432e-89a1-4f5318c00898",
+                "id": "4b1f1c17-c456-4e34-9f8f-f5497ee300cf",
                 "name": "Hypnotic Gaze, Mercurial Whip x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42299,7 +42299,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "24cf9688-45f1-4f32-962d-361bd6ffc578",
+                "id": "33cf02a5-055e-4e08-8367-9fe000e0942b",
                 "type": "template",
                 "condition": "default",
                 "templateOptions": {
@@ -42314,7 +42314,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6.5
     },
     {
-        "id": "86426995-cd0d-49fb-91f0-26276f1372a9",
+        "id": "dd671a33-7e52-4564-bade-361e5cf0dfcb",
         "mode": "monster",
         "name": "Umber Hulk",
         "type": "monstrosity",
@@ -42324,7 +42324,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "d5800186-10f3-4041-83a0-616dbca2b0db",
+                "id": "74050c1b-a660-45ee-87f7-6d577b0054dc",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42340,7 +42340,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "328d6950-adbc-4c07-86e9-cbe937ac13f3",
+        "id": "161fa9bf-b9b3-4882-bdeb-0a67ffc9a4ba",
         "mode": "monster",
         "name": "Unicorn",
         "type": "celestial",
@@ -42350,7 +42350,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "484cf68a-00c9-4be0-9b05-42d49c555916",
+                "id": "6ae84e22-bb12-4b83-bf60-373761e6a94b",
                 "name": "Cure Wounds",
                 "actionSlot": 0,
                 "condition": "ally under half HP",
@@ -42364,7 +42364,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "2ad2aa07-52f0-47bd-81d5-0797ee514a74",
+                "id": "680185cb-6e55-461e-94a0-e2dd5cd1a911",
                 "name": "Hooves, Radiant Horn",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42376,7 +42376,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "971f174f-9354-4af8-8b56-68270ea1ff88",
+                "id": "f45b61e8-4785-4de4-8398-ae6237a52f48",
                 "name": "Charging Horn",
                 "type": "atk",
                 "actionSlot": 2,
@@ -42392,7 +42392,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "accc3a39-862d-43b9-8fd1-9c57cfc21c54",
+        "id": "90f18aef-2449-477e-8f12-dba988c6e3b0",
         "mode": "monster",
         "name": "Vampire",
         "type": "undead",
@@ -42402,7 +42402,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "8c5543ee-2612-4568-b8db-b54a6693d29d",
+                "id": "91409f0b-d036-4556-954b-80b387d40b29",
                 "name": "Bite, Grave Strike x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42414,7 +42414,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "fbd4efd6-567d-40f6-9516-65251b27cf1f",
+                "id": "00aa8745-594f-4a55-bb78-3471d1df94b0",
                 "name": "Deathless Strike",
                 "type": "atk",
                 "actionSlot": 2,
@@ -42430,7 +42430,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 6.5
     },
     {
-        "id": "9d9e61e3-08bc-4c99-8144-30f37edc1bbb",
+        "id": "d67a16a5-4320-4bdc-990a-0e7ddfd7dc47",
         "mode": "monster",
         "name": "Vampire Familiar",
         "type": "humanoid",
@@ -42440,7 +42440,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "793d0ab1-7459-431a-bd3c-4b708f01c3d9",
+                "id": "f689d881-a921-49c0-82c5-60a423157dc3",
                 "name": "Umbral Dagger x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42463,7 +42463,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "4280a003-afcf-42bd-9a0e-2161cd40ae49",
+        "id": "8f350c46-a368-4912-b96d-a59d54c36feb",
         "mode": "monster",
         "name": "Vampire Nightbringer",
         "type": "undead",
@@ -42473,7 +42473,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "d82b3e95-7b52-411a-ac57-077730accb51",
+                "id": "f39c4e13-77b9-4ffb-8b58-878171c5a86a",
                 "name": "Bite, Shadow Strike",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42489,7 +42489,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "6cfee577-c338-417d-b010-5b104f5d7fdf",
+        "id": "4f1e2c87-7496-46a5-a84f-4b7073478b3a",
         "mode": "monster",
         "name": "Vampire Spawn",
         "type": "undead",
@@ -42499,7 +42499,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "8707b2bf-f685-4e3f-ae67-07dc28dbb99e",
+                "id": "e330eb74-e51a-41fa-8121-c9d9083c416c",
                 "name": "Bite, Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42515,7 +42515,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "7825dd8f-9984-4632-ae10-08eabca4c489",
+        "id": "a9361c7a-9a83-4839-96d9-74597d7e9d49",
         "mode": "monster",
         "name": "Vampire Umbral Lord",
         "type": "undead",
@@ -42525,7 +42525,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "064a0979-41fd-46f2-b870-a775a5116398",
+                "id": "8a644ceb-5567-409f-8b51-cb2b9fbce454",
                 "name": "Grave Strike x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42537,7 +42537,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "36a49fda-af38-4821-8999-680dfec8c5aa",
+                "id": "00ff228e-2359-493d-89eb-3dff79e63486",
                 "name": "Sickening Ray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42556,7 +42556,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "f5b4b2aa-bfaa-4ec8-bf59-b9e55cddf539",
+                "id": "d948f191-d685-47c6-9d3e-2f5e0e30a0b3",
                 "name": "Umbral Strike",
                 "type": "atk",
                 "actionSlot": 2,
@@ -42572,7 +42572,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 7.5
     },
     {
-        "id": "3f628762-97d6-4b38-bd2b-428c8eff6c9e",
+        "id": "74bbc6cd-0adb-4374-89c6-d8cf57aba3ea",
         "mode": "monster",
         "name": "Venomous Snake",
         "type": "beast",
@@ -42582,7 +42582,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "36245238-400f-4a20-88f8-3dda5443c8e3",
+                "id": "6ae18dba-5d97-40da-a759-b127786c13f3",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42598,7 +42598,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "9aad1f05-7737-4422-b716-e8d7b1130bab",
+        "id": "77ffc762-7bf0-4b6b-86a4-da9656f1904c",
         "mode": "monster",
         "name": "Vine Blight",
         "type": "plant",
@@ -42608,7 +42608,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "10c00c92-badb-41da-b539-235882b9b111",
+                "id": "5f41fdbf-2eee-4ad0-bb21-6d41181b9536",
                 "name": "Constricting Vine",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42624,7 +42624,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "e83938c1-4dd4-4266-b4fb-a8ea35c680bf",
+        "id": "f42cf31a-7e7a-4ee6-8ce4-a8487ee31b7e",
         "mode": "monster",
         "name": "Violet Fungus",
         "type": "plant",
@@ -42634,7 +42634,7 @@ export const Monsters: Creature[] = [
         "AC": 5,
         "actions": [
             {
-                "id": "24d333e2-fdff-4980-896f-a913a1ca79a8",
+                "id": "06e762ba-5e0a-466a-88c9-c204b9502319",
                 "name": "Rotting Touch x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42650,7 +42650,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "547bae43-8721-4cbf-8424-579c70b1a450",
+        "id": "5c4af657-6505-417d-9dc0-ebe524101155",
         "mode": "monster",
         "name": "Violet Fungus Necrohulk",
         "type": "plant",
@@ -42660,7 +42660,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "75092de4-010d-4410-bbca-74e7cc5270fd",
+                "id": "28d30db7-bb6b-4ada-a9c6-00cde40f2f42",
                 "name": "Spore Bomb",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42684,7 +42684,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "eb4fa98d-2598-43ba-85ba-a069529e8c38",
+                "id": "07746672-a950-4785-8695-093ca9411f6c",
                 "name": "Rotting Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42700,7 +42700,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "22f41e28-6342-486d-8f1d-03e604f74ec6",
+        "id": "18177ef8-4ebe-4e67-a86e-db3e142fa36f",
         "mode": "monster",
         "name": "Vrock",
         "type": "fiend",
@@ -42710,7 +42710,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "9d83fed7-9268-4f01-a3a1-f0a4146d9819",
+                "id": "5228dd1c-6887-43ef-acc0-cf71002c2cc0",
                 "name": "Shred x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42722,7 +42722,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "2f6f4801-8e49-4d9b-9634-4ddfc81f0cf0",
+                "id": "6c2c0363-b737-42d8-a9a1-ee304adcc642",
                 "name": "Stunning Screech",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42735,7 +42735,7 @@ export const Monsters: Creature[] = [
                 "useSaves": true
             },
             {
-                "id": "854adcac-7658-499c-893c-601e506c3c03",
+                "id": "1a25e03d-ae55-481a-a491-58d466909d0e",
                 "name": "Spores",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42762,7 +42762,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "611577df-d3a6-457a-b642-c4fc1738b301",
+        "id": "0863017c-2ce2-478d-9f17-bf24f83bf6fa",
         "mode": "monster",
         "name": "Vulture",
         "type": "beast",
@@ -42772,7 +42772,7 @@ export const Monsters: Creature[] = [
         "AC": 10,
         "actions": [
             {
-                "id": "c6ddd6cd-74aa-44cc-8b8e-65b1981f7284",
+                "id": "597f7f66-1df5-44e9-83ef-eaa8a36c5d1d",
                 "name": "Beak",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42788,7 +42788,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "e585ede1-e517-4786-960b-aa409be8e588",
+        "id": "a521b78d-c976-4600-a609-d73552aab79f",
         "mode": "monster",
         "name": "Warhorse",
         "type": "beast",
@@ -42798,7 +42798,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "943ed147-cc17-4cc0-b443-e2c7e1ed8b14",
+                "id": "c1c2ba0e-4dbe-4177-8884-9bc25fa75287",
                 "name": "Hooves",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42814,7 +42814,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "8f078aee-612e-4e05-80eb-b41340764848",
+        "id": "1ae6aca2-ce38-4d3b-9cb7-22a30de86515",
         "mode": "monster",
         "name": "Warhorse Skeleton",
         "type": "undead",
@@ -42824,7 +42824,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "198c2a37-0e0f-4d78-8f80-901fbf60194a",
+                "id": "f154c64c-83a7-4f40-99aa-cedcb1ecf0c1",
                 "name": "Hooves",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42840,7 +42840,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "b6b44e71-1d19-4851-9249-01883b345354",
+        "id": "8baa26f5-d595-4243-84e9-8426f102d592",
         "mode": "monster",
         "name": "Warrior Commander",
         "type": "humanoid",
@@ -42850,7 +42850,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "d3c461d5-942c-4ffd-974c-a42e0f8fa1ec",
+                "id": "07ea6da2-cb70-4f64-8158-56ef3c860b50",
                 "name": "Greatsword x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42862,7 +42862,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "11a890b2-16e0-467a-9d35-8753f160aa62",
+                "id": "34cf5f53-3de7-45e7-a472-6cbbaa52ae00",
                 "name": "Longbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42874,7 +42874,7 @@ export const Monsters: Creature[] = [
                 "toHit": 9
             },
             {
-                "id": "9b90544e-8a4c-46db-906e-ac118e48c1d7",
+                "id": "dcb59e37-db3a-4a13-a115-fabadc067377",
                 "name": "Sap",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42886,7 +42886,7 @@ export const Monsters: Creature[] = [
                 "toHit": 0
             },
             {
-                "id": "9ba5c192-1825-4fc6-9a5b-6247d2fab599",
+                "id": "f4ba457a-f5f4-4e59-a122-5c963dd1f1c1",
                 "name": "Maneuver",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42902,7 +42902,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "5b3f064c-98c0-4505-be80-eca178256fc6",
+        "id": "56e3362d-743e-4192-aeae-1af453997af5",
         "mode": "monster",
         "name": "Warrior Infantry",
         "type": "humanoid",
@@ -42912,7 +42912,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "c4ba77f9-4aa3-41d2-82e9-74db93b9518e",
+                "id": "b698af53-58f4-4483-8cc5-a674df8d91d0",
                 "name": "Spear",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42928,7 +42928,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.0625
     },
     {
-        "id": "d72631b7-90a9-45c1-98dd-4e204365641e",
+        "id": "e855658e-d7a1-470e-b530-db06e502fa14",
         "mode": "monster",
         "name": "Warrior Veteran",
         "type": "humanoid",
@@ -42938,7 +42938,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "8e838f97-5d72-402b-9384-3353e94d8b1c",
+                "id": "139fabba-ab19-4e5a-ac59-76a0a6f7529e",
                 "name": "Greatsword x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42950,7 +42950,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "61bf4ac6-bda5-4db8-9240-70ecec9d168b",
+                "id": "f328a869-14ac-4ee5-a1d6-bbe9e822974b",
                 "name": "Heavy Crossbow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -42962,7 +42962,7 @@ export const Monsters: Creature[] = [
                 "toHit": 3
             },
             {
-                "id": "b8645b83-1b4a-4ffc-bfa8-e257c3e33fab",
+                "id": "d8893ad7-cb62-4dd2-ac21-dc3cd9b37384",
                 "name": "Parry",
                 "actionSlot": 4,
                 "condition": "default",
@@ -42980,7 +42980,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "2721220b-eb1e-40c2-8505-a737c00477de",
+        "id": "40a1470c-98b3-4068-913b-af45d3b8542f",
         "mode": "monster",
         "name": "Water Elemental",
         "type": "elemental",
@@ -42990,7 +42990,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "f8cb3f29-ce24-46a3-9722-9eba5adee62d",
+                "id": "ec11153d-b193-4e3d-ab2d-82354eb40ce9",
                 "name": "Whelm",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43007,7 +43007,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "05ae4e1a-fb63-4dcc-9989-70fd2dfb5ab6",
+                "id": "05c24aac-10b6-4d8d-a1ea-9541a9526450",
                 "name": "Slam x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43023,7 +43023,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "2fb2d446-1880-4e28-86a4-e6027b2c48dc",
+        "id": "9e6ebf0c-56d4-4f24-830e-0f74486f0b13",
         "mode": "monster",
         "name": "Water Weird",
         "type": "elemental",
@@ -43033,7 +43033,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "19f087ee-5712-40e8-9757-4e4ded2e276a",
+                "id": "b0579680-19e4-47fb-bb41-8ce1a7819ae0",
                 "name": "Surge",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43049,7 +43049,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "02b20165-0fa2-4f0b-9cbf-a42ed8dc0569",
+        "id": "30efc078-4751-41d0-ba89-ea6fe0134bc8",
         "mode": "monster",
         "name": "Weasel",
         "type": "beast",
@@ -43059,7 +43059,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "7c7ef49f-c570-47c8-933d-9cbec08ad8fb",
+                "id": "304153f8-6acb-4ae0-8db5-a47b335620fa",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43075,7 +43075,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0
     },
     {
-        "id": "1fd7943f-f170-4254-b0a5-651d2db9dac7",
+        "id": "96644d26-213f-4622-952e-432d1a546ab1",
         "mode": "monster",
         "name": "Werebear",
         "type": "monstrosity",
@@ -43085,7 +43085,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "a30da404-2e9d-4b96-b1e1-185b3336d8b2",
+                "id": "ab2f8866-c8a9-4712-8ed0-89510c2ca4eb",
                 "name": "Bite, Handaxe",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43097,7 +43097,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "19deb1f4-fd2f-438a-97c1-6d165180f4d4",
+                "id": "200fcfe9-1a0d-4818-8c29-a60b6421d627",
                 "name": "Rend (Bear or Hybrid Form Only)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43113,7 +43113,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "eb2dcfea-f46b-4faa-aabf-858b3cbeb68e",
+        "id": "3f500235-9602-441a-a247-781102a43d27",
         "mode": "monster",
         "name": "Wereboar",
         "type": "monstrosity",
@@ -43123,7 +43123,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "e6f31d8f-b43a-4b79-b0b6-9c73d23d0484",
+                "id": "0fd0621d-34e4-45b3-abc2-f2a579df709a",
                 "name": "Gore, Tusk",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43135,7 +43135,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "56245733-aa06-4865-9ec7-65e27b9c635c",
+                "id": "3d1aa959-31ed-4fad-9ce5-a4849f659b86",
                 "name": "Javelin (Humanoid or Hybrid Form Only)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43151,7 +43151,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "a98ce919-5e1d-46c9-ab6f-980d526a9ab7",
+        "id": "d5763314-799a-4e0b-99eb-de5bff3a4084",
         "mode": "monster",
         "name": "Wererat",
         "type": "monstrosity",
@@ -43161,7 +43161,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "959a2a50-d0f4-46ab-b50a-2969bf20420c",
+                "id": "b80e14c9-8a07-4428-bdef-fa121b889583",
                 "name": "Bite, Scratch",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43173,7 +43173,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "209b4bf1-73a3-48e5-9591-c6c8f5320291",
+                "id": "cf1cb59c-fb8a-438d-94e7-89a2da9141f9",
                 "name": "Hand Crossbow (Humanoid or Hybrid Form Only)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43189,7 +43189,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "5594e004-e0e8-4733-9e0d-83c5effc2f9f",
+        "id": "2de54e72-5ecf-462c-bfe0-c133aff69a61",
         "mode": "monster",
         "name": "Weretiger",
         "type": "monstrosity",
@@ -43199,7 +43199,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "1bc9d304-85e2-46f0-82d1-4f7189981d56",
+                "id": "ea221017-3eaa-49fe-a13e-7b48d1585891",
                 "name": "Bite, Scratch",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43211,7 +43211,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "3992126e-123a-41e1-b43e-b0ee09607beb",
+                "id": "164f140c-8979-4dd0-b818-156945033bb4",
                 "name": "Longbow (Humanoid or Hybrid Form Only)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43227,7 +43227,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2
     },
     {
-        "id": "a17ce7df-688d-4fd2-ad7c-8fa6c2671f15",
+        "id": "d73b6d7f-52b4-4f0a-b45e-d00abc5b5b29",
         "mode": "monster",
         "name": "Werewolf",
         "type": "monstrosity",
@@ -43237,7 +43237,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "38f539ca-4e40-4c15-b81b-d14333a725c0",
+                "id": "208355bc-d414-4a77-ab01-509de9ac1247",
                 "name": "Bite, Scratch",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43249,7 +43249,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "61ac4f2f-ac58-48f8-af29-aa31858e2868",
+                "id": "e4ebac52-310d-4683-9b98-9a56b8956d87",
                 "name": "Longbow (Humanoid or Hybrid Form Only)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43265,7 +43265,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "0e90a3b1-bf67-4ffd-bbd0-e733903d0a68",
+        "id": "25c536f8-9667-4404-8ad1-9ba52d1ae7ff",
         "mode": "monster",
         "name": "White Dragon Wyrmling",
         "type": "dragon",
@@ -43275,7 +43275,7 @@ export const Monsters: Creature[] = [
         "AC": 16,
         "actions": [
             {
-                "id": "47c89671-eac7-4328-b36d-f43fb830648d",
+                "id": "81faed20-086c-4adb-a23e-36f59f871897",
                 "name": "Cold Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43292,7 +43292,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "56b9a2e4-bb61-4218-8825-1f30fa0c9bfa",
+                "id": "770d5e9c-61aa-462c-b375-6eb4eaac0f1c",
                 "name": "Rend x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43308,7 +43308,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "61d16799-12a2-4c0d-9e4b-2c55cfc25f62",
+        "id": "e6307019-83ba-4db6-9ec2-d7f5f8670333",
         "mode": "monster",
         "name": "Wight",
         "type": "undead",
@@ -43318,7 +43318,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "bb8d80e9-6294-45f1-8b03-8722adf4f610",
+                "id": "7fdcdffc-f9bf-48df-b000-48157c3008f6",
                 "name": "Necrotic Sword x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43330,7 +43330,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "7839e835-25a8-4c8d-a0b2-26d400a1040d",
+                "id": "45e68068-9262-4c22-844f-bbc4fc65e05b",
                 "name": "Necrotic Bow",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43342,7 +43342,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "5c3b299b-ec01-4111-b786-0461b9b540c6",
+                "id": "a650883a-14e8-4406-a0e3-94e0f7aa12a8",
                 "name": "Life Drain",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43359,7 +43359,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "060cc550-d383-48ce-ac91-4cb49a4d6bbe",
+        "id": "457b2057-0df0-46b4-8344-37e69bc87047",
         "mode": "monster",
         "name": "Will-o'-Wisp",
         "type": "undead",
@@ -43369,7 +43369,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "523f6a0d-eacc-430b-ac33-3535cd37be55",
+                "id": "78c24f0c-2b9b-41e6-a509-f14b6113647f",
                 "name": "Shock",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43385,7 +43385,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1
     },
     {
-        "id": "1a9618f4-1e9c-41da-a93d-d1d51c61a6fb",
+        "id": "57bcb739-06ef-4f84-99b6-f81902dce38d",
         "mode": "monster",
         "name": "Winged Kobold",
         "type": "dragon",
@@ -43395,7 +43395,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "b32a27b2-9e9c-4310-98f5-1945ea5a6122",
+                "id": "cce2ff5a-67a1-4b6c-ab71-d1f917be4674",
                 "name": "Dragon-Tooth Blade",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43407,7 +43407,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "066443ec-c662-45df-a885-6fbcb104f7e5",
+                "id": "125f2cad-87ee-4386-9ffb-516f88863cd3",
                 "name": "Chromatic Spittle",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43423,7 +43423,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "808b6466-cff0-4ec1-99ab-e29632f05a8c",
+        "id": "cba23936-2cc6-498d-9bca-16cb22832e23",
         "mode": "monster",
         "name": "Winter Wolf",
         "type": "monstrosity",
@@ -43433,7 +43433,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "9e560149-451a-4825-8c57-c536a4cd6558",
+                "id": "8024cec7-5b84-4141-95fd-34b13692273a",
                 "name": "Cold Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43450,7 +43450,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "79452b9d-7f47-49ba-9101-7db4e95b70d4",
+                "id": "d217498e-549c-4a28-b689-62780eb76014",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43466,7 +43466,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "e839fb30-5067-4875-b08c-3e999f8fdb18",
+        "id": "571327ea-74af-4022-a363-a7a29ca54f10",
         "mode": "monster",
         "name": "Wolf",
         "type": "beast",
@@ -43476,7 +43476,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "82eebdea-2f25-474d-87e6-76792d1ac385",
+                "id": "2b37dbfc-0af8-4a88-aca3-63afb699c6bd",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43492,7 +43492,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.125
     },
     {
-        "id": "9f58d802-6d4c-4125-b113-404dd8b14262",
+        "id": "06af8aab-3994-4150-96aa-ab625f2ef000",
         "mode": "monster",
         "name": "Worg",
         "type": "fey",
@@ -43502,7 +43502,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "09331dbd-1e74-49d6-835e-d88d1a5ed72d",
+                "id": "c79e469d-5506-42a7-85cf-6cf683c677f8",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43518,7 +43518,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.25
     },
     {
-        "id": "6b9ff74c-6582-48be-8d6b-7402279bf68b",
+        "id": "3f1e11ac-0601-4bb4-936d-969222a4314c",
         "mode": "monster",
         "name": "Wraith",
         "type": "undead",
@@ -43528,7 +43528,7 @@ export const Monsters: Creature[] = [
         "AC": 13,
         "actions": [
             {
-                "id": "7d2836e5-a783-4cab-82ca-f8210a2cb8f7",
+                "id": "a66f5f35-ee97-40d8-8127-b2c227ecd3c7",
                 "name": "Life Drain",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43540,7 +43540,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "3c55050f-9c8d-43ef-9367-ffeb130c58b5",
+                "id": "89a1a5ee-bd16-4340-9472-72c374c555a3",
                 "name": "Create Specter",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43556,7 +43556,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "22c1c71a-0a51-48b1-a14f-3c15aa6e38a6",
+        "id": "db6e9317-9297-499e-808b-acdbc690764a",
         "mode": "monster",
         "name": "Wyvern",
         "type": "dragon",
@@ -43566,7 +43566,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "b2897db6-6842-43ec-8cb3-4aa063326318",
+                "id": "6ac89d1b-1954-4bab-a77e-996cba63fafb",
                 "name": "Bite, Sting",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43589,7 +43589,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "0a447750-3c6b-4e96-934a-a00aba9850e7",
+        "id": "637cc5af-d4ee-4eea-9fd8-6646b8259ca0",
         "mode": "monster",
         "name": "Xorn",
         "type": "elemental",
@@ -43599,7 +43599,7 @@ export const Monsters: Creature[] = [
         "AC": 19,
         "actions": [
             {
-                "id": "b3ead20d-6fbd-45f1-ae63-d757cbd31150",
+                "id": "732fd1d6-0882-4880-9331-efceb9910eca",
                 "name": "Bite, Claw x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43615,7 +43615,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "58a36a5d-fb65-454b-8156-269d3ce61f66",
+        "id": "bb572a33-a98a-4c73-b8bc-e244df9468e4",
         "mode": "monster",
         "name": "Yeti",
         "type": "monstrosity",
@@ -43625,7 +43625,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "ab7c52c0-dbb4-4a7c-955a-be0efeaf678e",
+                "id": "6b46d93f-69fb-423f-800d-80ba22391070",
                 "name": "Claw x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43637,7 +43637,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "9790636a-e588-44cc-af7d-d4b965e77b08",
+                "id": "6a4c216d-c048-4dba-89b2-17e7e981c974",
                 "name": "Ice Throw",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43649,7 +43649,7 @@ export const Monsters: Creature[] = [
                 "toHit": 6
             },
             {
-                "id": "3e4948bb-a6c6-45bf-bb57-226d75c4fa86",
+                "id": "ebfcb4a3-bac7-46ee-b84f-36036664b1e3",
                 "name": "Chilling Gaze",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43666,7 +43666,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "d573ce82-7e79-42fe-9b49-421f97c04db7",
+        "id": "0cb7a445-4474-4fe1-b352-618984249b6c",
         "mode": "monster",
         "name": "Yochlol",
         "type": "fiend",
@@ -43676,7 +43676,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "1a35d3a8-e68f-4f1b-8804-32714a3176b5",
+                "id": "dc7b7ee7-9793-4cb8-b80a-fe416bcd5608",
                 "name": "Caustic Lash x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43692,7 +43692,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "610951ba-07eb-4959-8616-791e0d658aa0",
+        "id": "fd3e2f9a-4b29-4600-8820-2133cb10076f",
         "mode": "monster",
         "name": "Young Black Dragon",
         "type": "dragon",
@@ -43702,7 +43702,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "631219bd-1e98-4c0e-9537-37b2610473ba",
+                "id": "034eeb1d-88d1-4175-9bd8-60a4ef6f0cbf",
                 "name": "Acid Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43719,7 +43719,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "26fc0aba-331e-437b-8119-9726b24937c0",
+                "id": "625c5d44-e8a3-4aaf-b9ba-990a019c5b17",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43735,7 +43735,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "94cc5151-853c-435f-87b9-cc1a0a4f9ba3",
+        "id": "305ca857-7704-40de-bfc1-60839d4ee915",
         "mode": "monster",
         "name": "Young Blue Dragon",
         "type": "dragon",
@@ -43745,7 +43745,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "41fe0020-c7f8-43b2-b8d1-7d8cd6a6029f",
+                "id": "ee12f482-16e1-4dde-931f-e88d61450047",
                 "name": "Lightning Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43762,7 +43762,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "8c1a8a65-b395-41ad-a48c-0a9fb8324216",
+                "id": "4b17ba9b-cdaa-4306-802e-89dbe18f1697",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43778,7 +43778,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "31cbe695-d7f9-4963-844c-cacab28ca6a8",
+        "id": "b30aa1da-31fb-4dbf-bc02-4d72dd9ed577",
         "mode": "monster",
         "name": "Young Brass Dragon",
         "type": "dragon",
@@ -43788,7 +43788,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "03dcd93a-21ae-4338-a8d2-57924b2b3a11",
+                "id": "5ca44508-44e6-43e0-9853-1abfb824e24b",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43800,7 +43800,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "8d0355ea-c99e-4a8d-8891-f23497cec842",
+                "id": "01fbc0fb-3e5e-4aac-9050-d11a87fba471",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43817,7 +43817,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "6dd10540-9ec8-4841-b8d4-d98ea4805b6c",
+                "id": "bb90b210-e7fc-4741-ab11-74ac5279f596",
                 "name": "Sleep Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43834,7 +43834,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "9533f493-ed76-4dea-97ac-36a2acbdb4b4",
+        "id": "c7736cfc-e298-43ab-8531-08c9308a15e3",
         "mode": "monster",
         "name": "Young Bronze Dragon",
         "type": "dragon",
@@ -43844,7 +43844,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "28089794-847c-4971-b156-d8ddcd447ac3",
+                "id": "4f2803a7-c02e-4465-8a8c-0de238f173c7",
                 "name": "Lightning Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43861,7 +43861,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "1c0ec2e5-767e-4956-b0b2-d2750b34e3f3",
+                "id": "dd0f40ba-0e6c-4687-ab83-222bbb2a3dfd",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43873,7 +43873,7 @@ export const Monsters: Creature[] = [
                 "toHit": 8
             },
             {
-                "id": "4ec1a4f0-c3be-458a-87b1-2f332bfd9360",
+                "id": "249ee371-ad92-47da-b28d-fae898bf20c4",
                 "name": "Repulsion Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43890,7 +43890,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "79aa14ea-87dc-4697-afe0-cc944614795c",
+        "id": "009e936e-6d2d-42bb-8dee-4a74904f8ab3",
         "mode": "monster",
         "name": "Young Copper Dragon",
         "type": "dragon",
@@ -43900,7 +43900,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "8f452c59-059d-4bab-892d-bbe113983fb4",
+                "id": "647a72b2-6484-48cc-9532-35f00e0627af",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43912,7 +43912,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "9f8139c3-2321-4133-9c05-7d8cb8629d2f",
+                "id": "73ecb5cf-4037-4254-a593-5d5d1f6d7f2e",
                 "name": "Acid Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43929,7 +43929,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "1ec827d0-334b-43dd-be98-86edcb040030",
+                "id": "4dc56987-79f9-4776-a3b2-ee5caeb82d16",
                 "name": "Slowing Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43946,7 +43946,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "6bcff08f-182c-4df7-9b8f-07a289241eb4",
+        "id": "50ede8a0-7991-4fea-9b23-cac09acbd04a",
         "mode": "monster",
         "name": "Young Gold Dragon",
         "type": "dragon",
@@ -43956,7 +43956,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "618d633b-ce94-4cbc-84a4-6117fe00b34b",
+                "id": "753797ae-5f9a-41b9-83bb-253c48c39e61",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43973,7 +43973,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "7576ffce-9baf-4970-a3b2-604bd92badf4",
+                "id": "4574d48c-cc9a-45a7-b2d8-b81bb215d540",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -43985,7 +43985,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "2c7e0d7b-d4e4-49b2-a5ef-d502ebc2d019",
+                "id": "2e6b85bc-1b2a-4b72-8781-1a013794c275",
                 "name": "Weakening Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44002,7 +44002,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "427afdb9-89e7-449e-a274-228854d999c3",
+        "id": "94afe4d8-1ddd-4e8c-9124-b984019b5004",
         "mode": "monster",
         "name": "Young Green Dragon",
         "type": "dragon",
@@ -44012,7 +44012,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "ed6fbda1-a727-4758-a5f9-e1f9b582a6f8",
+                "id": "4585a73d-1f61-4728-a084-d2990cc829f4",
                 "name": "Poison Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44029,7 +44029,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "8e21b21a-f04a-4d2f-93cb-efbd96482b33",
+                "id": "334646d9-282d-4520-a58a-99ade3fe85ce",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44045,7 +44045,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4
     },
     {
-        "id": "4e002e37-3c3b-4d09-a984-8aae1c3a1c38",
+        "id": "664d5a08-4a60-41de-8dd1-85c6c8e7f4fc",
         "mode": "monster",
         "name": "Young Red Dragon",
         "type": "dragon",
@@ -44055,7 +44055,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "0d23e2cf-7c49-4af6-b15d-2e2234262a3e",
+                "id": "8be0f3e4-eac8-4125-86ec-7a58bbdb0817",
                 "name": "Fire Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44072,7 +44072,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "69a8b50e-3afd-424b-8901-65d49ef09514",
+                "id": "28f45638-886b-428d-b9fc-eaa40d3c9240",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44088,7 +44088,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 5
     },
     {
-        "id": "93d479f8-4dd8-4dbf-80aa-4143486249e2",
+        "id": "14af044e-5b95-407f-bcbb-ecb7be0d36b9",
         "mode": "monster",
         "name": "Young Remorhaz",
         "type": "monstrosity",
@@ -44098,7 +44098,7 @@ export const Monsters: Creature[] = [
         "AC": 14,
         "actions": [
             {
-                "id": "a8e2264a-625a-4fb0-9d74-f181f7604911",
+                "id": "ebb60405-04c5-4b52-822d-bd53c930519d",
                 "name": "Bite",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44114,7 +44114,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 2.5
     },
     {
-        "id": "25d01a78-9c14-443e-8f2b-ceebd32eeb1b",
+        "id": "9322cbd6-b2be-4e8a-a8e0-ae2a4a778774",
         "mode": "monster",
         "name": "Young Silver Dragon",
         "type": "dragon",
@@ -44124,7 +44124,7 @@ export const Monsters: Creature[] = [
         "AC": 18,
         "actions": [
             {
-                "id": "83111f4e-8500-4060-a4bd-d1f530022901",
+                "id": "f5daee2c-5c5c-4421-a751-fec4b2cefadd",
                 "name": "Cold Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44141,7 +44141,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "b976f82f-2179-48b9-9dd9-2255840eebe0",
+                "id": "d59aecc6-e762-4994-8c17-1fa4be640018",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44153,7 +44153,7 @@ export const Monsters: Creature[] = [
                 "toHit": 10
             },
             {
-                "id": "f1838b84-5b49-41b5-8cd0-8206e7e4a902",
+                "id": "caef4bbb-a1e7-4222-82df-eb568f1bbf3e",
                 "name": "Paralyzing Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44170,7 +44170,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 4.5
     },
     {
-        "id": "35e2752f-b5f9-4f14-854d-b2878cad2317",
+        "id": "121d384c-02d0-4332-b3e6-3addd100d135",
         "mode": "monster",
         "name": "Young White Dragon",
         "type": "dragon",
@@ -44180,7 +44180,7 @@ export const Monsters: Creature[] = [
         "AC": 17,
         "actions": [
             {
-                "id": "9fd49d02-a1cf-40da-b743-a96b7a1ee4fe",
+                "id": "d12f84be-a518-42b7-9ec6-1c4c0a1bb55a",
                 "name": "Cold Breath",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44197,7 +44197,7 @@ export const Monsters: Creature[] = [
                 "halfOnSave": true
             },
             {
-                "id": "78edff1f-7f9f-44ac-9026-1a56b313b64c",
+                "id": "1d5d3daa-c50d-40f5-9427-a2a6b174c258",
                 "name": "Rend x3",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44213,7 +44213,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3
     },
     {
-        "id": "b42b2f43-691c-4c95-b336-196a9a15ba33",
+        "id": "4e41f067-fc68-4c00-8db9-3ac2b3eaaf4d",
         "mode": "monster",
         "name": "Yuan-ti Abomination",
         "type": "monstrosity",
@@ -44223,7 +44223,7 @@ export const Monsters: Creature[] = [
         "AC": 15,
         "actions": [
             {
-                "id": "b4d73ddd-878e-4d67-8831-488d0ac797ba",
+                "id": "dc249534-2ce3-41e8-a599-a14edf20f13d",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44235,7 +44235,7 @@ export const Monsters: Creature[] = [
                 "toHit": 7
             },
             {
-                "id": "d6a0f9b2-7c73-422f-a4cc-530c86e695b0",
+                "id": "e60f9422-574c-436e-a1f8-d8ef87e273e2",
                 "name": "Poison Spray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44259,7 +44259,7 @@ export const Monsters: Creature[] = [
                 }
             },
             {
-                "id": "881ac385-74ef-4659-9ccf-2a83d7c25c12",
+                "id": "313c2160-96d9-4881-96b7-e1433179e062",
                 "name": "Constrict",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44277,7 +44277,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 3.5
     },
     {
-        "id": "c2a65124-44e6-4ab2-b9ea-178fe2194af0",
+        "id": "cc9becc4-1c23-4113-9b5a-d9fd1c68ce61",
         "mode": "monster",
         "name": "Yuan-ti Infiltrator",
         "type": "monstrosity",
@@ -44287,7 +44287,7 @@ export const Monsters: Creature[] = [
         "AC": 11,
         "actions": [
             {
-                "id": "b0b27f64-73f0-4bbf-86d7-95fd6b5c104e",
+                "id": "a2246f5d-95ec-4d34-bdc6-4f7b769538e8",
                 "name": "Poison Ray",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44299,7 +44299,7 @@ export const Monsters: Creature[] = [
                 "toHit": 4
             },
             {
-                "id": "13aeb7b4-c997-4809-9f4c-7664c979f719",
+                "id": "7f957a0d-db35-4353-ad3c-ec0763564b05",
                 "name": "Scimitar x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44315,7 +44315,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 0.5
     },
     {
-        "id": "a51a2e9d-94cd-41bd-a551-6740be3a64e5",
+        "id": "ead408dd-b8ed-4618-bb0d-727ad4879894",
         "mode": "monster",
         "name": "Yuan-ti Malison (Type 1)",
         "type": "monstrosity",
@@ -44325,7 +44325,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "8d1ff33d-4f21-4041-b152-5f712ca3c4e3",
+                "id": "7a6de78b-8156-480a-ba34-4567c6888682",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44337,7 +44337,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "a8ea05e0-7409-4bcf-9eac-3f73651f54d2",
+                "id": "5b144f96-14df-442f-8b0c-576ea54d8ad5",
                 "name": "Poison Ray (Yuan-ti Form Only)",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44353,7 +44353,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "1c8abae6-cfd6-45c2-9878-b0621145c97c",
+        "id": "9183f35d-800b-4be4-859f-65899adee78f",
         "mode": "monster",
         "name": "Yuan-ti Malison (Type 2)",
         "type": "monstrosity",
@@ -44363,7 +44363,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "7b6543f7-be0e-4054-b8fa-5ac7c4fd0519",
+                "id": "59eacd3f-4fe0-45d2-8e49-b1f43bf38959",
                 "name": "Bite x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44379,7 +44379,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "31fc0f49-0b65-463f-ae8d-ef015d150eff",
+        "id": "d7b690dd-e845-4166-89aa-845baa17fdae",
         "mode": "monster",
         "name": "Yuan-ti Malison (Type 3)",
         "type": "monstrosity",
@@ -44389,7 +44389,7 @@ export const Monsters: Creature[] = [
         "AC": 12,
         "actions": [
             {
-                "id": "caffede0-1337-419a-894e-086452961694",
+                "id": "2fac8b62-a912-4afa-a4fe-8d4001c3e5de",
                 "name": "Poison Burst (Yuan-ti Form Only) x2",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44401,7 +44401,7 @@ export const Monsters: Creature[] = [
                 "toHit": 5
             },
             {
-                "id": "70cf79bc-f51e-4715-93f9-d9b15bae3e8f",
+                "id": "f6c1809f-2e3c-4751-b0bc-3ade64621b96",
                 "name": "Constrict",
                 "type": "atk",
                 "actionSlot": 0,
@@ -44418,7 +44418,7 @@ export const Monsters: Creature[] = [
         "saveBonus": 1.5
     },
     {
-        "id": "7804e184-695e-49f2-95c6-6add28fdd752",
+        "id": "19ce3891-22d5-445b-b88d-22ff6127302b",
         "mode": "monster",
         "name": "Zombie",
         "type": "undead",
@@ -44428,7 +44428,7 @@ export const Monsters: Creature[] = [
         "AC": 8,
         "actions": [
             {
-                "id": "bffae685-9887-41f2-83b5-41ec9c28480d",
+                "id": "92a3eccd-0468-48bb-b9bf-d6857205ce56",
                 "name": "Undead Fortitude",
                 "type": "heal",
                 "actionSlot": -1,
@@ -44439,7 +44439,7 @@ export const Monsters: Creature[] = [
                 "amount": 1
             },
             {
-                "id": "1819e35f-98b9-4c79-bee1-9ccdab305b81",
+                "id": "a51008d0-565c-4d2e-9fc7-4006af674241",
                 "name": "Slam",
                 "type": "atk",
                 "actionSlot": 0,
