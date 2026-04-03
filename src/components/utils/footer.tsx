@@ -1,11 +1,11 @@
 import { FC } from "react";
 import styles from './footer.module.scss'
 
-const Footer:FC<{}> = ({}) => {
+const Footer: FC<{}> = ({ }) => {
     return (
         <div className={styles.footer}>
             <span className={styles.legal}>
-                BattleSim is a 5e combat simulator by Trekiros. BattleSim is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+                BattleSim is a 5e combat simulator by Trekiros and modified by ChopperDave. BattleSim is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
             </span>
             <span className={styles.socials}>
                 <a href="https://youtube.com/@trekiros" target="_blank">
@@ -17,7 +17,7 @@ const Footer:FC<{}> = ({}) => {
                 <a href="https://twitter.com/trekiros" target="_blank">
                     <img src="/socials/twitter.svg" alt="Twitter" />
                 </a>
-                <a href="https://github.com/Trekiros/battleSim" target="_blank">
+                <a href="https://github.com/ChopperDave/battleSim" target="_blank">
                     <img src="/socials/github.svg" alt="Github" />
                 </a>
             </span>
