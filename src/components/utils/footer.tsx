@@ -5,7 +5,7 @@ const Footer: FC<{}> = ({ }) => {
     return (
         <div className={styles.footer}>
             <span className={styles.legal}>
-                BattleSim is a 5e combat simulator by Trekiros and modified by ChopperDave. BattleSim is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+                BattleSim is a 5e combat simulator by Trekiros Additional monsters added by ChopperDave. BattleSim is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
             </span>
             <span className={styles.socials}>
                 <a href="https://youtube.com/@trekiros" target="_blank">
